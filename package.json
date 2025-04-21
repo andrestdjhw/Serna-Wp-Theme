@@ -10,8 +10,8 @@
     "build": "npm-run-all --sequential buildwp tailwindbuild",
     "wpstart": "wp-scripts start",
     "start": "npm-run-all --parallel wpstart tailwindwatch",
-    "tailwindbuild": "tailwindcss -i ./src/index.css -o ./build/index.css --minify",
-    "tailwindwatch": "tailwindcss -i ./src/index.css -o ./build/index.css --watch --minify",
+    "tailwindbuild": "tailwindcss -o ./build/index.css --minify",
+    "tailwindwatch": "tailwindcss -o ./build/index.css --watch --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
