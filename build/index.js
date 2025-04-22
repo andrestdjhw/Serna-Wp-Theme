@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 function ExampleReactComponent() {
   const [clickCount, setClickCount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    className: "bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-4 rounded-md",
+    className: "bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-4 rounded-md mt-8",
     onClick: () => setClickCount(prev => prev + 1),
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
       className: "text-xl",
