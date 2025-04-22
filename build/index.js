@@ -93,7 +93,7 @@ function NavbarComponent() {
     setIsMenuOpen(!isMenuOpen);
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    className: "bg-gradient-navbar sticky top-0 z-50",
+    className: "bg-gradient-to-b from-green-600 to-green-500 sticky top-0 z-50",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -102,14 +102,14 @@ function NavbarComponent() {
           className: "flex-shrink-0",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             href: "/",
-            className: "text-primary-text-color font-bold text-xl",
+            className: "text-white font-bold text-xl",
             children: "SERNA"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "flex md:hidden",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
             onClick: toggleMenu,
-            className: "inline-flex items-center justify-center p-2 rounded-md text-primary-text-color hover:bg-secondary-bg-color/30 focus:outline-none transition-colors duration-200",
+            className: "inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black/20 focus:outline-none",
             "aria-expanded": isMenuOpen,
             "aria-label": "Toggle main menu",
             children: isMenuOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
@@ -140,26 +140,38 @@ function NavbarComponent() {
           className: "hidden md:flex md:items-center md:space-x-8",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             href: "/",
-            className: "text-primary-text-color hover:text-primary-color transition-colors duration-200",
-            children: "Home"
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Inicio"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: "/about",
-            className: "text-primary-text-color hover:text-primary-color transition-colors duration-200",
-            children: "About"
+            href: "/nosotros",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Nosotros"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: "/services",
-            className: "text-primary-text-color hover:text-primary-color transition-colors duration-200",
-            children: "Services"
+            href: "/webmail",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Webmail"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: "/blog",
-            className: "text-primary-text-color hover:text-primary-color transition-colors duration-200",
-            children: "Blog"
+            href: "/slas",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "SLAS"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: "/contact",
-            className: "text-primary-text-color hover:text-primary-color transition-colors duration-200",
-            children: "Contact"
+            href: "/direcciones",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Direcciones"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            href: "/regionales",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Regionales"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            href: "/ocp",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "OCP"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            href: "/portales",
+            className: "text-white hover:text-sky-300 transition-colors duration-200",
+            children: "Portales"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-            className: "bg-naranja-serna text-primary-text-color px-4 py-2 rounded-md hover:bg-naranja-serna/90 transition-colors duration-200",
+            className: "bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors duration-200",
             children: "Get Started"
           })]
         })]
@@ -167,29 +179,41 @@ function NavbarComponent() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: `md:hidden ${isMenuOpen ? 'block' : 'hidden'}`,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "px-2 pt-2 pb-3 space-y-1 bg-secondary-bg-color",
+        className: "px-2 pt-2 pb-3 space-y-1 bg-gray-800",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           href: "/",
-          className: "block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200",
-          children: "Home"
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Inicio"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "/about",
-          className: "block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200",
-          children: "About"
+          href: "/nosotros",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Nosotros"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "/services",
-          className: "block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200",
-          children: "Services"
+          href: "/webmail",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Webmail"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "/blog",
-          className: "block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200",
-          children: "Blog"
+          href: "/slas",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "SLAS"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "/contact",
-          className: "block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200",
-          children: "Contact"
+          href: "/direcciones",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Direcciones"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+          href: "/regionales",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Regionales"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+          href: "/ocp",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "OCP"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+          href: "/portales",
+          className: "block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200",
+          children: "Portales"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-          className: "w-full text-left px-3 py-2 rounded-md bg-naranja-serna text-primary-text-color hover:bg-naranja-serna/90 transition-colors duration-200",
+          className: "w-full text-left px-3 py-2 rounded-md bg-red-500 text-white hover:bg-red-600 transition-colors duration-200",
           children: "Get Started"
         })]
       })
