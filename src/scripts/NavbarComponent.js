@@ -8,13 +8,13 @@ function NavbarComponent() {
   }
 
   return (
-    <nav className="bg-gradient-navbar sticky top-0 z-50">
+    <nav className="bg-gradient-to-b from-green-600 to-green-500 sticky top-0 z-50">
       {/* Main navbar container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand Section */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-primary-text-color font-bold text-xl">
+            <a href="/" className="text-white font-bold text-xl">
               SERNA
             </a>
           </div>
@@ -23,7 +23,7 @@ function NavbarComponent() {
           <div className="flex md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-primary-text-color hover:bg-secondary-bg-color/30 focus:outline-none transition-colors duration-200"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black/20 focus:outline-none"
               aria-expanded={isMenuOpen}
               aria-label="Toggle main menu"
             >
@@ -41,22 +41,31 @@ function NavbarComponent() {
 
           {/* Desktop menu */}
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <a href="/" className="text-primary-text-color hover:text-primary-color transition-colors duration-200">
-              Home
+            <a href="/" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Inicio
             </a>
-            <a href="/about" className="text-primary-text-color hover:text-primary-color transition-colors duration-200">
-              About
+            <a href="/nosotros" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Nosotros
             </a>
-            <a href="/services" className="text-primary-text-color hover:text-primary-color transition-colors duration-200">
-              Services
+            <a href="/webmail" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Webmail
             </a>
-            <a href="/blog" className="text-primary-text-color hover:text-primary-color transition-colors duration-200">
-              Blog
+            <a href="/slas" className="text-white hover:text-sky-300 transition-colors duration-200">
+              SLAS
             </a>
-            <a href="/contact" className="text-primary-text-color hover:text-primary-color transition-colors duration-200">
-              Contact
+            <a href="/direcciones" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Direcciones
             </a>
-            <button className="bg-naranja-serna text-primary-text-color px-4 py-2 rounded-md hover:bg-naranja-serna/90 transition-colors duration-200">
+            <a href="/regionales" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Regionales
+            </a>
+            <a href="/ocp" className="text-white hover:text-sky-300 transition-colors duration-200">
+              OCP
+            </a>
+            <a href="/portales" className="text-white hover:text-sky-300 transition-colors duration-200">
+              Portales
+            </a>
+            <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors duration-200">
               Get Started
             </button>
           </div>
@@ -65,38 +74,56 @@ function NavbarComponent() {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 bg-secondary-bg-color">
+        <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-800">
           <a
             href="/"
-            className="block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
           >
-            Home
+            Inicio
           </a>
           <a
-            href="/about"
-            className="block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200"
+            href="/nosotros"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
           >
-            About
+            Nosotros
           </a>
           <a
-            href="/services"
-            className="block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200"
+            href="/webmail"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
           >
-            Services
+            Webmail
           </a>
           <a
-            href="/blog"
-            className="block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200"
+            href="/slas"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
           >
-            Blog
+            SLAS
           </a>
           <a
-            href="/contact"
-            className="block px-3 py-2 rounded-md text-primary-text-color hover:bg-third-color transition-colors duration-200"
+            href="/direcciones"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
           >
-            Contact
+            Direcciones
           </a>
-          <button className="w-full text-left px-3 py-2 rounded-md bg-naranja-serna text-primary-text-color hover:bg-naranja-serna/90 transition-colors duration-200">
+          <a
+            href="/regionales"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
+          >
+            Regionales
+          </a>
+          <a
+            href="/ocp"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
+          >
+            OCP
+          </a>
+          <a
+            href="/portales"
+            className="block px-3 py-2 rounded-md text-white hover:bg-green-700 transition-colors duration-200"
+          >
+            Portales
+          </a>
+          <button className="w-full text-left px-3 py-2 rounded-md bg-red-500 text-white hover:bg-red-600 transition-colors duration-200">
             Get Started
           </button>
         </div>

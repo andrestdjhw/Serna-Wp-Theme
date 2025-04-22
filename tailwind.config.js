@@ -10,21 +10,23 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          'primary-text-color': '#ffffff',
-          'secondary-bg-color': '#333333',
-          'default-background': '#f5f5f7',
-          'primary-color': '#87cede',
-          'secondary-color': '#7dbb5c',
-          'third-color': '#00903b',
-          'naranja-serna': '#ee3725',
-          'paragraph-color': '#868385',
-        },
-        backgroundImage: {
-          'gradient-navbar': 'linear-gradient(to bottom, #00903b, #7dbb5c)',
+          // Simplified naming to work better with Tailwind v4
+          'primary-text': '#ffffff',
+          'secondary-bg': '#333333',
+          'default-bg': '#f5f5f7',
+          'primary': '#87cede',
+          'secondary': '#7dbb5c',
+          'third': '#00903b',
+          'naranja': '#ee3725',
+          'paragraph': '#868385',
         },
       },
     },
     plugins: [
       require('@tailwindcss/typography'),
     ],
+    // Explicitly enable the gradient utilities
+    corePlugins: {
+      gradientColorStops: true,
+    },
   }
