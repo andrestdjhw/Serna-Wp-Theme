@@ -16,21 +16,32 @@ function NavbarComponent() {
     }
   }
 
-  // Navigation structure with dropdowns
+  // Navigation structure with megamenu dropdowns
   const navItems = [
     { name: "Inicio", link: "/", hasDropdown: false },
     { 
       name: "Nosotros", 
       link: "/nosotros", 
       hasDropdown: true,
-      dropdownItems: [
-        { name: "Perfil", link: "/nosotros/Perfil" },
-        { name: "Comite de Control Interno", link: "/nosotros/cocoin" },
-        { name: "Comite de Probidad y Etica Publica", link: "/nosotros/cepep" },
-        { name: "Organigrama", link: "/nosotros/organigrama" },
-        { name: "Oportunidades", link: "/nosotros/oportunidades" },
-        { name: "Foro", link: "/nosotros/foro" },
-        { name: "Preguntas Frecuentes", link: "/nosotros/faq" }
+      isMultiColumn: true,
+      columns: [
+        {
+          title: "Sobre Nosotros",
+          items: [
+            { name: "Perfil", link: "/nosotros/Perfil" },
+            { name: "Comite de Control Interno", link: "/nosotros/cocoin" },
+            { name: "Comite de Probidad y Etica Publica", link: "/nosotros/cepep" },
+            { name: "Organigrama", link: "/nosotros/organigrama" }
+          ]
+        },
+        {
+          title: "Recursos",
+          items: [
+            { name: "Oportunidades", link: "/nosotros/oportunidades" },
+            { name: "Foro", link: "/nosotros/foro" },
+            { name: "Preguntas Frecuentes", link: "/nosotros/faq" }
+          ]
+        }
       ]
     },
     { name: "Webmail", link: "/webmail", hasDropdown: false },
@@ -39,54 +50,113 @@ function NavbarComponent() {
       name: "Direcciones", 
       link: "/direcciones", 
       hasDropdown: true,
-      dropdownItems: [
-        { name: "Cescco", link: "/direcciones/cescco" },
-        { name: "DGRH", link: "/direcciones/dgrh" },
-        { name: "DIBIO", link: "/direcciones/dibio" },
-        { name: "DGA", link: "/direcciones/dga" },
-        { name: "DNCC", link: "/direcciones/dncc" },
-        { name: "Deca", link: "/direcciones/deca" }
+      isMultiColumn: true,
+      columns: [
+        {
+          title: "CESCCO",
+          link: "/direcciones/cescco" ,
+          items: [
+            { name: "Anuncios", link: "/direcciones/cescco/anuncios"  },
+            { name: "RAE", link: "direcciones/cescco/rae"  }
+          ]
+        },
+        {
+          title: "Otras Direcciones",
+          items: [
+            { name: "DGA", link: "/direcciones/dga" },
+            { name: "DNCC", link: "/direcciones/dncc" },
+            { name: "DGRH", link: "/direcciones/dgrh" },
+            { name: "DIBIO", link: "/direcciones/dibio" }
+          ]
+        },
+        {
+          title: "Deca",
+          items: [
+            { name: "Anuncios Deca", link: "/direcciones/deca/anuncions_deca" },
+            { name: "Nuevos Requisitos SLAS", link: "/direcciones/deca/requisitos_slas" },
+            { name: "Requisitos de Renovacion de Licencia Ambiental", link: "/direcciones/deca/requisitos_renovacion_ambiental" },
+            { name: "Requisito de constancia de no requerir licencia ambiental", link: "/direcciones/deca/requisitos_constancia_no_licambiental" }
+          ]
+        }
       ]
     },
     { 
       name: "Regionales", 
       link: "/regionales", 
       hasDropdown: true,
-      dropdownItems: [
-        { name: "Regional Copan", link: "/regionales/copan" },
-        { name: "Comayagua", link: "/regionales/comayagua" },
-        { name: "Regional del Litoral Atlantico", link: "/regionales/litoral_atlantico" },
-        { name: "Regional Insular", link: "/regionales/insular" },
-        { name: "Regional Choluteca", link: "/regionales/choluteca" },
-        { name: "Regional San Pedro Sula", link: "/regionales/san_pedro_sula" },
-        { name: "Regional Ocotepeque", link: "/regionales/ocotepeque" },
-        { name: "Regional Olancho", link: "/regionales/olancho" }
+      isMultiColumn: true,
+      columns: [
+        {
+          title: "Norte y Centro",
+          items: [
+            { name: "Comayagua", link: "/regionales/comayagua" },
+            { name: "Regional San Pedro Sula", link: "/regionales/san_pedro_sula" },
+            { name: "Regional del Litoral Atlantico", link: "/regionales/litoral_atlantico" },
+            { name: "Regional Insular", link: "/regionales/insular" }
+          ]
+        },
+        {
+          title: "Sur y Este",
+          items: [
+            { name: "Regional Choluteca", link: "/regionales/choluteca" },
+            { name: "Regional Olancho", link: "/regionales/olancho" }
+          ]
+        },
+        {
+            title: "Occidente",
+            items: [
+                { name: "Regional Ocotepeque", link: "/regionales/ocotepeque" },
+                { name: "Regional Copan", link: "/regionales/copan" }
+            ]
+        }
       ]
     },
     { 
       name: "OCP", 
       link: "/ocp", 
       hasDropdown: true,
-      dropdownItems: [
-        { name: "ADAPTARC+", link: "/ocp/adaptarce" },
-        { name: "CONECTA+", link: "/ocp/contecta" },
-        { name: "COPS4", link: "/ocp/cops4" },
-        { name: "Proyecto Motagua", link: "/ocp/proyecto_motagua" },
-        { name: "Recover", link: "/ocp/recover" },
-        { name: "PlanetGold", link: "/ocp/planet_gold" }
+      isMultiColumn: true,
+      columns: [
+        {
+          title: "Proyectos Principales",
+          items: [
+            { name: "ADAPTARC+", link: "/ocp/adaptarce" },
+            { name: "CONECTA+", link: "/ocp/contecta" },
+            { name: "COPS4", link: "/ocp/cops4" }
+          ]
+        },
+        {
+          title: "Otros Proyectos",
+          items: [
+            { name: "Proyecto Motagua", link: "/ocp/proyecto_motagua" },
+            { name: "Recover", link: "/ocp/recover" },
+            { name: "PlanetGold", link: "/ocp/planet_gold" }
+          ]
+        }
       ]
     },
     { 
       name: "Portales", 
       link: "/portales", 
       hasDropdown: true,
-      dropdownItems: [
-        { name: "SIELHO", link: "/portales/sielho" },
-        { name: "Portal Unico de Transparencia", link: "/portales/portal_transparencia" },
-        { name: "ONADICI", link: "/portales/onadici" },
-        { name: "Presidencia", link: "/portales/presidencia" },
-        { name: "Honducompras", link: "/portales/honducompras" },
-        { name: "TSC", link: "/portales/tsc" }
+      isMultiColumn: true,
+      columns: [
+        {
+          title: "Portales Gubernamentales",
+          items: [
+            { name: "SIELHO", link: "/portales/sielho" },
+            { name: "Portal Unico de Transparencia", link: "/portales/portal_transparencia" },
+            { name: "Presidencia", link: "/portales/presidencia" }
+          ]
+        },
+        {
+          title: "Portales Institucionales",
+          items: [
+            { name: "ONADICI", link: "/portales/onadici" },
+            { name: "Honducompras", link: "/portales/honducompras" },
+            { name: "TSC", link: "/portales/tsc" }
+          ]
+        }
       ]
     }
   ]
@@ -132,7 +202,7 @@ function NavbarComponent() {
                     <button 
                       className="text-white hover:text-sky-300 transition-colors duration-200 flex items-center"
                       onMouseEnter={() => setActiveDropdown(item.name)}
-                      onMouseLeave={() => setActiveDropdown(null)}
+                      onClick={() => toggleDropdown(item.name)}
                     >
                       {item.name}
                       <svg 
@@ -144,23 +214,59 @@ function NavbarComponent() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                       </svg>
                     </button>
-                    <div 
-                      className={`absolute top-full left-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
-                        activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
-                      }`}
-                      onMouseEnter={() => setActiveDropdown(item.name)}
-                      onMouseLeave={() => setActiveDropdown(null)}
-                    >
-                      {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                        <a
-                          key={dropdownIndex}
-                          href={dropdownItem.link}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        >
-                          {dropdownItem.name}
-                        </a>
-                      ))}
-                    </div>
+                    
+                    {/* Tesla-style mega menu */}
+                    {item.isMultiColumn && (
+                      <div 
+                        className={`absolute top-full left-0 mt-1 w-full rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
+                          activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
+                        }`}
+                        onMouseEnter={() => setActiveDropdown(item.name)}
+                        onMouseLeave={() => setActiveDropdown(null)}
+                        style={{ minWidth: '600px', maxWidth: '800px' }}
+                      >
+                        <div className="grid grid-cols-3 gap-4 px-6">
+                          {item.columns.map((column, colIndex) => (
+                            <div key={colIndex} className="space-y-4">
+                              <h3 className="text-sm font-medium text-gray-900">{column.title}</h3>
+                              <ul className="space-y-2">
+                                {column.items.map((subItem, subIndex) => (
+                                  <li key={subIndex}>
+                                    <a 
+                                      href={subItem.link} 
+                                      className="text-sm text-green-600 hover:text-lime-500"
+                                    >
+                                      {subItem.name}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    
+                    {/* Regular dropdown (for compatibility with non-multicolumn items) */}
+                    {!item.isMultiColumn && item.dropdownItems && (
+                      <div 
+                        className={`absolute top-full left-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
+                          activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
+                        }`}
+                        onMouseEnter={() => setActiveDropdown(item.name)}
+                        onMouseLeave={() => setActiveDropdown(null)}
+                      >
+                        {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
+                          <a
+                            key={dropdownIndex}
+                            href={dropdownItem.link}
+                            className="block px-4 py-2 text-sm text-green-700 hover:bg-lime-400"
+                          >
+                            {dropdownItem.name}
+                          </a>
+                        ))}
+                      </div>
+                    )}
                   </>
                 ) : (
                   <a href={item.link} className="text-white hover:text-sky-300 transition-colors duration-200">
@@ -169,9 +275,7 @@ function NavbarComponent() {
                 )}
               </div>
             ))}
-            <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors duration-200">
-              Get Started
-            </button>
+            
           </div>
         </div>
       </div>
@@ -199,15 +303,33 @@ function NavbarComponent() {
                   </button>
                   {activeDropdown === item.name && (
                     <div className="pl-4 py-2 space-y-1">
-                      {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                        <a
-                          key={dropdownIndex}
-                          href={dropdownItem.link}
-                          className="block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200"
-                        >
-                          {dropdownItem.name}
-                        </a>
-                      ))}
+                      {/* If item uses the multicolumn format, flatten it for mobile */}
+                      {item.isMultiColumn ? (
+                        item.columns.map((column, colIndex) => (
+                          <div key={colIndex} className="mb-2">
+                            <div className="px-3 py-1 font-medium text-sm">{column.title}</div>
+                            {column.items.map((subItem, subIndex) => (
+                              <a
+                                key={subIndex}
+                                href={subItem.link}
+                                className="block px-3 py-2 rounded-md text-black bg-green-100 hover:bg-green-200 transition-colors duration-200 my-1"
+                              >
+                                {subItem.name}
+                              </a>
+                            ))}
+                          </div>
+                        ))
+                      ) : (
+                        item.dropdownItems.map((dropdownItem, dropdownIndex) => (
+                          <a
+                            key={dropdownIndex}
+                            href={dropdownItem.link}
+                            className="block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200"
+                          >
+                            {dropdownItem.name}
+                          </a>
+                        ))
+                      )}
                     </div>
                   )}
                 </>
@@ -221,7 +343,6 @@ function NavbarComponent() {
               )}
             </div>
           ))}
-
         </div>
       </div>
     </nav>
