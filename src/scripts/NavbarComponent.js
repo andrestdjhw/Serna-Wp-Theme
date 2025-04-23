@@ -162,13 +162,13 @@ function NavbarComponent() {
   ]
 
   return (
-    <nav className="bg-gradient-to-b from-green-600 to-green-500 sticky top-0 z-50">
-      {/* Main navbar container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <nav className="bg-gradient-to-r from-green-400 to-emerald-700 sticky top-0 z-50 w-full">
+      {/* Main navbar container - FIXED WIDTH SETTINGS */}
+      <div className="w-full mx-auto">
+        <div className="flex items-center justify-between h-16 px-4">
           {/* Logo/Brand Section */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-white font-bold text-xl">
+            <a href="/" className="text-white font-bold text-xl font-custom">
               SERNA
             </a>
           </div>
@@ -194,88 +194,89 @@ function NavbarComponent() {
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex md:items-center md:space-x-8">
-            {navItems.map((item, index) => (
-              <div key={index} className="relative group">
-                {item.hasDropdown ? (
-                  <>
-                    <button 
-                      className="text-white hover:text-sky-300 transition-colors duration-200 flex items-center"
-                      onMouseEnter={() => setActiveDropdown(item.name)}
-                      onClick={() => toggleDropdown(item.name)}
-                    >
-                      {item.name}
-                      <svg 
-                        className="ml-1 h-4 w-4" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-                    
-                    {/* Tesla-style mega menu */}
-                    {item.isMultiColumn && (
-                      <div 
-                        className={`absolute top-full left-0 mt-1 w-full rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
-                          activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
-                        }`}
+          <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
+            <div className="flex space-x-4 lg:space-x-8">
+              {navItems.map((item, index) => (
+                <div key={index} className="relative group">
+                  {item.hasDropdown ? (
+                    <>
+                      <button 
+                        className="text-white hover:text-orange-600 font-custom transition-colors duration-200 flex items-center"
                         onMouseEnter={() => setActiveDropdown(item.name)}
-                        onMouseLeave={() => setActiveDropdown(null)}
-                        style={{ minWidth: '600px', maxWidth: '800px' }}
+                        onClick={() => toggleDropdown(item.name)}
                       >
-                        <div className="grid grid-cols-3 gap-4 px-6">
-                          {item.columns.map((column, colIndex) => (
-                            <div key={colIndex} className="space-y-4">
-                              <h3 className="text-sm font-medium text-gray-900">{column.title}</h3>
-                              <ul className="space-y-2">
-                                {column.items.map((subItem, subIndex) => (
-                                  <li key={subIndex}>
-                                    <a 
-                                      href={subItem.link} 
-                                      className="text-sm text-green-600 hover:text-lime-500"
-                                    >
-                                      {subItem.name}
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
+                        {item.name}
+                        <svg 
+                          className="ml-1 h-4 w-4" 
+                          fill="none" 
+                          viewBox="0 0 24 24" 
+                          stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      
+                      {/* Tesla-style mega menu - FIXED POSITIONING */}
+                      {item.isMultiColumn && (
+                        <div 
+                          className={`absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
+                            activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
+                          }`}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                          style={{ width: '600px', maxWidth: '90vw' }}
+                        >
+                          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6">
+                            {item.columns.map((column, colIndex) => (
+                              <div key={colIndex} className="space-y-4">
+                                <h3 className="text-sm font-medium font-custom text-gray-900">{column.title}</h3>
+                                <ul className="space-y-2">
+                                  {column.items.map((subItem, subIndex) => (
+                                    <li key={subIndex}>
+                                      <a 
+                                        href={subItem.link} 
+                                        className="text-sm text-lime-600 hover:text-green-800"
+                                      >
+                                        {subItem.name}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      
+                      {/* Regular dropdown (for compatibility with non-multicolumn items) */}
+                      {!item.isMultiColumn && item.dropdownItems && (
+                        <div 
+                          className={`absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
+                            activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
+                          }`}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                        >
+                          {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
+                            <a
+                              key={dropdownIndex}
+                              href={dropdownItem.link}
+                              className="block px-4 py-2 text-sm text-green-700 hover:bg-lime-400"
+                            >
+                              {dropdownItem.name}
+                            </a>
                           ))}
                         </div>
-                      </div>
-                    )}
-                    
-                    {/* Regular dropdown (for compatibility with non-multicolumn items) */}
-                    {!item.isMultiColumn && item.dropdownItems && (
-                      <div 
-                        className={`absolute top-full left-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
-                          activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"
-                        }`}
-                        onMouseEnter={() => setActiveDropdown(item.name)}
-                        onMouseLeave={() => setActiveDropdown(null)}
-                      >
-                        {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                          <a
-                            key={dropdownIndex}
-                            href={dropdownItem.link}
-                            className="block px-4 py-2 text-sm text-green-700 hover:bg-lime-400"
-                          >
-                            {dropdownItem.name}
-                          </a>
-                        ))}
-                      </div>
-                    )}
-                  </>
-                ) : (
-                  <a href={item.link} className="text-white hover:text-sky-300 transition-colors duration-200">
-                    {item.name}
-                  </a>
-                )}
-              </div>
-            ))}
-            
+                      )}
+                    </>
+                  ) : (
+                    <a href={item.link} className="text-white hover:text-orange-600 transition-colors duration-200">
+                      {item.name}
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -289,7 +290,7 @@ function NavbarComponent() {
                 <>
                   <button
                     onClick={() => toggleDropdown(item.name)}
-                    className="w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 transition-colors duration-200"
+                    className="w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200"
                   >
                     {item.name}
                     <svg 
@@ -336,7 +337,7 @@ function NavbarComponent() {
               ) : (
                 <a
                   href={item.link}
-                  className="block px-3 py-2 rounded-md text-black hover:bg-green-700 transition-colors duration-200"
+                  className="block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200"
                 >
                   {item.name}
                 </a>

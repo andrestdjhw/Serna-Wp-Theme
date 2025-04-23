@@ -20,6 +20,9 @@ module.exports = {
           'naranja': '#ee3725',
           'paragraph': '#868385',
         },
+        fontFamily:{
+          custom:['"PT Sans", sans-serif']
+        }
       },
     },
     plugins: [

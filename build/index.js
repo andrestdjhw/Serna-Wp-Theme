@@ -294,16 +294,16 @@ function NavbarComponent() {
     }]
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    className: "bg-gradient-to-b from-green-600 to-green-500 sticky top-0 z-50",
+    className: "bg-gradient-to-r from-green-400 to-emerald-700 sticky top-0 z-50 w-full",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      className: "w-full mx-auto",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "flex items-center justify-between h-16",
+        className: "flex items-center justify-between h-16 px-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "flex-shrink-0",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             href: "/",
-            className: "text-white font-bold text-xl",
+            className: "text-white font-bold text-xl font-custom",
             children: "SERNA"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -338,69 +338,72 @@ function NavbarComponent() {
             })
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "hidden md:flex md:items-center md:space-x-8",
-          children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "relative group",
-            children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                className: "text-white hover:text-sky-300 transition-colors duration-200 flex items-center",
-                onMouseEnter: () => setActiveDropdown(item.name),
-                onClick: () => toggleDropdown(item.name),
-                children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                  className: "ml-1 h-4 w-4",
-                  fill: "none",
-                  viewBox: "0 0 24 24",
-                  stroke: "currentColor",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M19 9l-7 7-7-7"
+          className: "hidden md:flex md:items-center md:justify-end md:flex-1",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "flex space-x-4 lg:space-x-8",
+            children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "relative group",
+              children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                  className: "text-white hover:text-orange-600 font-custom transition-colors duration-200 flex items-center",
+                  onMouseEnter: () => setActiveDropdown(item.name),
+                  onClick: () => toggleDropdown(item.name),
+                  children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                    className: "ml-1 h-4 w-4",
+                    fill: "none",
+                    viewBox: "0 0 24 24",
+                    stroke: "currentColor",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                      strokeLinecap: "round",
+                      strokeLinejoin: "round",
+                      strokeWidth: 2,
+                      d: "M19 9l-7 7-7-7"
+                    })
+                  })]
+                }), item.isMultiColumn && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: `absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
+                  onMouseEnter: () => setActiveDropdown(item.name),
+                  onMouseLeave: () => setActiveDropdown(null),
+                  style: {
+                    width: '600px',
+                    maxWidth: '90vw'
+                  },
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                    className: "grid grid-cols-1 md:grid-cols-3 gap-4 px-6",
+                    children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                      className: "space-y-4",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+                        className: "text-sm font-medium font-custom text-gray-900",
+                        children: column.title
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+                        className: "space-y-2",
+                        children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                            href: subItem.link,
+                            className: "text-sm text-lime-600 hover:text-green-800",
+                            children: subItem.name
+                          })
+                        }, subIndex))
+                      })]
+                    }, colIndex))
                   })
+                }), !item.isMultiColumn && item.dropdownItems && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: `absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
+                  onMouseEnter: () => setActiveDropdown(item.name),
+                  onMouseLeave: () => setActiveDropdown(null),
+                  children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                    href: dropdownItem.link,
+                    className: "block px-4 py-2 text-sm text-green-700 hover:bg-lime-400",
+                    children: dropdownItem.name
+                  }, dropdownIndex))
                 })]
-              }), item.isMultiColumn && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: `absolute top-full left-0 mt-1 w-full rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                onMouseEnter: () => setActiveDropdown(item.name),
-                onMouseLeave: () => setActiveDropdown(null),
-                style: {
-                  minWidth: '600px',
-                  maxWidth: '800px'
-                },
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: "grid grid-cols-3 gap-4 px-6",
-                  children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                    className: "space-y-4",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-                      className: "text-sm font-medium text-gray-900",
-                      children: column.title
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
-                      className: "space-y-2",
-                      children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                          href: subItem.link,
-                          className: "text-sm text-green-600 hover:text-lime-500",
-                          children: subItem.name
-                        })
-                      }, subIndex))
-                    })]
-                  }, colIndex))
-                })
-              }), !item.isMultiColumn && item.dropdownItems && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: `absolute top-full left-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                onMouseEnter: () => setActiveDropdown(item.name),
-                onMouseLeave: () => setActiveDropdown(null),
-                children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                  href: dropdownItem.link,
-                  className: "block px-4 py-2 text-sm text-green-700 hover:bg-lime-400",
-                  children: dropdownItem.name
-                }, dropdownIndex))
-              })]
-            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-              href: item.link,
-              className: "text-white hover:text-sky-300 transition-colors duration-200",
-              children: item.name
-            })
-          }, index))
+              }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                href: item.link,
+                className: "text-white hover:text-orange-600 transition-colors duration-200",
+                children: item.name
+              })
+            }, index))
+          })
         })]
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -412,7 +415,7 @@ function NavbarComponent() {
           children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
               onClick: () => toggleDropdown(item.name),
-              className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 transition-colors duration-200",
+              className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
               children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                 className: `ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === item.name ? 'transform rotate-180' : ''}`,
                 fill: "none",
@@ -445,7 +448,7 @@ function NavbarComponent() {
             })]
           }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             href: item.link,
-            className: "block px-3 py-2 rounded-md text-black hover:bg-green-700 transition-colors duration-200",
+            className: "block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
             children: item.name
           })
         }, index))
