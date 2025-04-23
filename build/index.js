@@ -115,28 +115,28 @@ function NavbarComponent() {
       title: "Sobre Nosotros",
       items: [{
         name: "Perfil",
-        link: "/nosotros/Perfil"
+        link: "/perfil"
       }, {
         name: "Comite de Control Interno",
-        link: "/nosotros/cocoin"
+        link: "/cocoin"
       }, {
         name: "Comite de Probidad y Etica Publica",
-        link: "/nosotros/cepep"
+        link: "/cepep"
       }, {
         name: "Organigrama",
-        link: "/nosotros/organigrama"
+        link: "/organigrama"
       }]
     }, {
       title: "Recursos",
       items: [{
         name: "Oportunidades",
-        link: "/nosotros/oportunidades"
+        link: "/oportunidades"
       }, {
         name: "Foro",
-        link: "/nosotros/foro"
+        link: "/foro"
       }, {
         name: "Preguntas Frecuentes",
-        link: "/nosotros/faq"
+        link: "/faq"
       }]
     }]
   }, {
@@ -157,40 +157,40 @@ function NavbarComponent() {
       link: "/direcciones/cescco",
       items: [{
         name: "Anuncios",
-        link: "/direcciones/cescco/anuncios"
+        link: "/anuncios"
       }, {
         name: "RAE",
-        link: "direcciones/cescco/rae"
+        link: "/rae"
       }]
     }, {
       title: "Otras Direcciones",
       items: [{
         name: "DGA",
-        link: "/direcciones/dga"
+        link: "/dga"
       }, {
         name: "DNCC",
-        link: "/direcciones/dncc"
+        link: "/dncc"
       }, {
         name: "DGRH",
-        link: "/direcciones/dgrh"
+        link: "/dgrh"
       }, {
         name: "DIBIO",
-        link: "/direcciones/dibio"
+        link: "/dibio"
       }]
     }, {
       title: "Deca",
       items: [{
         name: "Anuncios Deca",
-        link: "/direcciones/deca/anuncions_deca"
+        link: "/anuncios-deca"
       }, {
         name: "Nuevos Requisitos SLAS",
-        link: "/direcciones/deca/requisitos_slas"
+        link: "/nuevos-requisitos-slas"
       }, {
         name: "Requisitos de Renovacion de Licencia Ambiental",
-        link: "/direcciones/deca/requisitos_renovacion_ambiental"
+        link: "/requisitos-de-renovacion-licencia-ambiental"
       }, {
         name: "Requisito de constancia de no requerir licencia ambiental",
-        link: "/direcciones/deca/requisitos_constancia_no_licambiental"
+        link: "/requisitos-de-constancia-de-no-requerir-licencia-ambiental"
       }]
     }]
   }, {
@@ -202,34 +202,34 @@ function NavbarComponent() {
       title: "Norte y Centro",
       items: [{
         name: "Comayagua",
-        link: "/regionales/comayagua"
+        link: "/comayagua"
       }, {
         name: "Regional San Pedro Sula",
-        link: "/regionales/san_pedro_sula"
+        link: "/regional-san-pedro-sula"
       }, {
         name: "Regional del Litoral Atlantico",
-        link: "/regionales/litoral_atlantico"
+        link: "/regional-litoral-del-atlantico"
       }, {
         name: "Regional Insular",
-        link: "/regionales/insular"
+        link: "/regional-insular"
       }]
     }, {
       title: "Sur y Este",
       items: [{
         name: "Regional Choluteca",
-        link: "/regionales/choluteca"
+        link: "/regional-choluteca"
       }, {
         name: "Regional Olancho",
-        link: "/regionales/olancho"
+        link: "/regional-olancho"
       }]
     }, {
       title: "Occidente",
       items: [{
         name: "Regional Ocotepeque",
-        link: "/regionales/ocotepeque"
+        link: "/regional-ocotepeque"
       }, {
         name: "Regional Copan",
-        link: "/regionales/copan"
+        link: "/regional-copan"
       }]
     }]
   }, {
@@ -241,25 +241,25 @@ function NavbarComponent() {
       title: "Proyectos Principales",
       items: [{
         name: "ADAPTARC+",
-        link: "/ocp/adaptarce"
+        link: "/adaptarce"
       }, {
         name: "CONECTA+",
-        link: "/ocp/contecta"
+        link: "/conecta"
       }, {
         name: "COPS4",
-        link: "/ocp/cops4"
+        link: "/cops4"
       }]
     }, {
       title: "Otros Proyectos",
       items: [{
         name: "Proyecto Motagua",
-        link: "/ocp/proyecto_motagua"
+        link: "/proyecto-motagua"
       }, {
         name: "Recover",
-        link: "/ocp/recover"
+        link: "/recover"
       }, {
         name: "PlanetGold",
-        link: "/ocp/planet_gold"
+        link: "/planet-gold"
       }]
     }]
   }, {
@@ -294,7 +294,7 @@ function NavbarComponent() {
     }]
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    className: "bg-gradient-to-r from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full",
+    className: "bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "w-full mx-auto",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {

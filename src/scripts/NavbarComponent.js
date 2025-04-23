@@ -28,18 +28,18 @@ function NavbarComponent() {
         {
           title: "Sobre Nosotros",
           items: [
-            { name: "Perfil", link: "/nosotros/Perfil" },
-            { name: "Comite de Control Interno", link: "/nosotros/cocoin" },
-            { name: "Comite de Probidad y Etica Publica", link: "/nosotros/cepep" },
-            { name: "Organigrama", link: "/nosotros/organigrama" }
+            { name: "Perfil", link: "/perfil" },
+            { name: "Comite de Control Interno", link: "/cocoin" },
+            { name: "Comite de Probidad y Etica Publica", link: "/cepep" },
+            { name: "Organigrama", link: "/organigrama" }
           ]
         },
         {
           title: "Recursos",
           items: [
-            { name: "Oportunidades", link: "/nosotros/oportunidades" },
-            { name: "Foro", link: "/nosotros/foro" },
-            { name: "Preguntas Frecuentes", link: "/nosotros/faq" }
+            { name: "Oportunidades", link: "/oportunidades" },
+            { name: "Foro", link: "/foro" },
+            { name: "Preguntas Frecuentes", link: "/faq" }
           ]
         }
       ]
@@ -56,26 +56,26 @@ function NavbarComponent() {
           title: "CESCCO",
           link: "/direcciones/cescco" ,
           items: [
-            { name: "Anuncios", link: "/direcciones/cescco/anuncios"  },
-            { name: "RAE", link: "direcciones/cescco/rae"  }
+            { name: "Anuncios", link: "/anuncios"  },
+            { name: "RAE", link: "/rae"  }
           ]
         },
         {
           title: "Otras Direcciones",
           items: [
-            { name: "DGA", link: "/direcciones/dga" },
-            { name: "DNCC", link: "/direcciones/dncc" },
-            { name: "DGRH", link: "/direcciones/dgrh" },
-            { name: "DIBIO", link: "/direcciones/dibio" }
+            { name: "DGA", link: "/dga" },
+            { name: "DNCC", link: "/dncc" },
+            { name: "DGRH", link: "/dgrh" },
+            { name: "DIBIO", link: "/dibio" }
           ]
         },
         {
           title: "Deca",
           items: [
-            { name: "Anuncios Deca", link: "/direcciones/deca/anuncions_deca" },
-            { name: "Nuevos Requisitos SLAS", link: "/direcciones/deca/requisitos_slas" },
-            { name: "Requisitos de Renovacion de Licencia Ambiental", link: "/direcciones/deca/requisitos_renovacion_ambiental" },
-            { name: "Requisito de constancia de no requerir licencia ambiental", link: "/direcciones/deca/requisitos_constancia_no_licambiental" }
+            { name: "Anuncios Deca", link: "/anuncios-deca" },
+            { name: "Nuevos Requisitos SLAS", link: "/nuevos-requisitos-slas" },
+            { name: "Requisitos de Renovacion de Licencia Ambiental", link: "/requisitos-de-renovacion-licencia-ambiental" },
+            { name: "Requisito de constancia de no requerir licencia ambiental", link: "/requisitos-de-constancia-de-no-requerir-licencia-ambiental" }
           ]
         }
       ]
@@ -89,24 +89,24 @@ function NavbarComponent() {
         {
           title: "Norte y Centro",
           items: [
-            { name: "Comayagua", link: "/regionales/comayagua" },
-            { name: "Regional San Pedro Sula", link: "/regionales/san_pedro_sula" },
-            { name: "Regional del Litoral Atlantico", link: "/regionales/litoral_atlantico" },
-            { name: "Regional Insular", link: "/regionales/insular" }
+            { name: "Comayagua", link: "/comayagua" },
+            { name: "Regional San Pedro Sula", link: "/regional-san-pedro-sula" },
+            { name: "Regional del Litoral Atlantico", link: "/regional-litoral-del-atlantico" },
+            { name: "Regional Insular", link: "/regional-insular" }
           ]
         },
         {
           title: "Sur y Este",
           items: [
-            { name: "Regional Choluteca", link: "/regionales/choluteca" },
-            { name: "Regional Olancho", link: "/regionales/olancho" }
+            { name: "Regional Choluteca", link: "/regional-choluteca" },
+            { name: "Regional Olancho", link: "/regional-olancho" }
           ]
         },
         {
             title: "Occidente",
             items: [
-                { name: "Regional Ocotepeque", link: "/regionales/ocotepeque" },
-                { name: "Regional Copan", link: "/regionales/copan" }
+                { name: "Regional Ocotepeque", link: "/regional-ocotepeque" },
+                { name: "Regional Copan", link: "/regional-copan" }
             ]
         }
       ]
@@ -120,17 +120,17 @@ function NavbarComponent() {
         {
           title: "Proyectos Principales",
           items: [
-            { name: "ADAPTARC+", link: "/ocp/adaptarce" },
-            { name: "CONECTA+", link: "/ocp/contecta" },
-            { name: "COPS4", link: "/ocp/cops4" }
+            { name: "ADAPTARC+", link: "/adaptarce" },
+            { name: "CONECTA+", link: "/conecta" },
+            { name: "COPS4", link: "/cops4" }
           ]
         },
         {
           title: "Otros Proyectos",
           items: [
-            { name: "Proyecto Motagua", link: "/ocp/proyecto_motagua" },
-            { name: "Recover", link: "/ocp/recover" },
-            { name: "PlanetGold", link: "/ocp/planet_gold" }
+            { name: "Proyecto Motagua", link: "/proyecto-motagua" },
+            { name: "Recover", link: "/recover" },
+            { name: "PlanetGold", link: "/planet-gold" }
           ]
         }
       ]
@@ -162,7 +162,7 @@ function NavbarComponent() {
   ]
 
   return (
-    <nav className="bg-gradient-to-r from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full">
+    <nav className="bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full">
       {/* Contenedor principal del Navbar - Ajustes de WIDTH (Ancho) */}
       <div className="w-full mx-auto">
         <div className="flex items-center justify-between h-16 px-4">
