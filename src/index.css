@@ -17,11 +17,19 @@
     --naranja: 238 55 37;
     --paragraph: 134 131 133;
   }
+  
+  body {
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+  }
 }
 
 /* Custom utility classes using @apply */
 @layer components {
   .gradient-navbar {
-    @apply bg-gradient-to-b from-third to-secondary;
+    @apply bg-gradient-to-r from-green-600 to-green-500;
   }
 }

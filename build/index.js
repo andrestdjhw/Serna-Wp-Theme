@@ -144,7 +144,7 @@ function NavbarComponent() {
     link: "/webmail",
     hasDropdown: false
   }, {
-    name: "SLAS",
+    name: "Licenciamiento Ambiental",
     link: "/slas",
     hasDropdown: false
   }, {
@@ -293,131 +293,54 @@ function NavbarComponent() {
       }]
     }]
   }];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    className: "bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "w-full mx-auto",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "flex items-center justify-between h-16 px-4",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "flex-shrink-0",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: "/",
-            className: "text-white font-bold text-xl font-custom",
-            children: "SERNA"
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "flex md:hidden",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-            onClick: toggleMenu,
-            className: "inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black/20 focus:outline-none",
-            "aria-expanded": isMenuOpen,
-            "aria-label": "Toggle main menu",
-            children: isMenuOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-              className: "h-6 w-6",
-              fill: "none",
-              viewBox: "0 0 24 24",
-              stroke: "currentColor",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: 2,
-                d: "M6 18L18 6M6 6l12 12"
-              })
-            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-              className: "h-6 w-6",
-              fill: "none",
-              viewBox: "0 0 24 24",
-              stroke: "currentColor",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: 2,
-                d: "M4 6h16M4 12h16M4 18h16"
-              })
-            })
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "hidden md:flex md:items-center md:justify-end md:flex-1",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex space-x-4 lg:space-x-8",
-            children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "relative group",
-              children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                  className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center",
-                  onMouseEnter: () => setActiveDropdown(item.name),
-                  onClick: () => toggleDropdown(item.name),
-                  children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    className: "ml-1 h-4 w-4",
-                    fill: "none",
-                    viewBox: "0 0 24 24",
-                    stroke: "currentColor",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      strokeLinecap: "round",
-                      strokeLinejoin: "round",
-                      strokeWidth: 2,
-                      d: "M19 9l-7 7-7-7"
-                    })
-                  })]
-                }), item.isMultiColumn && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: `absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                  onMouseEnter: () => setActiveDropdown(item.name),
-                  onMouseLeave: () => setActiveDropdown(null),
-                  style: {
-                    width: '600px',
-                    maxWidth: '90vw'
-                  },
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "grid grid-cols-1 md:grid-cols-3 gap-4 px-6",
-                    children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                      className: "space-y-4",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-                        className: "text-sm font-medium font-custom text-gray-900",
-                        children: column.title
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
-                        className: "space-y-2",
-                        children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                            href: subItem.link,
-                            className: "text-sm text-lime-600 hover:text-green-800",
-                            children: subItem.name
-                          })
-                        }, subIndex))
-                      })]
-                    }, colIndex))
-                  })
-                }), !item.isMultiColumn && item.dropdownItems && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: `absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                  onMouseEnter: () => setActiveDropdown(item.name),
-                  onMouseLeave: () => setActiveDropdown(null),
-                  children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                    href: dropdownItem.link,
-                    className: "block px-4 py-2 text-sm text-green-700 hover:bg-lime-400",
-                    children: dropdownItem.name
-                  }, dropdownIndex))
-                })]
-              }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                href: item.link,
-                className: "text-white hover:text-[#e3a220] transition-colors duration-200",
-                children: item.name
-              })
-            }, index))
-          })
-        })]
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: `md:hidden ${isMenuOpen ? 'block' : 'hidden'}`,
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
+      className: "bg-white w-full border-b border-gray-200",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "px-2 pt-2 pb-3 space-y-1 bg-gray-50",
-        children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "w-full",
-          children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-              onClick: () => toggleDropdown(item.name),
-              className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
-              children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                className: `ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === item.name ? 'transform rotate-180' : ''}`,
+        className: "max-w-7xl mx-auto px-4 py-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex flex-col items-center justify-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "flex items-center space-x-4",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+              src: "/wp-content/uploads/2025/04/Gobierno-Color-768x768.png",
+              alt: "Emblema de Honduras",
+              className: "h-12"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "h-12 w-px bg-gray-300 mx-2"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+              src: "/wp-content/uploads/2025/04/SERNA-Color-768x1017.png",
+              alt: "Logo SERNA",
+              className: "h-12"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
+            className: "text-2xl font-bold text-cyan-400 mt-4",
+            children: "Secretaria de Recursos Naturales y Ambiente"
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
+      className: "bg-green-500 sticky top-0 z-50 w-full shadow-md",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "max-w-7xl mx-auto px-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex items-center justify-between h-16",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "flex-shrink-0 md:hidden",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+              href: "/",
+              className: "text-white font-bold text-xl font-custom",
+              children: "SERNA"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "flex md:hidden",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+              onClick: toggleMenu,
+              className: "inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black/20 focus:outline-none",
+              "aria-expanded": isMenuOpen,
+              "aria-label": "Toggle main menu",
+              children: isMenuOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                className: "h-6 w-6",
                 fill: "none",
                 viewBox: "0 0 24 24",
                 stroke: "currentColor",
@@ -425,34 +348,152 @@ function NavbarComponent() {
                   strokeLinecap: "round",
                   strokeLinejoin: "round",
                   strokeWidth: 2,
-                  d: "M19 9l-7 7-7-7"
+                  d: "M6 18L18 6M6 6l12 12"
                 })
-              })]
-            }), activeDropdown === item.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "pl-4 py-2 space-y-1",
-              children: item.isMultiColumn ? item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                className: "mb-2",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: "px-3 py-1 font-medium text-sm",
-                  children: column.title
-                }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                  href: subItem.link,
-                  className: "block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-green-200 transition-colors duration-200 my-1",
-                  children: subItem.name
-                }, subIndex))]
-              }, colIndex)) : item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                href: dropdownItem.link,
-                className: "block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200",
-                children: dropdownItem.name
-              }, dropdownIndex))
+              }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                className: "h-6 w-6",
+                fill: "none",
+                viewBox: "0 0 24 24",
+                stroke: "currentColor",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                  strokeLinecap: "round",
+                  strokeLinejoin: "round",
+                  strokeWidth: 2,
+                  d: "M4 6h16M4 12h16M4 18h16"
+                })
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "hidden md:flex md:items-center md:justify-between md:flex-1",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "relative",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+                type: "text",
+                placeholder: "Buscar...",
+                className: "bg-white rounded-full py-1 px-4 text-sm focus:outline-none"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "flex space-x-8",
+              children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "relative group",
+                children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                    className: "text-white hover:text-yellow-200 font-custom transition-colors duration-200 flex items-center",
+                    onMouseEnter: () => setActiveDropdown(item.name),
+                    onClick: () => toggleDropdown(item.name),
+                    children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                      className: "ml-1 h-4 w-4",
+                      fill: "none",
+                      viewBox: "0 0 24 24",
+                      stroke: "currentColor",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        strokeWidth: 2,
+                        d: "M19 9l-7 7-7-7"
+                      })
+                    })]
+                  }), item.isMultiColumn && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                    className: `absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
+                    onMouseEnter: () => setActiveDropdown(item.name),
+                    onMouseLeave: () => setActiveDropdown(null),
+                    style: {
+                      width: "600px",
+                      maxWidth: "90vw"
+                    },
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                      className: "grid grid-cols-1 md:grid-cols-3 gap-4 px-6",
+                      children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                        className: "space-y-4",
+                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+                          className: "text-sm font-medium font-custom text-gray-900",
+                          children: column.title
+                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+                          className: "space-y-2",
+                          children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                              href: subItem.link,
+                              className: "text-sm text-lime-600 hover:text-green-800",
+                              children: subItem.name
+                            })
+                          }, subIndex))
+                        })]
+                      }, colIndex))
+                    })
+                  }), !item.isMultiColumn && item.dropdownItems && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                    className: `absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
+                    onMouseEnter: () => setActiveDropdown(item.name),
+                    onMouseLeave: () => setActiveDropdown(null),
+                    children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                      href: dropdownItem.link,
+                      className: "block px-4 py-2 text-sm text-green-700 hover:bg-lime-400",
+                      children: dropdownItem.name
+                    }, dropdownIndex))
+                  })]
+                }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                  href: item.link,
+                  className: "text-white hover:text-yellow-200 transition-colors duration-200",
+                  children: item.name
+                })
+              }, index))
             })]
-          }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-            href: item.link,
-            className: "block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
-            children: item.name
-          })
-        }, index))
-      })
+          })]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: `md:hidden ${isMenuOpen ? "block" : "hidden"}`,
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "px-2 pt-2 pb-3 space-y-1 bg-gray-50",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "px-3 py-2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+              type: "text",
+              placeholder: "Buscar...",
+              className: "w-full bg-white rounded-md py-2 px-4 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
+            })
+          }), navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-full",
+            children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                onClick: () => toggleDropdown(item.name),
+                className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
+                children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                  className: `ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === item.name ? "transform rotate-180" : ""}`,
+                  fill: "none",
+                  viewBox: "0 0 24 24",
+                  stroke: "currentColor",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    strokeWidth: 2,
+                    d: "M19 9l-7 7-7-7"
+                  })
+                })]
+              }), activeDropdown === item.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "pl-4 py-2 space-y-1",
+                children: item.isMultiColumn ? item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  className: "mb-2",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                    className: "px-3 py-1 font-medium text-sm",
+                    children: column.title
+                  }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                    href: subItem.link,
+                    className: "block px-3 py-2 rounded-md text-black bg-lime-300 hover:bg-green-200 transition-colors duration-200 my-1",
+                    children: subItem.name
+                  }, subIndex))]
+                }, colIndex)) : item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                  href: dropdownItem.link,
+                  className: "block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200",
+                  children: dropdownItem.name
+                }, dropdownIndex))
+              })]
+            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+              href: item.link,
+              className: "block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
+              children: item.name
+            })
+          }, index))]
+        })
+      })]
     })]
   });
 }
