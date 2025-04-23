@@ -16,7 +16,7 @@ function NavbarComponent() {
     }
   }
 
-  // Navigation structure with megamenu dropdowns
+  // Estructura de la navegacion con megamenu y listas
   const navItems = [
     { name: "Inicio", link: "/", hasDropdown: false },
     { 
@@ -162,8 +162,8 @@ function NavbarComponent() {
   ]
 
   return (
-    <nav className="bg-gradient-to-r from-green-400 to-emerald-700 sticky top-0 z-50 w-full">
-      {/* Main navbar container - FIXED WIDTH SETTINGS */}
+    <nav className="bg-gradient-to-r from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full">
+      {/* Contenedor principal del Navbar - Ajustes de WIDTH (Ancho) */}
       <div className="w-full mx-auto">
         <div className="flex items-center justify-between h-16 px-4">
           {/* Logo/Brand Section */}
@@ -193,7 +193,7 @@ function NavbarComponent() {
             </button>
           </div>
 
-          {/* Desktop menu */}
+          {/* Menu Escritorio */}
           <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
             <div className="flex space-x-4 lg:space-x-8">
               {navItems.map((item, index) => (
@@ -201,7 +201,7 @@ function NavbarComponent() {
                   {item.hasDropdown ? (
                     <>
                       <button 
-                        className="text-white hover:text-orange-600 font-custom transition-colors duration-200 flex items-center"
+                        className="text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center"
                         onMouseEnter={() => setActiveDropdown(item.name)}
                         onClick={() => toggleDropdown(item.name)}
                       >
@@ -270,7 +270,7 @@ function NavbarComponent() {
                       )}
                     </>
                   ) : (
-                    <a href={item.link} className="text-white hover:text-orange-600 transition-colors duration-200">
+                    <a href={item.link} className="text-white hover:text-[#e3a220] transition-colors duration-200">
                       {item.name}
                     </a>
                   )}
@@ -281,7 +281,7 @@ function NavbarComponent() {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Menu Dispositivos Mobiles */}
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-50">
           {navItems.map((item, index) => (
@@ -313,7 +313,7 @@ function NavbarComponent() {
                               <a
                                 key={subIndex}
                                 href={subItem.link}
-                                className="block px-3 py-2 rounded-md text-black bg-green-100 hover:bg-green-200 transition-colors duration-200 my-1"
+                                className="block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-green-200 transition-colors duration-200 my-1"
                               >
                                 {subItem.name}
                               </a>

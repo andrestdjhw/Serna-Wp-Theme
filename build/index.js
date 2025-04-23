@@ -101,7 +101,7 @@ function NavbarComponent() {
     }
   };
 
-  // Navigation structure with megamenu dropdowns
+  // Estructura de la navegacion con megamenu y listas
   const navItems = [{
     name: "Inicio",
     link: "/",
@@ -294,7 +294,7 @@ function NavbarComponent() {
     }]
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-    className: "bg-gradient-to-r from-green-400 to-emerald-700 sticky top-0 z-50 w-full",
+    className: "bg-gradient-to-r from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "w-full mx-auto",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -345,7 +345,7 @@ function NavbarComponent() {
               className: "relative group",
               children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                  className: "text-white hover:text-orange-600 font-custom transition-colors duration-200 flex items-center",
+                  className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center",
                   onMouseEnter: () => setActiveDropdown(item.name),
                   onClick: () => toggleDropdown(item.name),
                   children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
@@ -399,7 +399,7 @@ function NavbarComponent() {
                 })]
               }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                 href: item.link,
-                className: "text-white hover:text-orange-600 transition-colors duration-200",
+                className: "text-white hover:text-[#e3a220] transition-colors duration-200",
                 children: item.name
               })
             }, index))
@@ -437,7 +437,7 @@ function NavbarComponent() {
                   children: column.title
                 }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: subItem.link,
-                  className: "block px-3 py-2 rounded-md text-black bg-green-100 hover:bg-green-200 transition-colors duration-200 my-1",
+                  className: "block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-green-200 transition-colors duration-200 my-1",
                   children: subItem.name
                 }, subIndex))]
               }, colIndex)) : item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
