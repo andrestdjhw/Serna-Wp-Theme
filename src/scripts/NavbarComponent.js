@@ -383,7 +383,7 @@ function NavbarComponent() {
                   <>
                     <button
                       onClick={() => toggleDropdown(item.name)}
-                      className="w-full flex justify-between items-center px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200"
+                      className="w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200"
                     >
                       {item.name}
                       <svg
@@ -443,7 +443,7 @@ function NavbarComponent() {
                 ) : (
                   <a
                     href={item.link}
-                    className="block px-3 py-2 rounded-md text-black hover:bg-[#00903b] hover:text-white transition-colors duration-200"
+                    className="block px-3 py-2 rounded-md text-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200"
                   >
                     {item.name}
                   </a>
