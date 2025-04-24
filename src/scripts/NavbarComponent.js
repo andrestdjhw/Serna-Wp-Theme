@@ -175,43 +175,43 @@ function NavbarComponent() {
 
   return (
     <>
-      {/* Header with logo and title */}
+      {/* Encabezado con logo y titulo */}
       <header className="bg-white w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
-          {/* Center the logo and title */}
+          {/*Emblema de Gobierno|Serna y titulos Centrados*/}
           <div className="flex flex-col items-center justify-center">
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-8">
               <img 
                 src="/wp-content/uploads/2025/04/Gobierno-Color-768x768.png" 
                 alt="Emblema de Honduras" 
-                className="h-12"
+                className="h-18"
               />
               <div className="h-12 w-px bg-gray-300 mx-2"></div>
               <img 
                 src="/wp-content/uploads/2025/04/SERNA-Color-768x1017.png" 
                 alt="Logo SERNA" 
-                className="h-12"
+                className="h-18"
               />
             </div>
-            <h1 className="text-2xl font-bold text-cyan-400 mt-4">
+            <h1 className="text-2xl font-bold text-[#87cede] mt-4 text-center">
               Secretaria de Recursos Naturales y Ambiente
             </h1>
           </div>
         </div>
       </header>
 
-      {/* Navigation Bar */}
-      <nav className="bg-green-500 sticky top-0 z-50 w-full shadow-md">
+      {/*Barra de Navegacion Con Gradiente Verde*/}
+      <nav className="bg-linear-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            {/* Logo/Brand Section for Mobile */}
+            {/* Logo/Marca seccion para Movil */}
             <div className="flex-shrink-0 md:hidden">
               <a href="/" className="text-white font-bold text-xl font-custom">
                 SERNA
-              </a>
+              </a>  
             </div>
 
-            {/* Mobile menu button */}
+            {/* Boton de Menu Movil */}
             <div className="flex md:hidden">
               <button
                 onClick={toggleMenu}
@@ -251,9 +251,9 @@ function NavbarComponent() {
               </button>
             </div>
 
-            {/* Desktop Menu Container */}
+            {/*Contenedor Menu Escritorio */}
             <div className="hidden md:flex md:items-center md:justify-between md:flex-1">
-              {/* Search Box on Left Side */}
+              {/* Buscador al lado derecho */}
               <div className="relative">
                 <input
                   type="text"
@@ -262,14 +262,14 @@ function NavbarComponent() {
                 />
               </div>
               
-              {/* Menu Items */}
+              {/* Items(Elementos) del Menu */}
               <div className="flex space-x-8">
                 {navItems.map((item, index) => (
                   <div key={index} className="relative group">
                     {item.hasDropdown ? (
                       <>
                         <button
-                          className="text-white hover:text-yellow-200 font-custom transition-colors duration-200 flex items-center"
+                          className="text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center"
                           onMouseEnter={() => setActiveDropdown(item.name)}
                           onClick={() => toggleDropdown(item.name)}
                         >
@@ -289,7 +289,7 @@ function NavbarComponent() {
                           </svg>
                         </button>
 
-                        {/* Tesla-style mega menu - FIXED POSITIONING */}
+                        {/* Megamenu Estilo Tesla - FIXED POSITIONING */}
                         {item.isMultiColumn && (
                           <div
                             className={`absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
@@ -325,7 +325,7 @@ function NavbarComponent() {
                           </div>
                         )}
 
-                        {/* Regular dropdown (for compatibility with non-multicolumn items) */}
+                        {/* Listado Regular (para compatibilidad con elementos no multicolumna) */}
                         {!item.isMultiColumn && item.dropdownItems && (
                           <div
                             className={`absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
@@ -341,7 +341,7 @@ function NavbarComponent() {
                                 <a
                                   key={dropdownIndex}
                                   href={dropdownItem.link}
-                                  className="block px-4 py-2 text-sm text-green-700 hover:bg-lime-400"
+                                  className="block px-4 py-2 text-sm text-[#00903b] hover:bg-[#7dbb5c]"
                                 >
                                   {dropdownItem.name}
                                 </a>
@@ -353,7 +353,7 @@ function NavbarComponent() {
                     ) : (
                       <a
                         href={item.link}
-                        className="text-white hover:text-yellow-200 transition-colors duration-200"
+                        className="text-white hover:text-[#e3a220] transition-colors duration-200"
                       >
                         {item.name}
                       </a>
@@ -365,10 +365,10 @@ function NavbarComponent() {
           </div>
         </div>
 
-        {/* Menu Dispositivos Mobiles */}
+        {/* Menu Dispositivos Moviles */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-50">
-            {/* Search Box in Mobile Menu */}
+            {/* Boton de busqueda en Menu Movil */}
             <div className="px-3 py-2">
               <input
                 type="text"
@@ -417,7 +417,7 @@ function NavbarComponent() {
                                 <a
                                   key={subIndex}
                                   href={subItem.link}
-                                  className="block px-3 py-2 rounded-md text-black bg-lime-300 hover:bg-green-200 transition-colors duration-200 my-1"
+                                  className="block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
                                 >
                                   {subItem.name}
                                 </a>
@@ -430,7 +430,7 @@ function NavbarComponent() {
                               <a
                                 key={dropdownIndex}
                                 href={dropdownItem.link}
-                                className="block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200"
+                                className="block px-3 py-2 rounded-md text-white bg-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200"
                               >
                                 {dropdownItem.name}
                               </a>
@@ -443,7 +443,7 @@ function NavbarComponent() {
                 ) : (
                   <a
                     href={item.link}
-                    className="block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200"
+                    className="block px-3 py-2 rounded-md text-black hover:bg-[#00903b] hover:text-white transition-colors duration-200"
                   >
                     {item.name}
                   </a>

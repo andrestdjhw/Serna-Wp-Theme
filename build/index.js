@@ -301,26 +301,26 @@ function NavbarComponent() {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           className: "flex flex-col items-center justify-center",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "flex items-center space-x-4",
+            className: "flex items-center space-x-8",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
               src: "/wp-content/uploads/2025/04/Gobierno-Color-768x768.png",
               alt: "Emblema de Honduras",
-              className: "h-12"
+              className: "h-18"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "h-12 w-px bg-gray-300 mx-2"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
               src: "/wp-content/uploads/2025/04/SERNA-Color-768x1017.png",
               alt: "Logo SERNA",
-              className: "h-12"
+              className: "h-18"
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
-            className: "text-2xl font-bold text-cyan-400 mt-4",
+            className: "text-2xl font-bold text-[#87cede] mt-4 text-center",
             children: "Secretaria de Recursos Naturales y Ambiente"
           })]
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-      className: "bg-green-500 sticky top-0 z-50 w-full shadow-md",
+      className: "bg-linear-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -378,7 +378,7 @@ function NavbarComponent() {
                 className: "relative group",
                 children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                    className: "text-white hover:text-yellow-200 font-custom transition-colors duration-200 flex items-center",
+                    className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center",
                     onMouseEnter: () => setActiveDropdown(item.name),
                     onClick: () => toggleDropdown(item.name),
                     children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
@@ -426,13 +426,13 @@ function NavbarComponent() {
                     onMouseLeave: () => setActiveDropdown(null),
                     children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                       href: dropdownItem.link,
-                      className: "block px-4 py-2 text-sm text-green-700 hover:bg-lime-400",
+                      className: "block px-4 py-2 text-sm text-[#00903b] hover:bg-[#7dbb5c]",
                       children: dropdownItem.name
                     }, dropdownIndex))
                   })]
                 }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: item.link,
-                  className: "text-white hover:text-yellow-200 transition-colors duration-200",
+                  className: "text-white hover:text-[#e3a220] transition-colors duration-200",
                   children: item.name
                 })
               }, index))
@@ -477,18 +477,18 @@ function NavbarComponent() {
                     children: column.title
                   }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                     href: subItem.link,
-                    className: "block px-3 py-2 rounded-md text-black bg-lime-300 hover:bg-green-200 transition-colors duration-200 my-1",
+                    className: "block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1",
                     children: subItem.name
                   }, subIndex))]
                 }, colIndex)) : item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: dropdownItem.link,
-                  className: "block px-3 py-2 rounded-md text-white bg-green-800 hover:bg-green-900 transition-colors duration-200",
+                  className: "block px-3 py-2 rounded-md text-white bg-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200",
                   children: dropdownItem.name
                 }, dropdownIndex))
               })]
             }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
               href: item.link,
-              className: "block px-3 py-2 rounded-md text-black hover:bg-green-700 hover:text-white transition-colors duration-200",
+              className: "block px-3 py-2 rounded-md text-black hover:bg-[#00903b] hover:text-white transition-colors duration-200",
               children: item.name
             })
           }, index))]
