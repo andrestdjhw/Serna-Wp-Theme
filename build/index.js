@@ -646,7 +646,7 @@ function NavbarComponent() {
                           children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
                             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                               href: subItem.link,
-                              className: "text-sm text-lime-600 hover:text-green-800",
+                              className: "text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200",
                               children: subItem.name
                             })
                           }, subIndex))
