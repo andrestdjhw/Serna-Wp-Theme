@@ -1,35 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Import Tailwind base styles */
+/* Add Pluto Font */
+@font-face {
+  font-family: 'Pluto';
+  src: url('../fonts/PlutoRegular.ttf') format('ttf'),
+       url('../fonts/PlutoRegular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pluto';
+  src: url('../fonts/PlutoMedium.ttf') format('ttf'),
+       url('../fonts/PlutoMedium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pluto';
+  src: url('../fonts/PlutoBold.ttf') format('ttf'),
+       url('../fonts/PlutoBold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Define custom CSS variables for colors */
+/* Update the body font */
 @layer base {
-  :root {
-    --primary-text: 255 255 255;
-    --secondary-bg: 51 51 51;
-    --default-bg: 245 245 247;
-    --primary: 135 206 222;
-    --secondary: 125 187 92;
-    --third: 0 144 59;
-    --naranja: 238 55 37;
-    --paragraph: 134 131 133;
-  }
-  
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Pluto', 'PT Sans', sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans', sans-serif;
-  }
-}
-
-/* Custom utility classes using @apply */
-@layer components {
-  .gradient-navbar {
-    @apply bg-gradient-to-r from-green-600 to-green-500;
+    font-family: 'Pluto', 'PT Sans', sans-serif;
+    /* Optional: add specific font weights if needed */
+    font-weight: 700; /* For bold headings */
   }
 }
