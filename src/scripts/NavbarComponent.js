@@ -40,6 +40,7 @@ function NavbarComponent() {
             { name: "Oportunidades", link: "/oportunidades" },
             { name: "Foro", link: "/foro" },
             { name: "Preguntas Frecuentes", link: "/faq" },
+            { name: "Contacto", link: "/contacto" }
           ],
         },
       ],

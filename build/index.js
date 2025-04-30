@@ -655,6 +655,9 @@ function NavbarComponent() {
       }, {
         name: "Preguntas Frecuentes",
         link: "/faq"
+      }, {
+        name: "Contacto",
+        link: "/contacto"
       }]
     }]
   }, {
