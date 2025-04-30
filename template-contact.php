@@ -7,19 +7,19 @@
 get_header(); ?>
 
 <div class="contacto-page">
-    <!-- Hero Section with Gradient Background -->
+    <!-- Seccion Hero Panel con gradiantes -->
     <section class="relative py-24 overflow-hidden">
-        <!-- Gradient Background -->
+        <!-- Fondo Gradiante -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
         
-        <!-- Animated Background Elements -->
+        <!-- Fondo: Elementos Animados tipo Fuegos Artificiales -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
             <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
             <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
-        <!-- Subtle Pattern Overlay -->
+        <!-- Patron de fondo -->
         <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
         
         <!-- Content -->
@@ -37,7 +37,7 @@ get_header(); ?>
             </div>
         </div>
         
-        <!-- Bottom Wave -->
+        <!-- Fondo de Ola -->
         <div class="absolute bottom-0 left-0 right-0">
             <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
                 <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
@@ -45,15 +45,15 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Main Content -->
+    <!-- Contenido Principal -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <!-- Contact Information -->
+            <!-- Informacion de Contacto -->
             <div class="md:col-span-1">
                 <div class="bg-white rounded-lg shadow-custom p-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Información de Contacto</h2>
                     
-                    <!-- Email -->
+                    <!-- Correo Electronico -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Phone -->
+                    <!-- Telefono -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +79,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Location -->
+                    <!-- Ubicacion -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Hours -->
+                    <!-- Horario de Atencion -->
                     <div class="flex items-start">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +108,7 @@ get_header(); ?>
                     </div>
                 </div>
                 
-                <!-- Social Media Links -->
+                <!-- Enlaces Redes Sociales -->
                 <div class="bg-white rounded-lg shadow-custom p-8 mt-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Síguenos</h2>
                     <div class="flex space-x-4">
@@ -128,7 +128,7 @@ get_header(); ?>
                 </div>
             </div>
             
-            <!-- Contact Form -->
+            <!-- Formulario de Contacto -->
             <div class="md:col-span-2">
                 <div class="bg-white rounded-lg shadow-custom p-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Envíanos un mensaje</h2>
@@ -136,14 +136,14 @@ get_header(); ?>
                         <?php wp_nonce_field('contact_form_nonce', 'contact_nonce'); ?>
                         
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- First Name -->
+                            <!-- Nombre Completo -->
                             <div>
                                 <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre</label>
                                 <input type="text" id="first_name" name="first_name" required
                                     class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                             </div>
                             
-                            <!-- Last Name -->
+                            <!-- Apellido -->
                             <div>
                                 <label for="last_name" class="block text-sm font-medium text-gray-700 mb-2">Apellido</label>
                                 <input type="text" id="last_name" name="last_name" required
@@ -151,21 +151,21 @@ get_header(); ?>
                             </div>
                         </div>
                         
-                        <!-- Email -->
+                        <!-- Correo Electronico -->
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico</label>
                             <input type="email" id="email" name="email" required
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
                         
-                        <!-- Phone -->
+                        <!-- Telefono -->
                         <div>
                             <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Teléfono (opcional)</label>
                             <input type="tel" id="phone" name="phone"
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
                         
-                        <!-- Subject -->
+                        <!-- Asunto -->
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Asunto</label>
                             <select id="subject" name="subject" required
@@ -179,14 +179,14 @@ get_header(); ?>
                             </select>
                         </div>
                         
-                        <!-- Message -->
+                        <!-- Mensaje -->
                         <div>
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Mensaje</label>
                             <textarea id="message" name="message" rows="6" required
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300"></textarea>
                         </div>
                         
-                        <!-- Submit Button -->
+                        <!-- Boton de enviar -->
                         <div>
                             <button type="submit" 
                                 class="w-full md:w-auto px-8 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transform hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7dbb5c]">
@@ -195,7 +195,7 @@ get_header(); ?>
                         </div>
                     </form>
                     
-                    <!-- Success/Error Messages -->
+                    <!-- Exito/Error Mensajes -->
                     <div id="form-messages" class="hidden mt-6">
                         <div id="success-message" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative hidden" role="alert">
                             <strong class="font-bold">¡Éxito!</strong>
@@ -210,12 +210,12 @@ get_header(); ?>
             </div>
         </div>
         
-        <!-- Map Section (Optional) -->
+        <!-- Seccion para mapa de Google -->
         <section class="mt-24">
             <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]">Encuéntranos aquí</h2>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
-                    <!-- Placeholder for Google Maps iframe -->
+                    <!-- Aqui va el frame del mapa de Google -->
                     <div class="bg-gray-200 flex items-center justify-center" style="height: 400px;">
                         <p class="text-gray-600">Mapa de ubicación</p>
                     </div>
@@ -247,7 +247,7 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(0, 144, 59, 0.1), 0 4px 6px -2px rgba(0, 144, 59, 0.05);
     }
 </style>
-
+<!-- Este script es para la funcionalidad del formulario de Contacto -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contact-form');
@@ -259,12 +259,12 @@ document.addEventListener('DOMContentLoaded', function() {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Reset messages
+            // Limpiar mensajes
             formMessages.classList.add('hidden');
             successMessage.classList.add('hidden');
             errorMessage.classList.add('hidden');
             
-            // Get form data
+            // Obtener informacion del formulario
             const formData = new FormData(form);
             formData.append('action', 'process_contact_form');
             

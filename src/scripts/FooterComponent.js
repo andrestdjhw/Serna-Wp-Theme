@@ -1,7 +1,7 @@
 import React from "react";
 
 function FooterComponent() {
-  // Social media icons array
+  // Arreglo para los enlaces de redes sociales, con sus iconos
   const socialLinks = [
     { name: "Facebook", icon: "facebook", url: "#" },
     { name: "Twitter", icon: "twitter", url: "#" },
@@ -10,7 +10,7 @@ function FooterComponent() {
     { name: "YouTube", icon: "youtube", url: "#" },
   ];
 
-  // Footer columns data structure
+  // Columnas del Footer y Estructura de datos
   const footerColumns = [
     {
       title: "Dirección",
@@ -69,11 +69,11 @@ function FooterComponent() {
   return (
     <footer className="bg-gradient-to-b from-[#87cede] to-[#88cfe0] text-white pt-10 pb-6">
       <div className="max-w-7xl mx-auto px-4">
-        {/* Main footer content */}
+        {/* Contenido Principal del Footer */}
         <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
-          {/* Logo and social media column - centered on mobile */}
+          {/* Columna de Logo y Redes Sociales - centrado para dispositivos mobiles */}
           <div className="md:col-span-1 flex flex-col items-center md:items-start">
-            {/* SERNA Logo */}
+            {/* Logo SERNA */}
             <div className="w-40 mb-8">
               <img 
                 src="/wp-content/uploads/2025/04/Serna-Blanco-227x300.png" 
@@ -86,7 +86,7 @@ function FooterComponent() {
               />
             </div>
             
-            {/* Social media icons */}
+            {/* Iconos de Redes Sociales */}
             <div className="flex space-x-2 mb-6">
               {socialLinks.map((social, index) => (
                 <a 
@@ -127,12 +127,12 @@ function FooterComponent() {
             </div>
           </div>
           
-          {/* Dynamic footer columns - centered on mobile */}
+          {/* Columnas Dinamicas del Footer - centrado para dispositivos mobiles */}
           {footerColumns.map((column, index) => (
             <div key={index} className="md:col-span-1 text-center md:text-left">
               <h3 className="text-xl font-bold mb-4 font-custom">{column.title}</h3>
               
-              {/* For columns with text content */}
+              {/* Para columnas de contenido de texto */}
               {column.content && (
                 <div className="text-sm space-y-2">
                   {column.content.map((line, i) => (
@@ -141,7 +141,7 @@ function FooterComponent() {
                 </div>
               )}
               
-              {/* For columns with links */}
+              {/* Para Columnas con enlaces */}
               {column.links && (
                 <ul className="space-y-2">
                   {column.links.map((link, i) => (
@@ -160,7 +160,7 @@ function FooterComponent() {
           ))}
         </div>
         
-        {/* Copyright */}
+        {/* Copyright: Derechos de autor */}
         <div className="mt-12 pt-6 border-t border-white/20 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} SERNA - Secretaría de Recursos Naturales y Ambiente. Todos los derechos reservados.</p>
         </div>

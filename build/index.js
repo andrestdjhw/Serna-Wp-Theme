@@ -88,7 +88,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function FooterComponent() {
-  // Social media icons array
+  // Arreglo para los enlaces de redes sociales, con sus iconos
   const socialLinks = [{
     name: "Facebook",
     icon: "facebook",
@@ -111,7 +111,7 @@ function FooterComponent() {
     url: "#"
   }];
 
-  // Footer columns data structure
+  // Columnas del Footer y Estructura de datos
   const footerColumns = [{
     title: "Dirección",
     content: ["Despacho de Recursos Naturales y", "Ambiente, 100 metros al Sur del", "Estadio Nacional, Tegucigalpa", "M.D.C., Honduras, C.A."]

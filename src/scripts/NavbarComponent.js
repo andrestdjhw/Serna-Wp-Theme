@@ -407,7 +407,7 @@ function NavbarComponent() {
                     </button>
                     {activeDropdown === item.name && (
                       <div className="pl-4 py-2 space-y-1">
-                        {/* If item uses the multicolumn format, flatten it for mobile */}
+                        {/* Si el elemento utiliza multicolumna, aplanado para dispositivos mobiles */}
                         {item.isMultiColumn ? (
                           item.columns.map((column, colIndex) => (
                             <div key={colIndex} className="mb-2">
