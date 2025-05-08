@@ -16,14 +16,24 @@ function NavbarComponent() {
     }
   };
 
-  // Estructura de la navegacion con megamenu y listas
+  // Calculate grid columns based on number of columns
+  const getGridColumnsClass = (columns) => {
+    switch(columns.length) {
+      case 1: return 'grid-cols-1';
+      case 2: return 'grid-cols-1 md:grid-cols-2';
+      case 3: return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+      case 4: return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
+      default: return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+    }
+  };
+
+  // Modified navItems structure with dynamic columns
   const navItems = [
     { name: "Inicio", link: "/", hasDropdown: false },
     {
       name: "Nosotros",
       link: "/nosotros",
       hasDropdown: true,
-      isMultiColumn: true,
       columns: [
         {
           title: "Sobre Nosotros",
@@ -51,7 +61,6 @@ function NavbarComponent() {
       name: "Direcciones",
       link: "/direcciones",
       hasDropdown: true,
-      isMultiColumn: true,
       columns: [
         {
           title: "CESCCO",
@@ -91,7 +100,6 @@ function NavbarComponent() {
       name: "Regionales",
       link: "/regionales",
       hasDropdown: true,
-      isMultiColumn: true,
       columns: [
         {
           title: "Norte y Centro",
@@ -125,7 +133,6 @@ function NavbarComponent() {
       name: "OCP",
       link: "/ocp",
       hasDropdown: true,
-      isMultiColumn: true,
       columns: [
         {
           title: "Proyectos Principales",
@@ -149,7 +156,6 @@ function NavbarComponent() {
       name: "Portales",
       link: "/portales",
       hasDropdown: true,
-      isMultiColumn: true,
       columns: [
         {
           title: "Portales Gubernamentales",
@@ -290,66 +296,51 @@ function NavbarComponent() {
                           </svg>
                         </button>
 
-                        {/* Megamenu Estilo Tesla - FIXED POSITIONING */}
-                        {item.isMultiColumn && (
-                          <div
-                            className={`absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
-                              activeDropdown === item.name
-                                ? "opacity-100 visible"
-                                : "opacity-0 invisible"
-                            }`}
-                            onMouseEnter={() => setActiveDropdown(item.name)}
-                            onMouseLeave={() => setActiveDropdown(null)}
-                            style={{ width: "600px", maxWidth: "90vw" }}
-                          >
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6">
-                              {item.columns.map((column, colIndex) => (
-                                <div key={colIndex} className="space-y-4">
+                        {/* Dynamic Mega Menu */}
+                        <div
+                          className={`absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
+                            activeDropdown === item.name
+                              ? "opacity-100 visible"
+                              : "opacity-0 invisible"
+                          }`}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                          style={{ 
+                            width: `${Math.min(item.columns.length * 200, 600)}px`, 
+                            maxWidth: "90vw" 
+                          }}
+                        >
+                          <div className={`grid ${getGridColumnsClass(item.columns)} gap-4 px-6`}>
+                            {item.columns.map((column, colIndex) => (
+                              <div key={colIndex} className="space-y-4">
+                                {column.link ? (
+                                  <a 
+                                    href={column.link}
+                                    className="text-sm font-medium font-custom text-gray-900 hover:text-[#00903b]"
+                                  >
+                                    {column.title}
+                                  </a>
+                                ) : (
                                   <h3 className="text-sm font-medium font-custom text-gray-900">
                                     {column.title}
                                   </h3>
-                                  <ul className="space-y-2">
-                                    {column.items.map((subItem, subIndex) => (
-                                      <li key={subIndex}>
-                                        <a
-                                          href={subItem.link}
-                                          className="text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200" 
-                                        >
-                                          {subItem.name}
-                                        </a>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              ))}
-                            </div>
+                                )}
+                                <ul className="space-y-2">
+                                  {column.items.map((subItem, subIndex) => (
+                                    <li key={subIndex}>
+                                      <a
+                                        href={subItem.link}
+                                        className="text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200" 
+                                      >
+                                        {subItem.name}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
                           </div>
-                        )}
-
-                        {/* Listado Regular (para compatibilidad con elementos no multicolumna) */}
-                        {!item.isMultiColumn && item.dropdownItems && (
-                          <div
-                            className={`absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${
-                              activeDropdown === item.name
-                                ? "opacity-100 visible"
-                                : "opacity-0 invisible"
-                            }`}
-                            onMouseEnter={() => setActiveDropdown(item.name)}
-                            onMouseLeave={() => setActiveDropdown(null)}
-                          >
-                            {item.dropdownItems.map(
-                              (dropdownItem, dropdownIndex) => (
-                                <a
-                                  key={dropdownIndex}
-                                  href={dropdownItem.link}
-                                  className="block px-4 py-2 text-sm text-[#00903b] hover:bg-[#7dbb5c]"
-                                >
-                                  {dropdownItem.name}
-                                </a>
-                              )
-                            )}
-                          </div>
-                        )}
+                        </div>
                       </>
                     ) : (
                       <a
@@ -407,37 +398,22 @@ function NavbarComponent() {
                     </button>
                     {activeDropdown === item.name && (
                       <div className="pl-4 py-2 space-y-1">
-                        {/* Si el elemento utiliza multicolumna, aplanado para dispositivos mobiles */}
-                        {item.isMultiColumn ? (
-                          item.columns.map((column, colIndex) => (
-                            <div key={colIndex} className="mb-2">
-                              <div className="px-3 py-1 font-medium text-sm">
-                                {column.title}
-                              </div>
-                              {column.items.map((subItem, subIndex) => (
-                                <a
-                                  key={subIndex}
-                                  href={subItem.link}
-                                  className="block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
-                                >
-                                  {subItem.name}
-                                </a>
-                              ))}
+                        {item.columns.map((column, colIndex) => (
+                          <div key={colIndex} className="mb-2">
+                            <div className="px-3 py-1 font-medium text-sm">
+                              {column.title}
                             </div>
-                          ))
-                        ) : (
-                          item.dropdownItems.map(
-                            (dropdownItem, dropdownIndex) => (
+                            {column.items.map((subItem, subIndex) => (
                               <a
-                                key={dropdownIndex}
-                                href={dropdownItem.link}
-                                className="block px-3 py-2 rounded-md text-white bg-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200"
+                                key={subIndex}
+                                href={subItem.link}
+                                className="block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
                               >
-                                {dropdownItem.name}
+                                {subItem.name}
                               </a>
-                            )
-                          )
-                        )}
+                            ))}
+                          </div>
+                        ))}
                       </div>
                     )}
                   </>

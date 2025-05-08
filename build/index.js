@@ -619,7 +619,23 @@ function NavbarComponent() {
     }
   };
 
-  // Estructura de la navegacion con megamenu y listas
+  // Calculate grid columns based on number of columns
+  const getGridColumnsClass = columns => {
+    switch (columns.length) {
+      case 1:
+        return 'grid-cols-1';
+      case 2:
+        return 'grid-cols-1 md:grid-cols-2';
+      case 3:
+        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+      case 4:
+        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
+      default:
+        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
+    }
+  };
+
+  // Modified navItems structure with dynamic columns
   const navItems = [{
     name: "Inicio",
     link: "/",
@@ -628,7 +644,6 @@ function NavbarComponent() {
     name: "Nosotros",
     link: "/nosotros",
     hasDropdown: true,
-    isMultiColumn: true,
     columns: [{
       title: "Sobre Nosotros",
       items: [{
@@ -672,7 +687,6 @@ function NavbarComponent() {
     name: "Direcciones",
     link: "/direcciones",
     hasDropdown: true,
-    isMultiColumn: true,
     columns: [{
       title: "CESCCO",
       link: "/direcciones/cescco",
@@ -718,7 +732,6 @@ function NavbarComponent() {
     name: "Regionales",
     link: "/regionales",
     hasDropdown: true,
-    isMultiColumn: true,
     columns: [{
       title: "Norte y Centro",
       items: [{
@@ -757,7 +770,6 @@ function NavbarComponent() {
     name: "OCP",
     link: "/ocp",
     hasDropdown: true,
-    isMultiColumn: true,
     columns: [{
       title: "Proyectos Principales",
       items: [{
@@ -787,7 +799,6 @@ function NavbarComponent() {
     name: "Portales",
     link: "/portales",
     hasDropdown: true,
-    isMultiColumn: true,
     columns: [{
       title: "Portales Gubernamentales",
       items: [{
@@ -914,19 +925,23 @@ function NavbarComponent() {
                         d: "M19 9l-7 7-7-7"
                       })
                     })]
-                  }), item.isMultiColumn && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                     className: `absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
                     onMouseEnter: () => setActiveDropdown(item.name),
                     onMouseLeave: () => setActiveDropdown(null),
                     style: {
-                      width: "600px",
+                      width: `${Math.min(item.columns.length * 200, 600)}px`,
                       maxWidth: "90vw"
                     },
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                      className: "grid grid-cols-1 md:grid-cols-3 gap-4 px-6",
+                      className: `grid ${getGridColumnsClass(item.columns)} gap-4 px-6`,
                       children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                         className: "space-y-4",
-                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+                        children: [column.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                          href: column.link,
+                          className: "text-sm font-medium font-custom text-gray-900 hover:text-[#00903b]",
+                          children: column.title
+                        }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
                           className: "text-sm font-medium font-custom text-gray-900",
                           children: column.title
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
@@ -941,15 +956,6 @@ function NavbarComponent() {
                         })]
                       }, colIndex))
                     })
-                  }), !item.isMultiColumn && item.dropdownItems && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: `absolute top-full right-0 mt-1 w-48 rounded-md shadow-lg bg-white py-1 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                    onMouseEnter: () => setActiveDropdown(item.name),
-                    onMouseLeave: () => setActiveDropdown(null),
-                    children: item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                      href: dropdownItem.link,
-                      className: "block px-4 py-2 text-sm text-[#00903b] hover:bg-[#7dbb5c]",
-                      children: dropdownItem.name
-                    }, dropdownIndex))
                   })]
                 }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: item.link,
@@ -991,7 +997,7 @@ function NavbarComponent() {
                 })]
               }), activeDropdown === item.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                 className: "pl-4 py-2 space-y-1",
-                children: item.isMultiColumn ? item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                   className: "mb-2",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                     className: "px-3 py-1 font-medium text-sm",
@@ -1001,11 +1007,7 @@ function NavbarComponent() {
                     className: "block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1",
                     children: subItem.name
                   }, subIndex))]
-                }, colIndex)) : item.dropdownItems.map((dropdownItem, dropdownIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                  href: dropdownItem.link,
-                  className: "block px-3 py-2 rounded-md text-white bg-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200",
-                  children: dropdownItem.name
-                }, dropdownIndex))
+                }, colIndex))
               })]
             }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
               href: item.link,
