@@ -27,7 +27,7 @@ if (document.querySelector("#footer-root")) {
 }
 
 // Mount the inicio component
-if (document.querySelector("#inicio-root")) {
+/* if (document.querySelector("#inicio-root")) {
   const inicioRoot = ReactDOM.createRoot(document.querySelector("#inicio-root"))
   inicioRoot.render(<InicioComponent />)
-}
+} */

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/* import React, { useState, useEffect } from "react";
 import { __ } from '@wordpress/i18n';
 
 const InicioComponent = () => {
@@ -41,7 +41,7 @@ const InicioComponent = () => {
     
     return (
         <div className="min-h-screen bg-gray-50">
-            {/* Hero Section */}
+            {/* Hero Section }
             <div 
                 className="relative py-32 px-4 sm:px-6 lg:px-8 bg-cover bg-center"
                 style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${heroData.backgroundImage})` }}
@@ -61,7 +61,7 @@ const InicioComponent = () => {
                     </a>
                 </div>
                 
-                {/* Animated waves at bottom */}
+                {/* Animated waves at bottom }
                 <div className="absolute bottom-0 left-0 right-0">
                     <svg viewBox="0 0 1440 120" className="w-full h-16 md:h-24">
                         <path 
@@ -72,7 +72,7 @@ const InicioComponent = () => {
                 </div>
             </div>
             
-            {/* Stats Section */}
+            {/* Stats Section }
             <div className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
@@ -100,7 +100,7 @@ const InicioComponent = () => {
                 </div>
             </div>
             
-            {/* Latest News Section */}
+            {/* Latest News Section }
             <div className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
@@ -174,7 +174,7 @@ const InicioComponent = () => {
                 </div>
             </div>
             
-            {/* CTA Section */}
+            {/* CTA Section }
             <div className="bg-green-700">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
@@ -233,4 +233,4 @@ const StatIcon = ({ icon }) => {
     }
 };
 
-export default InicioComponent;
+export default InicioComponent; */

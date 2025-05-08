@@ -6,72 +6,329 @@
 
 get_header(); ?>
 
-<div id="inicio-root"></div>
+<div class="inicio-page">
+    <!-- Hero Section -->
+    <section class="relative py-24 overflow-hidden">
+        <!-- Gradient Background -->
+        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+        </div>
+        
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
+        
+        <!-- Content -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
+                    Secretaría de Recursos Naturales y Ambiente
+                </h1>
+                <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
+                    Trabajando por un Honduras más verde y sostenible para las generaciones futuras
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                        Conócenos
+                    </a>
+                    <a href="#" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#00903b] transition-colors duration-300">
+                        Nuestros Servicios
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wave Background -->
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
+                <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
 
-<?php
-// Enqueue specific scripts for this template
-function enqueue_inicio_scripts() {
-    wp_enqueue_script(
-        'inicio-react-app',
-        get_template_directory_uri() . '/build/inicio.js',
-        array('wp-element', 'react-jsx-runtime'),
-        filemtime(get_template_directory_path() . '/build/inicio.js'),
-        true
-    );
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Featured Services Section -->
+        <section class="mb-24">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#00903b] mb-4">Nuestros Servicios</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Ofrecemos una variedad de servicios para proteger y gestionar los recursos naturales de Honduras
+                </p>
+                <div class="mt-6">
+                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                    <div class="h-48 bg-[#00903b] flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Licencias Ambientales</h3>
+                        <p class="text-gray-600 mb-4">
+                            Proceso de evaluación y aprobación de proyectos para garantizar el cumplimiento de normas ambientales.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Más información
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                    <div class="h-48 bg-[#5ca54c] flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Gestión Forestal</h3>
+                        <p class="text-gray-600 mb-4">
+                            Planificación y control del uso sostenible de los recursos forestales del país.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Más información
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                    <div class="h-48 bg-[#7dbb5c] flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Protección del Agua</h3>
+                        <p class="text-gray-600 mb-4">
+                            Programas para la conservación y uso racional de los recursos hídricos nacionales.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Más información
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Us Section -->
+        <section class="mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-[#00903b] mb-6">Sobre Nosotros</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        La Secretaría de Recursos Naturales y Ambiente (SERNA) es la institución rectora en materia ambiental en Honduras, 
+                        encargada de formular, coordinar y ejecutar las políticas nacionales de protección, conservación y uso sostenible 
+                        de los recursos naturales y del ambiente.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Nuestra misión es garantizar que el desarrollo económico y social del país se realice en armonía con la naturaleza, 
+                        promoviendo la participación ciudadana y el cumplimiento de la legislación ambiental.
+                    </p>
+                    <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300 inline-flex items-center">
+                        Conoce más sobre nosotros
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="relative">
+                    <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-16 aspect-h-9">
+                        <img src="https://via.placeholder.com/800x500/87cede/ffffff?text=SERNA+Honduras" alt="SERNA Honduras" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
+                        <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
+                        <p class="text-gray-600 text-sm">
+                            Ser la institución líder en la gestión ambiental, reconocida por su contribución al desarrollo sostenible de Honduras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- News & Updates Section -->
+        <section class="mb-24">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#00903b] mb-4">Noticias y Actualizaciones</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales
+                </p>
+                <div class="mt-6">
+                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- News Card 1 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300/00903b/ffffff?text=Proyecto+Reforestación" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Noticia</span>
+                            <span>15 Junio 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Lanzamiento de programa nacional de reforestación</h3>
+                        <p class="text-gray-600 mb-4">
+                            Iniciativa busca plantar 1 millón de árboles en áreas degradadas del país durante el próximo año.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- News Card 2 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300/5ca54c/ffffff?text=Taller+Ambiental" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Evento</span>
+                            <span>28 Mayo 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Taller de educación ambiental para docentes</h3>
+                        <p class="text-gray-600 mb-4">
+                            Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- News Card 3 -->
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300/7dbb5c/ffffff?text=Convenio+Internacional" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
+                            <span>10 Mayo 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Firma de convenio con organización internacional</h3>
+                        <p class="text-gray-600 mb-4">
+                            Acuerdo para fortalecer las capacidades técnicas en monitoreo de calidad del aire en ciudades principales.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
+                    Ver todas las noticias
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Stats Section -->
+        <section class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 mb-24 text-white">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <!-- Stat 1 -->
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">25+</div>
+                    <div class="text-lg">Años de experiencia</div>
+                </div>
+                
+                <!-- Stat 2 -->
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">500+</div>
+                    <div class="text-lg">Proyectos ejecutados</div>
+                </div>
+                
+                <!-- Stat 3 -->
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">1M+</div>
+                    <div class="text-lg">Árboles plantados</div>
+                </div>
+                
+                <!-- Stat 4 -->
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">18</div>
+                    <div class="text-lg">Áreas protegidas</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action -->
+        <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
+            <h2 class="text-3xl font-bold text-[#00903b] mb-6">¿Cómo puedes contribuir?</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+                    Voluntariado
+                </a>
+                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300">
+                    Denuncias Ambientales
+                </a>
+                <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    Programas Educativos
+                </a>
+            </div>
+        </section>
+    </div>
+</div>
+
+<style>
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
     
-    // Localize data for React
-    wp_localize_script('inicio-react-app', 'inicioData', array(
-        'rest_url' => esc_url(rest_url()),
-        'nonce' => wp_create_nonce('wp_rest'),
-        'latest_posts' => get_latest_posts_data(),
-        'stats_data' => get_stats_data()
-    ));
-}
-add_action('wp_enqueue_scripts', 'enqueue_inicio_scripts', 20);
-
-// Helper function to get latest posts data
-function get_latest_posts_data() {
-    $posts = get_posts(array(
-        'numberposts' => 3,
-        'post_status' => 'publish'
-    ));
+    .animate-gradient {
+        background-size: 200% 200%;
+        animation: gradient 5s ease infinite;
+    }
     
-    return array_map(function($post) {
-        return array(
-            'title' => $post->post_title,
-            'excerpt' => wp_trim_words($post->post_content, 20),
-            'date' => get_the_date('', $post),
-            'link' => get_permalink($post),
-            'image' => get_the_post_thumbnail_url($post, 'medium_large')
-        );
-    }, $posts);
-}
-
-// Helper function to get statistics data
-function get_stats_data() {
-    return array(
-        array(
-            'value' => '500+',
-            'label' => 'Clientes satisfechos',
-            'icon' => 'users'
-        ),
-        array(
-            'value' => '50+',
-            'label' => 'Proyectos completados',
-            'icon' => 'briefcase'
-        ),
-        array(
-            'value' => '10+',
-            'label' => 'Años de experiencia',
-            'icon' => 'award'
-        ),
-        array(
-            'value' => '24/7',
-            'label' => 'Soporte disponible',
-            'icon' => 'headset'
-        )
-    );
-}
-?>
+    .shadow-custom {
+        box-shadow: 0 10px 15px -3px rgba(0, 144, 59, 0.1), 0 4px 6px -2px rgba(0, 144, 59, 0.05);
+    }
+</style>
 
 <?php get_footer(); ?>
