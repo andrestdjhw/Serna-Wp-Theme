@@ -29,13 +29,13 @@ get_header(); ?>
                     Secretaría de Recursos Naturales y Ambiente
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    Trabajando por un Honduras más verde y sostenible para las generaciones futuras
+                    <cite>Al servicio del pueblo y por la recuperacion de la soberania de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
                     <a href="#" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                         Conócenos
                     </a>
-                    <a href="#" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#00903b] transition-colors duration-300">
+                    <a href="#" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
                         Nuestros Servicios
                     </a>
                 </div>
@@ -180,17 +180,17 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- News Card 1 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://via.placeholder.com/400x300/00903b/ffffff?text=Proyecto+Reforestación" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    <div class="h-55 overflow-hidden">
+                        <img src="https://serna.gob.hn/wp-content/uploads/2024/09/IMG_9592-1.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
                             <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Noticia</span>
-                            <span>15 Junio 2023</span>
+                            <span>22 Enero 2024</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Lanzamiento de programa nacional de reforestación</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Proyecto AdaptarC</h3>
                         <p class="text-gray-600 mb-4">
-                            Iniciativa busca plantar 1 millón de árboles en áreas degradadas del país durante el próximo año.
+                            Impulsa el desarrollo de productores y emprendedores.
                         </p>
                         <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Leer más
@@ -203,15 +203,15 @@ get_header(); ?>
                 
                 <!-- News Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://via.placeholder.com/400x300/5ca54c/ffffff?text=Taller+Ambiental" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    <div class="h-55 overflow-hidden">
+                        <img src="https://serna.gob.hn/wp-content/uploads/2023/11/Cafe-Hondureno.jpg" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
                             <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Evento</span>
                             <span>28 Mayo 2023</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Taller de educación ambiental para docentes</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Cafe Hondureño destaca en Shanghai</h3>
                         <p class="text-gray-600 mb-4">
                             Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
                         </p>
@@ -226,15 +226,15 @@ get_header(); ?>
                 
                 <!-- News Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://via.placeholder.com/400x300/7dbb5c/ffffff?text=Convenio+Internacional" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    <div class="h-55 overflow-hidden">
+                        <img src="https://serna.gob.hn/wp-content/uploads/2023/11/PORTADA.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
                             <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
-                            <span>10 Mayo 2023</span>
+                            <span>06 Noviembre 2023</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Firma de convenio con organización internacional</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Campaña de prevencion de incendios 2024</h3>
                         <p class="text-gray-600 mb-4">
                             Acuerdo para fortalecer las capacidades técnicas en monitoreo de calidad del aire en ciudades principales.
                         </p>
@@ -263,20 +263,20 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <!-- Stat 1 -->
                 <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">25+</div>
-                    <div class="text-lg">Años de experiencia</div>
+                    <div class="text-4xl font-bold mb-2">1,650,000+</div>
+                    <div class="text-lg">Libras de lirio recogido</div>
                 </div>
                 
                 <!-- Stat 2 -->
                 <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">500+</div>
-                    <div class="text-lg">Proyectos ejecutados</div>
+                    <div class="text-4xl font-bold mb-2">55,000+</div>
+                    <div class="text-lg">Hectareas recuperadas con PPAT y Plan 0 Deforestacion</div>
                 </div>
                 
                 <!-- Stat 3 -->
                 <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">1M+</div>
-                    <div class="text-lg">Árboles plantados</div>
+                    <div class="text-4xl font-bold mb-2">150</div>
+                    <div class="text-lg">Microcuencas intervenidas a nivel nacional.</div>
                 </div>
                 
                 <!-- Stat 4 -->
@@ -297,7 +297,7 @@ get_header(); ?>
                 <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
                     Voluntariado
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300">
+                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
                     Denuncias Ambientales
                 </a>
                 <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">

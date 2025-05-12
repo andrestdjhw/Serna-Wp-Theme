@@ -161,7 +161,7 @@ function FooterComponent() {
         </div>
         
         {/* Copyright: Derechos de autor */}
-        <div className="mt-12 pt-6 border-t border-white/20 text-center text-sm">
+        <div className="mt-12 pt-6 border-t border-white/20 text-center text-base">
           <p>&copy; {new Date().getFullYear()} SERNA - Secretaría de Recursos Naturales y Ambiente. Todos los derechos reservados.</p>
         </div>
       </div>

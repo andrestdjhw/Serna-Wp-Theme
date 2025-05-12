@@ -291,7 +291,7 @@ function FooterComponent() {
           })]
         }, index))]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "mt-12 pt-6 border-t border-white/20 text-center text-sm",
+        className: "mt-12 pt-6 border-t border-white/20 text-center text-base",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
           children: ["\xA9 ", new Date().getFullYear(), " SERNA - Secretar\xEDa de Recursos Naturales y Ambiente. Todos los derechos reservados."]
         })
