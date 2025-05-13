@@ -179,7 +179,7 @@ get_header(); ?>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- News Card 1 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="https://serna.gob.hn/wp-content/uploads/2024/09/IMG_9592-1.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -327,7 +327,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(0, 144, 59, 0.1), 0 4px 6px -2px rgba(0, 144, 59, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 </style>
 
