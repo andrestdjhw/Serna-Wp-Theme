@@ -68,18 +68,18 @@ get_header(); ?>
         
         <!-- FAQ Categories -->
         <div class="mb-16">
-            <h2 class="text-3xl font-bold text-center text-[#00903b] mb-8 mt-8">Categorías</h2>
+            <!-- <h2 class="text-3xl font-bold text-center text-[#00903b] mb-8 mt-8">Categorías</h2> -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <button class="faq-category-btn px-4 py-3 bg-white rounded-lg shadow-custom hover:bg-[#87cede] hover:text-white transition-colors duration-300 font-medium" data-category="all">
+                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="all">
                     Todas
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-white rounded-lg shadow-custom hover:bg-[#87cede] hover:text-white transition-colors duration-300 font-medium" data-category="licencias">
+                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="licencias">
                     Licencias Ambientales
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-white rounded-lg shadow-custom hover:bg-[#87cede] hover:text-white transition-colors duration-300 font-medium" data-category="tramites">
+                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="tramites">
                     Trámites
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-white rounded-lg shadow-custom hover:bg-[#87cede] hover:text-white transition-colors duration-300 font-medium" data-category="servicios">
+                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="servicios">
                     Servicios
                 </button>
             </div>
@@ -93,26 +93,41 @@ get_header(); ?>
                 <!-- FAQ Item 1 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Qué es una licencia ambiental y quién la necesita?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Qué es una licencia ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                     </button>
                     <div class="faq-answer hidden px-6 pb-6">
                         <div class="prose max-w-none text-gray-700">
-                            <p>Una licencia ambiental es un documento oficial emitido por la SERNA que autoriza la ejecución de proyectos, obras o actividades que puedan generar impactos ambientales significativos. Es requerida por personas naturales o jurídicas que planean desarrollar actividades como:</p>
-                            <ul>
+                            <p>Una licencia ambiental es un documento otorgado por la autoridad competente que autoriza a una entidad o individuo para llevar a cabo actividades que puedan tener impacto en el medio ambiente. Su objetivo principal es asegurar que dichas actividades se realicen de manera sostenible y respetando las leyes y regulaciones ambientales</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
+                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Quien necesita una licencia ambiental?</h3>
+                        <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6">
+                        <div class="prose max-w-none text-gray-700">
+                            <p><strong>Todo proyecto o actividad que causa un impacto ambiental como:</strong></p>
+                            <ul class="list-inside">
                                 <li>Proyectos de construcción de infraestructura</li>
                                 <li>Actividades industriales o manufactureras</li>
                                 <li>Proyectos agrícolas o ganaderos a gran escala</li>
                                 <li>Actividades mineras o extractivas</li>
                                 <li>Proyectos turísticos</li>
+                                <li>...</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 
-                <!-- FAQ Item 2 -->
+                <!-- FAQ Item 3 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
                         <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Cuál es el proceso para obtener una licencia ambiental?</h3>
@@ -146,15 +161,26 @@ get_header(); ?>
                     <div class="faq-answer hidden px-6 pb-6">
                         <div class="prose max-w-none text-gray-700">
                             <p>Los documentos básicos requeridos para la mayoría de trámites ambientales incluyen:</p>
-                            <ul>
-                                <li>Solicitud debidamente llenada (formulario proporcionado por SERNA)</li>
-                                <li>Copia de identificación del solicitante (RTN para personas jurídicas)</li>
-                                <li>Croquis de ubicación del proyecto</li>
-                                <li>Descripción detallada de la actividad o proyecto</li>
-                                <li>Para renovaciones: copia de la licencia ambiental anterior</li>
-                                <li>Pago de tasas correspondientes</li>
+                            <ul class="list-inside">
+                                <li>Reporte oficial del sistema de Licenciamiento Ambiental.</li>
+                                <li>Escrito de solicitud de Licencia Ambiental.</li>
+                                <li>Carta Poder o Poder General para Pleitos, Autenticado.</li>
+                                <li>Medidas de control ambiental, emitidas por el Sistema de Licenciamiento Ambiental (SLAS).</li>
+                                <li>Fotocopia del RTN de la empresa, Autenticada.</li>
+                                <li>Declaracion jurada del representante legal de la sociedad mercantil.</li>
+                                <li>Declaracion jurada del prestador de servicio ambientales debidamente autenticada.</li>
+                                <li>Titulo de propiedad debidamente timbrado y registrado/Contrato de arrendamiento o cualquier otro titulo traslaticio de dominio, del lugar a desarrollar el proyecto.</li>
+                                <li>Escritura de constitucion de sociedad, comerciante individual o Persona Juridica(En caso de sociedad mercantil extranjera, los documentos deberan estar debidamente apostillados A ley).</li>
+                                <li>Informe de validacion del prestador de servicios ambientales.</li>
+                                <li>Recibo original de pago por inspeccion a favor de fondo rotatorio DECA-Cuenta #02001-000131-0, BANADESA.</li>
+                                <li>Garantia bancaria original, vigente por un año.</li>
+                                <li>Publicacion del aviso de presentación de la solicitud, en un octavo de pagina en un diario de mayor circulacion, acreditar pagina completa del periodico. </li>
+                                <li>Herramienta tecnica de acuerdo A la categoria del Proyecto: Memoria Tecnica, Plan de gestion ambiental, Estudio de impacto ambiental; (Documentación categoria 4; Socializacion y aprobacion de Acta de cabildo abierto con fotografias listados, Publicacion de avisos de inicio Y finalizacion del estudio de impacto ambiental, Spot Publicitarios durante 5 dias en Radios Locales y Nacionales, Constancia de INGHEOMIN y para Camaricultores Constancia de la SAG).</li>
+                                <li>Recibo T.G.R. Por el monto de inversion de Licenciamiento Ambiental</li>
                             </ul>
-                            <p class="mt-4 text-sm text-gray-500">* Los requisitos específicos pueden variar según el tipo de trámite. Consulte con nuestro personal para información detallada.</p>
+                            <p class="mt-4 text-sm text-gray-500">* Las revisiones se haran con el expediente en forma fisica y en la plataforma SLAS-2, La documentación debera estar completa, para ser revisada por Secretaría General.</p>
+                            <p class="mt-4 text-sm text-gray-500">* El recibo T.G.R. 1. Por el monto de inversion de Licenciamiento Ambiental debera ser cancelado en un periodo no mayor a 10 dias A partir de estar completa la Verificacion fisica y digital de la documentacion Tecnica y Legal.</p>
+                            <p class="mt-4 text-sm text-gray-500">* El plazo maximo para la presentación del aviso del periodico son 5 dias a partir de su publicacion.</p>
                         </div>
                     </div>
                 </div>
@@ -173,7 +199,7 @@ get_header(); ?>
                             <ol>
                                 <li><strong>En línea:</strong> A través de nuestro sistema SLAS (Sistema de Licenciamiento Ambiental en Línea) ingresando con su número de expediente.</li>
                                 <li><strong>Por teléfono:</strong> Llamando al (+504) 2232-9200 en horario de atención.</li>
-                                <li><strong>Presencialmente:</strong> En nuestras oficinas centrales en Tegucigalpa o en las oficinas regionales.</li>
+                                <li><strong>Presencialmente:</strong> En nuestras oficinas centrales SERNA, Edificio Santa Fe, Colonia Castaño Sur, Tegucigalpa..</li>
                                 <li><strong>Por correo electrónico:</strong> Enviando un mensaje a info@serna.gob.hn con su número de expediente.</li>
                             </ol>
                             <p class="mt-4">Para consultas en línea, visite: <a href="https://serna.gob.hn/slas" class="text-[#7dbb5c] hover:underline">https://serna.gob.hn/slas</a></p>
@@ -194,7 +220,6 @@ get_header(); ?>
                             <p>Nuestros horarios de atención al público son:</p>
                             <ul>
                                 <li><strong>Oficinas Centrales (Tegucigalpa):</strong> Lunes a Viernes de 7:30 AM a 3:30 PM</li>
-                                <li><strong>Oficinas Regionales:</strong> Lunes a Viernes de 8:00 AM a 4:00 PM</li>
                                 <li><strong>Atención telefónica:</strong> Lunes a Viernes de 7:30 AM a 3:30 PM</li>
                             </ul>
                             <p class="mt-4">* Los horarios pueden variar en días feriados oficiales. Consulte nuestro calendario de atención en días festivos en la sección de noticias.</p>
@@ -270,6 +295,10 @@ get_header(); ?>
     
     .faq-item.active .faq-question svg {
         transform: rotate(180deg);
+    }
+
+    .list-inside{
+        list-style-type: circle;
     }
 </style>
 
