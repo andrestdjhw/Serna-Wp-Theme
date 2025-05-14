@@ -112,17 +112,17 @@ get_header(); ?>
                 <div class="bg-white rounded-lg shadow-custom p-8 mt-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Síguenos</h2>
                     <div class="flex space-x-4">
-                        <a href="#" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
+                        <a href="https://www.facebook.com/sernaHN/?locale=es_LA" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
+                        <a href="https://x.com/sernaHN" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
+                        <a href="https://www.instagram.com/sernahn?igsh=MWtqbzlqeXo1amxsMQ==" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
-                            <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.tiktok.com/@sernahn?_t=ZM-8wLr9KveuyE&_r=1" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
+                            <i class="fab fa-tiktok"></i>
                         </a>
                     </div>
                 </div>
@@ -216,9 +216,18 @@ get_header(); ?>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
                     <!-- Aqui va el frame del mapa de Google -->
-                    <div class="bg-gray-200 flex items-center justify-center" style="height: 400px;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1707.8792146428075!2d-87.18747288964083!3d14.097344497602379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2shn!4v1747232723012!5m2!1ses-419!2shn" 
+                        width="100%" 
+                        height="600" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <!-- <div class="bg-gray-200 flex items-center justify-center" style="height: 400px;">
                         <p class="text-gray-600">Mapa de ubicación</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

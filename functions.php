@@ -42,3 +42,11 @@ function boilerplate_add_support() {
 }
 
 add_action('after_setup_theme', 'boilerplate_add_support');
+
+function cargar_font_awesome() {
+  wp_enqueue_style(
+      'font-awesome',
+      get_template_directory_uri() . '/node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+  );
+}
+add_action('wp_enqueue_scripts', 'cargar_font_awesome');
