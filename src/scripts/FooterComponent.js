@@ -3,11 +3,11 @@ import React from "react";
 function FooterComponent() {
   // Arreglo para los enlaces de redes sociales, con sus iconos
   const socialLinks = [
-    { name: "Facebook", icon: "facebook", url: "#" },
-    { name: "Twitter", icon: "twitter", url: "#" },
-    { name: "Instagram", icon: "instagram", url: "#" },
-    { name: "TikTok", icon: "tiktok", url: "#" },
-    { name: "YouTube", icon: "youtube", url: "#" },
+    { name: "Facebook", icon: "facebook", url: "https://www.facebook.com/sernaHN/?locale=es_LA" },
+    { name: "Twitter", icon: "twitter", url: "https://x.com/sernaHN" },
+    { name: "Instagram", icon: "instagram", url: "https://www.instagram.com/sernahn?igsh=MWtqbzlqeXo1amxsMQ==" },
+    { name: "TikTok", icon: "tiktok", url: "https://www.tiktok.com/@sernahn?_t=ZM-8wLr9KveuyE&_r=1" },
+    { name: "YouTube", icon: "youtube", url: "https://www.youtube.com/@sernahn-gob" },
   ];
 
   // Columnas del Footer y Estructura de datos
