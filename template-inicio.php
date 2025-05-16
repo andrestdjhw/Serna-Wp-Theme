@@ -138,13 +138,10 @@ get_header(); ?>
                 <div>
                     <h2 class="text-3xl font-bold text-[#00903b] mb-6">Sobre Nosotros</h2>
                     <p class="text-gray-600 mb-6 leading-relaxed">
-                        La Secretaría de Recursos Naturales y Ambiente (SERNA) es la institución rectora en materia ambiental en Honduras, 
-                        encargada de formular, coordinar y ejecutar las políticas nacionales de protección, conservación y uso sostenible 
-                        de los recursos naturales y del ambiente.
+                        SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
-                        Nuestra misión es garantizar que el desarrollo económico y social del país se realice en armonía con la naturaleza, 
-                        promoviendo la participación ciudadana y el cumplimiento de la legislación ambiental.
+                    La misión de SERNA es impulsar el desarrollo sostenible de Honduras mediante la formulación, coordinación, ejecución y evaluación de políticas públicas orientadas a la preservación de los recursos naturales y la conservación del ambiente, para mejorar la calidad de vida de sus habitantes, actuando con honestidad, responsabilidad, compromiso, eficiencia y transparencia.
                     </p>
                     <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300 inline-flex items-center">
                         Conoce más sobre nosotros
@@ -160,7 +157,7 @@ get_header(); ?>
                     <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
                         <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
                         <p class="text-gray-600 text-sm">
-                            Ser la institución líder en la gestión ambiental, reconocida por su contribución al desarrollo sostenible de Honduras.
+                            La visión de SERNA es ser una institución que promueva a nivel nacional una gestión eficiente de los recursos naturales y el ambiente, participando activamente en labores de protección ambiental, promoviendo acciones públicas y privadas para preservar los recursos naturales, y ofreciendo información ambiental oportuna para apoyar la toma de decisiones en el sector.
                         </p>
                     </div>
                 </div>

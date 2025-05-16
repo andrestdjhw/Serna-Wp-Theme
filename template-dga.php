@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="cescco-page">
+<div class="dga-page">
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
