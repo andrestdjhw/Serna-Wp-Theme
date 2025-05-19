@@ -29,7 +29,7 @@ get_header(); ?>
                     Direccion General de Recursos Hidricos
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    
+                    Gestión sostenible de los recursos hídricos para un futuro mejor
                 </p>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -42,6 +42,47 @@ get_header(); ?>
             <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
                 <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
             </svg>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]">Logros Recientes</h2> 
+            <!-- Timeline Container -->
+            <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 rounded shadow">
+                <!-- Vertical Line -->
+                 <div class="border-l-2 border-gray-300 ml-20 mr-20 pl-4">
+                    <div class="relative mb-4">
+                        <div class="bg-white p-4 rounded shadow">
+                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
+                            <p class="text-left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
+                            </p>
+                        </div>
+                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
+                </div>
+                    <div class="relative mb-4">
+                        <div class="bg-white p-4 rounded shadow">
+                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
+                            <p class="text-left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
+                            </p>
+                        </div>
+                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
+                </div>
+                    <div class="relative mb-4">
+                        <div class="bg-white p-4 rounded shadow">
+                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
+                            <p class="text-left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
+                            </p>
+                        </div>
+                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
+                </div>
+
+                </div>
+            </div>
         </div>
     </section>
 </div>
