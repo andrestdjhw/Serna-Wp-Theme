@@ -47,40 +47,160 @@ get_header(); ?>
 
     <!-- Timeline Section -->
     <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]">Logros Recientes</h2> 
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-2">
+                <h2 class="text-3xl font-bold text-[#00903b]">Logros Recientes</h2>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+            </div>
+            
             <!-- Timeline Container -->
-            <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 rounded shadow">
+            <div class="relative">
                 <!-- Vertical Line -->
-                 <div class="border-l-2 border-gray-300 ml-20 mr-20 pl-4">
-                    <div class="relative mb-4">
-                        <div class="bg-white p-4 rounded shadow">
-                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
-                            <p class="text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
-                            </p>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                
+                <!-- Timeline Items Container -->
+                <div class="space-y-12">
+                    <!-- Timeline Item 1 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#00903b] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">1</span>
+                            </div>
                         </div>
-                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
-                </div>
-                    <div class="relative mb-4">
-                        <div class="bg-white p-4 rounded shadow">
-                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
-                            <p class="text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
-                            </p>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Cuatro (4) planes de acción Hídrica</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <p class="text-gray-600">
+                                    De las cuencas priorizadas del corredor seco: Choluteca, Goascorán, Sampile, Nacaome.
+                                </p>
+                            </div>
                         </div>
-                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
-                </div>
-                    <div class="relative mb-4">
-                        <div class="bg-white p-4 rounded shadow">
-                            <h2 class="text-xl font-semibold text-gray-700">Titulo del evento</h2>
-                            <p class="text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta dolore ut natus quia dolor quaerat, beatae officia iusto dolorem sequi reprehenderit quas dolores, inventore sunt voluptas corrupti, placeat iste!
-                            </p>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">2</span>
+                            </div>
                         </div>
-                    <div class="absolute w-4 h-4 bg-linear-to-t from-[#7dbb5c] to-[#00903b] rounded-full -left-2 top-2"></div>
-                </div>
-
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Veinticinco Planes de acción Hídrica</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <p class="text-gray-600">
+                                    A las microcuencas que conforman la Cuenca Goascorán.
+                                </p>
+                                <div class="mt-4">
+                                    <a href="https://corredorseco.ihcantabria.com/" class="text-[#5ca54c] inline-flex items-center hover:underline">
+                                        ¡Ver aqui! 
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 3 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">3</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Reconocidos 30 Consejos de Microcuencas y 5 Consejos de Subcuencas </h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <p class="text-gray-600">
+                                    Para la gestión de la gobernanza hídrica en su ámbito territorial con resoluciones administrativas otorgadas por SERNA.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 4 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#00903b] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">4</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Fortalecimiento de la Gobernanza Hídrica</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <p class="text-gray-600">
+                                    A través de la conformación de 119 Organismos de cuenca a nivel de cuenca, microcuenca y subcuenca.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 5 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">5</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">110 estaciones Hidrometeorológicas</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <p class="text-gray-600">
+                                    Distribuidas en 16 cuencas en el país generando información para la toma de decisiones en alerta temprana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 6 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">6</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Plataforma Agua de Honduras:</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <p class="text-gray-600">
+                                    Plataforma de información sobre el recurso hídrico de fácil acceso y públicamente disponible en la web:
+                                </p>
+                                <p class="text-gray-600">
+                                Ofrece gratuitamente información obtenida de análisis hidrológicos y los combina con información de escenarios sobre el clima presente y futuro, coberturas vegetales y demanda hídrica.
+                                </p>
+                                <div class="mt-4">
+                                    <a href="https://aguadehonduras.gob.hn/" class="text-[#5ca54c] inline-flex items-center hover:underline">
+                                        ¡Ver aqui! 
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
