@@ -52,7 +52,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">Nuestra Historia</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
@@ -66,7 +66,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-[#00903b] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/04/SERNA-Blanco-227x300.png" alt="Historia de SERNA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/04/SERNA-Blanco-768x1017.png" alt="Historia de SERNA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ get_header(); ?>
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 mt-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4">Nuestros Pilares Fundamentales</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestros Pilares Fundamentales</span></h2>
                 <div class="h-1 w-20 bg-[#87cede] mx-auto"></div>
             </div>
             
@@ -117,10 +117,10 @@ get_header(); ?>
     </section>
 
     <!-- Values Section -->
-    <section class="py-20 bg-[#00903b] bg-opacity-10 mt-8 mb-8">
+    <section class="py-20 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] mt-8 mb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4">Nuestros Valores</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Nuestros Valores</h2>
                 <div class="h-1 w-20 bg-[#87cede] mx-auto"></div>
                 <p class="text-xl text-white mt-6 max-w-3xl mx-auto">
                     Los principios que guían nuestro trabajo diario y nuestra relación con la ciudadanía
@@ -181,7 +181,7 @@ get_header(); ?>
                 </div>
                 
                 <!-- Transparencia -->
-                <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center mb-8">
+                <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
                     <div class="bg-[#00903b] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
@@ -189,7 +189,7 @@ get_header(); ?>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Transparencia</h3>
                     <p class="text-gray-600">
-                        Garantizamos el acceso a la información y rendimos cuentas de nuestras acciones.
+                        Garantizamos el acceso a la información y rendimos cuentas de nuestras acciones.                        
                     </p>
                 </div>
             </div>

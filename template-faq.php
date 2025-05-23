@@ -87,7 +87,7 @@ get_header(); ?>
         
         <!-- FAQ Accordion -->
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-[#00903b] mb-12 mt-12">Preguntas y Respuestas</h2>
+            <h2 class="text-3xl font-bold text-center text-[#00903b] mb-12 mt-12"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Preguntas y Respuestas</span></h2>
             
             <div class="space-y-4" id="faq-accordion">
                 <!-- FAQ Item 1 -->

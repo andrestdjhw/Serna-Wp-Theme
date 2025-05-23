@@ -55,7 +55,7 @@ get_header(); ?>
         <!-- Featured Services Section -->
         <section class="mb-24">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#00903b] mb-4">Nuestros Servicios</h2>
+                <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestros Servicios</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Ofrecemos una variedad de servicios para proteger y gestionar los recursos naturales de Honduras
                 </p>
@@ -136,7 +136,7 @@ get_header(); ?>
         <section class="mb-24">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 class="text-3xl font-bold text-[#00903b] mb-6">Sobre Nosotros</h2>
+                    <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
                     </p>
@@ -167,7 +167,7 @@ get_header(); ?>
         <!-- News & Updates Section -->
         <section class="mb-24">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#00903b] mb-4">Noticias y Actualizaciones</h2>
+                <h2 class="text-3xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Noticias y Actualizaciones</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales
                 </p>
@@ -288,7 +288,7 @@ get_header(); ?>
         
         <!-- Call to Action -->
         <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-            <h2 class="text-3xl font-bold text-[#00903b] mb-6">¿Cómo puedes contribuir?</h2>
+            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">¿Cómo puedes contribuir?</span></h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
                 Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
             </p>

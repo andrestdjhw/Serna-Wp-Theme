@@ -51,7 +51,7 @@ get_header(); ?>
             <!-- Informacion de Contacto -->
             <div class="md:col-span-1">
                 <div class="bg-white rounded-lg shadow-custom p-8">
-                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Información de Contacto</h2>
+                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Información de Contacto</span></h2>
                     
                     <!-- Correo Electronico -->
                     <div class="flex items-start mb-6">
@@ -110,7 +110,7 @@ get_header(); ?>
                 
                 <!-- Enlaces Redes Sociales -->
                 <div class="bg-white rounded-lg shadow-custom p-8 mt-8">
-                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Síguenos</h2>
+                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Síguenos</span></h2>
                     <div class="flex space-x-4">
                         <a href="https://www.facebook.com/sernaHN/?locale=es_LA" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
                             <i class="fab fa-facebook-f"></i>
@@ -131,7 +131,7 @@ get_header(); ?>
             <!-- Formulario de Contacto -->
             <div class="md:col-span-2">
                 <div class="bg-white rounded-lg shadow-custom p-8">
-                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]">Envíanos un mensaje</h2>
+                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Envíanos un mensaje</span></h2>
                     <form id="contact-form" class="space-y-6">
                         <?php wp_nonce_field('contact_form_nonce', 'contact_nonce'); ?>
                         
@@ -212,7 +212,7 @@ get_header(); ?>
         
         <!-- Seccion para mapa de Google -->
         <section class="mt-24">
-            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]">Encuéntranos aquí</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Encuéntranos aquí</span></h2>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
                     <!-- Aqui va el frame del mapa de Google -->
