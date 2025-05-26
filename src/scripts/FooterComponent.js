@@ -16,8 +16,8 @@ function FooterComponent() {
       title: "Dirección",
       content: [
         "Despacho de Recursos Naturales y",
-        "Ambiente, 100 metros al Sur del",
-        "Estadio Nacional, Tegucigalpa",
+        "Ambiente, SERNA, ",
+        " Edificio Santa Fe, Colonia Castaño Sur, Tegucigalpa",
         "M.D.C., Honduras, C.A."
       ]
     },

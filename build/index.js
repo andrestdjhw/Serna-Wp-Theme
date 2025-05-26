@@ -116,7 +116,7 @@ function FooterComponent() {
   // Columnas del Footer y Estructura de datos
   const footerColumns = [{
     title: "Dirección",
-    content: ["Despacho de Recursos Naturales y", "Ambiente, 100 metros al Sur del", "Estadio Nacional, Tegucigalpa", "M.D.C., Honduras, C.A."]
+    content: ["Despacho de Recursos Naturales y", "Ambiente, SERNA, ", " Edificio Santa Fe, Colonia Castaño Sur, Tegucigalpa", "M.D.C., Honduras, C.A."]
   }, {
     title: "Contáctenos",
     content: ["Tel: (+504) 2232-9200", "Horario: 9:00 A.M. - 4:00 P.M."]
