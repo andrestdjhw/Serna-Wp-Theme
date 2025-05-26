@@ -44,6 +44,107 @@ get_header(); ?>
             </svg>
         </div>
     </section>
+    <!-- Timeline Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-2">
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+            </div>
+            
+            <!-- Timeline Container -->
+            <div class="relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                
+                <!-- Timeline Items Container -->
+                <div class="space-y-12">
+                    <!-- Timeline Item 1 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">1</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Brigadistas de equipos de respuesta a emergencias capacitados.</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <p class="text-gray-600">
+                                    Por medio de entrenamiento continúo en respuesta a emergencia de arrecife coralino y otras técnicas de restauración, para el Caribe de Honduras. Al momento de ocurrir un desastre en bahía de tela, islas de la bahía y callos cochinos hondureñas existe un equipo de respuestas que pueda ayudar en la recolección de fragmentos de oportunidades para evitar una mayor pérdida de los arrecifes después de la tormenta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">2</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Siembra de plántulas de mangle</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <p class="text-gray-600">
+                                    12,000 plántulas en 9 hectáreas en área protegida los delgaditos (Comunidad 3 de febrero, Marcovia), para ayudar en el proceso de restauración de la cobertura vegetal, así mismo generar un medio de ingresos para la comunidad con el apoyo financiero de JICA.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 3 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">3</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Establecimientos de viveros de moluscos de aprovechamiento sostenible</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <p class="text-gray-600">
+                                    Casco de burro 500 y curil 800 dentro de un año se empiece (comunidad 3 febrero, Marcovia). Iniciativa para diversificación de la economía por medio de un proyecto piloto donde presenta una alternativa en el cultivo de bivalvos a desarrollarse durante el presente año y generar una alternativa para la diversificación de la economía en el área con el apoyo financiero de JICA.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 4 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">4</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Reactivación formal de la mesa de monitoreo biológico y aprobación de plan de trabajo 2024</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <p class="text-gray-600">
+                                    Con el fin de homologar los procesos de monitoreo biológico para la determinación de toma de datos científicos relacionados al monitoreo biológico en el país.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <style>
