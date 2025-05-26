@@ -183,26 +183,20 @@ function NavbarComponent() {
   return (
     <>
       {/* Encabezado con logo y titulo */}
-      <header className="bg-white w-full border-b border-gray-200">
+      <header className="bg-[#333333] w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           {/*Emblema de Gobierno|Serna y titulos Centrados*/}
           <div className="flex flex-col items-center justify-center">
             <div className="flex items-center space-x-8">
               <img 
-                src="/wp-content/uploads/2025/04/Gobierno-Color-768x768.png" 
+                src="/wp-content/uploads/2025/05/SERNA-Extendido-Blanco-768x274.png" 
                 alt="Emblema de Honduras" 
                 className="h-18"
-              />
-              <div className="h-12 w-px bg-gray-300 mx-2"></div>
-              <img 
-                src="/wp-content/uploads/2025/04/SERNA-Color-768x1017.png" 
-                alt="Logo SERNA" 
-                className="h-18"
-              />
+              />   
             </div>
-            <h1 className="text-2xl font-bold text-[#87cede] mt-4 text-center">
+            {/* <h1 className="text-2xl font-bold text-[#87cede] mt-4 text-center">
               Secretaria de Recursos Naturales y Ambiente
-            </h1>
+            </h1> */}
           </div>
         </div>
       </header>
