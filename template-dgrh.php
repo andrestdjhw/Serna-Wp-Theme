@@ -45,6 +45,32 @@ get_header(); ?>
         </div>
     </section>
 
+    <!-- SERNA Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
+                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        La Direccion General de Recursos Hidricos (DGRH), fue creada por Decreto No. 716 del 28 de diciembre de 1978, es responsable de la gestion de los recursos hidricos, incluyendo su medicion, evaluacion y conservacion. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <strong>Su Mision: </strong>Es normar, regular, administrar, planificar, conservar y controlar los recursos hidricos, mediante la formulacion de politicas en torno del recurso, recoleccion y analisis de informacion hidroclimatica para la toma de decisiones oportunas que aseguren la calidad, cantidad y perpetuidad del agua en el tiempo.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Nuestra institución se ha convertido en un pilar fundamental para el desarrollo nacional, asegurando que los beneficios de nuestros recursos naturales lleguen a todos los ciudadanos.
+                    </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                        <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Timeline Section -->
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -205,6 +231,19 @@ get_header(); ?>
             </div>
         </div>
     </section>
+
+    <!-- Still Have Questions Section -->
+        <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+            <h2 class="text-3xl font-bold mb-6">Sigue el enlace de Agua de Honduras</h2>
+            <p class="text-xl mb-8">La plataforma Agua de Honduras es una iniciativa de innovacion que ofrece informacion confiable sobre el recurso hidrico de forma agil y gratuita.</p>
+            <a 
+                href="https://aguadehonduras.gob.hn/" 
+                class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+            >
+                ¡Haz click aqui!
+            </a>
+        </div>
+
 </div>
 
 <style>
