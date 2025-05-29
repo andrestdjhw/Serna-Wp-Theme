@@ -44,6 +44,33 @@ get_header(); ?>
             </svg>
         </div>
     </section>
+
+    <!-- DIBIO Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <strong>Descripcion: </strong>Cumplimiento de convenios internacionales como la convencion de humedales RAMSAR, protocolo la distribucion justa y equitativa de los recursos geneticos,
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Protocolo de Nagoya, Convencion sobre la Biodiversidad Biologica.
+                    </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                        <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Timeline Section -->
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
