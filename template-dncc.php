@@ -44,6 +44,30 @@ get_header(); ?>
             </svg>
         </div>
     </section>
+
+    <!-- DIBIO Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <strong>Descripcion: </strong>Es el ente tecnico especializado en cambio climatico y tiene por objetivo principal coordinar acciones orientadas a formular, actualizar y ejecutar las politicas, estrategias, planes y otros instrumentos nacionales en materia de cambio climatico; relativos al cumplimiento de los compromisos asumidos a traves de la suscripcion de la Convencion Marco de las Naciones Unidas sobre el Cambio Climatico (CMNUCC).
+                    </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                        <img src="/wp-content/uploads/2025/05/DNCC.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Timeline Section -->
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
