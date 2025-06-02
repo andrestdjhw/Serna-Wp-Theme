@@ -240,9 +240,9 @@ get_header(); ?>
                     <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Proyectos</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
-                </p>
+                </p> -->
             </div>
 
             <!-- Carousel Container -->

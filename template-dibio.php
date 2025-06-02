@@ -172,6 +172,116 @@ get_header(); ?>
             </div>
         </div>
     </section>
+
+    <!-- Image Gallery Carousel Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Proyectos</span>
+                </h2>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
+                </p> -->
+            </div>
+
+            <!-- Carousel Container -->
+            <div class="relative">
+                <div class="carousel-container overflow-hidden rounded-2xl shadow-xl">
+                    <div class="carousel-track flex transition-transform duration-500 ease-in-out" id="carouselTrack">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
+                                    </p>
+                                </div>
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Estaciones Hidrometeorólogicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Consejos de Cuencas</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Fortalecimiento de la gobernanza hídrica a través de 119 organismos de cuenca
+                                    </p>
+                                </div>
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Consejos de Cuencas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Plataforma Agua de Honduras</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Información hidrológica accesible y gratuita para toda la población hondureña
+                                    </p>
+                                </div>
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Plataforma Agua de Honduras" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Planes de Acción Hídrica</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Estrategias específicas para las cuencas del corredor seco y microcuencas prioritarias
+                                    </p>
+                                </div> 
+                                <!-- Placeholder for actual image-->
+                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Planes de Acción Hídrica" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button 
+                    class="carousel-btn carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-[#00903b] rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 z-20"
+                    onclick="moveCarousel(-1)"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                
+                <button 
+                    class="carousel-btn carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-[#00903b] rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 z-20"
+                    onclick="moveCarousel(1)"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+
+                <!-- Dots Navigation -->
+                <div class="flex justify-center mt-8 space-x-3">
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-[#00903b] transition-all duration-300" onclick="goToSlide(0)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(1)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(2)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(3)"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
 
 <style>
@@ -195,5 +305,110 @@ get_header(); ?>
     .shadow-custom {
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
+
+    /* Carousel Styles */
+    .carousel-container {
+        position: relative;
+        max-width: 100%;
+    }
+
+    .carousel-track {
+        width: 400%; /* 4 slides × 100% each */
+    }
+
+    .carousel-slide {
+        width: 25%; /* Each slide takes 1/4 of track width */
+    }
+
+    .carousel-btn:hover {
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .carousel-dot.active {
+        background-color: #00903b !important;
+        transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+        .carousel-btn {
+            display: none;
+        }
+    }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let currentSlide = 0;
+    const totalSlides = 4;
+    const track = document.getElementById('carouselTrack');
+    const dots = document.querySelectorAll('.carousel-dot');
+
+    // Auto-play carousel
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    }, 5000);
+
+    window.moveCarousel = function(direction) {
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+        updateCarousel();
+    };
+
+    window.goToSlide = function(slideIndex) {
+        currentSlide = slideIndex;
+        updateCarousel();
+    };
+
+    function updateCarousel() {
+        const translateX = -currentSlide * 25; // 25% per slide
+        track.style.transform = `translateX(${translateX}%)`;
+        
+        // Update dots
+        dots.forEach((dot, index) => {
+            if (index === currentSlide) {
+                dot.classList.add('active');
+                dot.style.backgroundColor = '#00903b';
+            } else {
+                dot.classList.remove('active');
+                dot.style.backgroundColor = '#d1d5db';
+            }
+        });
+    }
+
+    // Touch/swipe support for mobile
+    let startX = 0;
+    let isDragging = false;
+
+    track.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+    });
+
+    track.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+    });
+
+    track.addEventListener('touchend', (e) => {
+        if (!isDragging) return;
+        
+        const endX = e.changedTouches[0].clientX;
+        const diffX = startX - endX;
+        
+        if (Math.abs(diffX) > 50) { // Minimum swipe distance
+            if (diffX > 0) {
+                // Swipe left - next slide
+                currentSlide = (currentSlide + 1) % totalSlides;
+            } else {
+                // Swipe right - previous slide  
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            }
+            updateCarousel();
+        }
+        
+        isDragging = false;
+    });
+});
+</script>
+
 <?php get_footer(); ?>
