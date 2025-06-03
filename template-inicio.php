@@ -151,15 +151,15 @@ get_header(); ?>
                     </a>
                 </div>
                 <div class="relative">
-                    <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-16 aspect-h-9">
-                        <img src="https://via.placeholder.com/800x500/87cede/ffffff?text=SERNA+Honduras" alt="SERNA Honduras" class="w-full h-full object-cover">
+                    <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-22 aspect-h-22">
+                        <img src="/wp-content/uploads/2025/06/Abejita.jpg" alt="SERNA Honduras" class="w-full h-full object-cover">
                     </div>
-                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
+                    <!-- <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
                         <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
                         <p class="text-gray-600 text-sm">
                             La visión de SERNA es ser una institución que promueva a nivel nacional una gestión eficiente de los recursos naturales y el ambiente, participando activamente en labores de protección ambiental, promoviendo acciones públicas y privadas para preservar los recursos naturales, y ofreciendo información ambiental oportuna para apoyar la toma de decisiones en el sector.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
