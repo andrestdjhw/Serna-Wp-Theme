@@ -81,6 +81,7 @@ function NavbarComponent() {
         },
         {
           title: "Deca",
+          link: "/direcciones/deca",
           items: [
             { name: "Anuncios Deca", link: "/anuncios-deca" },
             { name: "Nuevos Requisitos SLAS", link: "/nuevos-requisitos-slas" },

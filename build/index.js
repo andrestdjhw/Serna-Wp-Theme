@@ -674,6 +674,7 @@ function NavbarComponent() {
       }]
     }, {
       title: "Deca",
+      link: "/direcciones/deca",
       items: [{
         name: "Anuncios Deca",
         link: "/anuncios-deca"
