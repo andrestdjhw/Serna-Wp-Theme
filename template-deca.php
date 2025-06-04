@@ -141,8 +141,11 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Logramos recuperar 2,055 toneladas de residuos valorizables gracias a las exitosas campañas de RECICLA+.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección General de Evaluación y Control Ambiental (DECA) ha trabajado para cumplir con las acciones orientadas a la Evaluación de Impacto Ambiental: </h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
+                                <p class="text-gray-600">
+                                    A todos los proyectos, obras y/o actividades con el potencial de contaminar el medio ambiente y degradar los recursos naturales, asimismo, incluye los procedimientos para realizar las inspecciones de control y seguimiento, la presentación de ICMA´s y las Renovaciones de Licencias, así como la atención de Denuncias Ambientales y todas las actividades que se realizan en todo lo que involucra el Licenciamiento Ambiental, de esta manera se impulsa el desarrollo sostenible de nuestra Honduras, donde las actuaciones operativas de la Dirección se circunscriben al marco jurídico del ambiente del país, sus convenios y tratados internacionales, como Dirección hemos trabajado tomando como base las metas de cumplimiento del Plan Operativo Anual (POA) de la DECA.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -159,10 +162,10 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitamos a 69 instituciones, incluyendo:</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictames técnicos de Auditorias de las medidas de mitigación:</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
                                 <p class="text-gray-600">
-                                    Policía Nacional, Fuerzas Armadas y Unidades Municipales Ambientales en temáticas cruciales como Derecho Minero, Aprovechamiento Forestal y Licenciamiento Ambiental.
+                                    Brindaron atención a 150 Denuncias Ambientales las cuales se les dio seguimiento mediante análisis de información y visitas técnicas de campo para constatar cualquier daño ambiental causado por el denunciado, esto se llevó a cabo sin importar la zona geográfica cubriendo así a nivel País las inspecciones pertinentes que ameritan visita a campo.
                                 </p>
                             </div>
                         </div>
@@ -180,11 +183,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se acreditaron cinco alcaldías</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
-                                <p class="text-gray-600">
-                                    En los temas de Gestión Forestal, Gestión Hídrica y Gestión en Residuos Sólidos, a través del Sistema Nacional de Acreditación en Gestión Ambiental Municipal (SINAGAM).
-                                </p>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La Dirección General de Evaluación y Control Ambiental (DECA) trabaja en <strong class="text-[#00903b]">Desarrollar las capacidades en profesionales que realizan su práctica en temas de Licenciamiento y Auditoria Ambiental</strong> abriendo las puertas a estudiantes de diversas universidades a nivel nacional, en el año 2023 se capacitaron 5 profesionales por egresar de diferentes carreras del área ambiental.</h3>
                             </div>
                         </div>
                     </div>
@@ -200,133 +199,15 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se realizó la presentación de la primera fase del Plan Maestro</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección llevo a cabo las convocatorias del taller Desafíos y Oportunidades de la Sostenibilidad del Planeta</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                                 <p class="text-gray-600">
-                                    Para la Gestión Integral de Residuos Sólidos para el Valle de Sula, en cooperación con KEITI y el Ministerio de Ambiente de la República de Corea del Sur.
+                                    Dirigido a los profesionales Prestadores de Servicios Ambientales (PSA), con el finde de potenciar las capacidades y habilidades técnicas de los mismos y así coadyuvar esfuerzos para hacerle frente a los problemas ambientales actuales; los talleres fueron impartidos en las Ciudades de Siguatepeque, Tegucigalpa y San Pedro Sula.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <!-- Timeline Item 5 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">5</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Participación en la postura de región</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
-                                <p class="text-gray-600">
-                                    En el acuerdo altamente vinculante de plástico para la elaboración del Instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, incluidos en el medio marino; París, Francia.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contact Card - Final Timeline Item -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Contact Icon Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
-                            </div>
-                        </div>
-                        
-                        <!-- Contact Card Content -->
-                        <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
-                            <div class="p-8 text-white">
-                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctanos</h3>
-                                
-                                <!-- Contact Grid -->
-                                <div class="grid md:grid-cols-2 gap-8">
-                                    <!-- Contact Information -->
-                                    <div class="space-y-6">
-                                        <!-- Phone -->
-                                        <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                <h4 class="font-semibold text-sm opacity-90">Teléfono</h4>
-                                                <p class="text-white">(504)2242-8524</p>
-                                            </div>
-                                        </div>
-                                        
-                                        <!-- Email -->
-                                        <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                <h4 class="font-semibold text-sm opacity-90">Correo Electrónico</h4>
-                                                <p class="text-white">gestionambiental@serna.gob.hn</p>
-                                            </div>
-                                        </div>
-                                        
-                                        <!-- Address -->
-                                        <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                <h4 class="font-semibold text-sm opacity-90">Dirección</h4>
-                                                <p class="text-white">Centro Cívico Gubernamental, Blvd Juan Pablo Segundo, Torre 1, Piso 7,</p>
-                                                <p class="text-white">Tegucigalpa, Honduras</p>
-                                            </div>
-                                        </div>
-                                        
-                                        <!-- Schedule -->
-                                        <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                <h4 class="font-semibold text-sm opacity-90">Horarios de Atención</h4>
-                                                <p class="text-white">Lunes a Viernes: 7:30 AM - 3:30 PM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <!-- Map Container -->
-                                    <div class="bg-gradient-to-r from-[#87cede] to-blue-300  rounded-lg p-4 backdrop-blur-sm">
-                                        <h4 class="font-semibold text-white mb-4 text-center">Nuestra Ubicación</h4>
-                                        <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                                            <!-- Google Maps Embed Frame -->
-                                            <!-- Reemplaza el src con tu URL específica de Google Maps -->
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.8039962776797!2d-87.1891958!3d14.088744799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2d3cbe98797%3A0x53c925da6514647b!2sCentro%20C%C3%ADvico%20Gubernamental%20Jos%C3%A9%20Cecilio%20Del%20Valle!5e0!3m2!1ses!2shn!4v1748538636999!5m2!1ses!2shn" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </div>
-                                        
-                                        <!-- Call to Action Button -->
-                                        <div class="mt-4 text-center">
-                                            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ee3725] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                                </svg>
-                                                Ver en Google Maps
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -351,7 +232,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 1" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -360,7 +241,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 2" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -369,7 +250,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 3" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -378,7 +259,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 4" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -387,7 +268,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 5" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -396,7 +277,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 6" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -405,7 +286,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 7" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -414,7 +295,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 8" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Actividad DECA 8" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -430,7 +311,29 @@ get_header(); ?>
                 </button>
             </div> -->
         </div>
-    </section>                                            
+    </section>
+    
+    <!-- Call to Action -->
+        <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
+            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Material Relevante</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                Encuentra informacion adicional con respecto al Licenciamiento Ambiental aqui.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+                    Informacion Relevante para PSAs
+                </a>
+                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+                    Nuevos Requisitos SLAS
+                </a>
+                <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    Requisitos de Renovacion de Licencia Ambiental
+                </a>
+                <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
+                    Requisitos de Constancia de No Requerir Licencia Ambiental
+                </a>
+            </div>
+        </section>
 
 </div>
 
