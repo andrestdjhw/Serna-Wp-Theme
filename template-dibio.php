@@ -64,7 +64,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/Abejita.jpg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Proyectos</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -194,14 +194,14 @@ get_header(); ?>
                         <div class="carousel-slide w-full flex-shrink-0 relative">
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
-                                <div class="relative z-10 text-center text-white px-8">
+                                <!-- <div class="relative z-10 text-center text-white px-8">
                                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
                                     </p>
-                                </div>
+                                </div> -->
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Estaciones Hidrometeorólogicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/EGIJ2598.jpg" alt="Monitoreo vida maritima" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -209,14 +209,14 @@ get_header(); ?>
                         <div class="carousel-slide w-full flex-shrink-0 relative">
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
-                                <div class="relative z-10 text-center text-white px-8">
+                                <!-- <div class="relative z-10 text-center text-white px-8">
                                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Consejos de Cuencas</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Fortalecimiento de la gobernanza hídrica a través de 119 organismos de cuenca
                                     </p>
-                                </div>
+                                </div> -->
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Consejos de Cuencas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/IMG_3306.jpg" alt="Manglares" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -224,14 +224,14 @@ get_header(); ?>
                         <div class="carousel-slide w-full flex-shrink-0 relative">
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
-                                <div class="relative z-10 text-center text-white px-8">
+                                <!-- <div class="relative z-10 text-center text-white px-8">
                                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Plataforma Agua de Honduras</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Información hidrológica accesible y gratuita para toda la población hondureña
                                     </p>
-                                </div>
+                                </div> -->
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Plataforma Agua de Honduras" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0799.jpg" alt="Arroyo" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -239,14 +239,14 @@ get_header(); ?>
                         <div class="carousel-slide w-full flex-shrink-0 relative">
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
-                                <div class="relative z-10 text-center text-white px-8">
+                                <!-- <div class="relative z-10 text-center text-white px-8">
                                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Planes de Acción Hídrica</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Estrategias específicas para las cuencas del corredor seco y microcuencas prioritarias
                                     </p>
-                                </div> 
+                                </div>  -->
                                 <!-- Placeholder for actual image-->
-                                <img src="/wp-content/uploads/2025/05/BiBio.jpeg" alt="Planes de Acción Hídrica" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0753-2.jpg" alt="Mar Caribe" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
                     </div>
