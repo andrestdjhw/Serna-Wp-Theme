@@ -119,11 +119,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección General de Evaluación y Control Ambiental (DECA) ha trabajado para cumplir con las acciones orientadas a la Evaluación de Impacto Ambiental: </h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Participación en 4 Campañas de Monitoreo AGRRA para determinar la salud de los arrecifes de Honduras, estas fueron en Tela (2), Trujillo y Cayos Cochinos</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
-                                <p class="text-gray-600">
-                                    A todos los proyectos, obras y/o actividades con el potencial de contaminar el medio ambiente y degradar los recursos naturales, asimismo, incluye los procedimientos para realizar las inspecciones de control y seguimiento, la presentación de ICMA´s y las Renovaciones de Licencias, así como la atención de Denuncias Ambientales y todas las actividades que se realizan en todo lo que involucra el Licenciamiento Ambiental, de esta manera se impulsa el desarrollo sostenible de nuestra Honduras, donde las actuaciones operativas de la Dirección se circunscriben al marco jurídico del ambiente del país, sus convenios y tratados internacionales, como Dirección hemos trabajado tomando como base las metas de cumplimiento del Plan Operativo Anual (POA) de la DECA.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -140,11 +137,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictames técnicos de Auditorias de las medidas de mitigación:</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se realizaron alianzas con el Instituto de Conservación Forestal a través del Proyecto Padre Andrés Tamayo con quienes se coordinaron 17 campañas de reforestación.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
-                                <p class="text-gray-600">
-                                    Brindaron atención a 150 Denuncias Ambientales las cuales se les dio seguimiento mediante análisis de información y visitas técnicas de campo para constatar cualquier daño ambiental causado por el denunciado, esto se llevó a cabo sin importar la zona geográfica cubriendo así a nivel País las inspecciones pertinentes que ameritan visita a campo.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -161,7 +155,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La Dirección General de Evaluación y Control Ambiental (DECA) trabaja en <strong class="text-[#00903b]">Desarrollar las capacidades en profesionales que realizan su práctica en temas de Licenciamiento y Auditoria Ambiental</strong> abriendo las puertas a estudiantes de diversas universidades a nivel nacional, en el año 2023 se capacitaron 5 profesionales por egresar de diferentes carreras del área ambiental.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Monitoreos de Zonas de Recuperación Pesquera (ZRP) en Trujillo en alianzas con el Centro de Estudios Marinos (CEM).</h3>
                             </div>
                         </div>
                     </div>
@@ -177,15 +171,79 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección llevo a cabo las convocatorias del taller Desafíos y Oportunidades de la Sostenibilidad del Planeta</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Junto al PPAT se logró la producción de más de 5000 plantas en el vivero local.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
-                                <p class="text-gray-600">
-                                    Dirigido a los profesionales Prestadores de Servicios Ambientales (PSA), con el finde de potenciar las capacidades y habilidades técnicas de los mismos y así coadyuvar esfuerzos para hacerle frente a los problemas ambientales actuales; los talleres fueron impartidos en las Ciudades de Siguatepeque, Tegucigalpa y San Pedro Sula.
-                                </p>
                             </div>
                         </div>
                     </div>
-                    
+                    <!-- Timeline Item 5 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">5</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreos de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 6 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">6</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se logró capacitar a 2505 personas en temáticas ambientales y de licenciamiento.</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 7 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">7</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreos de Blanqueamiento de Coral en el Refugio de Vida Silvestre Marino Bahía de Tela (RVSMBT) en coordinación con CORAL y AMATELA.</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 8 -->
+                    <div class="relative pl-20 md:pl-24">
+                        <!-- Number Circle -->
+                        <div class="absolute left-0 top-6 z-10">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                                <span class="text-white text-2xl font-bold">8</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Content -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se logró la integración y participación de la SERNA en 2 Comités de Áreas Protegidas; Comité Interinstitucional de Ambiente y Áreas Protegidas de Tela CIAT (Atlántida) y Comité Interinstitucional de Ambiente y Áreas Protegidas de Trujillo y Santa Fe CIATSF (Colón).</h3>
+                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

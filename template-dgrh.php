@@ -64,7 +64,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0134.jpg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -260,7 +260,7 @@ get_header(); ?>
                                     </p>
                                 </div>
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Estaciones Hidrometeorólogicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0125.jpg" alt="Estaciones Hidrometeorólogicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -275,7 +275,7 @@ get_header(); ?>
                                     </p>
                                 </div>
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Consejos de Cuencas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0138.jpg" alt="Consejos de Cuencas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -290,7 +290,7 @@ get_header(); ?>
                                     </p>
                                 </div>
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Plataforma Agua de Honduras" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0141-2.jpg" alt="Plataforma Agua de Honduras" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -305,7 +305,7 @@ get_header(); ?>
                                     </p>
                                 </div> -->
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/05/Hidricos.jpeg" alt="Planes de Acción Hídrica" class="absolute inset-0 w-full h-full object-cover opacity-80 z-40" >
+                                <img src="/wp-content/uploads/2025/06/IMG_3993.jpg" alt="Planes de Acción Hídrica" class="absolute inset-0 w-full h-full object-cover opacity-80 z-40" >
                             </div>
                         </div>
                     </div>
