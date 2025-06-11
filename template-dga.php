@@ -349,7 +349,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0643.jpg" alt="Actividad DGA 1" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -358,7 +358,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0532.jpg" alt="Actividad DGA 2" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -367,7 +367,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0514.jpg" alt="Actividad DGA 3" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -376,7 +376,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0485.jpg" alt="Actividad DGA 4" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -385,7 +385,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0483.jpg" alt="Actividad DGA 5" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -394,7 +394,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0441.jpg" alt="Actividad DGA 6" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -403,7 +403,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0809.jpg" alt="Actividad DGA 7" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -412,7 +412,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 8" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0518.jpg" alt="Actividad DGA 8" class="gallery-image">
                         </div>
                     </div>
                 </div>
