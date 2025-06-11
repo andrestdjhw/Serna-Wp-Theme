@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Regional Atlantico Template
+ * Template Name: Regional Insular Template
  * Template Post Type: page
  */
 
 get_header(); ?>
 
-<div class="regional-atlantico-page">
+<div class="regional-insular-page">
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Regional Litoral del Atlantico
+                    Regional Insular
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -53,12 +53,12 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La Regional del Litoral Atlántico actualmente tiene 20 municipios bajo su jurisdicción, estos en los departamentos de Atlántida, Colón y 2 Municipios del departamento de Yoro. Los objetivos principales de esta regional son brindar asistencia técnica en inspecciones, asesoría en procesos de licenciamiento ambiental, atención a denuncias ambientales, educación ambiental y respuesta a solicitudes de apoyo por las diferentes instituciones ambientales de la zona. Así como establecer sinergias con otras instituciones gubernamentales, ONG´s y Sociedad Civil para fortalecer los procesos de lucha ambiental de manera integrada y desde la competencia de cada institución. 
+                        La Regional Insular está encargada de la jurisdicción de los cuatro municipios de Islas de la Bahía, siendo estos: Roatán, Santos Guardiola, Utila y Guanaja. La regional se encuentra ubicada en el segundo piso del Palacio Municipal de Roatán, siendo conformada únicamente por la Coordinadora Regional. 
                     </p>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0710.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0743.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -72,20 +72,20 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">4</div>
-                        <div class="text-lg">Campañas de monitoreo AGRRA realizadas</div>
+                        <div class="text-4xl font-bold mb-2">664</div>
+                        <div class="text-lg">Niños y jovenes capacitados sobre el Parque Nacional Marino Islas de la Bahia (PNMIB).</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">5,000+</div>
-                        <div class="text-lg">Plantas producidas en viveros</div>
+                        <div class="text-4xl font-bold mb-2">40+</div>
+                        <div class="text-lg">SINEIAS apoyadas con informes tecnicos y recomendaciones de esta regional</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">2,505</div>
-                        <div class="text-lg">Personas capacitadas en temas ambientales</div>
+                        <div class="text-4xl font-bold mb-2">6</div>
+                        <div class="text-lg">Monitoreos realizados en dos Zonas de Recuperación Pesquera (ZRP) en Roatan.</div>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Participación en 4 Campañas de Monitoreo AGRRA para determinar la salud de los arrecifes de Honduras, estas fueron en Tela (2), Trujillo y Cayos Cochinos</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se han realizado limpiezas en arrecifes de coral, pastos marinos, zona de manglar y playas.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se realizaron alianzas con el Instituto de Conservación Forestal a través del Proyecto Padre Andrés Tamayo con quienes se coordinaron 17 campañas de reforestación.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha apoyado a la verificación de la instalación de boyas en Roatán y Guanaja.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Monitoreos de Zonas de Recuperación Pesquera (ZRP) en Trujillo en alianzas con el Centro de Estudios Marinos (CEM).</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han realizado 4 monitoreos para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Junto al PPAT se logró la producción de más de 5000 plantas en el vivero local.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se realizó el primer RECICLA+ en la isla de Guanaja con apoyo de comanejadores del Parque Marino y empresa privada.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Monitoreos de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han realizado dos RECICLA+ en el municipio de Roatán, ambos superando la meta establecida.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>
@@ -205,47 +205,113 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se logró capacitar a 2505 personas en temáticas ambientales y de licenciamiento.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 7 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">7</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreos de Blanqueamiento de Coral en el Refugio de Vida Silvestre Marino Bahía de Tela (RVSMBT) en coordinación con CORAL y AMATELA.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 8 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">8</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se logró la integración y participación de la SERNA en 2 Comités de Áreas Protegidas; Comité Interinstitucional de Ambiente y Áreas Protegidas de Tela CIAT (Atlántida) y Comité Interinstitucional de Ambiente y Áreas Protegidas de Trujillo y Santa Fe CIATSF (Colón).</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La regional Roatán se ha capacitado en: “Vulnerabilidad al cambio climático con enfoque en recursos hídricos”, “Monitoreo de blanqueamiento de corales” y el “Curso de brigadas post tormenta para la atención a arrecifes en el caribe de Honduras”</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                </h2>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Conoce nuestras actividades y logros a través de esta colección de imágenes
+                </p>
+            </div>
+            
+            <!-- Masonry Gallery Grid -->
+            <div class="masonry-grid">
+                <!-- Gallery Item 1 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0690-2.jpg" alt="Actividad DNCC 1" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0742.jpg" alt="Actividad DNCC 2" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0744.jpg" alt="Actividad DNCC 3" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0746-2.jpg" alt="Actividad DNCC 4" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0748-.jpg" alt="Actividad DNCC 5" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0753-2.jpg" alt="Actividad DNCC 6" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0768-2.jpg" alt="Actividad DNCC 7" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/06/DJI_0813.jpg" alt="Actividad DNCC 8" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <!-- <div class="text-center mt-12">
+                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <span>Ver Más Imágenes</span>
+                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                    </svg>
+                </button>
+            </div> -->
         </div>
     </section>
 
@@ -275,6 +341,129 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-    
+    /* Masonry Gallery Styles */
+    .masonry-grid {
+        column-count: 1;
+        column-gap: 1.5rem;
+        line-height: 0;
+    }
+
+    @media (min-width: 640px) {
+        .masonry-grid {
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .masonry-grid {
+            column-count: 3;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .masonry-grid {
+            column-count: 4;
+        }
+    }
+
+    .masonry-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        break-inside: avoid;
+        line-height: 1.5;
+    }
+
+    .gallery-card {
+        background: white;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        transform: translateY(0);
+    }
+
+    .gallery-card:hover .overlay-icon {
+        background-color: rgba(135, 206, 222, 0.3);
+        border-color: rgba(135, 206, 222, 0.8);
+        transform: scale(1.1);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 639px) {
+        .masonry-item {
+            margin-bottom: 1rem;
+        }
+        
+        .overlay-title {
+            font-size: 1rem;
+        }
+        
+        .overlay-text {
+            font-size: 0.75rem;
+        }
+        
+        .overlay-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+        
+        .overlay-icon svg {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    }
+
+    /* Loading animation for images */
+    .gallery-image {
+        background-color: #f3f4f6;
+        background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+    }
+
+    .gallery-image[src] {
+        animation: none;
+        background: none;
+    }
+
+    @keyframes shimmer {
+        0% {
+            background-position: -200% 0;
+        }
+        100% {
+            background-position: 200% 0;
+        }
+    }
+
+    /* Lightbox styles (if you want to add lightbox functionality) */
+    .gallery-card {
+        cursor: pointer;
+    }
+
+    /* Additional hover effects */
+    .gallery-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 2px solid transparent;
+        border-radius: 1rem;
+        background: linear-gradient(135deg, #00903b, #7dbb5c) border-box;
+        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: subtract;
+        mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+        mask-composite: subtract;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .gallery-card:hover::before {
+        opacity: 1;
+    }
 </style>
 <?php get_footer(); ?>
