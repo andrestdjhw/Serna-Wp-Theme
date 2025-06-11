@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/05/DiBIO.jpeg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0710.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreos de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Monitoreos de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se logró capacitar a 2505 personas en temáticas ambientales y de licenciamiento.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se logró capacitar a 2505 personas en temáticas ambientales y de licenciamiento.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>

@@ -152,7 +152,7 @@ get_header(); ?>
                 </div>
                 <div class="relative">
                     <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-22 aspect-h-22">
-                        <img src="/wp-content/uploads/2025/06/Abejita.jpg" alt="SERNA Honduras" class="w-full h-full object-cover">
+                        <img src="/wp-content/uploads/2025/06/DJI_0011.jpg" alt="SERNA Honduras" class="w-full h-full object-cover">
                     </div>
                     <!-- <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
                         <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
