@@ -53,12 +53,18 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La Regional Insular está encargada de la jurisdicción de los cuatro municipios de Islas de la Bahía, siendo estos: Roatán, Santos Guardiola, Utila y Guanaja. La regional se encuentra ubicada en el segundo piso del Palacio Municipal de Roatán, siendo conformada únicamente por la Coordinadora Regional. 
+                        La oficina Región Centro, Regional Comayagua, tiene como objetivo trabajar en pro de la protección, conservación, restauración y manejo sostenible del ambiente y los recursos naturales, en coordinación con las municipalidades de la zona. Nuestra cobertura abarca dos departamentos: La Paz y Comayagua, que incluyen 21 municipios de Comayagua y 19 municipios de La Paz. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Además, trabajamos en la sensibilización y comunicación ambiental a través de capacitaciones en temas ambientales dirigidas al sector educativo público y privado. Junto con ellos, realizamos actividades de campo, limpieza de áreas verdes en los centros educativos y campañas de reforestación. 
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Esta oficina regional también se encarga de atender denuncias ambientales por contaminación provenientes de diferentes sectores, las cuales se remiten posteriormente a la dirección correspondiente, como la DECA o la Secretaría General. Además, asistimos a los SINEIAS convocados por la Dirección de Evaluación y Control Ambiental y apoyamos las diversas actividades de las demás direcciones de SERNA Central. 
                     </p>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0743.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0185.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -116,8 +122,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se han realizado limpiezas en arrecifes de coral, pastos marinos, zona de manglar y playas.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se ha logrado concientizar a la población de la zona a través de la recuperación y valorización de toneladas de residuos sólidos, con la realización de 5 eventos de RECICLA+ en los municipios de Siguatepeque, Lejamani, La Libertad, Villa San Antonio y Comayagua.</h3>
                             </div>
                         </div>
                     </div>
@@ -134,8 +139,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha apoyado a la verificación de la instalación de boyas en Roatán y Guanaja.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Celebraciones de Fechas Ambientales: Estas actividades son programadas con los centros educativos y se realizan de acuerdo al calendario ambiental autorizado por la SERNA.</h3>
                             </div>
                         </div>
                     </div>
@@ -152,7 +156,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han realizado 4 monitoreos para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Atención a Denuncias Ambientales: Se brinda apoyo a denuncias ambientales por contaminación, presentadas por las municipalidades de la Región, así como las presentadas en la oficina regional, muchas de ellas son anónimas.</h3>
                             </div>
                         </div>
                     </div>
@@ -168,42 +172,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se realizó el primer RECICLA+ en la isla de Guanaja con apoyo de comanejadores del Parque Marino y empresa privada.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 5 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">5</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han realizado dos RECICLA+ en el municipio de Roatán, ambos superando la meta establecida.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 6 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">6</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La regional Roatán se ha capacitado en: “Vulnerabilidad al cambio climático con enfoque en recursos hídricos”, “Monitoreo de blanqueamiento de corales” y el “Curso de brigadas post tormenta para la atención a arrecifes en el caribe de Honduras”</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Campañas de reforestación Recuperación de áreas en fuentes de agua coordinadas con instituciones afines a la protección de los recursos naturales y centros educativos, además recuperación de áreas verdes dentro de las escuelas que sirvan como recreación para los alumnos.</h3>
                             </div>
                         </div>
                     </div>
