@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Regional Copan Template
+ * Template Name: Regional Ocotepeue Template
  * Template Post Type: page
  */
 
