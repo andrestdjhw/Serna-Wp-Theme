@@ -595,7 +595,7 @@ function NavbarComponent() {
     }
   };
 
-  // Modified navItems structure with dynamic columns
+  // Modified navItems structure with dynamic columns and external links
   const navItems = [{
     name: "Inicio",
     link: "/",
@@ -764,25 +764,31 @@ function NavbarComponent() {
       title: "Portales Gubernamentales",
       items: [{
         name: "SIELHO",
-        link: "/portales/sielho"
+        link: "https://sielho.iaip.gob.hn/inicio/",
+        external: true
       }, {
         name: "Portal Unico de Transparencia",
-        link: "/portales/portal_transparencia"
+        link: "https://portalunico.iaip.gob.hn/",
+        external: true
       }, {
         name: "Presidencia",
-        link: "/portales/presidencia"
+        link: "https://presidencia.gob.hn/",
+        external: true
       }]
     }, {
       title: "Portales Institucionales",
       items: [{
         name: "ONADICI",
-        link: "/portales/onadici"
+        link: "https://www.onadici.gob.hn/",
+        external: true
       }, {
         name: "Honducompras",
-        link: "/portales/honducompras"
+        link: "https://www.honducompras.gob.hn/",
+        external: true
       }, {
         name: "TSC",
-        link: "/portales/tsc"
+        link: "https://www.tsc.gob.hn/",
+        external: true
       }]
     }]
   }];
@@ -804,7 +810,7 @@ function NavbarComponent() {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-      className: "bg-linear-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md",
+      className: "bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -899,10 +905,23 @@ function NavbarComponent() {
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
                           className: "space-y-2",
                           children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
                               href: subItem.link,
+                              target: subItem.external ? "_blank" : undefined,
+                              rel: subItem.external ? "noopener noreferrer" : undefined,
                               className: "text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200",
-                              children: subItem.name
+                              children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                                className: "w-3 h-3 ml-1",
+                                fill: "none",
+                                stroke: "currentColor",
+                                viewBox: "0 0 24 24",
+                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                                  strokeLinecap: "round",
+                                  strokeLinejoin: "round",
+                                  strokeWidth: 2,
+                                  d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                })
+                              })]
                             })
                           }, subIndex))
                         })]
@@ -954,10 +973,23 @@ function NavbarComponent() {
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                     className: "px-3 py-1 font-medium text-sm",
                     children: column.title
-                  }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                  }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
                     href: subItem.link,
-                    className: "block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1",
-                    children: subItem.name
+                    target: subItem.external ? "_blank" : undefined,
+                    rel: subItem.external ? "noopener noreferrer" : undefined,
+                    className: "flex items-center justify-between px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1",
+                    children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                      className: "w-3 h-3 ml-1",
+                      fill: "none",
+                      stroke: "currentColor",
+                      viewBox: "0 0 24 24",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        strokeWidth: 2,
+                        d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      })
+                    })]
                   }, subIndex))]
                 }, colIndex))
               })]

@@ -27,7 +27,7 @@ function NavbarComponent() {
     }
   };
 
-  // Modified navItems structure with dynamic columns
+  // Modified navItems structure with dynamic columns and external links
   const navItems = [
     { name: "Inicio", link: "/", hasDropdown: false },
     {
@@ -161,20 +161,41 @@ function NavbarComponent() {
         {
           title: "Portales Gubernamentales",
           items: [
-            { name: "SIELHO", link: "/portales/sielho" },
+            { 
+              name: "SIELHO", 
+              link: "https://sielho.iaip.gob.hn/inicio/", 
+              external: true 
+            },
             {
               name: "Portal Unico de Transparencia",
-              link: "/portales/portal_transparencia",
+              link: "https://portalunico.iaip.gob.hn/",
+              external: true
             },
-            { name: "Presidencia", link: "/portales/presidencia" },
+            { 
+              name: "Presidencia", 
+              link: "https://presidencia.gob.hn/",
+              external: true 
+            },
           ],
         },
         {
           title: "Portales Institucionales",
           items: [
-            { name: "ONADICI", link: "/portales/onadici" },
-            { name: "Honducompras", link: "/portales/honducompras" },
-            { name: "TSC", link: "/portales/tsc" },
+            { 
+              name: "ONADICI", 
+              link: "https://www.onadici.gob.hn/",
+              external: true 
+            },
+            { 
+              name: "Honducompras", 
+              link: "https://www.honducompras.gob.hn/",
+              external: true 
+            },
+            { 
+              name: "TSC", 
+              link: "https://www.tsc.gob.hn/",
+              external: true 
+            },
           ],
         },
       ],
@@ -203,7 +224,7 @@ function NavbarComponent() {
       </header>
 
       {/*Barra de Navegacion Con Gradiente Verde*/}
-      <nav className="bg-linear-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md">
+      <nav className="bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo/Marca seccion para Movil */}
@@ -325,9 +346,26 @@ function NavbarComponent() {
                                     <li key={subIndex}>
                                       <a
                                         href={subItem.link}
+                                        target={subItem.external ? "_blank" : undefined}
+                                        rel={subItem.external ? "noopener noreferrer" : undefined}
                                         className="text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200" 
                                       >
                                         {subItem.name}
+                                        {subItem.external && (
+                                          <svg 
+                                            className="w-3 h-3 ml-1" 
+                                            fill="none" 
+                                            stroke="currentColor" 
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path 
+                                              strokeLinecap="round" 
+                                              strokeLinejoin="round" 
+                                              strokeWidth={2} 
+                                              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" 
+                                            />
+                                          </svg>
+                                        )}
                                       </a>
                                     </li>
                                   ))}
@@ -402,9 +440,26 @@ function NavbarComponent() {
                               <a
                                 key={subIndex}
                                 href={subItem.link}
-                                className="block px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
+                                target={subItem.external ? "_blank" : undefined}
+                                rel={subItem.external ? "noopener noreferrer" : undefined}
+                                className="flex items-center justify-between px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
                               >
                                 {subItem.name}
+                                {subItem.external && (
+                                  <svg 
+                                    className="w-3 h-3 ml-1" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path 
+                                      strokeLinecap="round" 
+                                      strokeLinejoin="round" 
+                                      strokeWidth={2} 
+                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" 
+                                    />
+                                  </svg>
+                                )}
                               </a>
                             ))}
                           </div>
