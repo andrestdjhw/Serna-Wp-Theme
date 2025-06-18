@@ -65,9 +65,16 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Gallery Section Mejorada -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-10 left-10 w-32 h-32 bg-[#00903b] rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-40 h-40 bg-[#7dbb5c] rounded-full filter blur-3xl"></div>
+            <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-[#87cede] rounded-full filter blur-2xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
                     <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
@@ -78,72 +85,116 @@ get_header(); ?>
                 </p>
             </div>
             
-            <!-- Masonry Gallery Grid -->
-            <div class="masonry-grid">
-                <!-- Gallery Item 1 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
+            <!-- Enhanced Gallery Grid -->
+            <div class="enhanced-gallery-grid">
+                <!-- Featured Large Image -->
+                <div class="gallery-item featured">
+                    <div class="gallery-wrapper">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/SPS1.jpeg" alt="Actividad DNCC 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/SPS1.jpeg" alt="Actividad Principal Regional Ocotepeque" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <!-- <h3 class="overlay-title">Actividades Ambientales</h3>
+                                    <p class="overlay-text">Campañas de sensibilización y protección</p> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Gallery Item 2 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
+                <!-- Medium Images -->
+                <div class="gallery-item medium">
+                    <div class="gallery-wrapper">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/SPS2.jpeg" alt="Actividad DNCC 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/SPS2.jpeg" alt="Capacitación Técnicos UMA" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                        </svg>
+                                    </div>
+                                    <!-- <h3 class="overlay-title">Capacitaciones</h3>
+                                    <p class="overlay-text">Fortalecimiento técnico</p> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Gallery Item 3 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
+                <div class="gallery-item medium">
+                    <div class="gallery-wrapper">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/SPS3.jpeg" alt="Actividad DNCC 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/SPS3.jpeg" alt="Campañas de Limpieza" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <!-- <h3 class="overlay-title">Limpieza Ambiental</h3>
+                                    <p class="overlay-text">Cuidando nuestro entorno</p> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Gallery Item 4 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
+                <!-- Small Images -->
+                <div class="gallery-item small">
+                    <div class="gallery-wrapper">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/SPS4.jpeg" alt="Actividad DNCC 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/SPS4.jpeg" alt="Gestión de Residuos" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m3 0v16a2 2 0 01-2 2H6a2 2 0 01-2-2V4h16z"></path>
+                                        </svg>
+                                    </div>
+                                    <!-- <h3 class="overlay-title">Gestión RAEE</h3> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Gallery Item 5 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
+                <div class="gallery-item small">
+                    <div class="gallery-wrapper">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/SPS5.jpeg" alt="Actividad DNCC 5" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 6 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0131.jpg" alt="Actividad DNCC 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/SPS5.jpeg" alt="Protección Forestal" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                                        </svg>
+                                    </div>
+                                    <!-- <h3 class="overlay-title">Protección Forestal</h3> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- View More Button -->
-            <!-- <div class="text-center mt-12">
-                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                    <span>Ver Más Imágenes</span>
-                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            <!-- Call to Action -->
+            <div class="text-center mt-16">
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full mb-6"></div>
+                <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
+                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#7dbb5c] hover:to-[#00903b]">
+                    <span>Contáctanos</span>
+                    <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
                 </button>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -171,130 +222,290 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-    /* Masonry Gallery Styles */
-    .masonry-grid {
-        column-count: 1;
-        column-gap: 1.5rem;
-        line-height: 0;
-    }
+    /* Enhanced Gallery Styles */
+.enhanced-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 80px);
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    @media (min-width: 640px) {
-        .masonry-grid {
-            column-count: 2;
-        }
-    }
+/* Grid Layout Positioning */
+.gallery-item.featured {
+    grid-column: 1 / 7;
+    grid-row: 1 / 6;
+}
 
-    @media (min-width: 1024px) {
-        .masonry-grid {
-            column-count: 3;
-        }
-    }
+.gallery-item.medium:nth-of-type(2) {
+    grid-column: 7 / 13;
+    grid-row: 1 / 4;
+}
 
-    @media (min-width: 1280px) {
-        .masonry-grid {
-            column-count: 4;
-        }
-    }
+.gallery-item.medium:nth-of-type(3) {
+    grid-column: 7 / 13;
+    grid-row: 4 / 7;
+}
 
-    .masonry-item {
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 1.5rem;
-        break-inside: avoid;
-        line-height: 1.5;
-    }
+.gallery-item.small:nth-of-type(4) {
+    grid-column: 1 / 5;
+    grid-row: 6 / 9;
+}
 
-    .gallery-card {
-        background: white;
-        border-radius: 1rem;
-        overflow: hidden;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-        transform: translateY(0);
-    }
+.gallery-item.small:nth-of-type(5) {
+    grid-column: 5 / 9;
+    grid-row: 6 / 9;
+}
 
-    .gallery-card:hover .overlay-icon {
-        background-color: rgba(135, 206, 222, 0.3);
-        border-color: rgba(135, 206, 222, 0.8);
-        transform: scale(1.1);
-    }
+.gallery-item.small:nth-of-type(6) {
+    grid-column: 9 / 13;
+    grid-row: 7 / 9;
+}
 
-    /* Responsive adjustments */
-    @media (max-width: 639px) {
-        .masonry-item {
-            margin-bottom: 1rem;
-        }
-        
-        .overlay-title {
-            font-size: 1rem;
-        }
-        
-        .overlay-text {
-            font-size: 0.75rem;
-        }
-        
-        .overlay-icon {
-            width: 2.5rem;
-            height: 2.5rem;
-        }
-        
-        .overlay-icon svg {
-            width: 1.25rem;
-            height: 1.25rem;
-        }
-    }
+/* Gallery Item Wrapper */
+.gallery-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform: translateY(0) scale(1);
+}
 
-    /* Loading animation for images */
-    .gallery-image {
-        background-color: #f3f4f6;
-        background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
-        background-size: 200% 100%;
-        animation: shimmer 1.5s infinite;
-    }
+.gallery-wrapper:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -5px rgba(0, 144, 59, 0.1);
+}
 
-    .gallery-image[src] {
-        animation: none;
-        background: none;
-    }
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
-    @keyframes shimmer {
-        0% {
-            background-position: -200% 0;
-        }
-        100% {
-            background-position: 200% 0;
-        }
-    }
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+    filter: brightness(1) saturate(1);
+}
 
-    /* Lightbox styles (if you want to add lightbox functionality) */
-    .gallery-card {
-        cursor: pointer;
-    }
+.gallery-wrapper:hover .gallery-image {
+    transform: scale(1.1);
+    filter: brightness(1.1) saturate(1.2);
+}
 
-    /* Additional hover effects */
-    .gallery-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border: 2px solid transparent;
-        border-radius: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: subtract;
-        mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        mask-composite: subtract;
+/* Image Overlay */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 144, 59, 0.85) 0%,
+        rgba(92, 165, 76, 0.85) 50%,
+        rgba(125, 187, 92, 0.85) 100%
+    );
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.gallery-wrapper:hover .image-overlay {
+    opacity: 1;
+}
+
+/* Overlay Content */
+.overlay-content {
+    text-align: center;
+    color: white;
+    transform: translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.gallery-wrapper:hover .overlay-content {
+    transform: translateY(0);
+}
+
+.overlay-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.gallery-wrapper:hover .overlay-icon {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.overlay-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .enhanced-gallery-grid {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(10, 70px);
+    }
+    
+    .gallery-item.featured {
+        grid-column: 1 / 9;
+        grid-row: 1 / 5;
+    }
+    
+    .gallery-item.medium:nth-of-type(2) {
+        grid-column: 1 / 5;
+        grid-row: 5 / 8;
+    }
+    
+    .gallery-item.medium:nth-of-type(3) {
+        grid-column: 5 / 9;
+        grid-row: 5 / 8;
+    }
+    
+    .gallery-item.small:nth-of-type(4) {
+        grid-column: 1 / 3;
+        grid-row: 8 / 11;
+    }
+    
+    .gallery-item.small:nth-of-type(5) {
+        grid-column: 3 / 5;
+        grid-row: 8 / 11;
+    }
+    
+    .gallery-item.small:nth-of-type(6) {
+        grid-column: 5 / 7;
+        grid-row: 8 / 11;
+    }
+}
+
+@media (max-width: 768px) {
+    .enhanced-gallery-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(16, 60px);
+        gap: 0.75rem;
+    }
+    
+    .gallery-item.featured {
+        grid-column: 1 / 5;
+        grid-row: 1 / 6;
+    }
+    
+    .gallery-item.medium:nth-of-type(2) {
+        grid-column: 1 / 5;
+        grid-row: 6 / 9;
+    }
+    
+    .gallery-item.medium:nth-of-type(3) {
+        grid-column: 1 / 5;
+        grid-row: 9 / 12;
+    }
+    
+    .gallery-item.small:nth-of-type(4) {
+        grid-column: 1 / 3;
+        grid-row: 12 / 15;
+    }
+    
+    .gallery-item.small:nth-of-type(5) {
+        grid-column: 3 / 5;
+        grid-row: 12 / 15;
+    }
+    
+    .gallery-item.small:nth-of-type(6) {
+        grid-column: 1 / 5;
+        grid-row: 15 / 17;
+    }
+    
+    .overlay-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .overlay-title {
+        font-size: 1rem;
+    }
+    
+    .overlay-text {
+        font-size: 0.8rem;
+    }
+}
+
+/* Loading Animation */
+@keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.gallery-image[src=""] {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* Hover Effects for the entire section */
+.enhanced-gallery-grid:hover .gallery-wrapper:not(:hover) {
+    opacity: 0.7;
+    transform: translateY(0) scale(0.98);
+}
+
+/* Staggered animation on page load */
+.gallery-item:nth-child(1) { animation-delay: 0.1s; }
+.gallery-item:nth-child(2) { animation-delay: 0.2s; }
+.gallery-item:nth-child(3) { animation-delay: 0.3s; }
+.gallery-item:nth-child(4) { animation-delay: 0.4s; }
+.gallery-item:nth-child(5) { animation-delay: 0.5s; }
+.gallery-item:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+    from {
         opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 1;
-        pointer-events: none;
+        transform: translateY(30px) scale(0.95);
     }
-
-    .gallery-card:hover::before {
+    to {
         opacity: 1;
+        transform: translateY(0) scale(1);
     }
+}
+
+.gallery-item {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+}
 
 </style>
 <?php get_footer(); ?>
