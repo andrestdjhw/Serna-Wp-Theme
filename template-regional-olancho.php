@@ -198,7 +198,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq1.jpeg" alt="Actividad DNCC 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho1.jpeg" alt="Actividad Olancho 1" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq2.jpeg" alt="Actividad DNCC 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho2.jpeg" alt="Actividad Olancho 2" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq3.jpeg" alt="Actividad DNCC 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho3.jpeg" alt="Actividad Olancho 3" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq4.jpeg" alt="Actividad DNCC 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho4.jpeg" alt="Actividad Olancho 4" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq5.jpeg" alt="Actividad DNCC 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho5.jpeg" alt="Actividad Olancho 5" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Ocotpq6.jpeg" alt="Actividad DNCC 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho6.jpeg" alt="Actividad Olancho 6" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0768-2.jpg" alt="Actividad DNCC 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/Olancho7.jpeg" alt="Actividad Olancho 7" class="gallery-image">
                         </div>
                     </div>
                 </div>
