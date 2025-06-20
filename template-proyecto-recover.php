@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="regional-ocotepeque-page">
+<div class="proyecto-recover-page">
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->

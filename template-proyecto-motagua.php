@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Proyecto PlanetGold Template
+ * Template Name: Proyecto Motagua Template
  * Template Post Type: page
  */
 
 get_header(); ?>
 
-<div class="proyecto-planetgold-page">
+<div class="proyecto-motagua-page">
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Proyecto PlanetGold
+                    Proyecto Motagua
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -53,13 +53,7 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La minería de oro artesanal y de pequeña escala (MAPE) es reconocida como una importante fuente de sustento en Honduras, que tiene una población minera de 3,000 personas, el 5 por ciento de las cuales son mujeres. Se han documentado más de 620 comunidades de pequeña minería, desarrollándose las actividades más significativas en los departamentos de El Paraíso, Santa Bárbara, Olancho, Choluteca y Valle. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El uso de mercurio no está prohibido en la MAPE, siempre que los mineros utilicen las mejores técnicas y prácticas ambientales disponibles al usarlo. Sin embargo, la amalgamación de minerales enteros sigue estando muy extendida, lo que libera cantidades considerables de mercurio al medio ambiente y tiene un impacto negativo en la salud de los mineros y sus comunidades. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Transformar la MAPE en Honduras en un sector responsable se ha convertido en un importante desafío nacional. Una regulación de 2019 para el sector incluye disposiciones destinadas a apoyar el compromiso del país de implementar el Convenio de Minamata sobre el Mercurio y eliminar el uso de mercurio. Más recientemente, en 2023 se anunció una hoja de ruta para el sector de la MAPE que respalda la visión estratégica de un nuevo sector de la MAPE responsable para Honduras. 
+                        El objetivo del proyecto es mejorar la gestión integrada de la cuenca del río Motagua y reducir las fuente terrestres de contaminación y emisiones de contaminantes orgánicos persistentes producidos no intencionalmente para mitigar los impactos en los ecosistemas marinos costeros y los medios de subsistencia de la población local. El proyecto consolidará la colaboración entre Guatemala y Honduras mediante un análisis diagnóstico transfronterizo para la Gestión Integrada de la Cuenca del río Motagua. Incluirá estudios técnicos, un marco normativo (GICH), un Programa de Acción Estratégico binacional, y fortalecerá la coordinación institucional. Aumentará las capacidades para la planificación, monitoreo y control a nivel nacional y local. Implementará iniciativas innovadoras para gestionar sosteniblemente los recursos hídricos y reducir la contaminación, incluida la disminución de residuos sólidos y la quema al aire libre. 
                     </p>
                 </div>
                 <div class="lg:w-1/2">
@@ -75,29 +69,10 @@ get_header(); ?>
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">9</div>
-                        <div class="text-lg">Toneladas de mercurio utilizadas al año en la MAPE.</div>
-                    </div>
-                    
-                    <!-- Stat 2 -->
-                    <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">3,000</div>
-                        <div class="text-lg">Mineros de la MAPE.</div>
-                    </div>
-                    
-                    <!-- Stat 3 -->
-                    <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">17,000</div>
-                        <div class="text-lg">Personas indirectamente involucradas en la MAPE.</div>
-                    </div>
-
-                    <!-- Stat 4 -->
-                    <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">622</div>
-                        <div class="text-lg">Comunidades donde se lleva a cabo la MAPE.</div>
+                        <div class="text-4xl font-bold mb-2">Gestión Ambiental Integral de la Cuenca del Rio Motagua</div>
                     </div>
                 </div>
             </div>
