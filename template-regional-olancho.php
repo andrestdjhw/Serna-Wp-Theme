@@ -75,17 +75,17 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Mantenimiento de areas verdes</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Mantenimiento de areas verdes</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Concientización en centros educativos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientización en centros educativos</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Concientización sobre el manejo de los recursos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientización sobre el manejo de los recursos</div>
                     </div>
                 </div>
             </div>

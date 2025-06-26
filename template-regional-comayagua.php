@@ -78,17 +78,17 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Concientizacion mediante eventos de reciclaje.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientizacion mediante eventos de reciclaje.</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Apoyo a denuncias ambientales anonimas</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Apoyo a denuncias ambientales anonimas</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2">Celebracion de fechas ambientales programadas</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Celebracion de fechas ambientales programadas</div>
                     </div>
                 </div>
             </div>
