@@ -75,7 +75,7 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reduccion de los Riesgos Asociados con su Disposicion Final</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reduccion de los Riesgos Asociados con su Disposicion Final</div>
                     </div>
                 </div>
             </div>
