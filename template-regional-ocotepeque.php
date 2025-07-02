@@ -294,9 +294,9 @@ get_header(); ?>
     <section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
         <!-- Background decorative elements -->
         <div class="absolute inset-0 opacity-5">
-            <div class="absolute top-10 left-10 w-32 h-32 bg-[#00903b] rounded-full filter blur-3xl"></div>
-            <div class="absolute bottom-10 right-10 w-40 h-40 bg-[#7dbb5c] rounded-full filter blur-3xl"></div>
-            <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-[#87cede] rounded-full filter blur-2xl"></div>
+            <div class="absolute top-10 left-10 w-32 h-32 bg-[#ee3725] rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-40 h-40 bg-[#ff6b47] rounded-full filter blur-3xl"></div>
+            <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-[#ff8c42] rounded-full filter blur-2xl"></div>
         </div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -304,7 +304,7 @@ get_header(); ?>
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
                     <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -429,9 +429,9 @@ get_header(); ?>
 
             <!-- Call to Action -->
             <div class="text-center mt-16">
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full mb-6"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
-                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#7dbb5c] hover:to-[#00903b]">
+                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
                     <span>Contáctanos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -521,7 +521,7 @@ get_header(); ?>
 
 .gallery-wrapper:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -5px rgba(0, 144, 59, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(238, 55, 37, 0.25), 0 25px 25px -5px rgba(238, 55, 37, 0.25);
 }
 
 /* Image Container */
@@ -554,9 +554,9 @@ get_header(); ?>
     bottom: 0;
     background: linear-gradient(
         135deg,
-        rgba(0, 144, 59, 0.85) 0%,
-        rgba(92, 165, 76, 0.85) 50%,
-        rgba(125, 187, 92, 0.85) 100%
+        rgba(238, 55, 37, 0.85) 0%,
+        rgba(255, 107, 71, 0.85) 50%,
+        rgba(255, 140, 66, 0.85) 100%
     );
     opacity: 0;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
