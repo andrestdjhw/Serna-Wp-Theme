@@ -402,7 +402,7 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-    /* Enhanced Gallery Styles */
+/* Enhanced Gallery Styles */
 .enhanced-masonry-grid {
     column-count: 1;
     column-gap: 2rem;
