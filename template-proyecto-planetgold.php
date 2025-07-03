@@ -123,7 +123,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">7</span>
                             </div>
                         </div>
@@ -237,7 +237,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">8</span>
                             </div>
                         </div>
@@ -253,7 +253,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">9</span>
                             </div>
                         </div>
@@ -269,7 +269,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">10</span>
                             </div>
                         </div>
@@ -285,7 +285,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">11</span>
                             </div>
                         </div>
