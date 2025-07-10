@@ -131,7 +131,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e intermunicipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Levantamiento de tres censos de túneles de explotación minera</h3>
+                                <p class="text-gray-600">Desarrollados en los municipios de Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso).</p>
                             </div>
                         </div>
                     </div>
@@ -148,7 +149,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Fortalecimiento de 15 Técnicos UMA en temática de Licenciamiento Ambiental y Uso de plataforma.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Desarrollo de tres censos de población minera</h3>
+                                <p class="text-gray-600">Llevados a cabo en Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso), con el apoyo de las Alcaldías Municipales.</p>
                             </div>
                         </div>
                     </div>
@@ -165,7 +167,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Capacitación a 5 Técnicos UMA en Cambio Climático.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Delimitación de tres áreas de minería artesanal metálica</h3>
+                                <p class="text-gray-600">Por parte del INHGEOMIN, a favor de las alcaldías municipales de Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso).</p>
                             </div>
                         </div>
                     </div>
@@ -181,7 +184,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Ejecución de la Primer Campaña de RAEE en el Valle de Sesecapa.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Desarrollo de un taller sobre Mejores Prácticas Ambientales (MPA) y Mejores Técnicas Disponibles (MTD)</h3>
+                                <p class="text-gray-600">Enfocado en el beneficiado de broza y relaves mineros, dirigido a la Alcaldía Municipal y población minera de Quimistán, Santa Bárbara, llevado a cabo de manera conjunta con el INHGEOMIN.</p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +201,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Coordinaciones frecuentes con ICF para campañas de sensibilización en Temática de Aprovechamiento de los Recursos Naturales.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Conformación de la primera cooperativa minera en Honduras</h3>
+                                <p class="text-gray-600">Ubicada en la comunidad de Agua Fría Mineral, en Danlí (El Paraíso), bajo el nombre de Cooperativa Mixta “Minera Comunitaria Casa Blanca” Limitada, facilitada por la Confederación Hondureña de Cooperativas.</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +218,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Apoyo a COIIF Ocotepeque en combate de incendios y obras preventivas en la campaña de protección forestal 2023.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Conformación de la segunda pre-cooperativa minera</h3>
+                                <p class="text-gray-600">En Quimistán (Santa Bárbara), denominada Cooperativa Mixta “Los Túneles de las Minas” Limitada, también impulsada por la Confederación Hondureña de Cooperativas.</p>
                             </div>
                         </div>
                     </div>
@@ -229,7 +235,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se Capacitó a 8 técnicos UMA en temática de ODS 11 y 12.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Organización de un grupo de mujeres mineras aluviales</h3>
+                                <p class="text-gray-600">en el municipio de Iriona, departamento de Colón.</p>
                             </div>
                         </div>
                     </div>
@@ -245,55 +252,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Cierre de más de 5 botaderos clandestinos del departamento con fondos PPAT.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 9 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">9</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Ejecución de 12 campañas de limpieza de zonas altamente contaminadas entre ellas Áreas Protegidas.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 10 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">10</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Coordinaciones con Centros Educativos y Universidad para dar charlas a los estudiantes y generación de actividades como campañas de limpieza, campaña de RAEE y Reforestaciones.</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Timeline Item 11 -->
-                    <div class="relative pl-20 md:pl-24">
-                        <!-- Number Circle -->
-                        <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
-                                <span class="text-white text-2xl font-bold">11</span>
-                            </div>
-                        </div>
-                        
-                        <!-- Card Content -->
-                        <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Asesoría a diferentes sectores productivos del departamento para generar regulación en temática de licenciamiento ambiental.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitación sobre el Convenio de Minamata sobre el Mercurio</h3>
+                                <p class="text-gray-600">A ser impartida a la Unidad de Minería Artesanal y en Pequeña Escala del INHGEOMIN.</p>
                             </div>
                         </div>
                     </div>
