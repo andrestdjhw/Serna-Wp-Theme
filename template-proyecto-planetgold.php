@@ -262,204 +262,176 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Gallery Section Mejorada -->
-    <section class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
-        <!-- Background decorative elements -->
-        <div class="absolute inset-0 opacity-5">
-            <div class="absolute top-20 left-10 w-32 h-32 bg-[#00903b] rounded-full blur-3xl animate-pulse"></div>
-            <div class="absolute bottom-20 right-10 w-40 h-40 bg-[#7dbb5c] rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#87cede] rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <!-- Enhanced Header -->
-            <div class="text-center mb-16">
-                <div class="inline-block">
-                    <h2 class="text-3xl md:text-5xl font-bold text-[#00903b] mb-6 relative">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] animate-gradient">
-                            Galería de Imágenes
-                        </span>
-                        <!-- Decorative underline -->
-                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full"></div>
-                    </h2>
-                </div>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-8 opacity-90">
-                    Descubre nuestras actividades y logros a través de esta colección visual de nuestro trabajo en la región
-                </p>
-            </div>
-            
-            <!-- Enhanced Masonry Gallery Grid -->
-            <div class="enhanced-masonry-grid">
-                <!-- Gallery Item 1 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho1.jpeg" alt="Actividad Olancho 1" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Trabajo de Campo</h3>
-                                    <p class="overlay-text">Actividades de conservación ambiental</p>
-                                </div>
+    <!-- Enhanced Masonry Gallery Grid -->
+    <div class="enhanced-masonry-grid mb-12">
+        <!-- Gallery Item 1 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold1.jpeg" alt="Actividad PlanetGold 1" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Presentation/Meeting Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4h10M7 4l-2 14h14l-2-14M11 9h2M9 13h6"></path>
+                                </svg>
                             </div>
+                            <h3 class="overlay-title">Presentación de Proyecto</h3>
+                            <p class="overlay-text">Ante Alcaldía Municipal de Macuelizo, Santa Bárbara.</p>
                         </div>
                     </div>
-                </div>
-
-                <!-- Gallery Item 2 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho2.jpeg" alt="Actividad Olancho 2" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Educación Ambiental</h3>
-                                    <p class="overlay-text">Programas de concientización</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 3 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho3.jpeg" alt="Actividad Olancho 3" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Reforestación</h3>
-                                    <p class="overlay-text">Plantación de especies nativas</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 4 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho4.jpeg" alt="Actividad Olancho 4" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Trabajo en Equipo</h3>
-                                    <p class="overlay-text">Colaboración comunitaria</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 5 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho5.jpeg" alt="Actividad Olancho 5" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Conservación</h3>
-                                    <p class="overlay-text">Protección del ecosistema</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 6 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho6.jpeg" alt="Actividad Olancho 6" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Recursos Naturales</h3>
-                                    <p class="overlay-text">Manejo sostenible</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 7 -->
-                <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
-                    <div class="enhanced-gallery-card group">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho7.jpeg" alt="Actividad Olancho 7" class="gallery-image">
-                            <div class="image-overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-icon">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="overlay-title">Logros Ambientales</h3>
-                                    <p class="overlay-text">Impacto positivo en la región</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Enhanced CTA Button -->
-            <div class="text-center mt-16">
-                <div class="inline-block relative">
-                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
-                        <!-- Button background animation -->
-                        <div class="absolute inset-0 bg-gradient-to-r from-[#7dbb5c] via-[#5ca54c] to-[#00903b] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        
-                        <!-- Button content -->
-                        <span class="relative z-10 flex items-center">
-                            <svg class="mr-3 w-6 h-6 transform group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                            </svg>
-                            Ver Más Actividades
-                            <svg class="ml-3 w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                            </svg>
-                        </span>
-                        
-                        <!-- Ripple effect -->
-                        <div class="absolute inset-0 rounded-full opacity-0 group-hover:opacity-20 bg-white transform scale-0 group-hover:scale-100 transition-all duration-500"></div>
-                    </button>
-                    
-                    <!-- Floating particles around button -->
-                    <div class="absolute -top-2 -left-2 w-4 h-4 bg-[#87cede] rounded-full opacity-60 animate-ping"></div>
-                    <div class="absolute -bottom-2 -right-2 w-3 h-3 bg-[#7dbb5c] rounded-full opacity-60 animate-ping" style="animation-delay: 1s;"></div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Gallery Item 2 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold2.jpeg" alt="Actividad PlanetGold 2" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Tunnel/Mining Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Censo de túneles</h3>
+                            <p class="overlay-text">En comunidad de Agua Fría Mineral, Danlí-El Paraíso</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold3.jpeg" alt="Actividad PlanetGold 3" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Cooperation/Handshake Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Conformación de Cooperativa Minera</h3>
+                            <p class="overlay-text">Agua Fría Mineral, Danlí-El Paraíso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold4.jpeg" alt="Actividad PlanetGold 4" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Map/Location Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Delimitación de Área Minera</h3>
+                            <p class="overlay-text">Minería Artesanal Metálica en Quimistán.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 5 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold5.jpeg" alt="Actividad PlanetGold 5" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Survey/Clipboard Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Censo de túneles</h3>
+                            <p class="overlay-text">En Macuelizo-Santa Bárbara.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold6.jpeg" alt="Actividad Planet Gold 6" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Women/Female Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Organización de Mujeres Mineras</h3>
+                            <p class="overlay-text">En Iriona-Colón.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 7 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold7.jpeg" alt="Actividad PlanetGold 7" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Certificate/Award Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Juramentación de Pre-Cooperativa</h3>
+                            <p class="overlay-text">En Quimistán-Santa Barbara</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Item 8 -->
+        <div class="masonry-item" data-aos="fade-up" data-aos-delay="800">
+            <div class="enhanced-gallery-card group">
+                <div class="image-container">
+                    <img src="/wp-content/uploads/2025/07/PlanetGold8.jpeg" alt="Actividad PlanetGold 8" class="gallery-image">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-icon">
+                                <!-- Workshop/Education Icon -->
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                            </div>
+                            <h3 class="overlay-title">Taller MTD y MPA</h3>
+                            <p class="overlay-text">Para beneficiado de broza y relaves en Quimistán-Santa Barbara.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
@@ -485,37 +457,41 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-/* Enhanced Gallery Styles */
+/* Enhanced Gallery Styles - Mejorado con grid 4x2 y colores azules */
 .enhanced-masonry-grid {
-    column-count: 1;
-    column-gap: 2rem;
-    line-height: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    max-width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 1280px) {
     .enhanced-masonry-grid {
-        column-count: 2;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .enhanced-masonry-grid {
-        column-count: 3;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
     }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 640px) {
     .enhanced-masonry-grid {
-        column-count: 4;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+        gap: 1.5rem;
     }
 }
 
 .masonry-item {
-    display: inline-block;
     width: 100%;
-    margin-bottom: 2rem;
+    height: fit-content;
     break-inside: avoid;
-    line-height: 1.5;
 }
 
 .enhanced-gallery-card {
@@ -527,11 +503,12 @@ get_header(); ?>
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0) scale(1);
     cursor: pointer;
+    height: 100%;
 }
 
 .enhanced-gallery-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -12px rgba(0, 144, 59, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.25), 0 25px 25px -12px rgba(59, 130, 246, 0.1);
 }
 
 .enhanced-gallery-card::before {
@@ -541,7 +518,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #00903b20, #87cede20, #7dbb5c20);
+    background: linear-gradient(135deg, #3b82f620, #1d4ed820, #60a5fa20);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -556,11 +533,13 @@ get_header(); ?>
     position: relative;
     overflow: hidden;
     border-radius: 1.5rem;
+    height: 100%;
 }
 
 .gallery-image {
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
     display: block;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     filter: brightness(1) saturate(1);
@@ -577,7 +556,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 144, 59, 0.85), rgba(135, 206, 222, 0.85), rgba(125, 187, 92, 0.85));
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.85), rgba(29, 78, 216, 0.85), rgba(96, 165, 250, 0.85));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -595,6 +574,7 @@ get_header(); ?>
     color: white;
     transform: translateY(20px);
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 1rem;
 }
 
 .enhanced-gallery-card:hover .overlay-content {
@@ -622,16 +602,18 @@ get_header(); ?>
 }
 
 .overlay-title {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    line-height: 1.4;
 }
 
 .overlay-text {
     font-size: 0.875rem;
     opacity: 0.9;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1.3;
 }
 
 /* Enhanced animations */
@@ -654,35 +636,6 @@ get_header(); ?>
 
 .animate-float {
     animation: float 6s ease-in-out infinite;
-}
-
-/* Responsive adjustments */
-@media (max-width: 639px) {
-    .masonry-item {
-        margin-bottom: 1.5rem;
-    }
-    
-    .enhanced-masonry-grid {
-        column-gap: 1rem;
-    }
-    
-    .overlay-title {
-        font-size: 1rem;
-    }
-    
-    .overlay-text {
-        font-size: 0.75rem;
-    }
-    
-    .overlay-icon {
-        width: 3rem;
-        height: 3rem;
-    }
-    
-    .overlay-icon svg {
-        width: 1.25rem;
-        height: 1.25rem;
-    }
 }
 
 /* Enhanced button styles */
@@ -714,12 +667,12 @@ html {
 
 /* Focus styles for accessibility */
 .enhanced-gallery-card:focus {
-    outline: 3px solid #87cede;
+    outline: 3px solid #3b82f6;
     outline-offset: 2px;
 }
 
 button:focus {
-    outline: 3px solid #87cede;
+    outline: 3px solid #3b82f6;
     outline-offset: 2px;
 }
 
