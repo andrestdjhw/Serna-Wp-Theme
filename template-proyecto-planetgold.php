@@ -78,25 +78,25 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">9</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">9</div>
                         <div class="text-lg">Toneladas de mercurio utilizadas al año en la MAPE.</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">3,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">3,000</div>
                         <div class="text-lg">Mineros de la MAPE.</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">17,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">17,000</div>
                         <div class="text-lg">Personas indirectamente involucradas en la MAPE.</div>
                     </div>
 
                     <!-- Stat 4 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2">622</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">622</div>
                         <div class="text-lg">Comunidades donde se lleva a cabo la MAPE.</div>
                     </div>
                 </div>
