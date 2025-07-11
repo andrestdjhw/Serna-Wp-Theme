@@ -63,8 +63,8 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="lg:w-1/2">
-                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/Ocotpq7.jpeg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                    <div class="bg-gradient-to-r from-[#87cede] to-blue-500 rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                        <img src="/wp-content/uploads/2025/07/PlanetGoldBanner.jpeg" alt="Banner PlanetGold" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -262,176 +262,214 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Enhanced Masonry Gallery Grid -->
-    <div class="enhanced-masonry-grid mb-12">
-        <!-- Gallery Item 1 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold1.jpeg" alt="Actividad PlanetGold 1" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Presentation/Meeting Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4h10M7 4l-2 14h14l-2-14M11 9h2M9 13h6"></path>
-                                </svg>
-                            </div>
-                            <h3 class="overlay-title">Presentación de Proyecto</h3>
-                            <p class="overlay-text">Ante Alcaldía Municipal de Macuelizo, Santa Bárbara.</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Gallery Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                        Galería de Actividades
+                    </span>
+                </h2>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Conoce las principales actividades y logros del Proyecto PlanetGold en Honduras
+                </p>
             </div>
-        </div>
 
-        <!-- Gallery Item 2 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold2.jpeg" alt="Actividad PlanetGold 2" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Tunnel/Mining Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                                </svg>
+            <!-- Enhanced Masonry Gallery Grid -->
+            <div class="enhanced-masonry-grid mb-16">
+                <!-- Gallery Item 1 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold1.jpeg" alt="Actividad PlanetGold 1" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Presentation/Meeting Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4h10M7 4l-2 14h14l-2-14M11 9h2M9 13h6"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Presentación de Proyecto</h3>
+                                    <p class="overlay-text">Ante Alcaldía Municipal de Macuelizo, Santa Bárbara.</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Censo de túneles</h3>
-                            <p class="overlay-text">En comunidad de Agua Fría Mineral, Danlí-El Paraíso</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 3 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="300">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold3.jpeg" alt="Actividad PlanetGold 3" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Cooperation/Handshake Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                </svg>
+                <!-- Gallery Item 2 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold2.jpeg" alt="Actividad PlanetGold 2" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Tunnel/Mining Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Censo de túneles</h3>
+                                    <p class="overlay-text">En comunidad de Agua Fría Mineral, Danlí-El Paraíso</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Conformación de Cooperativa Minera</h3>
-                            <p class="overlay-text">Agua Fría Mineral, Danlí-El Paraíso.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 4 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold4.jpeg" alt="Actividad PlanetGold 4" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Map/Location Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
-                                </svg>
+                <!-- Gallery Item 3 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold3.jpeg" alt="Actividad PlanetGold 3" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Cooperation/Handshake Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Conformación de Cooperativa Minera</h3>
+                                    <p class="overlay-text">Agua Fría Mineral, Danlí-El Paraíso.</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Delimitación de Área Minera</h3>
-                            <p class="overlay-text">Minería Artesanal Metálica en Quimistán.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 5 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold5.jpeg" alt="Actividad PlanetGold 5" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Survey/Clipboard Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                                </svg>
+                <!-- Gallery Item 4 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold4.jpeg" alt="Actividad PlanetGold 4" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Map/Location Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Delimitación de Área Minera</h3>
+                                    <p class="overlay-text">Minería Artesanal Metálica en Quimistán.</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Censo de túneles</h3>
-                            <p class="overlay-text">En Macuelizo-Santa Bárbara.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 6 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold6.jpeg" alt="Actividad Planet Gold 6" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Women/Female Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                                </svg>
+                <!-- Gallery Item 5 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold5.jpeg" alt="Actividad PlanetGold 5" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Survey/Clipboard Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Censo de túneles</h3>
+                                    <p class="overlay-text">En Macuelizo-Santa Bárbara.</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Organización de Mujeres Mineras</h3>
-                            <p class="overlay-text">En Iriona-Colón.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 7 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold7.jpeg" alt="Actividad PlanetGold 7" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Certificate/Award Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                </svg>
+                <!-- Gallery Item 6 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold6.jpeg" alt="Actividad Planet Gold 6" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Women/Female Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Organización de Mujeres Mineras</h3>
+                                    <p class="overlay-text">En Iriona-Colón.</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Juramentación de Pre-Cooperativa</h3>
-                            <p class="overlay-text">En Quimistán-Santa Barbara</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery Item 8 -->
-        <div class="masonry-item" data-aos="fade-up" data-aos-delay="800">
-            <div class="enhanced-gallery-card group">
-                <div class="image-container">
-                    <img src="/wp-content/uploads/2025/07/PlanetGold8.jpeg" alt="Actividad PlanetGold 8" class="gallery-image">
-                    <div class="image-overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-icon">
-                                <!-- Workshop/Education Icon -->
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                                </svg>
+                <!-- Gallery Item 7 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold7.jpeg" alt="Actividad PlanetGold 7" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Certificate/Award Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Juramentación de Pre-Cooperativa</h3>
+                                    <p class="overlay-text">En Quimistán-Santa Barbara</p>
+                                </div>
                             </div>
-                            <h3 class="overlay-title">Taller MTD y MPA</h3>
-                            <p class="overlay-text">Para beneficiado de broza y relaves en Quimistán-Santa Barbara.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="800">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/07/PlanetGold8.jpeg" alt="Actividad PlanetGold 8" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <!-- Workshop/Education Icon -->
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Taller MTD y MPA</h3>
+                                    <p class="overlay-text">Para beneficiado de broza y relaves en Quimistán-Santa Barbara.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- CTA Section -->
+            <div class="text-center mt-8">
+                <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 shadow-2xl">
+                    <div class="max-w-3xl mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                            ¿Necesitas reportar alguna situación?
+                        </h3>
+                        <p class="text-xl text-white opacity-90 mb-8">
+                            Tu voz es importante para el desarrollo responsable de la minería en Honduras
+                        </p>
+                        <a href="#denuncias" class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                            </svg>
+                            Reportar Situación
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
 </div>
 
@@ -457,19 +495,21 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-/* Enhanced Gallery Styles - Mejorado con grid 4x2 y colores azules */
+/* Enhanced Gallery Styles - Mejorado con márgenes apropiados */
 .enhanced-masonry-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     max-width: 100%;
+    margin: 0; /* Removemos márgenes automáticos */
 }
 
 @media (max-width: 1280px) {
     .enhanced-masonry-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, auto);
+        gap: 1.5rem;
     }
 }
 
@@ -477,6 +517,15 @@ get_header(); ?>
     .enhanced-masonry-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, auto);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .enhanced-masonry-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+        gap: 1rem;
     }
 }
 
