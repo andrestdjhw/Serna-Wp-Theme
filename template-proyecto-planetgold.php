@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Proyecto PlanetGold
+                    Proyecto planet<strong>GOLD</strong>
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -45,31 +45,86 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Story Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:flex lg:items-center lg:justify-between">
-                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La minería de oro artesanal y de pequeña escala (MAPE) es reconocida como una importante fuente de sustento en Honduras, que tiene una población minera de 3,000 personas, el 5 por ciento de las cuales son mujeres. Se han documentado más de 620 comunidades de pequeña minería, desarrollándose las actividades más significativas en los departamentos de El Paraíso, Santa Bárbara, Olancho, Choluteca y Valle. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El uso de mercurio no está prohibido en la MAPE, siempre que los mineros utilicen las mejores técnicas y prácticas ambientales disponibles al usarlo. Sin embargo, la amalgamación de minerales enteros sigue estando muy extendida, lo que libera cantidades considerables de mercurio al medio ambiente y tiene un impacto negativo en la salud de los mineros y sus comunidades. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Transformar la MAPE en Honduras en un sector responsable se ha convertido en un importante desafío nacional. Una regulación de 2019 para el sector incluye disposiciones destinadas a apoyar el compromiso del país de implementar el Convenio de Minamata sobre el Mercurio y eliminar el uso de mercurio. Más recientemente, en 2023 se anunció una hoja de ruta para el sector de la MAPE que respalda la visión estratégica de un nuevo sector de la MAPE responsable para Honduras. 
-                    </p>
-                </div>
-                <div class="lg:w-1/2">
-                    <div class="bg-gradient-to-r from-[#87cede] to-blue-500 rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/07/PlanetGoldBanner.jpeg" alt="Banner PlanetGold" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+    <div class="bg-gray-50">
+        <!-- Story Section Mejorada -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:flex lg:items-start lg:gap-8">
+                    <!-- Contenido de texto -->
+                    <div class="lg:w-3/5 mb-8 lg:mb-0">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                                Sobre Nosotros
+                            </span>
+                        </h2>
+                        <div class="h-1 w-20 bg-[#87cede] mb-6"></div>
+                        
+                        <!-- Texto inicial siempre visible -->
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                            La minería de oro artesanal y de pequeña escala (MAPE) es reconocida como una importante fuente de sustento en Honduras, que tiene una población minera de 3,000 personas, el 5 por ciento de las cuales son mujeres. Se han documentado más de 620 comunidades de pequeña minería, desarrollándose las actividades más significativas en los departamentos de El Paraíso, Santa Bárbara, Olancho, Choluteca y Valle.
+                        </p>
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                            El uso de mercurio no está prohibido en la MAPE, siempre que los mineros utilicen las mejores técnicas y prácticas ambientales disponibles al usarlo. Sin embargo, la amalgamación de minerales enteros sigue estando muy extendida, lo que libera cantidades considerables de mercurio al medio ambiente y tiene un impacto negativo en la salud de los mineros y sus comunidades.
+                        </p>
+                        <!-- Contenido expandible -->
+                        <div id="expandable-content" class="overflow-hidden transition-all duration-500 ease-in-out max-h-0">
+                            <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                                Transformar la MAPE en Honduras en un sector responsable se ha convertido en un importante desafío nacional. Una regulación de 2019 para el sector incluye disposiciones destinadas a apoyar el compromiso del país de implementar el Convenio de Minamata sobre el Mercurio y eliminar el uso de mercurio. Más recientemente, en 2023 se anunció una hoja de ruta para el sector de la MAPE que respalda la visión estratégica de un nuevo sector de la MAPE responsable para Honduras.
+                            </p>
+                        </div>
+                        
+                        <!-- Botón Leer más/menos -->
+                        <button 
+                            id="toggle-btn" 
+                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                            onclick="toggleContent()"
+                        >
+                            <span id="btn-text">Leer más</span>
+                            <svg id="arrow-icon" class="ml-2 w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Imagen -->
+                    <div class="lg:w-2/5">
+                        <div class="relative group">
+                            <!-- Contenedor con efecto de hover mejorado -->
+                            <div class="bg-gradient-to-br from-[#87cede] via-cyan-400 to-cyan-600 rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                                <div class="bg-white rounded-xl overflow-hidden">
+                                    <img 
+                                        src="/wp-content/uploads/2025/07/PlanetGoldBanner.jpeg" 
+                                        alt="Banner PlanetGold - Minería responsable en Honduras" 
+                                        class="w-full h-64 lg:h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+                                    >
+                                </div>
+                            </div>
+                            
+                            <!-- Overlay con información adicional -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                                <div class="p-6 text-white">
+                                    <h3 class="text-xl font-bold mb-2">PlanetGOLD Honduras</h3>
+                                    <p class="text-sm">Transformando la minería hacia un sector responsable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Estadísticas destacadas -->
+                        <div class="mt-6 grid grid-cols-2 gap-4">
+                            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-lg p-4 text-white text-center">
+                                <div class="text-2xl font-bold">3,000</div>
+                                <div class="text-sm opacity-90">Población minera</div>
+                            </div>
+                            <div class="bg-gradient-to-r from-[#87cede] to-cyan-500 rounded-lg p-4 text-white text-center">
+                                <div class="text-2xl font-bold">620+</div>
+                                <div class="text-sm opacity-90">Comunidades</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Stats Section -->
     <section class="py-20 bg-white">
@@ -236,7 +291,7 @@ get_header(); ?>
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Organización de un grupo de mujeres mineras aluviales</h3>
-                                <p class="text-gray-600">en el municipio de Iriona, departamento de Colón.</p>
+                                <p class="text-gray-600">En el municipio de Iriona, departamento de Colón.</p>
                             </div>
                         </div>
                     </div>
@@ -567,7 +622,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #3b82f620, #1d4ed820, #60a5fa20);
+    background: linear-gradient(135deg, #87cede, #1d4ed820, #60a5fa20);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -762,4 +817,29 @@ button:focus {
 }
 
 </style>
+
+<script>
+    function toggleContent() {
+        const content = document.getElementById('expandable-content');
+        const button = document.getElementById('toggle-btn');
+        const btnText = document.getElementById('btn-text');
+        const arrowIcon = document.getElementById('arrow-icon');
+            
+        if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+            // Expandir
+                content.style.maxHeight = content.scrollHeight + 'px';
+                btnText.textContent = 'Leer menos';
+                arrowIcon.style.transform = 'rotate(180deg)';
+                button.classList.add('bg-gradient-to-r', 'from-[#87cede]', 'to-cyan-500');
+                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+            } else {
+                // Contraer
+                content.style.maxHeight = '0px';
+                btnText.textContent = 'Leer más';
+                arrowIcon.style.transform = 'rotate(0deg)';
+                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.add('from-[#00903b]', 'to-[#7dbb5c]');
+            }
+    }
+</script>
 <?php get_footer(); ?>
