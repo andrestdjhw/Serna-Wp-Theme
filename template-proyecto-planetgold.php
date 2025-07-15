@@ -459,7 +459,7 @@ get_header(); ?>
                         <p class="text-xl text-white opacity-90 mb-8">
                             Tu voz es importante para el desarrollo responsable de la minería en Honduras
                         </p>
-                        <a href="#denuncias" class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                        <a href="#denuncias" class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-xl hover:bg-[#87cede] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
                             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
                             </svg>
@@ -723,6 +723,42 @@ html {
 button:focus {
     outline: 3px solid #3b82f6;
     outline-offset: 2px;
+}
+
+/* Contenedor para las últimas 2 imágenes en 2 columnas */
+.enhanced-masonry-grid .masonry-item:nth-child(7) {
+    grid-column: 1 / 3;
+}
+
+.enhanced-masonry-grid .masonry-item:nth-child(8) {
+    grid-column: 3 / 5;
+}
+
+/* Responsivo para tablets (3 columnas) */
+@media (max-width: 1280px) {
+    .enhanced-masonry-grid .masonry-item:nth-child(7) {
+        grid-column: 1 / 2;
+    }
+    
+    .enhanced-masonry-grid .masonry-item:nth-child(8) {
+        grid-column: 2 / 4;
+    }
+}
+
+/* Responsivo para tablets pequeñas (2 columnas) */
+@media (max-width: 1024px) {
+    .enhanced-masonry-grid .masonry-item:nth-child(7),
+    .enhanced-masonry-grid .masonry-item:nth-child(8) {
+        grid-column: span 1;
+    }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 640px) {
+    .enhanced-masonry-grid .masonry-item:nth-child(7),
+    .enhanced-masonry-grid .masonry-item:nth-child(8) {
+        grid-column: span 1;
+    }
 }
 
 </style>
