@@ -62,7 +62,7 @@ get_header(); ?>
                         </div>
                         <div class="ml-4">
                             <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Email</h3>
-                            <p class="text-gray-600">contacto@serna.gob.hn</p>
+                            <p class="text-gray-600">rpalacios.planetgold@gmail.com</p>
                         </div>
                     </div>
                     
@@ -75,7 +75,7 @@ get_header(); ?>
                         </div>
                         <div class="ml-4">
                             <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Teléfono</h3>
-                            <p class="text-gray-600">+504 9999-9999</p>
+                            <p class="text-gray-600">+504 8969-0337</p>
                         </div>
                     </div>
                     
@@ -103,7 +103,6 @@ get_header(); ?>
                         <div class="ml-4">
                             <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Horario</h3>
                             <p class="text-gray-600">Lun - Vie: 7:30 AM - 3:30 PM</p>
-                            <p class="text-gray-600">Dom: Cerrado</p>
                         </div>
                     </div>
                 </div>

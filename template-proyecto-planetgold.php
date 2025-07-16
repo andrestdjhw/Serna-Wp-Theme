@@ -104,7 +104,7 @@ get_header(); ?>
                             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                                 <div class="p-6 text-white">
                                     <h3 class="text-xl font-bold mb-2">PlanetGOLD Honduras</h3>
-                                    <p class="text-sm">Transformando la minería hacia un sector responsable.</p>
+                                    <p class="text-sm">Hacer historia del Mercurio.</p>
                                 </div>
                             </div>
                         </div>
