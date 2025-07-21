@@ -244,8 +244,12 @@ get_header(); ?>
     }
 </style>
 <!-- Este script es para la funcionalidad del formulario de Contacto -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Inicializa EmailJS con tu User ID
+    emailjs.init('TU_USER_ID_DE_EMAILJS');
+    
     const form = document.getElementById('contact-form');
     const formMessages = document.getElementById('form-messages');
     const successMessage = document.getElementById('success-message');
@@ -260,34 +264,42 @@ document.addEventListener('DOMContentLoaded', function() {
             successMessage.classList.add('hidden');
             errorMessage.classList.add('hidden');
             
-            // Obtener informacion del formulario
-            const formData = new FormData(form);
-            formData.append('action', 'process_contact_form');
+            // Mostrar indicador de carga (opcional)
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.textContent;
+            submitBtn.textContent = 'Enviando...';
+            submitBtn.disabled = true;
             
-            // Send AJAX request
-            fetch('<?php echo admin_url('admin-ajax.php'); ?>', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                formMessages.classList.remove('hidden');
-                
-                if (data.success) {
+            // Preparar los datos para EmailJS
+            const formData = {
+                from_name: form.querySelector('#first_name').value,
+                from_email: form.querySelector('#email').value,
+                phone: form.querySelector('#phone').value,
+                genero: form.querySelector('#subject').value,
+                asunto: form.querySelector('#subject').value,
+                message: form.querySelector('#message').value
+            };
+            
+            // Enviar mediante EmailJS
+            emailjs.send('TU_SERVICE_ID', 'TU_TEMPLATE_ID', formData)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    formMessages.classList.remove('hidden');
                     successMessage.classList.remove('hidden');
                     form.reset();
-                } else {
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    formMessages.classList.remove('hidden');
                     errorMessage.classList.remove('hidden');
-                }
-            })
-            .catch(error => {
-                formMessages.classList.remove('hidden');
-                errorMessage.classList.remove('hidden');
-                console.error('Error:', error);
-            });
+                })
+                .finally(function() {
+                    // Restaurar botón
+                    submitBtn.textContent = originalBtnText;
+                    submitBtn.disabled = false;
+                });
         });
     }
-});
+}); 
 </script>
 
 <?php get_footer(); ?>
