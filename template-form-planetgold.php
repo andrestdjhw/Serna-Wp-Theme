@@ -108,7 +108,7 @@ get_header(); ?>
                 </div>
                 
                 <!-- Enlaces Redes Sociales -->
-                <div class="bg-white rounded-lg shadow-custom p-8 mt-8">
+                <!-- <div class="bg-white rounded-lg shadow-custom p-8 mt-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Síguenos</span></h2>
                     <div class="flex space-x-4">
                         <a href="https://www.facebook.com/sernaHN/?locale=es_LA" class="bg-gray-100 hover:bg-[#7dbb5c] text-[#00903b] hover:text-white p-3 rounded-full transition-colors duration-300">
@@ -124,7 +124,8 @@ get_header(); ?>
                             <i class="fab fa-tiktok"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
+
             </div>
             
             <!-- Formulario de Contacto -->
@@ -137,15 +138,8 @@ get_header(); ?>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <!-- Nombre Completo -->
                             <div>
-                                <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre</label>
-                                <input type="text" id="first_name" name="first_name" required
-                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
-                            </div>
-                            
-                            <!-- Apellido -->
-                            <div>
-                                <label for="last_name" class="block text-sm font-medium text-gray-700 mb-2">Apellido</label>
-                                <input type="text" id="last_name" name="last_name" required
+                                <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo (opcional)</label>
+                                <input type="text" id="first_name" name="first_name" 
                                     class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                             </div>
                         </div>
@@ -164,18 +158,31 @@ get_header(); ?>
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
                         
+                        <!-- Genero -->
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Genero</label>
+                            <select id="subject" name="subject" required
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
+                                <option value="">Selecciona una opcion</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="nodecir">Prefiero no decirlo</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
                         <!-- Asunto -->
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Asunto</label>
                             <select id="subject" name="subject" required
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                                 <option value="">Selecciona un asunto</option>
-                                <option value="general">Trabajo forzado</option>
-                                <option value="slas">Explotación infantil</option>
-                                <option value="direccion ambiental">Tratamiento degradante</option>
-                                <option value="secretaria general">Cobros Ilegales/Extorsiones</option>
-                                <option value="secretaria general">Evacion de Impuestos</option>
-                                <option value="secretaria general">Sobornos/Lavado de activos</option>
+                                <option value="trabajoforzado">Trabajo forzado</option>
+                                <option value="explotacioninfantil">Explotación infantil</option>
+                                <option value="tratamientodegradante">Tratamiento degradante</option>
+                                <option value="extorsiones">Cobros Ilegales/Extorsiones</option>
+                                <option value="evaluacionimpuestos">Evacion de Impuestos</option>
+                                <option value="sobornos">Sobornos/Lavado de activos</option>
                                 <option value="otro">Otro</option>
                             </select>
                         </div>
