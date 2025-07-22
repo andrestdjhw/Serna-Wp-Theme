@@ -137,8 +137,8 @@ get_header(); ?>
                                                     
                         <!-- Nombre Completo -->
                         <div>
-                            <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo (opcional)</label>
-                            <input type="text" id="first_name" name="first_name" 
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo (opcional)</label>
+                            <input type="text" id="name" name="name" 
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
                         <!-- Correo Electronico -->
@@ -269,8 +269,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Preparar los datos para EmailJS
             const formData = {
-                from_name: form.querySelector('#first_name').value,
-                from_email: form.querySelector('#email').value,
+                name: form.querySelector('#name').value,
+                email: form.querySelector('#email').value,
                 phone: form.querySelector('#phone').value,
                 genero: form.querySelector('#gender').value,
                 asunto: form.querySelector('#subject').value,
