@@ -134,16 +134,13 @@ get_header(); ?>
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Envíanos un mensaje</span></h2>
                     <form id="contact-form" class="space-y-6">
                         <?php wp_nonce_field('contact_form_nonce', 'contact_nonce'); ?>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- Nombre Completo -->
-                            <div>
-                                <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo (opcional)</label>
-                                <input type="text" id="first_name" name="first_name" 
-                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
-                            </div>
+                                                    
+                        <!-- Nombre Completo -->
+                        <div>
+                            <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo (opcional)</label>
+                            <input type="text" id="first_name" name="first_name" 
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
-                        
                         <!-- Correo Electronico -->
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico</label>
@@ -160,8 +157,8 @@ get_header(); ?>
                         
                         <!-- Genero -->
                         <div>
-                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Genero</label>
-                            <select id="subject" name="subject" required
+                            <label for="gender" class="block text-sm font-medium text-gray-700 mb-2">Genero</label>
+                            <select id="gender" name="gender" required
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                                 <option value="">Selecciona una opcion</option>
                                 <option value="masculino">Masculino</option>
@@ -248,7 +245,7 @@ get_header(); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Inicializa EmailJS con tu User ID
-    emailjs.init('TU_USER_ID_DE_EMAILJS');
+    emailjs.init('8lCW4DCAwojWIKJ89');//Aqui va el Public Key
     
     const form = document.getElementById('contact-form');
     const formMessages = document.getElementById('form-messages');
@@ -264,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
             successMessage.classList.add('hidden');
             errorMessage.classList.add('hidden');
             
-            // Mostrar indicador de carga (opcional)
+            // Mostrar indicador de carga
             const submitBtn = form.querySelector('button[type="submit"]');
             const originalBtnText = submitBtn.textContent;
             submitBtn.textContent = 'Enviando...';
@@ -275,13 +272,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 from_name: form.querySelector('#first_name').value,
                 from_email: form.querySelector('#email').value,
                 phone: form.querySelector('#phone').value,
-                genero: form.querySelector('#subject').value,
+                genero: form.querySelector('#gender').value,
                 asunto: form.querySelector('#subject').value,
                 message: form.querySelector('#message').value
             };
             
             // Enviar mediante EmailJS
-            emailjs.send('TU_SERVICE_ID', 'TU_TEMPLATE_ID', formData)
+            //Primer parametro ServiceID, Segundo parametro TemplateID, formData
+            emailjs.send('service_vjymijf', 'template_zc23ruk', formData)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     formMessages.classList.remove('hidden');
