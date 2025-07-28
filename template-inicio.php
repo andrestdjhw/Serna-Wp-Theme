@@ -32,10 +32,10 @@ get_header(); ?>
                     <cite>Al servicio del pueblo y por la recuperacion de la soberania de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="#" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="/perfil" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                         Conócenos
                     </a>
-                    <a href="#" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
+                    <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
                         Nuestros Servicios
                     </a>
                 </div>
@@ -53,7 +53,7 @@ get_header(); ?>
     <!-- Main Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <!-- Featured Services Section -->
-        <section class="mb-24">
+        <section id="servicios" class="mb-24">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestros Servicios</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -143,7 +143,7 @@ get_header(); ?>
                     <p class="text-gray-600 mb-8 leading-relaxed">
                     La misión de SERNA es impulsar el desarrollo sostenible de Honduras mediante la formulación, coordinación, ejecución y evaluación de políticas públicas orientadas a la preservación de los recursos naturales y la conservación del ambiente, para mejorar la calidad de vida de sus habitantes, actuando con honestidad, responsabilidad, compromiso, eficiencia y transparencia.
                     </p>
-                    <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300 inline-flex items-center">
+                    <a href="/perfil" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300 inline-flex items-center">
                         Conoce más sobre nosotros
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -308,6 +308,11 @@ get_header(); ?>
 </div>
 
 <style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+
     @keyframes gradient {
         0% {
             background-position: 0% 50%;

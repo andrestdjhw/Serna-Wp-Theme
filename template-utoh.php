@@ -422,7 +422,7 @@ get_header(); ?>
             <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
                 Solicitud de Importación de Equipos de Refrigeración y Climatización
             </a>
-            <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5t5JE25MFUGzy_2UseWekH8vUa7lpptFmcU0_nKVEvJUNjlRWVJPSTJLOUhFSE5UQkU5QkxTU0MwQS4u" target="_blank" rel="noopener noreferrer"  class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
                 Solicitud de Importación de Sustancias controladas por el protocolo de Montreal (SAO, HFC, HC)
             </a>
             <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">

@@ -32,7 +32,7 @@ get_header(); ?>
                     <cite>Al servicio del pueblo y por la recuperacion de la soberania de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="#" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="#historia" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                         Conoce mas
                     </a>
                 </div>
@@ -48,7 +48,7 @@ get_header(); ?>
     </section>
 
     <!-- SERNA Story Section -->
-    <section class="py-20 bg-white">
+    <section id="historia" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
@@ -198,6 +198,11 @@ get_header(); ?>
 </div>
 
 <style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
