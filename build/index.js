@@ -164,6 +164,9 @@ function FooterComponent() {
     }, {
       name: "DNCC",
       url: "/dncc"
+    }, {
+      name: "UTOH",
+      url: "/utoh"
     }]
   }, {
     title: "Regionales",
@@ -671,6 +674,9 @@ function NavbarComponent() {
       }, {
         name: "DIBIO",
         link: "/dibio"
+      }, {
+        name: "UTOH",
+        link: "/utoh"
       }]
     }, {
       title: "Deca",

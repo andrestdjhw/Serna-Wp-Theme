@@ -77,6 +77,7 @@ function NavbarComponent() {
             { name: "DNCC", link: "/dncc" },
             { name: "DGRH", link: "/dgrh" },
             { name: "DIBIO", link: "/dibio" },
+            { name: "UTOH", link: "/utoh" },
           ],
         },
         {

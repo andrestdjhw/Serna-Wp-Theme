@@ -48,7 +48,8 @@ function FooterComponent() {
         { name: "DIBIO", url: "/dibio" },
         { name: "DGA", url: "/dga" },
         { name: "DECA", url: "/deca" },
-        { name: "DNCC", url: "/dncc" }
+        { name: "DNCC", url: "/dncc" },
+        { name: "UTOH", url: "/utoh" }
       ]
     },
     {
