@@ -338,71 +338,67 @@ get_header(); ?>
 <script>
     // Función para formatear números con comas
     function formatNumber(num) {
-            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        }
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
 
-    // Función para animar el conteo
-    function animateCounter(element, target, duration = 2000, suffix = '') {
-            let start = 0;
-            const increment = target / (duration / 16); // 60 FPS aproximadamente
+    // Función mejorada para animar el conteo con easing
+    function animateCounter(element, target, duration = 1800, suffix = '') {
+        let start = 0;
+        const startTime = performance.now();
+        
+        // Función de easing para suavizar la animación
+        const easeOutQuad = t => t * (2 - t);
+        
+        function updateCounter(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easedProgress = easeOutQuad(progress);
+            const currentValue = Math.floor(easedProgress * target);
             
-            function updateCounter() {
-                start += increment;
-                
-                if (start < target) {
-                    element.textContent = formatNumber(Math.floor(start)) + suffix;
-                    requestAnimationFrame(updateCounter);
-                } else {
-                    element.textContent = formatNumber(target) + suffix;
-                }
+            element.textContent = formatNumber(currentValue) + suffix;
+            
+            if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+            } else {
+                element.textContent = formatNumber(target) + suffix;
             }
-            
-            updateCounter();
         }
+        
+        requestAnimationFrame(updateCounter);
+    }
 
-    // Función para verificar si un elemento está visible en el viewport
-    function isInViewport(element) {
-            const rect = element.getBoundingClientRect();
-            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-            
-            // Se activa cuando el elemento está parcialmente visible
-            return (
-                rect.top < windowHeight && 
-                rect.bottom > 0
-            );
-        }
-
-        // Inicializar la animación cuando la sección sea visible
+    // Configuración mejorada usando Intersection Observer
+    document.addEventListener('DOMContentLoaded', function() {
+        const statsSection = document.querySelector('.bg-gradient-to-r.from-\\[\\#00903b\\].to-\\[\\#7dbb5c\\]');
+        const statItems = document.querySelectorAll('.stat-item');
         let hasAnimated = false;
 
-    function checkAndAnimate() {
-            const statsSection = document.querySelector('section');
-            
-            if (isInViewport(statsSection) && !hasAnimated) {
-                hasAnimated = true;
-                
-                // Animar cada contador con un pequeño retraso
-                const statItems = document.querySelectorAll('.stat-item');
-                
-                statItems.forEach((item, index) => {
-                    const counter = item.querySelector('.counter');
-                    const target = parseInt(item.dataset.target);
-                    const suffix = item.dataset.suffix;
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !hasAnimated) {
+                    hasAnimated = true;
                     
-                    // Agregar un retraso escalonado para cada estadística
-                    setTimeout(() => {
-                        animateCounter(counter, target, 2500, suffix);
-                    }, index * 200);
-                });
-            }
+                    statItems.forEach((item, index) => {
+                        const counter = item.querySelector('.counter');
+                        const target = parseInt(item.dataset.target);
+                        const suffix = item.dataset.suffix || '';
+                        
+                        // Pequeño retraso escalonado para mejor efecto
+                        setTimeout(() => {
+                            animateCounter(counter, target, 2000, suffix);
+                        }, index * 250);
+                    });
+                }
+            });
+        }, {
+            threshold: 0.2, // Se activa cuando el 20% del elemento es visible
+            rootMargin: '0px 0px -100px 0px' // Margen negativo para activar antes
+        });
+
+        if (statsSection) {
+            observer.observe(statsSection);
         }
-
-        // Verificar cuando se carga la página y al hacer scroll
-        window.addEventListener('load', checkAndAnimate);
-        window.addEventListener('scroll', checkAndAnimate);
-
-        // También verificar inmediatamente en caso de que ya esté visible
-        setTimeout(checkAndAnimate, 100);
+    });
 </script>
 
 <?php get_footer(); ?>
