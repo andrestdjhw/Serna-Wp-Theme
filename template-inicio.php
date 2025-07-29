@@ -261,26 +261,26 @@ get_header(); ?>
         <section class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <!-- Stat 1 -->
-                <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">1,650,000+</div>
+                <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
+                    <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Libras de lirio recogido</div>
                 </div>
                 
                 <!-- Stat 2 -->
-                <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">55,000+</div>
-                    <div class="text-lg">Hectareas recuperadas con PPAT y Plan 0 Deforestacion</div>
+                <div class="p-4 stat-item" data-target="55000" data-suffix="+">
+                    <div class="text-4xl font-bold mb-2 counter">0</div>
+                    <div class="text-lg">Hectáreas recuperadas con PPAT y Plan 0 Deforestación</div>
                 </div>
                 
                 <!-- Stat 3 -->
-                <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">150</div>
+                <div class="p-4 stat-item" data-target="150" data-suffix="">
+                    <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Microcuencas intervenidas a nivel nacional.</div>
                 </div>
                 
                 <!-- Stat 4 -->
-                <div class="p-4">
-                    <div class="text-4xl font-bold mb-2">18</div>
+                <div class="p-4 stat-item" data-target="18" data-suffix="">
+                    <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Áreas protegidas</div>
                 </div>
             </div>
@@ -334,5 +334,75 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 </style>
+
+<script>
+    // Función para formatear números con comas
+    function formatNumber(num) {
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+    // Función para animar el conteo
+    function animateCounter(element, target, duration = 2000, suffix = '') {
+            let start = 0;
+            const increment = target / (duration / 16); // 60 FPS aproximadamente
+            
+            function updateCounter() {
+                start += increment;
+                
+                if (start < target) {
+                    element.textContent = formatNumber(Math.floor(start)) + suffix;
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = formatNumber(target) + suffix;
+                }
+            }
+            
+            updateCounter();
+        }
+
+    // Función para verificar si un elemento está visible en el viewport
+    function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+            
+            // Se activa cuando el elemento está parcialmente visible
+            return (
+                rect.top < windowHeight && 
+                rect.bottom > 0
+            );
+        }
+
+        // Inicializar la animación cuando la sección sea visible
+        let hasAnimated = false;
+
+    function checkAndAnimate() {
+            const statsSection = document.querySelector('section');
+            
+            if (isInViewport(statsSection) && !hasAnimated) {
+                hasAnimated = true;
+                
+                // Animar cada contador con un pequeño retraso
+                const statItems = document.querySelectorAll('.stat-item');
+                
+                statItems.forEach((item, index) => {
+                    const counter = item.querySelector('.counter');
+                    const target = parseInt(item.dataset.target);
+                    const suffix = item.dataset.suffix;
+                    
+                    // Agregar un retraso escalonado para cada estadística
+                    setTimeout(() => {
+                        animateCounter(counter, target, 2500, suffix);
+                    }, index * 200);
+                });
+            }
+        }
+
+        // Verificar cuando se carga la página y al hacer scroll
+        window.addEventListener('load', checkAndAnimate);
+        window.addEventListener('scroll', checkAndAnimate);
+
+        // También verificar inmediatamente en caso de que ya esté visible
+        setTimeout(checkAndAnimate, 100);
+</script>
 
 <?php get_footer(); ?>
