@@ -50,3 +50,14 @@ function cargar_font_awesome() {
   );
 }
 add_action('wp_enqueue_scripts', 'cargar_font_awesome');
+
+function enqueue_react_scripts() {
+    wp_enqueue_script(
+        'serna-react-scripts',
+        get_template_directory_uri() . '/dist/index.js', // o donde esté tu archivo compilado
+        array(),
+        '1.0.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_react_scripts');

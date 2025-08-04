@@ -307,6 +307,9 @@ get_header(); ?>
     </div>
 </div>
 
+<!-- Contenedor para el Chatbot -->
+<div id="serna-chatbot"></div>
+
 <style>
 
     html {

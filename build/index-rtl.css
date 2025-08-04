@@ -1,0 +1,51 @@
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/index.css ***!
+  \*******************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/index.css (1) ***!
+  \***********************************************************************************************************************************************************************/
+/* Add Pluto Font */
+@font-face {
+  font-family: 'Pluto';
+  src: url(fonts/PlutoRegular.dacfab9a.ttf) format('ttf'),
+       url(fonts/PlutoRegular.dacfab9a.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pluto';
+  src: url(fonts/PlutoMedium.54add037.ttf) format('ttf'),
+       url(fonts/PlutoMedium.54add037.ttf) format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pluto';
+  src: url(fonts/PlutoBold.c267ed94.ttf) format('ttf'),
+       url(fonts/PlutoBold.c267ed94.ttf) format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Update the body font */
+@layer base {
+  body {
+    font-family: 'Pluto', 'PT Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pluto', 'PT Sans', sans-serif;
+    /* Optional: add specific font weights if needed */
+    font-weight: 700; /* For bold headings */
+  }
+}

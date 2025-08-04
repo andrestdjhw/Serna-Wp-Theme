@@ -34,6 +34,265 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./src/scripts/ChatbotComponent.js":
+/*!*****************************************!*\
+  !*** ./src/scripts/ChatbotComponent.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const SernaChatbot = () => {
+  const [isOpen, setIsOpen] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const [messages, setMessages] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
+    id: 1,
+    text: "¡Hola! Soy el asistente virtual de SERNA. ¿En qué puedo ayudarte hoy?",
+    sender: 'bot',
+    timestamp: new Date()
+  }]);
+  const [inputMessage, setInputMessage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const [isTyping, setIsTyping] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const messagesEndRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    scrollToBottom();
+  }, [messages]);
+  const handleSendMessage = e => {
+    e.preventDefault();
+    if (inputMessage.trim() === '') return;
+
+    // Agregar mensaje del usuario
+    const userMessage = {
+      id: Date.now(),
+      text: inputMessage,
+      sender: 'user',
+      timestamp: new Date()
+    };
+    setMessages(prev => [...prev, userMessage]);
+    setInputMessage('');
+    setIsTyping(true);
+
+    // Simular respuesta del bot (aquí conectarías tu API)
+    setTimeout(() => {
+      const botResponse = getBotResponse(inputMessage);
+      const botMessage = {
+        id: Date.now() + 1,
+        text: botResponse,
+        sender: 'bot',
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, botMessage]);
+      setIsTyping(false);
+    }, 1500);
+  };
+  const getBotResponse = userInput => {
+    const input = userInput.toLowerCase();
+    if (input.includes('licencia') || input.includes('permiso')) {
+      return "Para obtener una licencia ambiental, puedes visitar nuestra sección de servicios o contactar directamente a nuestras oficinas. ¿Te gustaría conocer los requisitos específicos?";
+    } else if (input.includes('forestal') || input.includes('bosque')) {
+      return "Ofrecemos servicios de gestión forestal sostenible. Puedes consultar nuestros programas de reforestación y manejo de bosques en la sección correspondiente.";
+    } else if (input.includes('agua') || input.includes('hídrico')) {
+      return "SERNA gestiona la protección de recursos hídricos. ¿Necesitas información sobre permisos de uso de agua o programas de conservación?";
+    } else if (input.includes('denuncia') || input.includes('reportar')) {
+      return "Puedes reportar infracciones ambientales a través de nuestro sistema de denuncias. ¿Te gustaría que te proporcione los pasos para realizar una denuncia?";
+    } else if (input.includes('contacto') || input.includes('teléfono')) {
+      return "Puedes contactarnos en nuestras oficinas centrales o regionales. ¿En qué región te encuentras para proporcionarte la información de contacto específica?";
+    } else {
+      return "Gracias por tu consulta. Te puedo ayudar con información sobre licencias ambientales, gestión forestal, protección del agua, denuncias ambientales y más. ¿Sobre qué tema específico te gustaría saber?";
+    }
+  };
+  const quickActions = [{
+    text: "Licencias Ambientales",
+    icon: "📋"
+  }, {
+    text: "Gestión Forestal",
+    icon: "🌲"
+  }, {
+    text: "Protección del Agua",
+    icon: "💧"
+  }, {
+    text: "Hacer Denuncia",
+    icon: "⚠️"
+  }];
+  const handleQuickAction = action => {
+    setInputMessage(action);
+  };
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    className: "fixed bottom-6 right-6 z-50",
+    children: [isOpen && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "mb-4 w-80 h-96 bg-white rounded-lg shadow-2xl border border-gray-200 flex flex-col overflow-hidden",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white p-4 flex items-center justify-between",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex items-center space-x-2",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+              className: "w-5 h-5",
+              fill: "currentColor",
+              viewBox: "0 0 24 24",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+              className: "font-semibold text-sm",
+              children: "Asistente SERNA"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              className: "text-xs opacity-90",
+              children: "En l\xEDnea"
+            })]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+          onClick: () => setIsOpen(false),
+          className: "text-white hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+            className: "w-4 h-4",
+            fill: "none",
+            stroke: "currentColor",
+            viewBox: "0 0 24 24",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeWidth: 2,
+              d: "M6 18L18 6M6 6l12 12"
+            })
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "flex-1 overflow-y-auto p-4 space-y-3",
+        children: [messages.map(message => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: `flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`,
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: `max-w-xs px-3 py-2 rounded-lg text-sm ${message.sender === 'user' ? 'bg-[#7dbb5c] text-white' : 'bg-gray-100 text-gray-800 border border-gray-200'}`,
+            children: message.text
+          })
+        }, message.id)), isTyping && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "flex justify-start",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "bg-gray-100 border border-gray-200 px-3 py-2 rounded-lg",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "flex space-x-1",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "w-2 h-2 bg-gray-400 rounded-full animate-pulse"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "w-2 h-2 bg-gray-400 rounded-full animate-pulse",
+                style: {
+                  animationDelay: '0.2s'
+                }
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "w-2 h-2 bg-gray-400 rounded-full animate-pulse",
+                style: {
+                  animationDelay: '0.4s'
+                }
+              })]
+            })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          ref: messagesEndRef
+        })]
+      }), messages.length === 1 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "px-4 pb-2",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "text-xs text-gray-500 mb-2",
+          children: "Temas frecuentes:"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "flex flex-wrap gap-1",
+          children: quickActions.map((action, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+            onClick: () => handleQuickAction(action.text),
+            className: "text-xs bg-[#87cede] bg-opacity-20 text-[#00903b] px-2 py-1 rounded-full hover:bg-opacity-30 transition-colors duration-200",
+            children: [action.icon, " ", action.text]
+          }, index))
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "p-4 border-t border-gray-200",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "flex space-x-2",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+            type: "text",
+            value: inputMessage,
+            onChange: e => setInputMessage(e.target.value),
+            onKeyPress: e => e.key === 'Enter' && handleSendMessage(e),
+            placeholder: "Escribe tu consulta...",
+            className: "flex-1 px-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#7dbb5c] focus:border-transparent"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+            onClick: handleSendMessage,
+            className: "bg-[#7dbb5c] text-white p-2 rounded-full hover:bg-[#00903b] transition-colors duration-200 disabled:opacity-50",
+            disabled: inputMessage.trim() === '',
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+              className: "w-4 h-4",
+              fill: "none",
+              stroke: "currentColor",
+              viewBox: "0 0 24 24",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: 2,
+                d: "M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+              })
+            })
+          })]
+        })
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+      onClick: () => setIsOpen(!isOpen),
+      className: `w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform hover:scale-105 ${isOpen ? 'bg-gray-600 text-white' : 'bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white'}`,
+      children: isOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+        className: "w-6 h-6",
+        fill: "none",
+        stroke: "currentColor",
+        viewBox: "0 0 24 24",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: 2,
+          d: "M6 18L18 6M6 6l12 12"
+        })
+      }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "relative",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+          className: "w-6 h-6",
+          fill: "currentColor",
+          viewBox: "0 0 24 24",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+            d: "M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "absolute -top-1 -right-1 w-3 h-3 bg-[#ee3725] rounded-full animate-pulse"
+        })]
+      })
+    })]
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SernaChatbot);
+
+/***/ }),
+
 /***/ "./src/scripts/ExampleReactComponent.js":
 /*!**********************************************!*\
   !*** ./src/scripts/ExampleReactComponent.js ***!
@@ -876,34 +1135,88 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _scripts_ExampleReactComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scripts/ExampleReactComponent */ "./src/scripts/ExampleReactComponent.js");
-/* harmony import */ var _scripts_NavbarComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/NavbarComponent */ "./src/scripts/NavbarComponent.js");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _scripts_ExampleReactComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/ExampleReactComponent */ "./src/scripts/ExampleReactComponent.js");
 /* harmony import */ var _scripts_FooterComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scripts/FooterComponent */ "./src/scripts/FooterComponent.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scripts_NavbarComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scripts/NavbarComponent */ "./src/scripts/NavbarComponent.js");
+/* harmony import */ var _scripts_ChatbotComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scripts/ChatbotComponent */ "./src/scripts/ChatbotComponent.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+// Importar componentes
 
 
 
 
 
+// Función para inicializar componentes cuando el DOM esté listo
 
-// Mount the navbar
+function initializeComponents() {
+  // Renderizar NavbarComponent si existe el contenedor
+  const navbarContainer = document.getElementById('navbar-react');
+  if (navbarContainer) {
+    try {
+      const navbarRoot = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(navbarContainer);
+      navbarRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_scripts_NavbarComponent__WEBPACK_IMPORTED_MODULE_5__["default"], {}));
+      console.log('✅ NavbarComponent renderizado correctamente');
+    } catch (error) {
+      console.error('❌ Error renderizando NavbarComponent:', error);
+    }
+  }
 
-if (document.querySelector("#navbar-root")) {
-  const navRoot = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(document.querySelector("#navbar-root"));
-  navRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_scripts_NavbarComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
+  // Renderizar FooterComponent si existe el contenedor
+  const footerContainer = document.getElementById('footer-react');
+  if (footerContainer) {
+    try {
+      const footerRoot = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(footerContainer);
+      footerRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_scripts_FooterComponent__WEBPACK_IMPORTED_MODULE_4__["default"], {}));
+      console.log('✅ FooterComponent renderizado correctamente');
+    } catch (error) {
+      console.error('❌ Error renderizando FooterComponent:', error);
+    }
+  }
+
+  // Renderizar ExampleReactComponent si existe el contenedor
+  const exampleContainer = document.getElementById('example-react');
+  if (exampleContainer) {
+    try {
+      const exampleRoot = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(exampleContainer);
+      exampleRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_scripts_ExampleReactComponent__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
+      console.log('✅ ExampleReactComponent renderizado correctamente');
+    } catch (error) {
+      console.error('❌ Error renderizando ExampleReactComponent:', error);
+    }
+  }
+
+  // Renderizar Chatbot
+  let chatbotContainer = document.getElementById('serna-chatbot');
+
+  // Si no existe el contenedor, crearlo
+  if (!chatbotContainer) {
+    chatbotContainer = document.createElement('div');
+    chatbotContainer.id = 'serna-chatbot';
+    document.body.appendChild(chatbotContainer);
+  }
+  if (chatbotContainer) {
+    try {
+      const chatbotRoot = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(chatbotContainer);
+      chatbotRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_scripts_ChatbotComponent__WEBPACK_IMPORTED_MODULE_6__["default"], {}));
+      console.log('✅ Chatbot renderizado correctamente');
+    } catch (error) {
+      console.error('❌ Error renderizando Chatbot:', error);
+    }
+  }
 }
 
-// Mount the example component
-if (document.querySelector("#render-react-example-here")) {
-  const root = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(document.querySelector("#render-react-example-here"));
-  root.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_scripts_ExampleReactComponent__WEBPACK_IMPORTED_MODULE_2__["default"], {}));
-}
-
-// Mount the footer
-if (document.querySelector("#footer-root")) {
-  const footerRoot = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(document.querySelector("#footer-root"));
-  footerRoot.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_scripts_FooterComponent__WEBPACK_IMPORTED_MODULE_4__["default"], {}));
+// Inicializar cuando el DOM esté completamente cargado
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeComponents);
+} else {
+  // El DOM ya está cargado
+  initializeComponents();
 }
 })();
 
