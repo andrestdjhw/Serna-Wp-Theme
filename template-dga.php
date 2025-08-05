@@ -62,7 +62,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/08/DGABanner3.jpg" alt="Banner DGA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -349,7 +349,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0643.jpg" alt="Actividad DGA 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/05/DGA.jpeg" alt="Actividad DGA 1" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -358,7 +358,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0532.jpg" alt="Actividad DGA 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Actividad5.jpg" alt="Actividad DGA 2" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -367,7 +367,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0514.jpg" alt="Actividad DGA 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Actividad3.jpg" alt="Actividad DGA 3" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -394,7 +394,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0441.jpg" alt="Actividad DGA 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Actividad2.jpg" alt="Actividad DGA 6" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -403,7 +403,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0809.jpg" alt="Actividad DGA 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Actividad4.jpg" alt="Actividad DGA 7" class="gallery-image">
                         </div>
                     </div>
                 </div>
