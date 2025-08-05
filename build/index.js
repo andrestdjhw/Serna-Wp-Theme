@@ -170,7 +170,7 @@ const SernaChatbot = () => {
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
           onClick: () => setIsOpen(false),
-          className: "text-white hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200",
+          className: "text-white hover:text-[#00903b] hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
             className: "w-4 h-4",
             fill: "none",
