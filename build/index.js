@@ -656,7 +656,7 @@ function NavbarComponent() {
     external: true
   }, {
     name: "Licenciamiento Ambiental",
-    link: "https://slas.miambiente.gob.hn/#login",
+    link: "/slas",
     hasDropdown: false,
     external: true
   }, {
