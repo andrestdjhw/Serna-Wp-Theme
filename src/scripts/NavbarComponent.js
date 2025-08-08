@@ -38,7 +38,7 @@ function NavbarComponent() {
         {
           title: "Sobre Nosotros",
           items: [
-            { name: "Perfil", link: "/perfil" },
+            { name: "Perfil", link: "/nosotros/perfil" },
             { name: "Comite de Control Interno", link: "/cocoin" },
             { name: "Comite de Probidad y Etica Publica", link: "/cepep" },
             { name: "Organigrama", link: "/organigrama" },
@@ -49,7 +49,7 @@ function NavbarComponent() {
           items: [
             { name: "Oportunidades", link: "/oportunidades" },
             { name: "Foro", link: "/foro" },
-            { name: "Preguntas Frecuentes", link: "/faq" },
+            { name: "Preguntas Frecuentes", link: "/nosotros/faq" },
             { name: "Contacto", link: "/contacto" }
           ],
         },
@@ -73,18 +73,18 @@ function NavbarComponent() {
         {
           title: "Otras Direcciones",
           items: [
-            { name: "DGA", link: "/dga" },
-            { name: "DNCC", link: "/dncc" },
-            { name: "DGRH", link: "/dgrh" },
-            { name: "DIBIO", link: "/dibio" },
-            { name: "UTOH", link: "/utoh" },
+            { name: "DGA", link: "/direcciones/dga" },
+            { name: "DNCC", link: "/direcciones/dncc" },
+            { name: "DGRH", link: "/direcciones/dgrh" },
+            { name: "DIBIO", link: "/direcciones/dibio" },
+            { name: "UTOH", link: "/direcciones/utoh" },
           ],
         },
         {
           title: "Deca",
           link: "/direcciones/deca",
           items: [
-            { name: "Anuncios Deca", link: "/anuncios-deca" },
+            { name: "Anuncios Deca", link: "/direcciones/deca/anuncios-deca" },
             { name: "Nuevos Requisitos SLAS", link: "/nuevos-requisitos-slas" },
             {
               name: "Requisitos de Renovacion de Licencia Ambiental",
@@ -106,27 +106,27 @@ function NavbarComponent() {
         {
           title: "Norte y Centro",
           items: [
-            { name: "Comayagua", link: "/comayagua" },
-            { name: "Regional San Pedro Sula", link: "/regional-san-pedro-sula" },
+            { name: "Comayagua", link: "/regionales/comayagua" },
+            { name: "Regional San Pedro Sula", link: "/regionales/regional-san-pedro-sula" },
             {
               name: "Regional del Litoral Atlantico",
-              link: "/regional-litoral-del-atlantico",
+              link: "/regionales/regional-litoral-del-atlantico",
             },
-            { name: "Regional Insular", link: "/regional-insular" },
+            { name: "Regional Insular", link: "/regionales/regional-insular" },
           ],
         },
         {
           title: "Sur y Este",
           items: [
-            { name: "Regional Choluteca", link: "/regional-choluteca" },
-            { name: "Regional Olancho", link: "/regional-olancho" },
+            { name: "Regional Choluteca", link: "/regionales/regional-choluteca" },
+            { name: "Regional Olancho", link: "/regionales/regional-olancho" },
           ],
         },
         {
           title: "Occidente",
           items: [
-            { name: "Regional Ocotepeque", link: "/regional-ocotepeque" },
-            { name: "Regional Copan", link: "/regional-copan" },
+            { name: "Regional Ocotepeque", link: "/regionales/regional-ocotepeque" },
+            { name: "Regional Copan", link: "/regionales/regional-copan" },
           ],
         },
       ],
@@ -137,19 +137,19 @@ function NavbarComponent() {
       hasDropdown: true,
       columns: [
         {
-          title: "Proyectos Principales",
+          title: "",
           items: [
-            { name: "ADAPTARC+", link: "/adaptarce" },
-            { name: "CONECTA+", link: "/conecta" },
-            { name: "COPS4", link: "/cops4" },
+            { name: "ADAPTARC+", link: "/ocp/adaptarce" },
+            { name: "CONECTA+", link: "/ocp/conecta" },
+            { name: "COPS4", link: "/ocp/cops4" },
           ],
         },
         {
-          title: "Otros Proyectos",
+          title: "",
           items: [
-            { name: "Proyecto Motagua", link: "/proyecto-motagua" },
-            { name: "Recover", link: "/recover" },
-            { name: "PlanetGold", link: "/planet-gold" },
+            { name: "Proyecto Motagua", link: "/ocp/proyecto-motagua" },
+            { name: "Recover", link: "/ocp/recover" },
+            { name: "PlanetGold", link: "/ocp/planet-gold" },
           ],
         },
       ],

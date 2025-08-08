@@ -622,7 +622,7 @@ function NavbarComponent() {
       title: "Sobre Nosotros",
       items: [{
         name: "Perfil",
-        link: "/perfil"
+        link: "/nosotros/perfil"
       }, {
         name: "Comite de Control Interno",
         link: "/cocoin"
@@ -643,7 +643,7 @@ function NavbarComponent() {
         link: "/foro"
       }, {
         name: "Preguntas Frecuentes",
-        link: "/faq"
+        link: "/nosotros/faq"
       }, {
         name: "Contacto",
         link: "/contacto"
@@ -677,26 +677,26 @@ function NavbarComponent() {
       title: "Otras Direcciones",
       items: [{
         name: "DGA",
-        link: "/dga"
+        link: "/direcciones/dga"
       }, {
         name: "DNCC",
-        link: "/dncc"
+        link: "/direcciones/dncc"
       }, {
         name: "DGRH",
-        link: "/dgrh"
+        link: "/direcciones/dgrh"
       }, {
         name: "DIBIO",
-        link: "/dibio"
+        link: "/direcciones/dibio"
       }, {
         name: "UTOH",
-        link: "/utoh"
+        link: "/direcciones/utoh"
       }]
     }, {
       title: "Deca",
       link: "/direcciones/deca",
       items: [{
         name: "Anuncios Deca",
-        link: "/anuncios-deca"
+        link: "/direcciones/deca/anuncios-deca"
       }, {
         name: "Nuevos Requisitos SLAS",
         link: "/nuevos-requisitos-slas"
@@ -716,34 +716,34 @@ function NavbarComponent() {
       title: "Norte y Centro",
       items: [{
         name: "Comayagua",
-        link: "/comayagua"
+        link: "/regionales/comayagua"
       }, {
         name: "Regional San Pedro Sula",
-        link: "/regional-san-pedro-sula"
+        link: "/regionales/regional-san-pedro-sula"
       }, {
         name: "Regional del Litoral Atlantico",
-        link: "/regional-litoral-del-atlantico"
+        link: "/regionales/regional-litoral-del-atlantico"
       }, {
         name: "Regional Insular",
-        link: "/regional-insular"
+        link: "/regionales/regional-insular"
       }]
     }, {
       title: "Sur y Este",
       items: [{
         name: "Regional Choluteca",
-        link: "/regional-choluteca"
+        link: "/regionales/regional-choluteca"
       }, {
         name: "Regional Olancho",
-        link: "/regional-olancho"
+        link: "/regionales/regional-olancho"
       }]
     }, {
       title: "Occidente",
       items: [{
         name: "Regional Ocotepeque",
-        link: "/regional-ocotepeque"
+        link: "/regionales/regional-ocotepeque"
       }, {
         name: "Regional Copan",
-        link: "/regional-copan"
+        link: "/regionales/regional-copan"
       }]
     }]
   }, {
@@ -751,28 +751,28 @@ function NavbarComponent() {
     link: "/ocp",
     hasDropdown: true,
     columns: [{
-      title: "Proyectos Principales",
+      title: "",
       items: [{
         name: "ADAPTARC+",
-        link: "/adaptarce"
+        link: "/ocp/adaptarce"
       }, {
         name: "CONECTA+",
-        link: "/conecta"
+        link: "/ocp/conecta"
       }, {
         name: "COPS4",
-        link: "/cops4"
+        link: "/ocp/cops4"
       }]
     }, {
-      title: "Otros Proyectos",
+      title: "",
       items: [{
         name: "Proyecto Motagua",
-        link: "/proyecto-motagua"
+        link: "/ocp/proyecto-motagua"
       }, {
         name: "Recover",
-        link: "/recover"
+        link: "/ocp/recover"
       }, {
         name: "PlanetGold",
-        link: "/planet-gold"
+        link: "/ocp/planet-gold"
       }]
     }]
   }, {
