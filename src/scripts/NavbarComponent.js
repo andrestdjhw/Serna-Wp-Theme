@@ -39,16 +39,16 @@ function NavbarComponent() {
           title: "Sobre Nosotros",
           items: [
             { name: "Perfil", link: "/nosotros/perfil" },
-            { name: "Comite de Control Interno", link: "/cocoin" },
-            { name: "Comite de Probidad y Etica Publica", link: "/cepep" },
-            { name: "Organigrama", link: "/organigrama" },
+            { name: "Comite de Control Interno", link: "/nosotros/cocoin" },
+            { name: "Comite de Probidad y Etica Publica", link: "/nosotros/cepep" },
+            { name: "Organigrama", link: "/nosotros/organigrama" },
           ],
         },
         {
           title: "Recursos",
           items: [
-            { name: "Oportunidades", link: "/oportunidades" },
-            { name: "Foro", link: "/foro" },
+            { name: "Oportunidades", link: "/nosotros/oportunidades" },
+            { name: "Foro", link: "/nosotros/foro" },
             { name: "Preguntas Frecuentes", link: "/nosotros/faq" },
             { name: "Contacto", link: "/contacto" }
           ],

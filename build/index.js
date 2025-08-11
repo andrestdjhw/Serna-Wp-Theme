@@ -625,22 +625,22 @@ function NavbarComponent() {
         link: "/nosotros/perfil"
       }, {
         name: "Comite de Control Interno",
-        link: "/cocoin"
+        link: "/nosotros/cocoin"
       }, {
         name: "Comite de Probidad y Etica Publica",
-        link: "/cepep"
+        link: "/nosotros/cepep"
       }, {
         name: "Organigrama",
-        link: "/organigrama"
+        link: "/nosotros/organigrama"
       }]
     }, {
       title: "Recursos",
       items: [{
         name: "Oportunidades",
-        link: "/oportunidades"
+        link: "/nosotros/oportunidades"
       }, {
         name: "Foro",
-        link: "/foro"
+        link: "/nosotros/foro"
       }, {
         name: "Preguntas Frecuentes",
         link: "/nosotros/faq"
