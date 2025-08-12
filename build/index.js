@@ -381,22 +381,22 @@ function FooterComponent() {
     title: "Nosotros",
     links: [{
       name: "Perfil",
-      url: "/perfil"
+      url: "/nosotros/perfil"
     }, {
       name: "Organigrama",
-      url: "/organigrama"
+      url: "/nosotros/organigrama"
     }, {
       name: "Oportunidades",
-      url: "/oportunidades"
+      url: "/nosotros/oportunidades"
     }, {
       name: "Comité de Control Interno",
-      url: "/cocoin"
+      url: "/nosotros/cocoin"
     }, {
       name: "Comité de Probidad y Ética Pública",
-      url: "/cepep"
+      url: "/nosotros/cepep"
     }, {
       name: "Preguntas Frecuentes",
-      url: "/faq"
+      url: "/nosotros/faq"
     }, {
       name: "Te escuchamos",
       url: "/contacto"
@@ -405,52 +405,52 @@ function FooterComponent() {
     title: "Direcciones",
     links: [{
       name: "CESCCO",
-      url: "/cescco"
+      url: "/direcciones/cescco"
     }, {
       name: "UTOH",
-      url: "/utoh"
+      url: "/direcciones/utoh"
     }, {
       name: "DIBIO",
-      url: "/dibio"
+      url: "/direcciones/dibio"
     }, {
       name: "DGA",
-      url: "/dga"
+      url: "/direcciones/dga"
     }, {
       name: "DECA",
-      url: "/deca"
+      url: "/direcciones/deca"
     }, {
       name: "DNCC",
-      url: "/dncc"
+      url: "/direcciones/dncc"
     }, {
       name: "UTOH",
-      url: "/utoh"
+      url: "/direcciones/utoh"
     }]
   }, {
     title: "Regionales",
     links: [{
       name: "Copán",
-      url: "/regional-copan"
+      url: "/regionales/regional-copan"
     }, {
       name: "Comayagua",
-      url: "/comayagua"
+      url: "/regionales/comayagua"
     }, {
       name: "Atlántico",
-      url: "/regional-litoral-del-atlantico"
+      url: "/regionales/regional-litoral-del-atlantico"
     }, {
       name: "Roatán",
-      url: "/regional-insular"
+      url: "/regionales/regional-insular"
     }, {
       name: "Choluteca",
-      url: "/regional-choluteca"
+      url: "/regionales/regional-choluteca"
     }, {
       name: "San Pedro Sula",
-      url: "/regional-san-pedro-sula"
+      url: "/regionales/regional-san-pedro-sula"
     }, {
       name: "Ocotepeque",
-      url: "/regional-ocotepeque"
+      url: "/regionales/regional-ocotepeque"
     }, {
       name: "Olancho",
-      url: "/regional-olancho"
+      url: "/regionales/regional-olancho"
     }]
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {

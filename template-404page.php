@@ -120,7 +120,7 @@ get_header(); ?>
                     <p class="text-gray-600 mb-4">
                         Conoce más sobre nuestra institución
                     </p>
-                    <a href="/perfil" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300">
+                    <a href="/nosotros/perfil" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300">
                         Conoce SERNA →
                     </a>
                 </div>
