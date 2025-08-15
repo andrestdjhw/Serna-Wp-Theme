@@ -66,8 +66,8 @@ function NavbarComponent() {
           title: "CESCCO",
           link: "/direcciones/cescco",
           items: [
-            { name: "Anuncios", link: "/anuncios" },
-            { name: "RAE", link: "/rae" },
+            { name: "Anuncios", link: "/direcciones/cescco/anuncios" },
+            { name: "RAE", link: "/direcciones/cescco/rae" },
           ],
         },
         {

@@ -667,10 +667,10 @@ function NavbarComponent() {
       link: "/direcciones/cescco",
       items: [{
         name: "Anuncios",
-        link: "/anuncios"
+        link: "/direcciones/cescco/anuncios"
       }, {
         name: "RAE",
-        link: "/rae"
+        link: "/direcciones/cescco/rae"
       }]
     }, {
       title: "Otras Direcciones",
