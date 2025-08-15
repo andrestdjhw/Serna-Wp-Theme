@@ -59,20 +59,20 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2025/08/DECAanuncio.jpeg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <span class="text-[#87cede] font-semibold">15 de Julio, 2025</span>
+                            <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span>
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
                             DECA Implementa Nuevos Protocolos de Evaluación Ambiental
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            La Dirección General de Evaluación y Control Ambiental ha puesto en marcha nuevos protocolos que optimizan los procesos de evaluación ambiental, reduciendo los tiempos de respuesta y mejorando la eficiencia en el otorgamiento de licencias ambientales.
+                            La Dirección General de Evaluación y Control Ambiental informa modificacion de monto de inspeccion para evaluación ambiental.
                         </p>
                         <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Leer más
@@ -87,212 +87,7 @@ get_header(); ?>
     </section>
 
     <!-- Latest News Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Últimas Noticias</span>
-                </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Mantente al día con las últimas actividades y logros de DECA
-                </p>
-            </div>
-            
-            <!-- News Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- News Card 1 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 1" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">10</span>
-                            <span class="news-date-month">JUL</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Licenciamiento</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">10 de Julio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Taller de Capacitación para Prestadores de Servicios Ambientales
-                        </h3>
-                        <p class="news-excerpt">
-                            DECA realizó un exitoso taller dirigido a PSAs para fortalecer las capacidades técnicas en evaluación ambiental y mejorar la calidad de los estudios presentados.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- News Card 2 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 2" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">05</span>
-                            <span class="news-date-month">JUL</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Inspecciones</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">05 de Julio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Completadas 200 Inspecciones de Seguimiento Ambiental
-                        </h3>
-                        <p class="news-excerpt">
-                            El equipo técnico de DECA completó 200 inspecciones de seguimiento para verificar el cumplimiento de las medidas de mitigación establecidas en las licencias ambientales.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- News Card 3 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 3" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">28</span>
-                            <span class="news-date-month">JUN</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Tecnología</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">28 de Junio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Lanzamiento de Sistema Digital de Licenciamiento
-                        </h3>
-                        <p class="news-excerpt">
-                            DECA presenta su nueva plataforma digital que facilitará el proceso de solicitud y seguimiento de licencias ambientales, promoviendo la transparencia y eficiencia.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- News Card 4 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 4" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">20</span>
-                            <span class="news-date-month">JUN</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Educación</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">20 de Junio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Programa de Pasantías Universitarias 2025
-                        </h3>
-                        <p class="news-excerpt">
-                            DECA abre sus puertas a estudiantes universitarios del área ambiental para fortalecer sus conocimientos prácticos a través del programa de pasantías profesionales.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- News Card 5 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 5" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">15</span>
-                            <span class="news-date-month">JUN</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Auditorías</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">15 de Junio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Resultado de Auditorías Ambientales del Segundo Trimestre
-                        </h3>
-                        <p class="news-excerpt">
-                            DECA presenta los resultados de las auditorías ambientales realizadas durante el segundo trimestre, evidenciando mejoras significativas en el cumplimiento ambiental.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- News Card 6 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 6" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">08</span>
-                            <span class="news-date-month">JUN</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Cooperación</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">08 de Junio, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            Convenio de Cooperación con Universidades Nacionales
-                        </h3>
-                        <p class="news-excerpt">
-                            DECA firma convenios de cooperación con las principales universidades del país para fortalecer la investigación ambiental y el desarrollo sostenible.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Load More Button -->
-            <div class="text-center mt-12">
-                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                    <span>Cargar Más Noticias</span>
-                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Newsletter Section -->
     <section class="py-20 bg-white">
@@ -307,8 +102,8 @@ get_header(); ?>
                     </p>
                     <div class="max-w-md mx-auto">
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <input type="email" placeholder="Tu correo electrónico" class="flex-1 px-4 py-3 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#87cede]">
-                            <button class="px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                            <input type="email" placeholder="Tu correo electrónico" class="flex-1 px-4 py-3 rounded-full bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#87cede]">
+                            <button class="px-6 py-3 bg-[#ee3725] text-white font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                                 Suscribirse
                             </button>
                         </div>

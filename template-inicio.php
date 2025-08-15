@@ -248,7 +248,7 @@ get_header(); ?>
             </div>
             
             <div class="text-center mt-12">
-                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
+                <a href="/nosotros/foro" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
                     Ver todas las noticias
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
