@@ -593,7 +593,7 @@ function NavbarComponent() {
     }
   };
 
-  // Calculate grid columns based on number of columns
+  // Calcula caudricula de columnas basado en numero de columnas
   const getGridColumnsClass = columns => {
     switch (columns.length) {
       case 1:
@@ -609,7 +609,7 @@ function NavbarComponent() {
     }
   };
 
-  // Modified navItems structure with dynamic columns and external links
+  // Estructura de datos de la barra de navegacion
   const navItems = [{
     name: "Inicio",
     link: "/",
@@ -657,8 +657,7 @@ function NavbarComponent() {
   }, {
     name: "Licenciamiento Ambiental",
     link: "/slas",
-    hasDropdown: false,
-    external: true
+    hasDropdown: false
   }, {
     name: "Direcciones",
     link: "/direcciones",
@@ -829,7 +828,10 @@ function NavbarComponent() {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-      className: "bg-gradient-to-t from-[#7dbb5c] to-[#00903b] sticky top-0 z-50 w-full shadow-md",
+      className: "site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]",
+      style: {
+        position: 'sticky'
+      },
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
