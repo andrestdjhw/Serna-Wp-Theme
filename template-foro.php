@@ -63,23 +63,26 @@ get_header(); ?>
                 <!-- News Card 1 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 1" class="news-image">
+                        <img src="/wp-content/uploads/2025/08/NoticiaLago2.jpeg" alt="Noticia 1" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">10</span>
-                            <span class="news-date-month">JUL</span>
+                            <span class="news-date-day">23</span>
+                            <span class="news-date-month">ABR</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Licenciamiento</span>
+                            <span class="news-category">Inversion</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">10 de Julio, 2025</span>
+                            <span class="news-date-full">23 de Abril, 2025</span>
                         </div>
                         <h3 class="news-title">
-                            Taller de Capacitación para Prestadores de Servicios Ambientales
+                            80$ millones de dolares, aprobados para la recuperacion del lago de Yojoa
                         </h3>
                         <p class="news-excerpt">
-                            DECA realizó un exitoso taller dirigido a PSAs para fortalecer las capacidades técnicas en evaluación ambiental y mejorar la calidad de los estudios presentados.
+                            En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta <strong>Xiomara Castro</strong>, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
+                        </p>
+                        <p class="news-excerpt">
+                            Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país.
                         </p>
                         <a href="#" class="news-read-more">
                             Leer más
@@ -93,25 +96,29 @@ get_header(); ?>
                 <!-- News Card 2 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 2" class="news-image">
+                        <img src="/wp-content/uploads/2025/08/Logro.jpeg" alt="Noticia 2" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">05</span>
+                            <span class="news-date-day">07</span>
                             <span class="news-date-month">JUL</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Inspecciones</span>
+                            <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">05 de Julio, 2025</span>
+                            <span class="news-date-full">07 de Julio, 2025</span>
                         </div>
                         <h3 class="news-title">
-                            Completadas 200 Inspecciones de Seguimiento Ambiental
+                            Presidenta <strong>Xiomara Castro</strong> posiciona a Honduras en la cima del financiamiento verde.
                         </h3>
                         <p class="news-excerpt">
-                            El equipo técnico de DECA completó 200 inspecciones de seguimiento para verificar el cumplimiento de las medidas de mitigación establecidas en las licencias ambientales.
+                            Con el liderazgo de la Presidenta de Honduras y Coalición de Países con Bosques Tropicales <strong>Xiomara Castro</strong>, el financiamiento para defender nuestras reservas naturales será una realidad.
                         </p>
-                        <a href="#" class="news-read-more">
+                        <p class="news-excerpt">
+                            En la IV Cumbre de Desarrollo Sostenible (Sevilla, 2025), fuimos reconocidos por nuestras acciones concretas en bonos verdes y justicia climática.
+                            La agenda ambiental es compromiso en marcha.
+                        </p>
+                        <a href="https://share.google/Mqnneqva39gvDLXU4" target="_blank" rel="noopener noreferrer" class="news-read-more">
                             Leer más
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -327,7 +334,7 @@ get_header(); ?>
     }
 
     .news-card:hover .news-image {
-        transform: scale(1.05);
+        transform: scale(1.5);
     }
 
     .news-date-badge {
