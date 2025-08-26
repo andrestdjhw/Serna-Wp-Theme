@@ -78,7 +78,7 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Paisajes agroforestales y manejo forestal sostenible que generern beneficios ambientales y economicos a nivel global y local (Conecta+).</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Paisajes agroforestales y manejo forestal sostenible que generen beneficios ambientales y economicos a nivel global y local (Conecta+).</div>
                     </div>
                 </div>
             </div>

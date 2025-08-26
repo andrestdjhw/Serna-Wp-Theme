@@ -314,26 +314,26 @@ get_header(); ?>
     </section>
     
     <!-- Call to Action -->
-        <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Material Relevante</span></h2>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                Encuentra informacion adicional con respecto al Licenciamiento Ambiental aqui.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
-                    Informacion Relevante para PSAs
-                </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
-                    Nuevos Requisitos SLAS
-                </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
-                    Requisitos de Renovacion de Licencia Ambiental
-                </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
-                    Requisitos de Constancia de No Requerir Licencia Ambiental
-                </a>
-            </div>
-        </section>
+    <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
+        <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Material Relevante</span></h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            Encuentra informacion adicional con respecto al Licenciamiento Ambiental aqui.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+                Informacion Relevante para PSAs
+            </a>
+            <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+                Nuevos Requisitos SLAS
+            </a>
+            <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                Requisitos de Renovacion de Licencia Ambiental
+            </a>
+            <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
+                Requisitos de Constancia de No Requerir Licencia Ambiental
+            </a>
+        </div>
+    </section>
 
 </div>
 
