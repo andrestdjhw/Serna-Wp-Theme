@@ -112,7 +112,7 @@ get_header(); ?>
                             Presidenta <strong>Xiomara Castro</strong> posiciona a Honduras en la cima del financiamiento verde.
                         </h3>
                         <p class="news-excerpt">
-                            Con el liderazgo de la Presidenta de Honduras y Coalición de Países con Bosques Tropicales <strong>Xiomara Castro</strong>, el financiamiento para defender nuestras reservas naturales será una realidad.
+                            Con el liderazgo de la Presidenta de Honduras <strong>Xiomara Castro</strong> y Coalición de Países con Bosques Tropicales, el financiamiento para defender nuestras reservas naturales será una realidad.
                         </p>
                         <p class="news-excerpt">
                             En la IV Cumbre de Desarrollo Sostenible (Sevilla, 2025), fuimos reconocidos por nuestras acciones concretas en bonos verdes y justicia climática.

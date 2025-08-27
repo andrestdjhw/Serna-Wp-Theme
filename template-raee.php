@@ -414,7 +414,7 @@ get_header(); ?>
             <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
                 Requisitos Legales
             </a>
-            <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+            <a href="/direcciones/cescco/rae/estadisticas" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
                 Estadisticas RAEE
             </a>
         </div>
