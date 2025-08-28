@@ -85,14 +85,14 @@ function NavbarComponent() {
           link: "/direcciones/deca",
           items: [
             { name: "Anuncios Deca", link: "/direcciones/deca/anuncios-deca" },
-            { name: "Nuevos Requisitos SLAS", link: "/nuevos-requisitos-slas" },
+            { name: "Nuevos Requisitos SLAS", link: "/direcciones/deca/nuevos-requisitos-slas" },
             {
               name: "Requisitos de Renovacion de Licencia Ambiental",
-              link: "/requisitos-de-renovacion-licencia-ambiental",
+              link: "/direcciones/deca/requisitos-de-renovacion-licencia-ambiental",
             },
             {
               name: "Requisito de constancia de no requerir licencia ambiental",
-              link: "/requisitos-de-constancia-de-no-requerir-licencia-ambiental",
+              link: "/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental",
             },
           ],
         },
