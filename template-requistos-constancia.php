@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Renovacion Requisitos SLAS Template
+ * Template Name: Requisitos Constancia No Requerir SLAS Template
  * Template Post Type: page
  */
 
 get_header(); ?>
 
-<div class="renovacion-requisitos-slas-page">
+<div class="requisitos-constancia-slas-page">
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Requisitos de Renovación de Licencia Ambiental
+                    Requisitos de Constancia de no Requerir de Licencia Ambiental
                 </h1>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -56,7 +56,7 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2025/08/RequisitosRenovacion.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2025/08/RequisitosNoRequieraLicencia.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
@@ -66,12 +66,12 @@ get_header(); ?>
                             <!-- <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span> -->
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            Requisitos de Renovacion Sistema de Licenciamiento Ambiental SERNA
+                            Requisitos de Constancia de no requerir Licenciamiento Ambiental SERNA
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
                             Mantengase al tanto de las ultimas actualizaciones.
                         </p>
-                        <a href="/wp-content/uploads/2025/08/Requisitos-de-Renovacion-de-Licencia-Ambiental.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                        <a href="/wp-content/uploads/2025/08/Requisitos-de-Constancia-de-No-Requerir-Licencia-Ambiental.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Descargar Recurso
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
