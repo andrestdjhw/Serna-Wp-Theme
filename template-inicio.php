@@ -180,7 +180,7 @@ get_header(); ?>
                 <!-- News Card 1 -->
                 <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="https://serna.gob.hn/wp-content/uploads/2024/09/IMG_9592-1.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
@@ -203,7 +203,7 @@ get_header(); ?>
                 <!-- News Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="https://serna.gob.hn/wp-content/uploads/2023/11/Cafe-Hondureno.jpg" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2025/08/Noticia2SERNA.jpg" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
@@ -226,7 +226,7 @@ get_header(); ?>
                 <!-- News Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="https://serna.gob.hn/wp-content/uploads/2023/11/PORTADA.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2025/08/Noticia3SERNA.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
