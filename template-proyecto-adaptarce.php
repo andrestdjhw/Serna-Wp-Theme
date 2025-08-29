@@ -246,11 +246,12 @@ get_header(); ?>
             
             <!-- Enhanced Masonry Gallery Grid -->
             <div class="enhanced-masonry-grid">
+
                 <!-- Gallery Item 1 -->
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Adaptarce1.jpg" alt="Actividad Adaptarce 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce9.jpg" alt="Actividad Adaptarce 1" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -330,7 +331,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Adaptarce5.png" alt="Actividad Adaptarce 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce10.jpg" alt="Actividad Adaptarce 5" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -350,7 +351,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Adaptarce6.png" alt="Actividad Adaptarce 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce11.jpg" alt="Actividad Adaptarce 6" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
