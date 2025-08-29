@@ -387,8 +387,6 @@ get_header(); ?>
                 <div class="flex justify-center mt-8 space-x-3">
                     <button class="carousel-dot w-3 h-3 rounded-full bg-[#00903b] transition-all duration-300" onclick="goToSlide(0)"></button>
                     <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(1)"></button>
-                    <!-- <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(2)"></button>
-                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(3)"></button> -->
                 </div>
             </div>
         </div>
@@ -492,7 +490,7 @@ get_header(); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     let currentSlide = 0;
-    const totalSlides = 4;
+    const totalSlides = 2;
     const track = document.getElementById('carouselTrack');
     const dots = document.querySelectorAll('.carousel-dot');
 
