@@ -329,7 +329,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Motagua2.jpg" alt="Actividad Motagua 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Motagua5.png" alt="Actividad Motagua 2" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -369,7 +369,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Motagua4.jpg" alt="Actividad Motagua 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Motagua7.png" alt="Actividad Motagua 4" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -389,7 +389,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Motagua5.png" alt="Actividad Motagua 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Motagua2.jpg" alt="Actividad Motagua 5" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -429,7 +429,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/08/Motagua7.png" alt="Actividad Motagua 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Motagua4.jpg" alt="Actividad Motagua 7" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
