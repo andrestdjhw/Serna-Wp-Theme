@@ -315,98 +315,122 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Conoce nuestras actividades y logros a través de esta colección de imágenes
-                </p>
-            </div>
-            
-            <!-- Masonry Gallery Grid -->
-            <div class="masonry-grid">
-                <!-- Gallery Item 1 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad  CESCCO 1" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 2 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 2" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 3 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 3" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 4 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 4" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 5 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 5" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 6 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 6" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 7 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 7" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 8 -->
-                <div class="masonry-item">
-                    <div class="gallery-card">
-                        <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="Actividad CESCCO 8" class="gallery-image">
-                        </div>
-                    </div>
-                </div>
+                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
+                </p> -->
             </div>
 
-            <!-- View More Button -->
-            <!-- <div class="text-center mt-12">
-                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                    <span>Ver Más Imágenes</span>
-                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            <!-- Carousel Container -->
+            <div class="relative">
+                <div class="carousel-container overflow-hidden rounded-2xl shadow-xl">
+                    <div class="carousel-track flex transition-transform duration-500 ease-in-out" id="carouselTrack">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <!-- <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
+                                    </p>
+                                </div> -->
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/06/CESCCO.jpg" alt="CESCCO ACTIVIDAD 1" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <!-- <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Consejos de Cuencas</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Fortalecimiento de la gobernanza hídrica a través de 119 organismos de cuenca
+                                    </p>
+                                </div> -->
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/08/CESCCO1.jpg" alt="CESCCO ACTIVIDAD 2" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <!-- <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Plataforma Agua de Honduras</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Información hidrológica accesible y gratuita para toda la población hondureña
+                                    </p>
+                                </div> -->
+                                <!-- Placeholder for actual image -->
+                                <img src="/wp-content/uploads/2025/08/CESCCO2.jpg" alt="CESCCO ACTIVIDAD 3" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <!-- <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Planes de Acción Hídrica</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Estrategias específicas para las cuencas del corredor seco y microcuencas prioritarias
+                                    </p>
+                                </div>  -->
+                                <!-- Placeholder for actual image-->
+                                <img src="/wp-content/uploads/2025/08/CESCCO3.jpg" alt="CESCCO ACTIVIDAD 4" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="carousel-slide w-full flex-shrink-0 relative">
+                            <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
+                                <div class="absolute inset-0 bg-black opacity-20"></div>
+                                <!-- <div class="relative z-10 text-center text-white px-8">
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Planes de Acción Hídrica</h3>
+                                    <p class="text-lg md:text-xl max-w-2xl mx-auto">
+                                        Estrategias específicas para las cuencas del corredor seco y microcuencas prioritarias
+                                    </p>
+                                </div>  -->
+                                <!-- Placeholder for actual image-->
+                                <img src="/wp-content/uploads/2025/08/CESCCO4.jpg" alt="CESCCO ACTIVIDAD 5" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button 
+                    class="carousel-btn carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-[#00903b] rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 z-20"
+                    onclick="moveCarousel(-1)"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
-            </div> -->
+                
+                <button 
+                    class="carousel-btn carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-[#00903b] rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 z-20"
+                    onclick="moveCarousel(1)"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+
+                <!-- Dots Navigation -->
+                <div class="flex justify-center mt-8 space-x-3">
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-[#00903b] transition-all duration-300" onclick="goToSlide(0)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(1)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(2)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(3)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(5)"></button>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -434,137 +458,109 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-    /* Masonry Gallery Styles */
-    .masonry-grid {
-        column-count: 1;
-        column-gap: 1.5rem;
-        line-height: 0;
+    /* Carousel Styles */
+    .carousel-container {
+        position: relative;
+        max-width: 100%;
     }
 
-    @media (min-width: 640px) {
-        .masonry-grid {
-            column-count: 2;
+    .carousel-track {
+        width: 400%; /* 4 slides × 100% each */
+    }
+
+    .carousel-slide {
+        width: 25%; /* Each slide takes 1/4 of track width */
+    }
+
+    .carousel-btn:hover {
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .carousel-dot.active {
+        background-color: #00903b !important;
+        transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+        .carousel-btn {
+            display: none;
         }
-    }
-
-    @media (min-width: 1024px) {
-        .masonry-grid {
-            column-count: 3;
-        }
-    }
-
-    @media (min-width: 1280px) {
-        .masonry-grid {
-            column-count: 4;
-        }
-    }
-
-    .masonry-item {
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 1.5rem;
-        break-inside: avoid;
-        line-height: 1.5;
-    }
-
-    .gallery-card {
-        background: white;
-        border-radius: 1rem;
-        overflow: hidden;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-        transform: translateY(0);
-    }
-
-    .gallery-card:hover .overlay-icon {
-        background-color: rgba(135, 206, 222, 0.3);
-        border-color: rgba(135, 206, 222, 0.8);
-        transform: scale(1.1);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 639px) {
-        .masonry-item {
-            margin-bottom: 1rem;
-        }
-        
-        .overlay-title {
-            font-size: 1rem;
-        }
-        
-        .overlay-text {
-            font-size: 0.75rem;
-        }
-        
-        .overlay-icon {
-            width: 2.5rem;
-            height: 2.5rem;
-        }
-        
-        .overlay-icon svg {
-            width: 1.25rem;
-            height: 1.25rem;
-        }
-    }
-
-    /* Loading animation for images */
-    .gallery-image {
-        background-color: #f3f4f6;
-        background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
-        background-size: 200% 100%;
-        animation: shimmer 1.5s infinite;
-    }
-
-    .gallery-image[src] {
-        animation: none;
-        background: none;
-    }
-
-    @keyframes shimmer {
-        0% {
-            background-position: -200% 0;
-        }
-        100% {
-            background-position: 200% 0;
-        }
-    }
-
-    /* Lightbox styles (if you want to add lightbox functionality) */
-    .gallery-card {
-        cursor: pointer;
-    }
-
-    /* Additional hover effects */
-    .gallery-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border: 2px solid transparent;
-        border-radius: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: subtract;
-        mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        mask-composite: subtract;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 1;
-        pointer-events: none;
-    }
-
-    .gallery-card:hover::before {
-        opacity: 1;
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-    .{
-        font-family: "Lato", sans-serif;
-        font-weight: 400;
-        font-style: normal;
     }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let currentSlide = 0;
+    const totalSlides = 5;
+    const track = document.getElementById('carouselTrack');
+    const dots = document.querySelectorAll('.carousel-dot');
+
+    // Auto-play carousel
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    }, 5000);
+
+    window.moveCarousel = function(direction) {
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+        updateCarousel();
+    };
+
+    window.goToSlide = function(slideIndex) {
+        currentSlide = slideIndex;
+        updateCarousel();
+    };
+
+    function updateCarousel() {
+        const translateX = -currentSlide * 25; // 25% per slide
+        track.style.transform = `translateX(${translateX}%)`;
+        
+        // Update dots
+        dots.forEach((dot, index) => {
+            if (index === currentSlide) {
+                dot.classList.add('active');
+                dot.style.backgroundColor = '#00903b';
+            } else {
+                dot.classList.remove('active');
+                dot.style.backgroundColor = '#d1d5db';
+            }
+        });
+    }
+
+    // Touch/swipe support for mobile
+    let startX = 0;
+    let isDragging = false;
+
+    track.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+    });
+
+    track.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+    });
+
+    track.addEventListener('touchend', (e) => {
+        if (!isDragging) return;
+        
+        const endX = e.changedTouches[0].clientX;
+        const diffX = startX - endX;
+        
+        if (Math.abs(diffX) > 50) { // Minimum swipe distance
+            if (diffX > 0) {
+                // Swipe left - next slide
+                currentSlide = (currentSlide + 1) % totalSlides;
+            } else {
+                // Swipe right - previous slide  
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            }
+            updateCarousel();
+        }
+        
+        isDragging = false;
+    });
+});
+</script>
+
 <?php get_footer(); ?>
