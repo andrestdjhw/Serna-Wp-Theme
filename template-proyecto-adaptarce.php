@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/BannerAdaptarce.jpg" alt="Banner del Proyecto Adaptarce" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/08/AdaptarceBanner.png" alt="Banner del Proyecto Adaptarce" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho1.jpeg" alt="Actividad Olancho 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce1.jpg" alt="Actividad Adaptarce 1" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -270,7 +270,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho2.jpeg" alt="Actividad Olancho 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce2.jpg" alt="Actividad Adaptarce 2" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -290,7 +290,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho3.jpeg" alt="Actividad Olancho 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce3.jpg" alt="Actividad Adaptarce 3" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -310,7 +310,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="400">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho4.jpeg" alt="Actividad Olancho 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce4.jpg" alt="Actividad Adaptarce 4" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -330,7 +330,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="500">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho5.jpeg" alt="Actividad Olancho 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce5.png" alt="Actividad Adaptarce 5" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -350,7 +350,7 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="600">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho6.jpeg" alt="Actividad Olancho 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce6.png" alt="Actividad Adaptarce 6" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
@@ -370,7 +370,26 @@ get_header(); ?>
                 <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
                     <div class="enhanced-gallery-card group">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/Olancho7.jpeg" alt="Actividad Olancho 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce7.jpg" alt="Actividad Adaptarce 7" class="gallery-image">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-icon">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="overlay-title">Logros Ambientales</h3>
+                                    <p class="overlay-text">Impacto positivo en la región</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery Item 8 -->
+                <div class="masonry-item" data-aos="fade-up" data-aos-delay="700">
+                    <div class="enhanced-gallery-card group">
+                        <div class="image-container">
+                            <img src="/wp-content/uploads/2025/08/Adaptarce8.jpg" alt="Actividad Adaptarce 8" class="gallery-image">
                             <div class="image-overlay">
                                 <div class="overlay-content">
                                     <div class="overlay-icon">
