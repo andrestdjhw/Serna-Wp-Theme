@@ -29,7 +29,7 @@ get_header(); ?>
                     DiBio
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    Direccion general de Biodiversidad
+                    Dirección general de Biodiversidad
                 </p>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -56,15 +56,15 @@ get_header(); ?>
                         <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        <strong>Descripcion: </strong>Cumplimiento de convenios internacionales como la convencion de humedales RAMSAR, protocolo la distribucion justa y equitativa de los recursos geneticos,
+                        <strong>Descripción: </strong>Cumplimiento de convenios internacionales como la convención de humedales RAMSAR, protocolo la distribución justa y equitativa de los recursos genéticos,
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Protocolo de Nagoya, Convencion sobre la Biodiversidad Biologica.
+                        Protocolo de Nagoya, Convención sobre la Biodiversidad Biológica.
                     </p>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/Abejita.jpg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/Abejita.jpg" alt="Banner DiBIO" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Siembra de plántulas de mangle</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
-                                    12,000 plántulas en 9 hectáreas en área protegida los delgaditos (Comunidad 3 de febrero, Marcovia), para ayudar en el proceso de restauración de la cobertura vegetal, así mismo generar un medio de ingresos para la comunidad con el apoyo financiero de JICA.
+                                    12,000 plántulas en 9 hectáreas en área protegida <strong>Los Delgaditos</strong> (Comunidad 3 de febrero, Marcovia), para ayudar en el proceso de restauración de la cobertura vegetal, así mismo generar un medio de ingresos para la comunidad con el apoyo financiero de JICA.
                                 </p>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -285,14 +285,14 @@ get_header(); ?>
     <!-- Cartita para enlaces externos de la direccion -->
     <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Sigue el enlace de CHM Honduras</h2>
-        <p class="text-xl mb-8">La plataforma oficial de Direccion general de Biodiversidad </p>
+        <p class="text-xl mb-8">La plataforma oficial de Dirección general de Biodiversidad </p>
         <a 
             href="https://chmhonduras.org/" 
             target="_blank" 
             rel="noopener noreferrer"
             class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
         >
-            ¡Haz click aqui!
+            ¡Haz click aquí!
         </a>
     </div>
 

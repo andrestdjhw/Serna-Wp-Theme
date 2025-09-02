@@ -56,7 +56,7 @@ get_header(); ?>
                         Reducir los impactos globales a la salud y del ambiente en Honduras eliminando existencias de Contaminantes orgánicos persistentes COPs (plaguicidas obsoletos, PCBs y COPs no intencionales, en cumplimiento del Convenio de Estocolmo. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        COPs4 es un proyecto de implementación en 5 años (2019-2024) de la Secretaría de Recursos Naturales y Ambiente (SERNA) y el Programa de las Naciones Unidas para el Desarrollo (PNUD), con financiamiento del Fondo para el Medio Ambiente Mundial (GEF, por sus siglas en inglés), que busca la aplicación de la Política Nacional de Productos Químicos (aprobada en Honduras en 2013), para cumplir con el Plan Nacional del Enfoque Estratégico para la Gestión de Productos Químicos (SAICM), el Convenio de Estocolmo sobre los COPs y el Convenio de Basilea sobre Movimientos transfronterizos de Desechos Peligrosos. Particularmente el proyecto COPs4, recoge los productos obtenidos y metas alcanzadas en proyectos anteriores, para materializar el esfuerzo por reducir el impacto de los COPs en nuestro país, a través de la Gestión Ambientalmente Racional de Productos Químicos (GAR-PQ) empleados como plaguicidas, productos e insumos industriales, desechos o residuos no intencionales derivados de diversas actividades 
+                        COPs4 es un proyecto de implementación en 5 años (2019-2024) de la Secretaría de Recursos Naturales y Ambiente (SERNA) y el Programa de las Naciones Unidas para el Desarrollo (PNUD), con financiamiento del Fondo para el Medio Ambiente Mundial (GEF, por sus siglas en inglés), que busca la aplicación de la Política Nacional de Productos Químicos (aprobada en Honduras en 2013), para cumplir con el Plan Nacional del Enfoque Estratégico para la Gestión de Productos Químicos (SAICM), el Convenio de Estocolmo sobre los COPs y el Convenio de Basilea sobre Movimientos trans-fronterizos de Desechos Peligrosos. Particularmente el proyecto COPs4, recoge los productos obtenidos y metas alcanzadas en proyectos anteriores, para materializar el esfuerzo por reducir el impacto de los COPs en nuestro país, a través de la Gestión Ambientalmente Racional de Productos Químicos (GAR-PQ) empleados como plaguicidas, productos e insumos industriales, desechos o residuos no intencionales derivados de diversas actividades. 
                     </p>
                 </div>
                 <div class="lg:w-1/2">
@@ -75,7 +75,7 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reduccion de los Riesgos Asociados con su Disposicion Final</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reducción de los Riesgos Asociados con su Disposición Final</div>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Desarrollar las capacidades institucionales y fortalecer el marco regulatorio y político para abordar situaciones de COPs emergentes.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Desarrollar las capacidades institucionales y fortalecer el marco regulador y político para abordar situaciones de COPs emergentes.</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>Fortalecimiento de las capacidades al Departamento de Gestión de productos Químicos del CESCCO con personal técnico (2)</li>
@@ -137,14 +137,14 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Gestión de COPs intencionales (Plaguicidas y químicos industriales</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
-                                        <li>Prueba Industrial Científica (PIC) para el coprocesamiento de aceites dieléctricos con PCBs, realizada con éxito en marzo de 2023.</li>
-                                        <li>Se comprobó que el método de coprocesamiento en hornos cementeros nacionales destruye los COPs (en este caso PCBs) completamente y es apto para la destrucción de COPs.</li>
+                                        <li>Prueba Industrial Científica (PIC) para el co-procesamiento de aceites dieléctricos con PCBs, realizada con éxito en marzo de 2023.</li>
+                                        <li>Se comprobó que el método de co-procesamiento en hornos cementeros nacionales destruye los COPs (en este caso PCBs) completamente y es apto para la destrucción de COPs.</li>
                                         <li>Se eliminaron 19.5 toneladas de PCBs en la PIC en 2023.</li>
                                         <li>Drenaje de 120 transformadores en 5 frentes de trabajo, recolectando 12 toneladas de aceite dieléctrico con PCBs en 2023. Esta cantidad corresponde a los transformadores en desuso que no formaron parte de la PIC.</li>
                                         <li>Elaboración de TdR para la eliminación de 68 toneladas de carcasas vacías (158 transformadores) en el extranjero.</li>
                                         <li>Quedarán 55.5 toneladas de transformadores (10 equipos) con PCBs en transformadores en uso en el país.</li>
                                         <li>Actualización del Inventario de PBDE y PFOS 2023</li>
-                                        <li>Análisis de plaguicidas obsoletos en BANADESA y evaluación de factibilidad de eliminación mediante coprocesamiento en hornos cementeros (en curso)</li>
+                                        <li>Análisis de plaguicidas obsoletos en BANADESA y evaluación de factibilidad de eliminación mediante co-procesamiento en hornos cementeros (en curso)</li>
                                     </ul>
                                 </p>
                             </div>
@@ -171,11 +171,11 @@ get_header(); ?>
                                         <li>En proceso de construcción 5 plantas de compostaje a igual número de emprendimientos y la construcción de 5 puntos limpios en 4 localidades del país</li>
                                         <li>Desarrollo de 5 talleres de formación de socios y socias de 5 emprendimientos asociados a la recuperación y proceso de residuos orgánicos en 4 localidades del país.</li>
                                         <li>Desarrollados 6 ejercicios de caracterización de residuos sólidos en igual número de localidades</li>
-                                        <li>Entregadas 5 motocargas como medio de transporte para la recuperación de residuos sólidos valorizables a igual número de emprendimientos.</li>
+                                        <li>Entregadas 5 montacargas como medio de transporte para la recuperación de residuos sólidos valorizados a igual número de emprendimientos.</li>
                                         <li>Se ha logrado el involucramiento de 200 personas (hombres y mujeres) en los procesos de formación y los mismos son beneficiarios de las diferentes iniciativas en proceso de apoyo desde el Proyecto COPs4.</li>
                                         <li>Gestionados adecuadamente 648 tm de residuos orgánicos, mismas que han sido procesados a través de los diferentes emprendimientos en las 4 localidades de incidencia del Proyecto COPs4</li>
                                         <li>Apoyada la AMDC con equipo y materiales de construcción para la planta de compostaje por un valor de 60,000 USD.</li>
-                                        <li>Finalizada la consultoría para la definición de modelo de gestión de llantas a partir de la experiencia de Proyecto REVAP. - Adquirido, instalado y en uso Autoclaves para el tratamiento de residuos sólidos hospitalarios - bioinfecciosos en el Hospital Escuela Universitario (HEU), valorado en 360,000 USD.</li>
+                                        <li>Finalizada la consultoría para la definición de modelo de gestión de llantas a partir de la experiencia de Proyecto REVAP. - Adquirido, instalado y en uso Autoclaves para el tratamiento de residuos sólidos hospitalarios - bio-infecciosos en el Hospital Escuela Universitario (HEU), valorado en 360,000 USD.</li>
                                     </ul>
                                 </p>
                             </div>
@@ -193,7 +193,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Aumentar la conciencia, capturar lecciones aprendidas, diseminar experiencias, monitorear el progreso del proyecto, y proveer retroalimentación adaptiva y evaluación.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Aumentar la conciencia, capturar lecciones aprendidas, diseminar experiencias, monitorear el progreso del proyecto, y proveer retroalimentación adaptativa y evaluación.</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>En alianza con la Secretaría de Educación se capacitaron en el uso de la guía metodológica sobre gestión de químicos (ed. 2020) un total 824 docentes de Educación Básica y Media (71% mujeres y 29% hombres) de los 18 departamentos del país (2021-2023).</li>
