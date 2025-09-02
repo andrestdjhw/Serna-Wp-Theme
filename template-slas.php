@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <div class="slas-page">
-    <!-- Seccion Hero Panel con gradientes -->
+    <!-- sección Hero Panel con gradientes -->
     <section class="relative py-24 overflow-hidden">
         <!-- Fondo Gradiente -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
@@ -48,7 +48,7 @@ get_header(); ?>
     <!-- Contenido Principal -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
-        <!-- Seccion: Acerca de SLAS -->
+        <!-- sección: Acerca de SLAS -->
         <section class="mb-10">
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
@@ -63,7 +63,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Seccion: Objetivos y Caracteristicas -->
+        <!-- sección: Objetivos y Características -->
         <section class="mb-20">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
@@ -108,7 +108,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <!-- Caracteristicas -->
+                <!-- Características -->
                 <div class="bg-white rounded-lg shadow-custom">
                     <div class="accordion-header bg-gradient-to-r from-[#5ca54c] to-[#7dbb5c] text-white p-6 rounded-t-lg cursor-pointer" onclick="toggleAccordion('caracteristicas')">
                         <div class="flex items-center justify-between">
@@ -157,7 +157,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Seccion: Proceso de Licenciamiento -->
+        <!-- sección: Proceso de Licenciamiento -->
         <section class="mb-20">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
@@ -217,7 +217,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Seccion: Impactos y Beneficios -->
+        <!-- sección: Impactos y Beneficios -->
         <section class="mb-20">
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
@@ -232,7 +232,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Seccion: CTA para acceder a SLAS -->
+        <!-- sección: CTA para acceder a SLAS -->
         <section class="mb-20">
             <div class="relative overflow-hidden rounded-lg">
                 <!-- Fondo Gradiente -->
