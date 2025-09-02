@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Comite de Control Interno
+                    Comité de Control Interno
                 </h1>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -66,10 +66,10 @@ get_header(); ?>
                             <!-- <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span> -->
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            Boletin Trimestral
+                            Boletín Trimestral
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Mantengase al tanto de las ultimas actualizaciones.
+                            Manténgase al tanto de las ultimas actualizaciones.
                         </p>
                         <a href="/wp-content/uploads/2025/08/Newsletter-Boletin-Informativo-Naturaleza-Ecologia-y-Sostenibilidad-Minimalista-Blanco-y-Verde-1.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Descargar Recurso
