@@ -29,7 +29,7 @@ get_header(); ?>
                     RAEE
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    Residuos de Aparatos Electrónicos y Electricos 
+                    Residuos de Aparatos Electrónicos y Eléctricos 
                 </p>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -72,10 +72,10 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">A nivel nacional, el proyecto busca fortalecer las politicas publicas y capacitar al personal tecnico y los funcionarios gubernamentales en el correcto manejo de los residuos electronicos. A traves de este proyecto, se promueven las politicas que permitiran el reciclaje optimo y aprovechamiento de materiales reciclados, la generacion de empleos decentes y oportunidades de trabajo, asi como tambien la gestion ambientalmente racional de 180 toneladas de plastico RAEE en su componente 2. Este enfoque ayudara a proteger el ambiente de los residuos peligrosos y evitara la generacion incontrolada de los mismos.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">A nivel nacional, el proyecto busca fortalecer las políticas publicas y capacitar al personal técnico y los funcionarios gubernamentales en el correcto manejo de los residuos electrónicos. A traves de este proyecto, se promueven las políticas que permitirán el reciclaje optimo y aprovechamiento de materiales reciclados, la generación de empleos decentes y oportunidades de trabajo, asi como también la gestión ambientalmente racional de 180 toneladas de plástico RAEE en su componente 2. Este enfoque ayudara a proteger el ambiente de los residuos peligrosos y evitara la generación incontrolada de los mismos.</div>
                     </div>
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">PREAL asiste a 13 paises Latinoamericanos tanto tecnica como financieramente con fondos del GEF administrado por ONUDI y en Honduras tecnicamente ejecutado por CESCCO/SERNA con administracion de la Oficina Coordinadora de Proyectos.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">PREAL asiste a 13 países Latinoamericanos tanto técnica como financieramente con fondos del GEF administrado por ONUDI y en Honduras técnicamente ejecutado por CESCCO/SERNA con administración de la Oficina Coordinadora de Proyectos.</div>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Actualmente ocupamos el 3er lugar dentro de los 13 países con el 48% de la meta cumplida para la gestión ambientalmente racional de plástico bromado, reportando un total de 52 toneladas de este plástico en proceso de ser enviadas para recuperación de energía mediante el coprocesamiento en hornos cementeros.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Actualmente ocupamos el 3er lugar dentro de los 13 países con el 48% de la meta cumplida para la gestión ambientalmente racional de plástico bromado, reportando un total de 52 toneladas de este plástico en proceso de ser enviadas para recuperación de energía mediante el co-procesamiento en hornos cementeros.</h3>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ get_header(); ?>
                         <!-- Contact Card Content -->
                         <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
                             <div class="p-8 text-white">
-                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctanos</h3>
+                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctenos</h3>
                                 
                                 <!-- Contact Grid -->
                                 <div class="grid md:grid-cols-2 gap-8">
@@ -246,7 +246,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -399,7 +399,7 @@ get_header(); ?>
     <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
         <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Conoce Más</span></h2>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Encuentra informacion adicional.
+            Encuentra información adicional.
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
@@ -409,13 +409,13 @@ get_header(); ?>
                 Gestores Autorizados
             </a>
             <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
-                Concientizacion 
+                Concienciación 
             </a>
             <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
                 Requisitos Legales
             </a>
             <a href="/direcciones/cescco/rae/estadisticas" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
-                Estadisticas RAEE
+                Estadísticas RAEE
             </a>
         </div>
     </section>
