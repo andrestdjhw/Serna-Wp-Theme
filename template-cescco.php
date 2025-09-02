@@ -45,7 +45,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- DGRH Story Section -->
+    <!-- CESCCO Story Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
@@ -53,15 +53,15 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El Centro de Estudios y Control de Contaminantes (CESCCO) depencia de la SERNA; es el organismo tecnico-cientifico superior del Estado de Honduras en materia de contaminacion ambiental, se encarga de la investigacion, prestacion de servicios de analisis laboratoriales en las matrices agua, aire, suelo, sedimentos y alimentos, la vigilancia ambiental y gestion de sustancias quimicas. 
+                        El Centro de Estudios y Control de Contaminantes (CESCCO) dependencia de la SERNA; es el organismo técnico-científico superior del Estado de Honduras en materia de contaminación ambiental, se encarga de la investigación, prestación de servicios de análisis de laboratorio en las matrices agua, aire, suelo, sedimentos y alimentos, la vigilancia ambiental y gestión de sustancias químicas. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Asimismo, brinda capacitacion y sensibilizacion en temas relacionados con la legislacion y contaminacion ambiental, cada uno de estos servicios con el proposito de fortalecer la gestion ambiental de Honduras basado en principios de responsabilidad, honestidad, etica e integridad.
+                        Asimismo, brinda capacitación y sensibilización en temas relacionados con la legislación y contaminación ambiental, cada uno de estos servicios con el propósito de fortalecer la gestión ambiental de Honduras basado en principios de responsabilidad, honestidad, ética e integridad.
                     </p>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/CESCCO2.jpg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/CESCCO2.jpg" alt="Banner CESCCO" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Brindamos apoyo a instituciones encargadas de aplicar la legislación ambiental como la Fiscalía Especial del Medio Ambiente (FEMA) y la Procuraduría General de la República (PGR):</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
-                                    Con inspecciones, recolección de muestras y análisis laboratoriales en atención a denuncias o procesos de oficio.
+                                    Con inspecciones, recolección de muestras y análisis de laboratorio en atención a denuncias o procesos de oficio.
                                 </p>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Realizamos 579 análisis laboratoriales.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Realizamos 579 análisis de laboratorio.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     Al servicio de la población, en atención a denuncias, investigación y acompañamientos a los diferentes SINEIAS convocados.
@@ -223,7 +223,7 @@ get_header(); ?>
                 <!-- Contact Card Content -->
                 <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
                     <div class="p-8 text-white">
-                        <h3 class="text-2xl font-bold mb-6 text-center">Visitános</h3>
+                        <h3 class="text-2xl font-bold mb-6 text-center">Visítenos</h3>
                         
                         <!-- Contact Grid -->
                         <div class="grid md:grid-cols-2 gap-8">
@@ -315,7 +315,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
