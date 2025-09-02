@@ -7,9 +7,9 @@
 get_header(); ?>
 
 <div class="contacto-page">
-    <!-- Seccion Hero Panel con gradiantes -->
+    <!-- Sección Hero Panel con gradientes -->
     <section class="relative py-24 overflow-hidden">
-        <!-- Fondo Gradiante -->
+        <!-- Fondo Gradiente -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
         
         <!-- Fondo: Elementos Animados tipo Fuegos Artificiales -->
@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Contáctanos
+                    Contáctenos
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     ¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte.
@@ -48,12 +48,12 @@ get_header(); ?>
     <!-- Contenido Principal -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <!-- Informacion de Contacto -->
+            <!-- Información de Contacto -->
             <div class="md:col-span-1">
                 <div class="bg-white rounded-lg shadow-custom p-8">
                     <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Información de Contacto</span></h2>
                     
-                    <!-- Correo Electronico -->
+                    <!-- Correo Electrónico -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Telefono -->
+                    <!-- Teléfono -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +79,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Ubicacion -->
+                    <!-- Ubicación -->
                     <div class="flex items-start mb-6">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@ get_header(); ?>
                         </div>
                     </div>
                     
-                    <!-- Horario de Atencion -->
+                    <!-- Horario de atención -->
                     <div class="flex items-start">
                         <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
                             <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -151,14 +151,14 @@ get_header(); ?>
                             </div>
                         </div>
                         
-                        <!-- Correo Electronico -->
+                        <!-- Correo Electrónico -->
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico</label>
                             <input type="email" id="email" name="email" required
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300">
                         </div>
                         
-                        <!-- Telefono -->
+                        <!-- Teléfono -->
                         <div>
                             <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Teléfono (opcional)</label>
                             <input type="tel" id="phone" name="phone"
@@ -173,7 +173,7 @@ get_header(); ?>
                                 <option value="">Selecciona un asunto</option>
                                 <option value="general">Consulta general</option>
                                 <option value="slas">Problema con SLAS</option>
-                                <option value="direccion ambiental">Direccion Ambiental</option>
+                                <option value="direccion ambiental">Dirección Ambiental</option>
                                 <option value="secretaria general">Secretaria General</option>
                                 <option value="otro">Otro</option>
                             </select>
@@ -186,7 +186,7 @@ get_header(); ?>
                                 class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#00903b] focus:border-transparent transition-all duration-300"></textarea>
                         </div>
                         
-                        <!-- Boton de enviar -->
+                        <!-- Botón de enviar -->
                         <div>
                             <button type="submit" 
                                 class="w-full md:w-auto px-8 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transform hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7dbb5c]">
@@ -195,7 +195,7 @@ get_header(); ?>
                         </div>
                     </form>
                     
-                    <!-- Exito/Error Mensajes -->
+                    <!-- Éxito/Error Mensajes -->
                     <div id="form-messages" class="hidden mt-6">
                         <div id="success-message" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative hidden" role="alert">
                             <strong class="font-bold">¡Éxito!</strong>
@@ -210,12 +210,12 @@ get_header(); ?>
             </div>
         </div>
         
-        <!-- Seccion para mapa de Google -->
+        <!-- Sección para mapa de Google -->
         <section class="mt-24">
-            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Encuéntranos aquí</span></h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Estamos aquí</span></h2>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
-                    <!-- Aqui va el frame del mapa de Google -->
+                    <!-- aquí va el frame del mapa de Google -->
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1707.8792146428075!2d-87.18747288964083!3d14.097344497602379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2shn!4v1747232723012!5m2!1ses-419!2shn" 
                         width="100%" 
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
             successMessage.classList.add('hidden');
             errorMessage.classList.add('hidden');
             
-            // Obtener informacion del formulario
+            // Obtener información del formulario
             const formData = new FormData(form);
             formData.append('action', 'process_contact_form');
             
