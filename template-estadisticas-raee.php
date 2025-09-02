@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="raee-estadisticas-page">
+<div class="raee-estadísticas-page">
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -122,7 +122,7 @@ get_header(); ?>
 
             <!-- Grid de Gráficos -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-                <!-- Gráfico 1: Tasa de recoleccion RAEE Anual -->
+                <!-- Gráfico 1: Tasa de recolección RAEE Anual -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                     <div class="mb-6">
                         <h3 class="text-xl font-bold text-[#00903b] mb-2">Tasa de recolección de RAEE %</h3>
