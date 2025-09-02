@@ -29,7 +29,7 @@ get_header(); ?>
                     Perfil Institucional
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    <cite>Al servicio del pueblo y por la recuperacion de la soberania de los recursos naturales.</cite>
+                    <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
                     <a href="#historia" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
