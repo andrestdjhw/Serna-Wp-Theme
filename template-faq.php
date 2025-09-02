@@ -167,20 +167,20 @@ get_header(); ?>
                                 <li>Carta Poder o Poder General para Pleitos, Autenticado.</li>
                                 <li>Medidas de control ambiental, emitidas por el Sistema de Licenciamiento Ambiental (SLAS).</li>
                                 <li>Fotocopia del RTN de la empresa, Autenticada.</li>
-                                <li>Declaracion jurada del representante legal de la sociedad mercantil.</li>
-                                <li>Declaracion jurada del prestador de servicio ambientales debidamente autenticada.</li>
+                                <li>Declaración jurada del representante legal de la sociedad mercantil.</li>
+                                <li>Declaración jurada del prestador de servicio ambientales debidamente autenticada.</li>
                                 <li>Titulo de propiedad debidamente timbrado y registrado/Contrato de arrendamiento o cualquier otro titulo traslaticio de dominio, del lugar a desarrollar el proyecto.</li>
-                                <li>Escritura de constitucion de sociedad, comerciante individual o Persona Juridica(En caso de sociedad mercantil extranjera, los documentos deberan estar debidamente apostillados A ley).</li>
-                                <li>Informe de validacion del prestador de servicios ambientales.</li>
-                                <li>Recibo original de pago por inspeccion a favor de fondo rotatorio DECA-Cuenta #02001-000131-0, BANADESA.</li>
-                                <li>Garantia bancaria original, vigente por un año.</li>
-                                <li>Publicacion del aviso de presentación de la solicitud, en un octavo de pagina en un diario de mayor circulacion, acreditar pagina completa del periodico. </li>
-                                <li>Herramienta tecnica de acuerdo A la categoria del Proyecto: Memoria Tecnica, Plan de gestion ambiental, Estudio de impacto ambiental; (Documentación categoria 4; Socializacion y aprobacion de Acta de cabildo abierto con fotografias listados, Publicacion de avisos de inicio Y finalizacion del estudio de impacto ambiental, Spot Publicitarios durante 5 dias en Radios Locales y Nacionales, Constancia de INGHEOMIN y para Camaricultores Constancia de la SAG).</li>
+                                <li>Escritura de constitución de sociedad, comerciante individual o Persona Jurídica(En caso de sociedad mercantil extranjera, los documentos deberán estar debidamente apostillados A ley).</li>
+                                <li>Informe de validación del prestador de servicios ambientales.</li>
+                                <li>Recibo original de pago por inspección a favor de fondo rotatorio DECA-Cuenta #02001-000131-0, BANADESA.</li>
+                                <li>Garantía bancaria original, vigente por un año.</li>
+                                <li>Publicación del aviso de presentación de la solicitud, en un octavo de pagina en un diario de mayor circulación, acreditar pagina completa del periódico. </li>
+                                <li>Herramienta técnica de acuerdo A la categoría del Proyecto: Memoria Técnica, Plan de gestión ambiental, Estudio de impacto ambiental; (Documentación categoría 4; Socialización y aprobación de Acta de cabildo abierto con fotografías listados, Publicación de avisos de inicio Y finalización del estudio de impacto ambiental, Spot Publicitarios durante 5 días en Radios Locales y Nacionales, Constancia de INGHEOMIN y para Camaricultores Constancia de la SAG).</li>
                                 <li>Recibo T.G.R. Por el monto de inversion de Licenciamiento Ambiental</li>
                             </ul>
-                            <p class="mt-4 text-sm text-gray-500">* Las revisiones se haran con el expediente en forma fisica y en la plataforma SLAS-2, La documentación debera estar completa, para ser revisada por Secretaría General.</p>
-                            <p class="mt-4 text-sm text-gray-500">* El recibo T.G.R. 1. Por el monto de inversion de Licenciamiento Ambiental debera ser cancelado en un periodo no mayor a 10 dias A partir de estar completa la Verificacion fisica y digital de la documentacion Tecnica y Legal.</p>
-                            <p class="mt-4 text-sm text-gray-500">* El plazo maximo para la presentación del aviso del periodico son 5 dias a partir de su publicacion.</p>
+                            <p class="mt-4 text-sm text-gray-500">* Las revisiones se harán con el expediente en forma física y en la plataforma SLAS-2, La documentación deberá estar completa, para ser revisada por Secretaría General.</p>
+                            <p class="mt-4 text-sm text-gray-500">* El recibo T.G.R. 1. Por el monto de inversion de Licenciamiento Ambiental deberá ser cancelado en un periodo no mayor a 10 días A partir de estar completa la Verificación física y digital de la documentación Técnica y Legal.</p>
+                            <p class="mt-4 text-sm text-gray-500">* El plazo máximo para la presentación del aviso del periódico son 5 días a partir de su publicación.</p>
                         </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@ get_header(); ?>
                 href="/contacto" 
                 class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
             >
-                Contáctanos
+                Contáctenos
             </a>
         </div>
     </div>
