@@ -72,7 +72,7 @@ get_header(); ?>
                             ¡Aviso! A partir del 01 de Mayo, 2024
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Se pone a disposicion en modalidad virtual el formulario <strong>"RD-1 FORMULARIO DE REGISTRO DE DESCARGA DE AGUAS RESIDUALES".</strong> 
+                            Se pone a disposición en modalidad virtual el formulario <strong>"RD-1 FORMULARIO DE REGISTRO DE DESCARGA DE AGUAS RESIDUALES".</strong> 
                         </p>
                         <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Leer más
@@ -98,7 +98,7 @@ get_header(); ?>
                         Mantente Informado
                     </h2>
                     <p class="text-xl mb-8 opacity-90">
-                        Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones de CESCCO
+                        Suscríbase a nuestro boletín para recibir las últimas noticias y actualizaciones de CESCCO
                     </p>
                     <div class="max-w-md mx-auto">
                         <div class="flex flex-col sm:flex-row gap-4">
