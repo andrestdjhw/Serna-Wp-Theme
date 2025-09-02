@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Direccion General de Evaluacion y Control Ambiental
+                    Dirección General de Evaluación y Control Ambiental
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -53,10 +53,10 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La Direccion General de Evaluacion y Control Ambiental (DECA), es la dependencia de la Secretaria de Recursos Naturales, Ambiente, que vela por la obligatoria aplicacion de la Evaluacion de Impacto Ambiental para todos los proyectos o empresas con el potencial de contaminar el medio ambiente y degradar los recursos naturales. 
+                        La Dirección General de Evaluación y Control Ambiental (DECA), es la dependencia de la Secretaria de Recursos Naturales, Ambiente, que vela por la obligatoria aplicación de la Evaluación de Impacto Ambiental para todos los proyectos o empresas con el potencial de contaminar el medio ambiente y degradar los recursos naturales. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Garantizando que el desarrollo de cualquier actividad susceptible de contaminar o degradar el ambiente sera precedido de una evaluacion ambiental que permita prevenir, mitigar y/o compensar los posibles efectos negativos.
+                        Garantizando que el desarrollo de cualquier actividad susceptible de contaminar o degradar el ambiente sera precedido de una evaluación ambiental que permita prevenir, mitigar y/o compensar los posibles efectos negativos.
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         Engloba los mas relevantes procesos y actividades ejecutadas por las unidades vinculantes de la SERNA a fin de emitir un producto final denominado Certificado de Licencia Ambiental.
@@ -64,7 +64,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Banner DECA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección General de Evaluación y Control Ambiental (DECA) ha trabajado para cumplir con las acciones orientadas a la Evaluación de Impacto Ambiental: </h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
                                 <p class="text-gray-600">
-                                    A todos los proyectos, obras y/o actividades con el potencial de contaminar el medio ambiente y degradar los recursos naturales, asimismo, incluye los procedimientos para realizar las inspecciones de control y seguimiento, la presentación de ICMA´s y las Renovaciones de Licencias, así como la atención de Denuncias Ambientales y todas las actividades que se realizan en todo lo que involucra el Licenciamiento Ambiental, de esta manera se impulsa el desarrollo sostenible de nuestra Honduras, donde las actuaciones operativas de la Dirección se circunscriben al marco jurídico del ambiente del país, sus convenios y tratados internacionales, como Dirección hemos trabajado tomando como base las metas de cumplimiento del Plan Operativo Anual (POA) de la DECA.
+                                    A todos los proyectos, obras y/o actividades con el potencial de contaminar el medio ambiente y degradar los recursos naturales, asimismo, incluye los procedimientos para realizar las inspecciones de control y seguimiento, la presentación de ICMA´s y las renovaciónes de Licencias, así como la atención de Denuncias Ambientales y todas las actividades que se realizan en todo lo que involucra el Licenciamiento Ambiental, de esta manera se impulsa el desarrollo sostenible de nuestra Honduras, donde las actuaciones operativas de la Dirección se circunscriben al marco jurídico del ambiente del país, sus convenios y tratados internacionales, como Dirección hemos trabajado tomando como base las metas de cumplimiento del Plan Operativo Anual (POA) de la DECA.
                                 </p>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictames técnicos de Auditorias de las medidas de mitigación:</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictámenes técnicos de Auditorias de las medidas de mitigación:</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
                                 <p class="text-gray-600">
                                     Brindaron atención a 150 Denuncias Ambientales las cuales se les dio seguimiento mediante análisis de información y visitas técnicas de campo para constatar cualquier daño ambiental causado por el denunciado, esto se llevó a cabo sin importar la zona geográfica cubriendo así a nivel País las inspecciones pertinentes que ameritan visita a campo.
@@ -202,7 +202,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección llevo a cabo las convocatorias del taller Desafíos y Oportunidades de la Sostenibilidad del Planeta</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                                 <p class="text-gray-600">
-                                    Dirigido a los profesionales Prestadores de Servicios Ambientales (PSA), con el finde de potenciar las capacidades y habilidades técnicas de los mismos y así coadyuvar esfuerzos para hacerle frente a los problemas ambientales actuales; los talleres fueron impartidos en las Ciudades de Siguatepeque, Tegucigalpa y San Pedro Sula.
+                                    Dirigido a los profesionales Prestadores de Servicios Ambientales (PSA), con el fin de de potenciar las capacidades y habilidades técnicas de los mismos y así coadyuvar esfuerzos para hacerle frente a los problemas ambientales actuales; los talleres fueron impartidos en las Ciudades de Siguatepeque, Tegucigalpa y San Pedro Sula.
                                 </p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -235,7 +235,7 @@ get_header(); ?>
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
                                 <!-- <div class="relative z-10 text-center text-white px-8">
-                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidro-meteorológicas</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
                                     </p>
@@ -311,17 +311,17 @@ get_header(); ?>
     <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
         <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Material Relevante</span></h2>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Encuentra informacion adicional con respecto al Licenciamiento Ambiental aqui.
+            Encuentra información adicional con respecto al Licenciamiento Ambiental aquí.
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
-                Informacion Relevante para PSAs
+                Información Relevante para PSAs
             </a>
             <a href="/direcciones/deca/nuevos-requisitos-slas" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
                 Nuevos Requisitos SLAS
             </a>
-            <a href="/direcciones/deca/requisitos-de-renovacion-licencia-ambiental" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
-                Requisitos de Renovacion de Licencia Ambiental
+            <a href="/direcciones/deca/requisitos-de-renovación-licencia-ambiental" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                Requisitos de Renovación de Licencia Ambiental
             </a>
             <a href="/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
                 Requisitos de Constancia de No Requerir Licencia Ambiental

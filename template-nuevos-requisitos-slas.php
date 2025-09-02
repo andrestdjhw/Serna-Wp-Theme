@@ -69,7 +69,7 @@ get_header(); ?>
                             Nuevos Requisitos Sistema de Licenciamiento Ambiental SERNA
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Mantengase al tanto de las ultimas actualizaciones.
+                            Manténgase al tanto de las ultimas actualizaciones.
                         </p>
                         <a href="/wp-content/uploads/2025/08/Nuevos_Requisitos_SLAS.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Descargar Recurso

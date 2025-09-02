@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Renovacion Requisitos SLAS Template
+ * Template Name: renovación Requisitos SLAS Template
  * Template Post Type: page
  */
 
 get_header(); ?>
 
-<div class="renovacion-requisitos-slas-page">
+<div class="renovación-requisitos-slas-page">
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -66,10 +66,10 @@ get_header(); ?>
                             <!-- <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span> -->
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            Requisitos de Renovacion Sistema de Licenciamiento Ambiental SERNA
+                            Requisitos de Renovación Sistema de Licenciamiento Ambiental SERNA
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Mantengase al tanto de las ultimas actualizaciones.
+                            Manténgase al tanto de las ultimas actualizaciones.
                         </p>
                         <a href="/wp-content/uploads/2025/08/Requisitos-de-Renovacion-de-Licencia-Ambiental.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Descargar Recurso

@@ -72,7 +72,7 @@ get_header(); ?>
                             DECA Implementa Nuevos Protocolos de Evaluación Ambiental
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            La Dirección General de Evaluación y Control Ambiental informa modificacion de monto de inspeccion para evaluación ambiental.
+                            La Dirección General de Evaluación y Control Ambiental informa modificación de monto de inspección para evaluación ambiental.
                         </p>
                         <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Leer más
@@ -110,7 +110,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-        </div>
+        </div
     </section>
 </div>
 
