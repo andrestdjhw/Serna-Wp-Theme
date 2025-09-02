@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Unidad Tecnica de Ozono (UTOH)
+                    Unidad Técnica de Ozono (UTOH)
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -112,7 +112,7 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Informacion de Interes</span></h2>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Información de Interés</span></h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
@@ -226,7 +226,7 @@ get_header(); ?>
                         <!-- Contact Card Content -->
                         <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
                             <div class="p-8 text-white">
-                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctanos</h3>
+                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctenos</h3>
                                 
                                 <!-- Contact Grid -->
                                 <div class="grid md:grid-cols-2 gap-8">
@@ -320,7 +320,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
                 </h2>
                 <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -337,7 +337,7 @@ get_header(); ?>
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
                                 <!-- <div class="relative z-10 text-center text-white px-8">
-                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidro-meteorológicas</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
                                     </p>
@@ -392,13 +392,13 @@ get_header(); ?>
         </div>
     </section>
     
-    <!-- Cartita para enlaces externos de la direccion -->
+    <!-- Cartita para enlaces externos de la dirección -->
     <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
-        <h2 class="text-3xl font-bold mb-6 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Enlaces de interes</h2>
+        <h2 class="text-3xl font-bold mb-6 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Enlaces de interés</h2>
         <p class="text-xl text-green-900 mb-8">Conozca el  perfil oficial de Honduras en la plataforma de la Secretaría del Ozono del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA). Allí se presenta información clave sobre el cumplimiento del país con el Protocolo de Montreal, incluyendo:</p>
         <ul class="list-disc text-left">
            <li class="text-sm mb-3">Estadísticas actualizadas de consumo de <strong>SAO y HFC.</strong></li>
-           <li class="text-sm mb-3">Año de ratificación de cada <strong>enmienda internacional</strong> (Londres, Copenhague, Montreal, Beijing y Kigali).</li> 
+           <li class="text-sm mb-3">Año de ratificación de cada <strong>enmienda internacional</strong> (Londres, Copenhagen, Montreal, Beijing y Kigali).</li> 
            <li class="text-sm mb-3">Reportes presentados por Honduras conforme al <strong>Artículo 7</strong> del Protocolo.</li> 
            <li class="text-sm mb-3">Información sobre asistencia técnica y proyectos financiados por el <strong>Fondo Multilateral.</strong></li>
         </ul>
@@ -409,7 +409,7 @@ get_header(); ?>
             rel="noopener noreferrer"
             class="inline-block px-8 py-3 mt-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
         >
-            ¡Haz click aqui!
+            ¡Haz click aquí!
         </a>
     </div>
 

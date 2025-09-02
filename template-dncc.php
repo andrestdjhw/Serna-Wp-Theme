@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Direccion Nacional de Cambio Climatico
+                    Dirección Nacional de Cambio Climático
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -45,7 +45,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- DIBIO Story Section -->
+    <!-- DNCC Story Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
@@ -53,15 +53,15 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
+                        <strong>Ubicación: </strong>Francisco Morazán/Tegucigalpa M.D.C. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        <strong>Descripcion: </strong>Es el ente tecnico especializado en cambio climatico y tiene por objetivo principal coordinar acciones orientadas a formular, actualizar y ejecutar las politicas, estrategias, planes y otros instrumentos nacionales en materia de cambio climatico; relativos al cumplimiento de los compromisos asumidos a traves de la suscripcion de la Convencion Marco de las Naciones Unidas sobre el Cambio Climatico (CMNUCC).
+                        <strong>Descripción: </strong>Es el ente técnico especializado en cambio climático y tiene por objetivo principal coordinar acciones orientadas a formular, actualizar y ejecutar las políticas, estrategias, planes y otros instrumentos nacionales en materia de cambio climático; relativos al cumplimiento de los compromisos asumidos a traves de la suscripción de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC).
                     </p>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/05/DNCC.jpeg" alt="Banner DGRH" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/05/DNCC.jpeg" alt="Banner DNCC" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Presencia regional:</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
-                                    Se solicitó a la Secretaría de la Red de Santiago utilizar las oficinas regionales y subregionales de las Naciones Unidas en todas las regiones geográficas de las Naciones Unidas, según proceda, para que actúen como unidades designadas para prestar servicios y apoyo pertinentes para catalizar una asistencia técnica eficaz y oportuna en los países en desarrollo particularmente vulnerables a los efectos adversos del cambio climático.
+                                    Se solicitó a la Secretaría de la Red de Santiago utilizar las oficinas regionales y sub-regionales de las Naciones Unidas en todas las regiones geográficas de las Naciones Unidas, según proceda, para que actúen como unidades designadas para prestar servicios y apoyo pertinentes para catalizar una asistencia técnica eficaz y oportuna en los países en desarrollo particularmente vulnerables a los efectos adversos del cambio climático.
                                 </p>
                             </div>
                         </div>

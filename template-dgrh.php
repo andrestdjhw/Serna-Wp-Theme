@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Direccion General de Recursos Hidricos
+                    Dirección General de Recursos Hídricos
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     Gestión sostenible de los recursos hídricos para un futuro mejor
@@ -53,10 +53,10 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La Direccion General de Recursos Hidricos (DGRH), fue creada por Decreto No. 716 del 28 de diciembre de 1978, es responsable de la gestion de los recursos hidricos, incluyendo su medicion, evaluacion y conservacion. 
+                        La Dirección General de Recursos Hídricos (DGRH), fue creada por Decreto No. 716 del 28 de diciembre de 1978, es responsable de la gestión de los recursos hídricos, incluyendo su medición, evaluación y conservación. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        <strong>Su Mision: </strong>Es normar, regular, administrar, planificar, conservar y controlar los recursos hidricos, mediante la formulacion de politicas en torno del recurso, recoleccion y analisis de informacion hidroclimatica para la toma de decisiones oportunas que aseguren la calidad, cantidad y perpetuidad del agua en el tiempo.
+                        <strong>Su Misión: </strong>Es formar, regular, administrar, planificar, conservar y controlar los recursos hídricos, mediante la formulación de políticas en torno del recurso, recolección y análisis de información hidro-climática para la toma de decisiones oportunas que aseguren la calidad, cantidad y perpetuidad del agua en el tiempo.
                     </p>
                     <p class="text-lg text-gray-700 leading-relaxed">
                         Nuestra institución se ha convertido en un pilar fundamental para el desarrollo nacional, asegurando que los beneficios de nuestros recursos naturales lleguen a todos los ciudadanos.
@@ -122,11 +122,11 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Veinticinco Planes de acción Hídrica</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
-                                    A las microcuencas que conforman la Cuenca Goascorán.
+                                    A las micro-cuencas que conforman la Cuenca Goascorán.
                                 </p>
                                 <div class="mt-4">
                                     <a href="https://corredorseco.ihcantabria.com/" class="text-[#5ca54c] inline-flex items-center hover:underline">
-                                        ¡Ver aqui! 
+                                        ¡Ver aquí! 
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                         </svg>
@@ -148,7 +148,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Reconocidos 30 Consejos de Microcuencas y 5 Consejos de Subcuencas </h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Reconocidos 30 Consejos de Micro-cuencas y 5 Consejos de Sub-cuencas </h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
                                 <p class="text-gray-600">
                                     Para la gestión de la gobernanza hídrica en su ámbito territorial con resoluciones administrativas otorgadas por SERNA.
@@ -171,7 +171,7 @@ get_header(); ?>
                                 <h3 class="text-xl font-bold text-[#00903b] mb-2">Fortalecimiento de la Gobernanza Hídrica</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
-                                    A través de la conformación de 119 Organismos de cuenca a nivel de cuenca, microcuenca y subcuenca.
+                                    A través de la conformación de 119 Organismos de cuenca a nivel de cuenca, micro-cuenca y sub-cuenca.
                                 </p>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">110 estaciones Hidrometeorológicas</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">110 estaciones Hidro-meteorológicas</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     Distribuidas en 16 cuencas en el país generando información para la toma de decisiones en alerta temprana.
@@ -218,7 +218,7 @@ get_header(); ?>
                                 </p>
                                 <div class="mt-4">
                                     <a href="https://aguadehonduras.gob.hn/" class="text-[#5ca54c] inline-flex items-center hover:underline">
-                                        ¡Ver aqui! 
+                                        ¡Ver aquí! 
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                         </svg>
@@ -254,13 +254,13 @@ get_header(); ?>
                             <div class="bg-gradient-to-r from-[#7dbb5c] to-[#87cede] h-96 md:h-[500px] flex items-center justify-center relative overflow-hidden">
                                 <div class="absolute inset-0 bg-black opacity-20"></div>
                                 <div class="relative z-10 text-center text-white px-8">
-                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidrometeorólogicas</h3>
+                                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Estaciones Hidro-meteorológicas</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
                                         Red de monitoreo distribuida en 16 cuencas para generar información crucial en la toma de decisiones
                                     </p>
                                 </div>
                                 <!-- Placeholder for actual image -->
-                                <img src="/wp-content/uploads/2025/06/DJI_0125.jpg" alt="Estaciones Hidrometeorólogicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
+                                <img src="/wp-content/uploads/2025/06/DJI_0125.jpg" alt="Estaciones Hidro-meteorológicas" class="absolute inset-0 w-full h-full object-cover opacity-80" >
                             </div>
                         </div>
 
@@ -301,7 +301,7 @@ get_header(); ?>
                                 <!-- <div class="relative z-10 text-center text-white px-8">
                                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Planes de Acción Hídrica</h3>
                                     <p class="text-lg md:text-xl max-w-2xl mx-auto">
-                                        Estrategias específicas para las cuencas del corredor seco y microcuencas prioritarias
+                                        Estrategias específicas para las cuencas del corredor seco y micro-cuencas prioritarias
                                     </p>
                                 </div> -->
                                 <!-- Placeholder for actual image -->
@@ -341,17 +341,17 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Cartita para enlaces externos de la direccion -->
+    <!-- Cartita para enlaces externos de la dirección -->
     <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Sigue el enlace de Agua de Honduras</h2>
-        <p class="text-xl mb-8">La plataforma Agua de Honduras es una iniciativa de innovacion que ofrece informacion confiable sobre el recurso hidrico de forma agil y gratuita.</p>
+        <p class="text-xl mb-8">La plataforma Agua de Honduras es una iniciativa de innovación que ofrece información confiable sobre el recurso hídrico de forma ágil y gratuita.</p>
         <a 
             href="https://aguadehonduras.gob.hn/"
             target="_blank" 
             rel="noopener noreferrer" 
             class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
         >
-            ¡Haz click aqui!
+            ¡Haz click aquí!
         </a>
     </div>
 

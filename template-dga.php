@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Direccion General de Gestion Ambiental
+                    Dirección General de Gestión Ambiental
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -53,10 +53,10 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Es la direccion que tiene como mandato orientar el accionar coherente del Gobierno y la Sociedad, a fin de alcanzar una elevada calidad ambiental y asegurar el uso sostenible de los recursos naturales. 
+                        Es la dirección que tiene como mandato orientar el accionar coherente del Gobierno y la Sociedad, a fin de alcanzar una elevada calidad ambiental y asegurar el uso sostenible de los recursos naturales. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        A traves de procesos que fortalezcan la gestion ambiental en municipios, instituciones publicas y privadas. Y de sensibilizar a la poblacion por medio de capacitaciones, charlas, foros y conferencias.
+                        A traves de procesos que fortalezcan la gestión ambiental en municipios, instituciones publicas y privadas. Y de sensibilizar a la población por medio de capacitaciones, charlas, foros y conferencias.
                     </p>
                     
                 </div>
@@ -105,7 +105,7 @@ get_header(); ?>
                         <h3 class="text-2xl font-bold text-gray-800 ml-4">Misión</h3>
                     </div>
                     <p class="text-gray-600 leading-relaxed">
-                        Coordinar, normar, promover y divulgar acciones en materia ambiental con entidades públicas y privadas, nacionales e internacionales, a través de procesos de capacitación y asistencia técnica ambiental.
+                        Coordinar, formar, promover y divulgar acciones en materia ambiental con entidades públicas y privadas, nacionales e internacionales, a través de procesos de capacitación y asistencia técnica ambiental.
                     </p>
                 </div>
             </div>
@@ -241,7 +241,7 @@ get_header(); ?>
                         <!-- Contact Card Content -->
                         <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
                             <div class="p-8 text-white">
-                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctanos</h3>
+                                <h3 class="text-2xl font-bold mb-6 text-center">Contáctenos</h3>
                                 
                                 <!-- Contact Grid -->
                                 <div class="grid md:grid-cols-2 gap-8">
