@@ -29,7 +29,7 @@ get_header(); ?>
                     Secretaría de Recursos Naturales y Ambiente
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    <cite>Al servicio del pueblo y por la recuperacion de la soberania de los recursos naturales.</cite>
+                    <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
                     <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
@@ -210,7 +210,7 @@ get_header(); ?>
                             <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Evento</span>
                             <span>28 Mayo 2023</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Cafe Hondureño destaca en Shanghai</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Café Hondureño destaca en Shanghai</h3>
                         <p class="text-gray-600 mb-4">
                             Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
                         </p>
@@ -233,7 +233,7 @@ get_header(); ?>
                             <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
                             <span>06 Noviembre 2023</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Campaña de prevencion de incendios 2024</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Campaña de prevención de incendios 2024</h3>
                         <p class="text-gray-600 mb-4">
                             Acuerdo para fortalecer las capacidades técnicas en monitoreo de calidad del aire en ciudades principales.
                         </p>
@@ -275,7 +275,7 @@ get_header(); ?>
                 <!-- Stat 3 -->
                 <div class="p-4 stat-item" data-target="150" data-suffix="">
                     <div class="text-4xl font-bold mb-2 counter">0</div>
-                    <div class="text-lg">Microcuencas intervenidas a nivel nacional.</div>
+                    <div class="text-lg">Micro-cuencas intervenidas a nivel nacional.</div>
                 </div>
                 
                 <!-- Stat 4 -->
