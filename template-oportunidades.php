@@ -45,7 +45,7 @@ get_header(); ?>
     <!-- Contenido Principal -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
-        <!-- Seccion de Proceso -->
+        <!-- Sección de Proceso -->
         <section class="mb-24">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Step 1: Requisitos -->
@@ -89,7 +89,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Seccion de Oportunidades -->
+        <!-- Sección de Oportunidades -->
         <section class="mb-24">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Oportunidades</span></h2>
@@ -110,7 +110,7 @@ get_header(); ?>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-[#00903b] mb-3">CS/OCP/CONECTA/001-2024</h3>
                         <p class="text-gray-600 mb-4">
-                            Servicios de asistencia tecnica en comunicaciones, actividades de sensibilizacion y visibilidad.
+                            Servicios de asistencia técnica en comunicaciones, actividades de sensibilización y visibilidad.
                         </p>
                         <a href="https://empleos.hn/jobs/csocpconecta001-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Aplicar ahora
@@ -129,7 +129,7 @@ get_header(); ?>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-[#00903b] mb-3">CS/OCP/CONECTA/002-2024</h3>
                         <p class="text-gray-600 mb-4">
-                            Servicios de asistencia Diseñador Grafico Junior.
+                            Servicios de asistencia Diseñador Gráfico Junior.
                         </p>
                         <a href="https://empleos.hn/jobs/csocpconecta002-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Ver convocatoria
@@ -146,9 +146,9 @@ get_header(); ?>
                         <img src="/wp-content/uploads/2025/08/Marketing.jpg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Consultoria: </h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Consultoría: </h3>
                         <p class="text-gray-600 mb-4">
-                            Estudio de Factibilidad Tecnico y Economico.
+                            Estudio de Factibilidad Técnico y Económico.
                         </p>
                         <a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=16856" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Ver vacantes
@@ -211,7 +211,7 @@ get_header(); ?>
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                     </svg>
                 </a>
-                <a href="/guia-aplicacion" class="px-8 py-4 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
+                <a href="/guia-aplicación" class="px-8 py-4 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
                     Descargar Guía
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
