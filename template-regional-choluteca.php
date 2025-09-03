@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/Puente_Choluteca_Bridge.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/Puente_Choluteca_Bridge.jpg" alt="Banner Regional de Choluteca" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ get_header(); ?>
                     <!-- Stat 3 -->
                     <div class="p-4">
                         <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">6,000</div>
-                        <div class="text-lg text-[#333333]">Toneladas de reciduos recolectados</div>
+                        <div class="text-lg text-[#333333]">Toneladas de residuos recolectados</div>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitación a 6,137 personas en total se han sensibilizado en temática de gestión hídrica a 1739 personas especialmente niños y niñas del municipio del departamento de Choluteca, también se ha brindado asesoría técnica en cuanto a contrata de aguas y muestreos ambientales, y el levantamiento de datos hídricos para mapeo de pozos de aguas superficiales y subterráneas. Se cuenta con 5 estaciones pluviométricas las cuales generan registros de lluvias para la Dirección General de Recursos, en la temática de adaptación y mitigación de cambio climático a través de charlas a 1,370 personas del municipio de Choluteca, también el apoyo a diferentes unidades municipales ambientales para el empoderamiento de estos temas. y se ha participado en los diferentes comités de emergencias tanto municipales como departamentales para la atención ante cualquier emergencia en la zona sur, en asimismo se ha sensibilizado a 1,362 niños y jóvenes del departamento de Choluteca, con el objetivo de concientizar sobre la diversidad de flora y fauna que cuenta el sur del país y como protegerlas ya que muchas de ellas se encuentran en peligro de extinción como es el caso de la tortuga golfina y en Gestión Ambiental se han capacitado en temas de Manejo de Residuos Sólidos, establecimiento de viveros, y elaboración de abonos orgánicos a 1,666 a niños y niñas, jóvenes y a líderes comunitarios de los departamentos de Choluteca y Valle.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitación a 6,137 personas en total se han sensibilizado en temática de gestión hídrica a 1739 personas especialmente niños y niñas del municipio del departamento de Choluteca, también se ha brindado asesoría técnica en cuanto a contrata de aguas y muestreos ambientales, y el levantamiento de datos hídricos para mapeo de pozos de aguas superficiales y subterráneas. Se cuenta con 5 estaciones pluviométricas las cuales generan registros de lluvias para la Dirección General de Recursos, en la temática de adaptación y mitigación de cambio climático a través de charlas a 1,370 personas del municipio de Choluteca, también el apoyo a diferentes unidades municipales ambientales para el empoderamiento de estos temas. y se ha participado en los diferentes comités de emergencias tanto municipales como departamentales para la atención ante cualquier emergencia en la zona sur, en asimismo se ha sensibilizado a 1,362 niños y jóvenes del departamento de Choluteca, con el objetivo de concienciar sobre la diversidad de flora y fauna que cuenta el sur del país y como protegerlas ya que muchas de ellas se encuentran en peligro de extinción como es el caso de la tortuga golfina y en Gestión Ambiental se han capacitado en temas de Manejo de Residuos Sólidos, establecimiento de viveros, y elaboración de abonos orgánicos a 1,666 a niños y niñas, jóvenes y a líderes comunitarios de los departamentos de Choluteca y Valle.</h3>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha participado en el proceso de licenciamiento ambiental mediante el acompañamiento a 21 SINEIAS (Sistema Nacional de Evaluación de Impacto Ambiental) en la zona sur del país y la atención de 13 denuncias ambientales en conjunto con DECA, ICF, FISCALIA ESPECIAL DEL MEDIO AMBIENTE PGR y otras instituciones de la región.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha participado en el proceso de licenciamiento ambiental mediante el acompañamiento a 21 SINEIAS (Sistema Nacional de Evaluación de Impacto Ambiental) en la zona sur del país y la atención de 13 denuncias ambientales en conjunto con DECA, ICF, FISCALÍA ESPECIAL DEL MEDIO AMBIENTE PGR y otras instituciones de la región.</h3>
                             </div>
                         </div>
                     </div>
@@ -335,7 +335,7 @@ get_header(); ?>
                 <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
                 <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
-                    <span>Contáctanos</span>
+                    <span>Contáctenos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>

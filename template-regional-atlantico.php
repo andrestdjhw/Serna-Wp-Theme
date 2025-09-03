@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Regional Atlantico Template
+ * Template Name: Regional Atlántico Template
  * Template Post Type: page
  */
 
 get_header(); ?>
 
-<div class="regional-atlantico-page">
+<div class="regional-atlántico-page">
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Regional Litoral del Atlantico
+                    Regional Litoral del Atlántico
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
                     
@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0710.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0710.jpg" alt="Banner Litoral del Atlántico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Monitoreos de Zonas de Recuperación Pesquera (ZRP) en Trujillo en alianzas con el Centro de Estudios Marinos (CEM).</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Monitoreo de Zonas de Recuperación Pesquera (ZRP) en Trujillo en alianzas con el Centro de Estudios Marinos (CEM).</h3>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Monitoreos de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Monitoreo de Enfermedad de Perdida de Tejido de Coral en Cayos Cochinos, Tela y Cuero y Salado.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreos de Blanqueamiento de Coral en el Refugio de Vida Silvestre Marino Bahía de Tela (RVSMBT) en coordinación con CORAL y AMATELA.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreo de Blanqueamiento de Coral en el Refugio de Vida Silvestre Marino Bahía de Tela (RVSMBT) en coordinación con CORAL y AMATELA.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
                             </div>
                         </div>

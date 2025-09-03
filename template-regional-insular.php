@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0743.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0743.jpg" alt="Banner Regional Insular" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -73,19 +73,19 @@ get_header(); ?>
                     <!-- Stat 1 -->
                     <div class="p-4">
                         <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">664</div>
-                        <div class="text-lg text-[#333333]">Niños y jovenes capacitados sobre el Parque Nacional Marino Islas de la Bahia (PNMIB).</div>
+                        <div class="text-lg text-[#333333]">Niños y jóvenes capacitados sobre el Parque Nacional Marino Islas de la Bahia (PNMIB).</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
                         <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">40+</div>
-                        <div class="text-lg text-[#333333]">SINEIAS apoyadas con informes tecnicos y recomendaciones de esta regional</div>
+                        <div class="text-lg text-[#333333]">SINEIAS apoyadas con informes técnicos y recomendaciones de esta regional</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
                         <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">6</div>
-                        <div class="text-lg text-[#333333]">Monitoreos realizados en dos Zonas de Recuperación Pesquera (ZRP) en Roatan.</div>
+                        <div class="text-lg text-[#333333]">Monitoreo realizados en dos Zonas de Recuperación Pesquera (ZRP) en Roatán.</div>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han realizado 4 monitoreos para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han realizado 4 monitoreo para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0690-2.jpg" alt="Actividad DNCC 1" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0690-2.jpg" alt="Actividad Regional Insular 1" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0742.jpg" alt="Actividad DNCC 2" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0742.jpg" alt="Actividad Regional Insular 2" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0744.jpg" alt="Actividad DNCC 3" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0744.jpg" alt="Actividad Regional Insular 3" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0746-2.jpg" alt="Actividad DNCC 4" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0746-2.jpg" alt="Actividad Regional Insular 4" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0748-.jpg" alt="Actividad DNCC 5" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0748-.jpg" alt="Actividad Regional Insular 5" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0753-2.jpg" alt="Actividad DNCC 6" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0753-2.jpg" alt="Actividad Regional Insular 6" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0768-2.jpg" alt="Actividad DNCC 7" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0768-2.jpg" alt="Actividad Regional Insular 7" class="gallery-image">
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@ get_header(); ?>
                 <div class="masonry-item">
                     <div class="gallery-card">
                         <div class="image-container">
-                            <img src="/wp-content/uploads/2025/06/DJI_0813.jpg" alt="Actividad DNCC 8" class="gallery-image">
+                            <img src="/wp-content/uploads/2025/06/DJI_0813.jpg" alt="Actividad Regional Insular 8" class="gallery-image">
                         </div>
                     </div>
                 </div>

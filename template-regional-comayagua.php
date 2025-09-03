@@ -64,7 +64,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0185.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0185.jpg" alt="Banner Litoral del Atlántico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -78,17 +78,17 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientizacion mediante eventos de reciclaje.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concienciación mediante eventos de reciclaje.</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Apoyo a denuncias ambientales anonimas</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Apoyo a denuncias ambientales anónimas</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Celebracion de fechas ambientales programadas</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Celebración de fechas ambientales programadas</div>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se ha logrado concientizar a la población de la zona a través de la recuperación y valorización de toneladas de residuos sólidos, con la realización de 5 eventos de RECICLA+ en los municipios de Siguatepeque, Lejamani, La Libertad, Villa San Antonio y Comayagua.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se ha logrado concienciar a la población de la zona a través de la recuperación y valorización de toneladas de residuos sólidos, con la realización de 5 eventos de RECICLA+ en los municipios de Siguatepeque, Lejamani, La Libertad, Villa San Antonio y Comayagua.</h3>
                             </div>
                         </div>
                     </div>

@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/DJI_0713.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/DJI_0713.jpg" alt="Banner Litoral del Atlántico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@ get_header(); ?>
                 <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
                 <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
-                    <span>Contáctanos</span>
+                    <span>Contáctenos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>

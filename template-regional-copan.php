@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Regional Ocotepeue Template
+ * Template Name: Regional Copan Template
  * Template Post Type: page
  */
 
@@ -58,7 +58,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/Copan-ruinas.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/Copan-ruinas.jpg" alt="Banner Regional Copan" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -72,12 +72,12 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Participacion en organismos de gestion ambiental</div>                       
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Participación en organismos de gestión ambiental</div>                       
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Asesoria en Licenciamiento Ambientals</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Asesoría en Licenciamiento Ambientales</div>
                     </div>
                     
                     <!-- Stat 3 -->
@@ -116,7 +116,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e intermunicipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e inter-municipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
                             </div>
                         </div>
                     </div>

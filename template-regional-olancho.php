@@ -53,7 +53,7 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La Regional Olancho coordina con otras instituciones como el Instituto de Conservación Forestal ICF, Unidades Municipales Ambientales UMA’s, PGR, FEMA; Secretaría de Educación (centros educativos escolares y media) para la concientización, conservación y aprovechamiento racional de los recursos naturales. 
+                        La Regional Olancho coordina con otras instituciones como el Instituto de Conservación Forestal ICF, Unidades Municipales Ambientales UMA’s, PGR, FEMA; Secretaría de Educación (centros educativos escolares y media) para la concienciación, conservación y aprovechamiento racional de los recursos naturales. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         En el departamento de Olancho la regional trabaja para causar un     movimiento en todas las personas que generen el interés en el medio ambiente y nos direccionamos en reforestar y realizar limpiezas de micro cuencas y áreas de interés para mantener un planeta limpio y saludable dando logros significativos en el medio ambiente con el apoyo a otras unidades que van de la mano con la misma causa. Contamos como institución con la impartición de capacitaciones a nivel básico y media creando en cada alumno una conciencia   sobre el medio ambiente y una mentalidad hacia el valor que debemos tener como ciudadanos del  país; tomamos en cuenta estas instituciones porque en realidad ellos son la nueva generación que van a transmitir el mensaje por medio del aprendizaje significativo de los temas diversos que abarca el medio ambiente, donde ellos pueden explorar y adquirir conocimiento con las ideas que se les imparten de como tener un ambiente mejor y que métodos utilizar que se acoplen a sus edades y necesidades. 
@@ -61,7 +61,7 @@ get_header(); ?>
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/06/JUTICALPA.jpg" alt="Banner Litoral del Atlantico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <img src="/wp-content/uploads/2025/06/JUTICALPA.jpg" alt="Banner Litoral del atlántico" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -80,12 +80,12 @@ get_header(); ?>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientización en centros educativos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concienciación en centros educativos</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concientización sobre el manejo de los recursos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concienciación sobre el manejo de los recursos</div>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Concientización en centros educativos.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Concienciación en centros educativos.</h3>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Concientización sobre el manejo de los recursos a niños y jóvenes.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Concienciación sobre el manejo de los recursos a niños y jóvenes.</h3>
                             </div>
                         </div>
                     </div>
@@ -240,7 +240,7 @@ get_header(); ?>
                                         </svg>
                                     </div>
                                     <h3 class="overlay-title">Educación Ambiental</h3>
-                                    <p class="overlay-text">Programas de concientización</p>
+                                    <p class="overlay-text">Programas de concienciación</p>
                                 </div>
                             </div>
                         </div>
