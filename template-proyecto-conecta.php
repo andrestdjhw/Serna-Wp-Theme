@@ -53,13 +53,13 @@ get_header(); ?>
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
                     <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El área de incidencia del proyecto está ubicada en la zona árida - húmeda del sur occidente del país, y cubre zonas de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. La parte árida, pertenece a una región de Honduras conocida como el Corredor Seco. El proyecto tiene su sede principal en la ciudad de Santa Rosa de Copán y una subsede en la ciudad de La Esperanza. 
+                        El área de incidencia del proyecto está ubicada en la zona árida - húmeda del sur occidente del país, y cubre zonas de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. La parte árida, pertenece a una región de Honduras conocida como el Corredor Seco. El proyecto tiene su sede principal en la ciudad de Santa Rosa de Copán y una sub-sede en la ciudad de La Esperanza. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El objetivo del Proyecto Conecta+ es el fortalecimiento de la conectividad entre las áreas protegidas, a través de la implementación de acciones que permitan obtener beneficios sociales, ambientales y económicos en el corredor árido-húmedo del sur-occidente de Honduras. El área de influencia comprende 1,747,342 hectáreas (ha), de cinco corredores biológicos: Guajiquiro-Jilguero, Anillo Verde, Trifinio-Fraternidad Joya de las Américas, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas y fortalece la iniciátiva del Corredor Maya-Chortí. Las zonas núcleo a conservar son 15 áreas protegidas, que se complementan con paisajes productivos donde se han identificado zonas de interconectividad biológica, en 62 municipios de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. El indicador I está orientado al fortalecimiento del marco de gobernabilidad nacional y local para el establecimiento de corredores biológicos en el área de intervención del proyecto, con énfasis en la interconectividad entre áreas protegidas y sistemas productivos, para su contribución a la conservación de la biodiversidad y uso sostenible de los recursos naturales. 
+                        El objetivo del Proyecto Conecta+ es el fortalecimiento de la conectividad entre las áreas protegidas, a través de la implementación de acciones que permitan obtener beneficios sociales, ambientales y económicos en el corredor árido-húmedo del sur-occidente de Honduras. El área de influencia comprende 1,747,342 hectáreas (ha), de cinco corredores biológicos: Guajiquiro-Jilguero, Anillo Verde, Trifinio-Fraternidad Joya de las Américas, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas y fortalece la iniciativa del Corredor Maya-Chortí. Las zonas núcleo a conservar son 15 áreas protegidas, que se complementan con paisajes productivos donde se han identificado zonas de inter-conectividad biológica, en 62 municipios de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. El indicador I está orientado al fortalecimiento del marco de gobernabilidad nacional y local para el establecimiento de corredores biológicos en el área de intervención del proyecto, con énfasis en la inter-conectividad entre áreas protegidas y sistemas productivos, para su contribución a la conservación de la biodiversidad y uso sostenible de los recursos naturales. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La biodiversidad es uno de los recursos naturales más importantes en el sur-occidente de Honduras; sin embargo, las actividades humanas la impactan irreversiblemente, como resultado, se han incrementado las tasas de extinción, los ecosistemas se han degradado y la diversidad genética ha declinado. En ese sentido, Conecta+, para contribuir a mitigar los efectos de esta problemática, desarrolla diferentes líneas de acción orientadas a revertir la fragmentación de los ecosistemas, la pérdida de biodiversidad y la degradación de la tierra. Se fortalece la conectividad a través sistemas agroforestales de café y cacao, la reforestación de zonas degradadas, la declaración de áreas protegidas privadas y microcuencas y el monitoreo biológico. Los monitoreos se centran en especies indicadoras de conectividad, tanto de félidos (Puma concolor; Leopardus pardalis; Herpailurus yagouaroundi y L. wiedii), como de aves (Setophaga chrysoparia y Pharomachrus mocinno). Para la sostenibilidad de estas acciones se trabaja bajo un enfoque de gobernanza inclusiva y participativa, involucrando productores de sistemas agroforestales, juntas de agua organizadas en consejos de agua, propietarios de reservas privadas, clubes de observación de aves, grupos de jóvenes, comanejadores de áreas protegidas, representantes de la sociedad civil y de las organizaciones de gobierno vinculadas al medio ambiente. 
+                        La biodiversidad es uno de los recursos naturales más importantes en el sur-occidente de Honduras; sin embargo, las actividades humanas la impactan irreversiblemente, como resultado, se han incrementado las tasas de extinción, los ecosistemas se han degradado y la diversidad genética ha declinado. En ese sentido, Conecta+, para contribuir a mitigar los efectos de esta problemática, desarrolla diferentes líneas de acción orientadas a revertir la fragmentación de los ecosistemas, la pérdida de biodiversidad y la degradación de la tierra. Se fortalece la conectividad a través sistemas agro-forestales de café y cacao, la reforestación de zonas degradadas, la declaración de áreas protegidas privadas y micro-cuencas y el monitoreo biológico. Los monitoreos se centran en especies indicadoras de conectividad, tanto de félidos (Puma concolor; Leopardus pardalis; Herpailurus yagouaroundi y L. wiedii), como de aves (Setophaga chrysoparia y Pharomachrus mocinno). Para la sostenibilidad de estas acciones se trabaja bajo un enfoque de gobernanza inclusiva y participativa, involucrando productores de sistemas agro-forestales, juntas de agua organizadas en consejos de agua, propietarios de reservas privadas, clubes de observación de aves, grupos de jóvenes, comanejadores de áreas protegidas, representantes de la sociedad civil y de las organizaciones de gobierno vinculadas al medio ambiente. 
                     </p>
                 </div>
                 <div class="lg:w-1/2">
@@ -78,7 +78,7 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Paisajes agroforestales y manejo forestal sostenible que generen beneficios ambientales y economicos a nivel global y local (Conecta+).</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Paisajes agro-forestales y manejo forestal sostenible que generen beneficios ambientales y económicos a nivel global y local (Conecta+).</div>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">El proyecto Conecta+ atiende a 3 000 productores en la cadena de valor de café, de los cuales 2434 (81.1%) son hombres y 566 (18.9%) son mujeres. Las asistencias técnicas brindadas propician la interconectividad biológica a partir de la reconversión de fincas convencionales a paisajes productivos ambientalmente sostenibles mediante el establecimiento de sistemas agroforestales (Herramientas de Manejo de Paisajes).</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">El proyecto Conecta+ atiende a 3 000 productores en la cadena de valor de café, de los cuales 2434 (81.1%) son hombres y 566 (18.9%) son mujeres. Las asistencias técnicas brindadas propician la inter-conectividad biológica a partir de la reconversion de fincas convencionales a paisajes productivos ambientalmente sostenibles mediante el establecimiento de sistemas agro-forestales (Herramientas de Manejo de Paisajes).</h3>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">El proyecto ha logrado la reconversión de 10,263.92 ha de fincas de convencionales de café a SAF que implementan HMP y 629.14 ha en sistemas agroforestales de cacao.</h3>
+                                <h3 class="text-xl font-bold text-[#00903b] mb-2">El proyecto ha logrado la reconversion de 10,263.92 ha de fincas de convencionales de café a SAF que implementan HMP y 629.14 ha en sistemas agro-forestales de cacao.</h3>
                             </div>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">En el suroccidente de Honduras se ha generado beneficios directos a 350 productores de cacao a través de asistencias técnicas y financieras, de los cuales 273 (78%) son hombres y 77 (22%) son mujeres. Esto a permitiendo la dinamización de paisajes productivos convencionales a sistemas agroforestales, de tal manera que estas áreas productivas, tengan las condiciones idóneas que favorezcan la interconectividad de especies.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">En el sur-occidente de Honduras se ha generado beneficios directos a 350 productores de cacao a través de asistencias técnicas y financieras, de los cuales 273 (78%) son hombres y 77 (22%) son mujeres. Esto a permitiendo la dinamización de paisajes productivos convencionales a sistemas agro-forestales, de tal manera que estas áreas productivas, tengan las condiciones idóneas que favorezcan la inter-conectividad de especies.</h3>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han logrado 27 declaraciones de zonas de protección forestal para microcuencas abastecedoras de agua.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han logrado 27 declaraciones de zonas de protección forestal para micro-cuencas abastecedoras de agua.</h3>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha beneficiado a 500 familias con la entrega de estufas mejoradas en el suroccidente de Honduras, con el objetivo de reducir los altos consumos de leña y el impacto que se tienen en los bosques de donde se obtiene. De este total, el 50% fueron destinadas para beneficiar a familias de pueblos originarios asentados en el área de influencia (lencas y maya chortí).</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha beneficiado a 500 familias con la entrega de estufas mejoradas en el sur-occidente de Honduras, con el objetivo de reducir los altos consumos de leña y el impacto que se tienen en los bosques de donde se obtiene. De este total, el 50% fueron destinadas para beneficiar a familias de pueblos originarios asentados en el área de influencia (lencas y maya chortí).</h3>
                             </div>
                         </div>
                     </div>
@@ -451,7 +451,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Formación intermedia de 202 personas que son gestores locales bajo modalidad virtual, y 292 presenciales en tema de servicio al cliente para emprendimiento agroturístico.</h3>
+                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Formación intermedia de 202 personas que son gestores locales bajo modalidad virtual, y 292 presenciales en tema de servicio al cliente para emprendimiento agro-turístico.</h3>
                             </div>
                         </div>
                     </div>
@@ -590,7 +590,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Formulados participativamente 14 planes de acción hídrica y apoyo en el mejoramiento de la gobernanza de 304 organismos de cuenca con jurisdicción en 252 microcuencas.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Formulados participativamente 14 planes de acción hídrica y apoyo en el mejoramiento de la gobernanza de 304 organismos de cuenca con jurisdicción en 252 micro-cuencas.</h3>
                             </div>
                         </div>
                     </div>
@@ -640,7 +640,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Con el proyecto CONECTA+ se fortalecen las capacidades técnicas de líderes indígenas maya chortí originarios del departamento de Copán, sobre el manejo de viveros frutales e injertación. Con esta iniciativa se promueve la diversificación de paisajes productivos y se fomenta la seguridad alimentaria con lo cual se mejoran las condiciones de vida de familias en el suroccidente de Honduras.</h3>
+                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Con el proyecto CONECTA+ se fortalecen las capacidades técnicas de líderes indígenas maya chortí originarios del departamento de Copán, sobre el manejo de viveros frutales e injertación. Con esta iniciativa se promueve la diversificación de paisajes productivos y se fomenta la seguridad alimentaria con lo cual se mejoran las condiciones de vida de familias en el sur-occidente de Honduras.</h3>
                             </div>
                         </div>
                     </div>
@@ -710,7 +710,7 @@ get_header(); ?>
                                         </svg>
                                     </div>
                                     <h3 class="overlay-title">Educación Ambiental</h3>
-                                    <p class="overlay-text">Programas de concientización</p>
+                                    <p class="overlay-text">Programas de concienciación</p>
                                 </div>
                             </div>
                         </div>
