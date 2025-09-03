@@ -76,7 +76,7 @@ get_header(); ?>
                             <span class="news-date-full">23 de Abril, 2025</span>
                         </div>
                         <h3 class="news-title">
-                            80$ millones de dolares, aprobados para la recuperacion del lago de Yojoa
+                            80$ millones de dolares, aprobados para la recuperación del lago de Yojoa
                         </h3>
                         <p class="news-excerpt">
                             En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta <strong>Xiomara Castro</strong>, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
