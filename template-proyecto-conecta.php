@@ -45,31 +45,86 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Story Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="lg:flex lg:items-center lg:justify-between">
-                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El área de incidencia del proyecto está ubicada en la zona árida - húmeda del sur occidente del país, y cubre zonas de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. La parte árida, pertenece a una región de Honduras conocida como el Corredor Seco. El proyecto tiene su sede principal en la ciudad de Santa Rosa de Copán y una sub-sede en la ciudad de La Esperanza. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        El objetivo del Proyecto Conecta+ es el fortalecimiento de la conectividad entre las áreas protegidas, a través de la implementación de acciones que permitan obtener beneficios sociales, ambientales y económicos en el corredor árido-húmedo del sur-occidente de Honduras. El área de influencia comprende 1,747,342 hectáreas (ha), de cinco corredores biológicos: Guajiquiro-Jilguero, Anillo Verde, Trifinio-Fraternidad Joya de las Américas, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas y fortalece la iniciativa del Corredor Maya-Chortí. Las zonas núcleo a conservar son 15 áreas protegidas, que se complementan con paisajes productivos donde se han identificado zonas de inter-conectividad biológica, en 62 municipios de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. El indicador I está orientado al fortalecimiento del marco de gobernabilidad nacional y local para el establecimiento de corredores biológicos en el área de intervención del proyecto, con énfasis en la inter-conectividad entre áreas protegidas y sistemas productivos, para su contribución a la conservación de la biodiversidad y uso sostenible de los recursos naturales. 
-                    </p>
-                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        La biodiversidad es uno de los recursos naturales más importantes en el sur-occidente de Honduras; sin embargo, las actividades humanas la impactan irreversiblemente, como resultado, se han incrementado las tasas de extinción, los ecosistemas se han degradado y la diversidad genética ha declinado. En ese sentido, Conecta+, para contribuir a mitigar los efectos de esta problemática, desarrolla diferentes líneas de acción orientadas a revertir la fragmentación de los ecosistemas, la pérdida de biodiversidad y la degradación de la tierra. Se fortalece la conectividad a través sistemas agro-forestales de café y cacao, la reforestación de zonas degradadas, la declaración de áreas protegidas privadas y micro-cuencas y el monitoreo biológico. Los monitoreos se centran en especies indicadoras de conectividad, tanto de félidos (Puma concolor; Leopardus pardalis; Herpailurus yagouaroundi y L. wiedii), como de aves (Setophaga chrysoparia y Pharomachrus mocinno). Para la sostenibilidad de estas acciones se trabaja bajo un enfoque de gobernanza inclusiva y participativa, involucrando productores de sistemas agro-forestales, juntas de agua organizadas en consejos de agua, propietarios de reservas privadas, clubes de observación de aves, grupos de jóvenes, comanejadores de áreas protegidas, representantes de la sociedad civil y de las organizaciones de gobierno vinculadas al medio ambiente. 
-                    </p>
-                </div>
-                <div class="lg:w-1/2">
-                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/08/ConectaBanner2.jpg" alt="Banner del Proyecto Conecta+" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+    <div class="bg-gray-50">
+        <!-- Story Section Mejorada -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:flex lg:items-start lg:gap-8">
+                    <!-- Contenido de texto -->
+                    <div class="lg:w-3/5 mb-8 lg:mb-0">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                                Sobre Nosotros
+                            </span>
+                        </h2>
+                        <div class="h-1 w-20 bg-[#87cede] mb-6"></div>
+                        
+                        <!-- Texto inicial siempre visible -->
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                            El área de incidencia del proyecto está ubicada en la zona árida - húmeda del sur occidente del país, y cubre zonas de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. La parte árida, pertenece a una región de Honduras conocida como el Corredor Seco. El proyecto tiene su sede principal en la ciudad de Santa Rosa de Copán y una sub-sede en la ciudad de La Esperanza. 
+                        </p>
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                                El objetivo del Proyecto Conecta+ es el fortalecimiento de la conectividad entre las áreas protegidas, a través de la implementación de acciones que permitan obtener beneficios sociales, ambientales y económicos en el corredor árido-húmedo del sur-occidente de Honduras. El área de influencia comprende 1,747,342 hectáreas (ha), de cinco corredores biológicos: Guajiquiro-Jilguero, Anillo Verde, Trifinio-Fraternidad Joya de las Américas, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas y fortalece la iniciativa del Corredor Maya-Chortí.  
+                        </p>
+                        <!-- Contenido expandible -->
+                        <div id="expandable-content" class="overflow-hidden transition-all duration-500 ease-in-out max-h-0">
+                            <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                                Las zonas núcleo a conservar son 15 áreas protegidas, que se complementan con paisajes productivos donde se han identificado zonas de inter-conectividad biológica, en 62 municipios de los departamentos de Comayagua, Copán, Intibucá, La Paz, Lempira, Santa Bárbara, Cortés y Ocotepeque. El indicador I está orientado al fortalecimiento del marco de gobernabilidad nacional y local para el establecimiento de corredores biológicos en el área de intervención del proyecto, con énfasis en la inter-conectividad entre áreas protegidas y sistemas productivos, para su contribución a la conservación de la biodiversidad y uso sostenible de los recursos naturales. 
+                            </p>
+                        </div>
+                        
+                        <!-- Botón Leer más/menos -->
+                        <button 
+                            id="toggle-btn" 
+                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                            onclick="toggleContent()"
+                        >
+                            <span id="btn-text">Leer más</span>
+                            <svg id="arrow-icon" class="ml-2 w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Imagen -->
+                    <div class="lg:w-2/5">
+                        <div class="relative group">
+                            <!-- Contenedor con efecto de hover mejorado -->
+                            <div class="bg-gradient-to-br from-[#87cede] via-cyan-400 to-cyan-600 rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                                <div class="bg-white rounded-xl overflow-hidden">
+                                    <img 
+                                        src="/wp-content/uploads/2025/08/ConectaBanner2.jpg" 
+                                        alt="Banner PlanetGold - Minería responsable en Honduras" 
+                                        class="w-full h-64 lg:h-80 object-cover transition-transform duration-300 group-hover:scale-110"
+                                    >
+                                </div>
+                            </div>
+                            
+                            <!-- Overlay con información adicional -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                                <div class="p-6 text-white">
+                                    <h3 class="text-xl font-bold mb-2">Proyecto Conecta +</h3>
+                                    <p class="text-sm">El proyecto ha beneficiado directamente y fortalecido capacidades, mejorando los medios de vida de 16,103 personas, de las cuales 11,184 (69.4 %) son hombres y 4,919 (30.6%) son mujeres.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Estadísticas destacadas -->
+                        <div class="mt-6 grid grid-cols-2 gap-4">
+                            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-lg p-4 text-white text-center">
+                                <div class="text-2xl font-bold">3,000</div>
+                                <div class="text-sm opacity-90">Productores de Cafe</div>
+                            </div>
+                            <div class="bg-gradient-to-r from-[#87cede] to-cyan-500 rounded-lg p-4 text-white text-center">
+                                <div class="text-2xl font-bold">5</div>
+                                <div class="text-sm opacity-90">Planes de Acción</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Stats Section -->
     <section class="py-20 bg-white">
@@ -1091,4 +1146,29 @@ button:focus {
 }
 
 </style>
+
+<script>
+    function toggleContent() {
+        const content = document.getElementById('expandable-content');
+        const button = document.getElementById('toggle-btn');
+        const btnText = document.getElementById('btn-text');
+        const arrowIcon = document.getElementById('arrow-icon');
+            
+        if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+            // Expandir
+                content.style.maxHeight = content.scrollHeight + 'px';
+                btnText.textContent = 'Leer menos';
+                arrowIcon.style.transform = 'rotate(180deg)';
+                button.classList.add('bg-gradient-to-r', 'from-[#87cede]', 'to-cyan-500');
+                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+            } else {
+                // Contraer
+                content.style.maxHeight = '0px';
+                btnText.textContent = 'Leer más';
+                arrowIcon.style.transform = 'rotate(0deg)';
+                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.add('from-[#00903b]', 'to-[#7dbb5c]');
+            }
+    }
+</script>
 <?php get_footer(); ?>
