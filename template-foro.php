@@ -29,7 +29,7 @@ get_header(); ?>
                     Noticias 
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    Mantente informado sobre las últimas actividades, logros y noticias de la <strong class="mt-4 text-2xl">Secretaria de Recursos Naturales y Ambiente</strong>
+                    Mantente informado sobre las últimas actividades, logros y noticias de la <strong class="mt-4 text-2xl">Secretaría de Recursos Naturales y Ambiente</strong>
                 </p>
                 <div class="mt-8">
                     <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
@@ -130,24 +130,30 @@ get_header(); ?>
                 <!-- News Card 3 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 3" class="news-image">
+                        <img src="/wp-content/uploads/2025/09/CoalicionBosquesTropicales.jpg" alt="Noticia 3" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">28</span>
-                            <span class="news-date-month">JUN</span>
+                            <span class="news-date-day">21</span>
+                            <span class="news-date-month">SEP</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Tecnología</span>
+                            <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">28 de Junio, 2025</span>
+                            <span class="news-date-full">21 de septiembre, 2023</span>
                         </div>
                         <h3 class="news-title">
-                            Lanzamiento de Sistema Digital de Licenciamiento
+                            Presidenta <strong>Xiomara Castro</strong> asume la presidencia de la coalición de 52 naciones con bosques tropicales. 
                         </h3>
                         <p class="news-excerpt">
-                            DECA presenta su nueva plataforma digital que facilitará el proceso de solicitud y seguimiento de licencias ambientales, promoviendo la transparencia y eficiencia.
+                            En el marco de la asamblea general de la naciones unidas la presidenta de Honduras, <strong>Xiomara Castro</strong> asumió la presidencia pro-tempore de la coalición de naciones con bosques tropicales, un bloque integrado por 52 países comprometidos con la protección de ecosistemas forestales tropicales. 
                         </p>
+                        <p class="news-excerpt">
+                            <strong>¿Que implica este logro?</strong>
+                        </p>
+                        <p class="news-excerpt">
+                            La presidencia pro-tempore brinda a Honduras la oportunidad de encabezar de manera temporal este bloque internacional, lo que refuerza su protagonismo en los espacios de negociación ambiental y en las iniciativas de acción frente al cambio climático. 
+                        </p>    
                         <a href="#" class="news-read-more">
                             Leer más
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -160,23 +166,23 @@ get_header(); ?>
                 <!-- News Card 4 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 4" class="news-image">
+                        <img src="/wp-content/uploads/2025/09/CeroDeforestacion.jpg" alt="Noticia 4" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">20</span>
-                            <span class="news-date-month">JUN</span>
+                            <span class="news-date-day">22</span>
+                            <span class="news-date-month">MAY</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Educación</span>
+                            <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">20 de Junio, 2025</span>
+                            <span class="news-date-full">22 de Mayo, 2024</span>
                         </div>
                         <h3 class="news-title">
-                            Programa de Pasantías Universitarias 2025
+                            Gobierno declara <strong>Emergencia Ambiental</strong> y lanza estrategia "Cero Deforestación al 2029"
                         </h3>
                         <p class="news-excerpt">
-                            DECA abre sus puertas a estudiantes universitarios del área ambiental para fortalecer sus conocimientos prácticos a través del programa de pasantías profesionales.
+                            La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
                         </p>
                         <a href="#" class="news-read-more">
                             Leer más
@@ -190,23 +196,29 @@ get_header(); ?>
                 <!-- News Card 5 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 5" class="news-image">
+                        <img src="/wp-content/uploads/2025/09/488578531_18005573570741599_246107675585245702_n.jpg" alt="Noticia 5" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">15</span>
-                            <span class="news-date-month">JUN</span>
+                            <span class="news-date-day">8</span>
+                            <span class="news-date-month">ABR</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Auditorías</span>
+                            <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">15 de Junio, 2025</span>
+                            <span class="news-date-full">8 de Abril, 2025</span>
                         </div>
                         <h3 class="news-title">
-                            Resultado de Auditorías Ambientales del Segundo Trimestre
+                            <strong>CELAC 2025 en Honduras</strong>, un hito histórico de la política exterior.
                         </h3>
                         <p class="news-excerpt">
-                            DECA presenta los resultados de las auditorías ambientales realizadas durante el segundo trimestre, evidenciando mejoras significativas en el cumplimiento ambiental.
+                            Por primera vez en la historia, Honduras albergara la Cumbre de Jefes y Jefas de Estado de la Comunidad de Estados Latinoamericanos y Caribeños (Celac).
+                            Este evento histórico reunió a los lideres de la region en las instalaciones del Banco Central de Honduras (BCH). 
+                            La ocasión también dio el cierre oficial de la Presidencia Pro Tempore (PPT) liderada por la Presidenta <strong>Xiomara Castro</strong>, quien entrego el mandato a su sucesor, el Presidente <strong>Gustavo Petro</strong> de Colombia.
+                        </p>
+                        <p class="news-excerpt">
+                            Felicitamos a la Presidenta por su visión y liderazgo en la defensa del medio ambiente y en el fortalecimiento de la integración regional a través de la CELAC.
+                            Su compromiso con la protección de los bosques, la biodiversidad y la acción climática está posicionando a Honduras como un faro de esperanza y desarrollo sostenible para América Latina y el Caribe.
                         </p>
                         <a href="#" class="news-read-more">
                             Leer más
@@ -220,23 +232,24 @@ get_header(); ?>
                 <!-- News Card 6 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/06/DECA.jpg" alt="Noticia 6" class="news-image">
+                        <img src="/wp-content/uploads/2025/09/MapaSubcuencas.jpeg" alt="Noticia 6" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">08</span>
-                            <span class="news-date-month">JUN</span>
+                            <span class="news-date-day">05</span>
+                            <span class="news-date-month">DIC</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Cooperación</span>
+                            <span class="news-category">Refundación</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">08 de Junio, 2025</span>
+                            <span class="news-date-full">05 de Diciembre, 2024</span>
                         </div>
                         <h3 class="news-title">
-                            Convenio de Cooperación con Universidades Nacionales
+                            Gobierno recupera 14 sub-cuencas de la narco-dictadura a través de fideicomiso
                         </h3>
                         <p class="news-excerpt">
-                            DECA firma convenios de cooperación con las principales universidades del país para fortalecer la investigación ambiental y el desarrollo sostenible.
+                            Durante los 12 años 7 meses, 14 sub-cuencas del territorio nacional estuvieron en manos de la empresa privada sin generar ningún beneficio para el pueblo hondureño, abarcando un total de 15,261.2 km² de territorio.
+                            Una de las primeras órdenes de la presidenta <strong>Xiomara Castro</strong> fue recuperar estos recursos estratégicos del pueblo hondureño.
                         </p>
                         <a href="#" class="news-read-more">
                             Leer más
