@@ -77,7 +77,7 @@ function FooterComponent() {
             {/* Logo SERNA */}
             <div className="w-40 mb-8">
               <img 
-                src="/wp-content/uploads/2025/04/Serna-Blanco-227x300.png" 
+                src="/wp-content/uploads/2025/04/SERNA-Blanco.png" 
                 alt="SERNA" 
                 className="w-full"
                 onError={(e) => {
