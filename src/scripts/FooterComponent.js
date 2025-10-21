@@ -80,10 +80,6 @@ function FooterComponent() {
                 src="/wp-content/uploads/2025/04/SERNA-Blanco.png" 
                 alt="SERNA" 
                 className="w-full"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23333'/%3E%3Ctext x='50%25' y='50%25' font-size='18' text-anchor='middle' fill='white' font-family='system-ui' dominant-baseline='middle'%3ESERNA LOGO%3C/text%3E%3C/svg%3E";
-                }}
               />
             </div>
             
