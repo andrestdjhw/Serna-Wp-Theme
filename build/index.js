@@ -464,13 +464,9 @@ function FooterComponent() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "w-40 mb-8",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-              src: "/wp-content/uploads/2025/04/Serna-Blanco-227x300.png",
+              src: "/wp-content/uploads/2025/04/SERNA-Blanco.png",
               alt: "SERNA",
-              className: "w-full",
-              onError: e => {
-                e.target.onerror = null;
-                e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23333'/%3E%3Ctext x='50%25' y='50%25' font-size='18' text-anchor='middle' fill='white' font-family='system-ui' dominant-baseline='middle'%3ESERNA LOGO%3C/text%3E%3C/svg%3E";
-              }
+              className: "w-full"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "flex space-x-2 mb-6",
