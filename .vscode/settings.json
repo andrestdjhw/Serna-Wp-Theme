@@ -113,5 +113,13 @@
         "Yoro",
         "ZPAR"
     ],
-    "cSpell.language": "en,es"
+    "cSpell.language": "en,es",
+    "cSpell.ignoreWords": [
+        "Bietta",
+        "Eigendorf",
+        "Esra",
+        "Federica",
+        "Jörg",
+        "Stufkens"
+    ]
 }

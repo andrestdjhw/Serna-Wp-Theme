@@ -100,7 +100,7 @@ get_header(); ?>
                         <p class="text-gray-600 mb-4">
                             Planificación y control del uso sostenible de los recursos forestales del país.
                         </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="/direcciones/deca/" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Más información
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -121,7 +121,7 @@ get_header(); ?>
                         <p class="text-gray-600 mb-4">
                             Programas para la conservación y uso racional de los recursos hídricos nacionales.
                         </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="/direcciones/dgrh/" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Más información
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -178,30 +178,30 @@ get_header(); ?>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- News Card 1 -->
-                <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
+                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2025/08/NoticiaLago2.jpeg" alt="Inversion" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Noticia</span>
-                            <span>22 Enero 2024</span>
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
+                            <span>23 abril 2025</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Proyecto AdaptarC</h3>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">80$ millones de dolares, aprobados para la recuperación del lago de Yojoa</h3>
                         <p class="text-gray-600 mb-4">
-                            Impulsa el desarrollo de productores y emprendedores.
+                            En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta Xiomara Castro, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
+                            
                         </p>
                         <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Leer más
+                            <!-- Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país. -->
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                             </svg>
                         </a>
                     </div>
                 </div>
-                
-                <!-- News Card 2 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                <!-- <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="/wp-content/uploads/2025/08/Noticia2SERNA.jpg" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -221,10 +221,77 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
+                </div>  --> 
+                
+                
+                <!-- News Card 2 -->
+                 <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
+                    <div class="h-55 overflow-hidden">
+                        <img src="/wp-content/uploads/2025/10/NoticiaMetaCumplida.jpeg" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Hito</span>
+                            <span>23 Septiembre 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">¡Meta Climática Superada!</h3>
+                        <p class="text-gray-600 mb-4">
+                            Los países se dividen entre los contaminantes con dióxido de carbono y quienes defendemos la vida.
+                            La Honduras de la refundación es avanzar hasta lograr un país carbono neutral. ¡<strong>Xiomara Castro</strong> cumple!
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
+                <!-- <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
+                    <div class="h-55 overflow-hidden">
+                        <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Noticia</span>
+                            <span>22 Enero 2024</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Proyecto AdaptarC</h3>
+                        <p class="text-gray-600 mb-4">
+                            Impulsa el desarrollo de productores y emprendedores.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div> -->
                 
                 <!-- News Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                    <div class="h-55 overflow-hidden">
+                        <img src="/wp-content/uploads/2025/10/NoticiaBonoVerde-scaled.jpeg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
+                            <span>11 Octubre 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Honduras consolida su liderazgo global en finanzas sostenibles y acción climática</h3>
+                        <p class="text-gray-600 mb-4">
+                            El Ministro de Ambiente, Lucky Medina; el Secretario Privado de la Presidenta, Héctor Zelaya; y el Ministro Malcolm Stufkens recibieron en Casa Presidencial a representantes del Deutsche Bank y de la Coalición de Países con Bosques Tropicales, para abordar temas de sostenibilidad y finanzas verdes.
+                        </p>
+                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                            Leer más
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="/wp-content/uploads/2025/08/Noticia3SERNA.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -244,7 +311,7 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <div class="text-center mt-12">

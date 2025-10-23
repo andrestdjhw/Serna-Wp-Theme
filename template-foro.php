@@ -52,10 +52,6 @@ get_header(); ?>
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
                     <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Últimas Noticias</span>
                 </h2>
-                <!-- <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Mantente al día con las últimas actividades y logros de DECA
-                </p> -->
             </div>
             
             <!-- News Grid -->
@@ -78,17 +74,19 @@ get_header(); ?>
                         <h3 class="news-title">
                             Presidenta <strong>Xiomara Castro</strong> posiciona a Honduras en la cima del financiamiento verde.
                         </h3>
-                        <p class="news-excerpt">
-                            Con el liderazgo de la Presidenta de Honduras <strong>Xiomara Castro</strong> y Coalición de Países con Bosques Tropicales, el financiamiento para defender nuestras reservas naturales será una realidad.
-                        </p>
-                        <p class="news-excerpt">
-                            En la IV Cumbre de Desarrollo Sostenible (Sevilla, 2025), fuimos reconocidos por nuestras acciones concretas en bonos verdes y justicia climática.
-                            La agenda ambiental es compromiso en marcha.
-                        </p>
-                        <a href="https://share.google/Mqnneqva39gvDLXU4" target="_blank" rel="noopener noreferrer" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Con el liderazgo de la Presidenta de Honduras <strong>Xiomara Castro</strong> y Coalición de Países con Bosques Tropicales, el financiamiento para defender nuestras reservas naturales será una realidad.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                En la IV Cumbre de Desarrollo Sostenible (Sevilla, 2025), fuimos reconocidos por nuestras acciones concretas en bonos verdes y justicia climática.
+                                La agenda ambiental es compromiso en marcha.
+                            </p>
+                        </div>
+                        <a href="https://share.google/Mqnneqva39gvDLXU4" target="_blank" rel="noopener noreferrer" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
                     </div>
@@ -112,16 +110,18 @@ get_header(); ?>
                         <h3 class="news-title">
                             80$ millones de dolares, aprobados para la recuperación del lago de Yojoa
                         </h3>
-                        <p class="news-excerpt">
-                            En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta <strong>Xiomara Castro</strong>, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
-                        </p>
-                        <p class="news-excerpt">
-                            Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta <strong>Xiomara Castro</strong>, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país.
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
                     </div>
@@ -145,19 +145,21 @@ get_header(); ?>
                         <h3 class="news-title">
                             <strong>CELAC 2025 en Honduras</strong>, un hito histórico de la política exterior.
                         </h3>
-                        <p class="news-excerpt">
-                            Por primera vez en la historia, Honduras albergara la Cumbre de Jefes y Jefas de Estado de la Comunidad de Estados Latinoamericanos y Caribeños (Celac).
-                            Este evento histórico reunió a los lideres de la region en las instalaciones del Banco Central de Honduras (BCH). 
-                            La ocasión también dio el cierre oficial de la Presidencia Pro Tempore (PPT) liderada por la Presidenta <strong>Xiomara Castro</strong>, quien entrego el mandato a su sucesor, el Presidente <strong>Gustavo Petro</strong> de Colombia.
-                        </p>
-                        <p class="news-excerpt">
-                            Felicitamos a la Presidenta por su visión y liderazgo en la defensa del medio ambiente y en el fortalecimiento de la integración regional a través de la CELAC.
-                            Su compromiso con la protección de los bosques, la biodiversidad y la acción climática está posicionando a Honduras como un faro de esperanza y desarrollo sostenible para América Latina y el Caribe.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Por primera vez en la historia, Honduras albergara la Cumbre de Jefes y Jefas de Estado de la Comunidad de Estados Latinoamericanos y Caribeños (Celac).
+                                Este evento histórico reunió a los lideres de la region en las instalaciones del Banco Central de Honduras (BCH). 
+                                La ocasión también dio el cierre oficial de la Presidencia Pro Tempore (PPT) liderada por la Presidenta <strong>Xiomara Castro</strong>, quien entrego el mandato a su sucesor, el Presidente <strong>Gustavo Petro</strong> de Colombia.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                Felicitamos a la Presidenta por su visión y liderazgo en la defensa del medio ambiente y en el fortalecimiento de la integración regional a través de la CELAC.
+                                Su compromiso con la protección de los bosques, la biodiversidad y la acción climática está posicionando a Honduras como un faro de esperanza y desarrollo sostenible para América Latina y el Caribe.
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
                     </div>
@@ -181,13 +183,15 @@ get_header(); ?>
                         <h3 class="news-title">
                             Gobierno recupera 14 sub-cuencas de la narco-dictadura a través de fideicomiso
                         </h3>
-                        <p class="news-excerpt">
-                            Durante los 12 años 7 meses, 14 sub-cuencas del territorio nacional estuvieron en manos de la empresa privada sin generar ningún beneficio para el pueblo hondureño, abarcando un total de 15,261.2 km² de territorio.
-                            Una de las primeras órdenes de la presidenta <strong>Xiomara Castro</strong> fue recuperar estos recursos estratégicos del pueblo hondureño.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Durante los 12 años 7 meses, 14 sub-cuencas del territorio nacional estuvieron en manos de la empresa privada sin generar ningún beneficio para el pueblo hondureño, abarcando un total de 15,261.2 km² de territorio.
+                                Una de las primeras órdenes de la presidenta <strong>Xiomara Castro</strong> fue recuperar estos recursos estratégicos del pueblo hondureño.
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
@@ -212,12 +216,14 @@ get_header(); ?>
                         <h3 class="news-title">
                             Gobierno declara <strong>Emergencia Ambiental</strong> y lanza estrategia "Cero Deforestación al 2029"
                         </h3>
-                        <p class="news-excerpt">
-                            La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
-                        </p>
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
@@ -242,19 +248,21 @@ get_header(); ?>
                         <h3 class="news-title">
                             Presidenta <strong>Xiomara Castro</strong> asume la presidencia de la coalición de 52 naciones con bosques tropicales. 
                         </h3>
-                        <p class="news-excerpt">
-                            En el marco de la asamblea general de la naciones unidas la presidenta de Honduras, <strong>Xiomara Castro</strong> asumió la presidencia pro-tempore de la coalición de naciones con bosques tropicales, un bloque integrado por 52 países comprometidos con la protección de ecosistemas forestales tropicales. 
-                        </p>
-                        <p class="news-excerpt">
-                            <strong>¿Que implica este logro?</strong>
-                        </p>
-                        <p class="news-excerpt">
-                            La presidencia pro-tempore brinda a Honduras la oportunidad de encabezar de manera temporal este bloque internacional, lo que refuerza su protagonismo en los espacios de negociación ambiental y en las iniciativas de acción frente al cambio climático. 
-                        </p>    
-                        <a href="#" class="news-read-more">
-                            Leer más
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                En el marco de la asamblea general de la naciones unidas la presidenta de Honduras, <strong>Xiomara Castro</strong> asumió la presidencia pro-tempore de la coalición de naciones con bosques tropicales, un bloque integrado por 52 países comprometidos con la protección de ecosistemas forestales tropicales. 
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                <strong>¿Que implica este logro?</strong>
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                La presidencia pro-tempore brinda a Honduras la oportunidad de encabezar de manera temporal este bloque internacional, lo que refuerza su protagonismo en los espacios de negociación ambiental y en las iniciativas de acción frente al cambio climático. 
+                            </p>    
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
                     </div>
@@ -422,11 +430,36 @@ get_header(); ?>
         color: #00903b;
     }
 
+    /* Excerpt container and visibility */
+    .news-excerpt-container {
+        position: relative;
+        overflow: hidden;
+    }
+
     .news-excerpt {
         color: #6b7280;
         line-height: 1.6;
         margin-bottom: 1rem;
         font-size: 0.95rem;
+        transition: max-height 0.4s ease, opacity 0.4s ease, margin 0.4s ease;
+    }
+
+    .news-excerpt-hidden {
+        max-height: 0;
+        opacity: 0;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .news-excerpt-visible {
+        max-height: 1000px;
+        opacity: 1;
+    }
+
+    .news-card.expanded .news-excerpt-hidden {
+        max-height: 1000px;
+        opacity: 1;
+        margin-bottom: 1rem;
     }
 
     .news-read-more {
@@ -437,6 +470,7 @@ get_header(); ?>
         text-decoration: none;
         transition: all 0.3s ease;
         font-size: 0.9rem;
+        cursor: pointer;
     }
 
     .news-read-more:hover {
@@ -450,6 +484,21 @@ get_header(); ?>
 
     .news-read-more:hover svg {
         transform: translateX(2px);
+    }
+
+    /* Rotate icon when expanded */
+    .news-card.expanded .read-more-icon {
+        transform: rotate(180deg);
+    }
+
+    .news-card.expanded .news-read-more:hover .read-more-icon {
+        transform: rotate(180deg) translateX(-2px);
+    }
+
+    /* Hide read more button for single paragraph cards */
+    .news-read-more-single {
+        pointer-events: none;
+        opacity: 0;
     }
 
     /* Responsive adjustments */
@@ -504,5 +553,25 @@ get_header(); ?>
         }
     }
 </style>
+
+<script>
+function toggleNewsContent(event, element) {
+    event.preventDefault();
+    
+    // Get the parent news card
+    const newsCard = element.closest('.news-card');
+    const readMoreText = element.querySelector('.read-more-text');
+    
+    // Toggle the expanded class
+    newsCard.classList.toggle('expanded');
+    
+    // Update button text
+    if (newsCard.classList.contains('expanded')) {
+        readMoreText.textContent = 'Leer menos';
+    } else {
+        readMoreText.textContent = 'Leer más';
+    }
+}
+</script>
 
 <?php get_footer(); ?>
