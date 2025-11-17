@@ -59,6 +59,42 @@ get_header(); ?>
                  <!-- News Card 1 -->
                 <article class="news-card">
                     <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/10/NoticiaMetaCumplida.jpeg" alt="Noticia 1" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">07</span>
+                            <span class="news-date-month">JUL</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Inversion</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">07 de Julio, 2025</span>
+                        </div>
+                        <h3 class="news-title">
+                            ¡Meta Climática Superada!
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Los países se dividen entre los contaminantes con dióxido de carbono y quienes defendemos la vida.
+                                La Honduras de la refundación es avanzar hasta lograr un país carbono neutral. ¡<strong>Xiomara Castro</strong> cumple!
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>  
+                   
+                <!-- News Card 2 -->
+                <article class="news-card">
+                    <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/08/Logro.jpeg" alt="Noticia 2" class="news-image">
                         <div class="news-date-badge">
                             <span class="news-date-day">07</span>
@@ -84,41 +120,6 @@ get_header(); ?>
                             </p>
                         </div>
                         <a href="https://share.google/Mqnneqva39gvDLXU4" target="_blank" rel="noopener noreferrer" class="news-read-more" onclick="toggleNewsContent(event, this)">
-                            <span class="read-more-text">Leer más</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>   
-
-                <!-- News Card 2 -->
-                <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/08/NoticiaLago2.jpeg" alt="Noticia 1" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">23</span>
-                            <span class="news-date-month">ABR</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Inversion</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">23 de Abril, 2025</span>
-                        </div>
-                        <h3 class="news-title">
-                            80$ millones de dolares, aprobados para la recuperación del lago de Yojoa
-                        </h3>
-                        <div class="news-excerpt-container">
-                            <p class="news-excerpt news-excerpt-visible">
-                                En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta <strong>Xiomara Castro</strong>, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
-                            </p>
-                            <p class="news-excerpt news-excerpt-hidden">
-                                Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país.
-                            </p>
-                        </div>
-                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
                             <span class="read-more-text">Leer más</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
