@@ -477,7 +477,7 @@ get_header(); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     let currentSlide = 0;
-    const totalSlides = 4;
+    const totalSlides = 7;
     const track = document.getElementById('carouselTrack');
     const dots = document.querySelectorAll('.carousel-dot');
 

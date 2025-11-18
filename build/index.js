@@ -665,7 +665,7 @@ function NavbarComponent() {
         name: "Anuncios",
         link: "/direcciones/cescco/anuncios"
       }, {
-        name: "RAE",
+        name: "RAEE",
         link: "/direcciones/cescco/rae"
       }]
     }, {
