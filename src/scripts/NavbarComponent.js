@@ -16,7 +16,7 @@ function NavbarComponent() {
     }
   };
 
-  // Calcula caudricula de columnas basado en numero de columnas
+  // Calcula cuadricula de columnas basado en numero de columnas
   const getGridColumnsClass = (columns) => {
     switch(columns.length) {
       case 1: return 'grid-cols-1';
@@ -205,7 +205,7 @@ function NavbarComponent() {
 
   return (
     <>
-      {/* Encabezado con logo y titulo */}
+      {/* Encabezado con logo y titulo - NO es sticky, bajará con el scroll */}
       <header className="bg-[#333333] w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           {/*Emblema de Gobierno|Serna y titulos Centrados*/}
@@ -217,15 +217,12 @@ function NavbarComponent() {
                 className="h-18"
               />   
             </div>
-            {/* <h1 className="text-2xl font-bold text-[#87cede] mt-4 text-center">
-              Secretaria de Recursos Naturales y Ambiente
-            </h1> */}
           </div>
         </div>
       </header>
 
-      {/*Barra de Navegacion Con Gradiente Verde*/}
-      <nav className="site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]" style={{ position: 'sticky' }}>
+      {/*Barra de Navegacion Con Gradiente Verde - STICKY */}
+      <nav className="site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo/Marca seccion para Movil */}
@@ -275,18 +272,9 @@ function NavbarComponent() {
               </button>
             </div>
 
-            {/*Contenedor Menu Escritorio */}
-            <div className="hidden md:flex md:items-center md:justify-between md:flex-1">
-              {/* Buscador al lado derecho */}
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Buscar..."
-                  className="bg-white rounded-full py-1 px-4 text-sm focus:outline-none"
-                />
-              </div>
-              
-              {/* Items(Elementos) del Menu */}
+            {/*Contenedor Menu Escritorio - CENTRADO */}
+            <div className="hidden md:flex md:items-center md:justify-center md:flex-1">
+              {/* Items(Elementos) del Menu - Centrados */}
               <div className="flex space-x-8">
                 {navItems.map((item, index) => (
                   <div key={index} className="relative group">
@@ -315,7 +303,7 @@ function NavbarComponent() {
 
                         {/* Dynamic Mega Menu */}
                         <div
-                          className={`absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
+                          className={`absolute top-full left-1/6 transform -translate-x-1/2 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${
                             activeDropdown === item.name
                               ? "opacity-100 visible"
                               : "opacity-0 invisible"
@@ -323,7 +311,7 @@ function NavbarComponent() {
                           onMouseEnter={() => setActiveDropdown(item.name)}
                           onMouseLeave={() => setActiveDropdown(null)}
                           style={{ 
-                            width: `${Math.min(item.columns.length * 200, 600)}px`, 
+                            width: `${Math.min(item.columns.length * 250, 800)}px`, 
                             maxWidth: "90vw" 
                           }}
                         >
@@ -379,7 +367,9 @@ function NavbarComponent() {
                     ) : (
                       <a
                         href={item.link}
-                        className="text-white hover:text-[#e3a220] transition-colors duration-200"
+                        target={item.external ? "_blank" : undefined}
+                        rel={item.external ? "noopener noreferrer" : undefined}
+                        className="text-white hover:text-[#e3a220] font-custom transition-colors duration-200"
                       >
                         {item.name}
                       </a>
@@ -394,15 +384,6 @@ function NavbarComponent() {
         {/* Menu Dispositivos Moviles */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-50">
-            {/* Boton de busqueda en Menu Movil */}
-            <div className="px-3 py-2">
-              <input
-                type="text"
-                placeholder="Buscar..."
-                className="w-full bg-white rounded-md py-2 px-4 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
-            </div>
-            
             {navItems.map((item, index) => (
               <div key={index} className="w-full">
                 {item.hasDropdown ? (
@@ -471,6 +452,8 @@ function NavbarComponent() {
                 ) : (
                   <a
                     href={item.link}
+                    target={item.external ? "_blank" : undefined}
+                    rel={item.external ? "noopener noreferrer" : undefined}
                     className="block px-3 py-2 rounded-md text-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200"
                   >
                     {item.name}

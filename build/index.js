@@ -589,7 +589,7 @@ function NavbarComponent() {
     }
   };
 
-  // Calcula caudricula de columnas basado en numero de columnas
+  // Calcula cuadricula de columnas basado en numero de columnas
   const getGridColumnsClass = columns => {
     switch (columns.length) {
       case 1:
@@ -825,9 +825,6 @@ function NavbarComponent() {
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
       className: "site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]",
-      style: {
-        position: 'sticky'
-      },
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -870,16 +867,9 @@ function NavbarComponent() {
                 })
               })
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "hidden md:flex md:items-center md:justify-between md:flex-1",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "relative",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-                type: "text",
-                placeholder: "Buscar...",
-                className: "bg-white rounded-full py-1 px-4 text-sm focus:outline-none"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "hidden md:flex md:items-center md:justify-center md:flex-1",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "flex space-x-8",
               children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                 className: "relative group",
@@ -901,11 +891,11 @@ function NavbarComponent() {
                       })
                     })]
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: `absolute top-full right-0 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
+                    className: `absolute top-full left-1/6 transform -translate-x-1/2 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
                     onMouseEnter: () => setActiveDropdown(item.name),
                     onMouseLeave: () => setActiveDropdown(null),
                     style: {
-                      width: `${Math.min(item.columns.length * 200, 600)}px`,
+                      width: `${Math.min(item.columns.length * 250, 800)}px`,
                       maxWidth: "90vw"
                     },
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -947,25 +937,20 @@ function NavbarComponent() {
                   })]
                 }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: item.link,
-                  className: "text-white hover:text-[#e3a220] transition-colors duration-200",
+                  target: item.external ? "_blank" : undefined,
+                  rel: item.external ? "noopener noreferrer" : undefined,
+                  className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200",
                   children: item.name
                 })
               }, index))
-            })]
+            })
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: `md:hidden ${isMenuOpen ? "block" : "hidden"}`,
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "px-2 pt-2 pb-3 space-y-1 bg-gray-50",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "px-3 py-2",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
-              type: "text",
-              placeholder: "Buscar...",
-              className: "w-full bg-white rounded-md py-2 px-4 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
-            })
-          }), navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "w-full",
             children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
@@ -1012,10 +997,12 @@ function NavbarComponent() {
               })]
             }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
               href: item.link,
+              target: item.external ? "_blank" : undefined,
+              rel: item.external ? "noopener noreferrer" : undefined,
               className: "block px-3 py-2 rounded-md text-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200",
               children: item.name
             })
-          }, index))]
+          }, index))
         })
       })]
     })]

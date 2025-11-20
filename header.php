@@ -7,3 +7,4 @@
   </head>
   <body <?php body_class(); ?>>
     <div id="navbar-react"></div>
+    
