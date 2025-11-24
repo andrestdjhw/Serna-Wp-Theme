@@ -320,7 +320,7 @@ get_header(); ?>
             <a href="/direcciones/deca/nuevos-requisitos-slas" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
                 Nuevos Requisitos SLAS
             </a>
-            <a href="/direcciones/deca/requisitos-de-renovación-licencia-ambiental" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+            <a href="/direcciones/deca/requisitos-de-renovacion-licencia-ambiental" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                 Requisitos de Renovación de Licencia Ambiental
             </a>
             <a href="/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
