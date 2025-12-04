@@ -55,8 +55,47 @@ get_header(); ?>
             </div>
             
             <!-- News Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="newsGrid">
                  <!-- News Card 1 -->
+                  <article class="news-card">
+                    <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-08.54.46.jpeg" alt="Noticia 3" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">18</span>
+                            <span class="news-date-month">NOV</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Logro</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">18 de noviembre, 2025</span>
+                        </div>
+                        <h3 class="news-title">
+                            Nueva ventanilla de SERNA en la CCIC fortalecerá la atención al sector productivo 
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Con el propósito de acercar los servicios ambientales al sector productivo y fortalecer la eficiencia en la gestión de trámites, la Secretaría de Recursos Naturales y Ambiente (SERNA) dio un importante paso al instalar una nueva ventanilla de atención en el Portal Empresarial de la CCIC. Esta iniciativa busca facilitar el acompañamiento a las empresas, agilizar expedientes y promover un clima de negocios más dinámico y competitivo en el país.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                <strong>¿Que implica este logro?</strong>
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                El ministro Lucky Medina y parte de su equipo en la Secretaría de Recursos Naturales y Ambiente (SERNA) inauguraron una ventanilla de atención en el Portal Empresarial de la CCIC, con el objetivo de agilizar trámites y brindar soluciones oportunas a la comunidad empresarial.
+                                En el acto participaron el presidente de la CCIC, Karim Qubain (@kqubain1), junto a directivos y asesores; así como el secretario general de SERNA, Ariel Madrid. Todos destacaron la importancia de este paso para acelerar la gestión de expedientes y fortalecer la competitividad del país.
+                            </p>    
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- News Card 2 -->
                 <article class="news-card">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/10/NoticiaMetaCumplida.jpeg" alt="Noticia 1" class="news-image">
@@ -92,7 +131,7 @@ get_header(); ?>
                     </div>
                 </article>  
                    
-                <!-- News Card 2 -->
+                <!-- News Card 3 -->
                 <article class="news-card">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/08/Logro.jpeg" alt="Noticia 2" class="news-image">
@@ -128,7 +167,7 @@ get_header(); ?>
                     </div>
                 </article>
 
-                <!-- News Card 3 -->
+                <!-- News Card 4 -->
                 <article class="news-card">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/09/488578531_18005573570741599_246107675585245702_n.jpg" alt="Noticia 5" class="news-image">
@@ -166,7 +205,7 @@ get_header(); ?>
                     </div>
                 </article>
                 
-                <!-- News Card 4 -->
+                <!-- News Card 5 -->
                 <article class="news-card">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/09/MapaSubcuencas.jpeg" alt="Noticia 6" class="news-image">
@@ -199,8 +238,46 @@ get_header(); ?>
                     </div>
                 </article>
                 
-                <!-- News Card 5 -->
-                <article class="news-card">
+                <!-- News Card 6 -->
+                 <article class="news-card">
+                    <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-10.51.26.jpeg" alt="Noticia 3" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">18</span>
+                            <span class="news-date-month">FEB</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Logro</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">18 de febrero, 2025</span>
+                        </div>
+                        <h3 class="news-title">
+                            El Congreso Nacional oficializó la declaratoria del Refugio de Vida Silvestre Suyapa “Luis Hernán Baca Valladares Mero” 
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Un territorio de 5,107 hectáreas destinado a la conservación de la biodiversidad, la protección de fuentes de agua y la defensa del equilibrio ecológico en el Distrito Central y municipios aledaños. La decisión representa un hito ambiental para el país, al constituirse en una de las áreas protegidas más importantes para la capital y sus alrededores, debido a su riqueza natural y su función estratégica en la recarga hídrica.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                <strong>Un logro tras 37 años de lucha comunitaria</strong>
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                La declaratoria culmina 37 años de gestión y resistencia del Comité Ecológico de la Aldea de Suyapa (COEAS), organización que ha defendido la montaña frente a incendios, tala ilegal, expansión urbana y amenazas extractivas. Gracias al respaldo del gobierno de la presidenta Xiomara Castro, la propuesta avanzó hasta convertirse en decreto legislativo, reconociendo también el legado de Luis Hernán Baca Valladares “Mero”, líder comunitario emblemático en la defensa de estas tierras. El área natural comprende bosques nublados, pinares y ecosistemas de transición que albergan fauna silvestre y más de 480 especies de plantas, entre ellas variedades endémicas y de importancia medicinal y cultural para las comunidades. Además, el refugio forma parte de varias microcuencas que abastecen de agua a sectores urbanos y rurales del Distrito Central, convirtiéndose en una zona clave para garantizar la seguridad hídrica de miles de habitantes.
+                            </p>    
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Extended News (Initially Hidden) -->
+                 <article class="news-card extended-news" style="display: none;">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/09/CeroDeforestacion.jpg" alt="Noticia 4" class="news-image">
                         <div class="news-date-badge">
@@ -231,10 +308,46 @@ get_header(); ?>
                     </div>
                 </article>
 
-                <!-- News Card 6 -->
-                <article class="news-card">
+                 <article class="news-card extended-news" style="display: none;">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/09/CoalicionBosquesTropicales.jpg" alt="Noticia 3" class="news-image">
+                        <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Noticia 9" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">22</span>
+                            <span class="news-date-month">ENE</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Conservación</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">22 de Enero, 2024</span>
+                        </div>
+                        <h3 class="news-title">
+                            Proyecto AdaptarC
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Impulsa el desarrollo de productores y emprendedores.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                <strong>Protección de la biodiversidad</strong>
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                Esta medida garantiza la conservación de especies endémicas y fortalece los corredores biológicos que son fundamentales para el equilibrio ecológico de Honduras.
+                            </p>    
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="news-card extended-news" style="display: none;">
+                    <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/09/CoalicionBosquesTropicales.jpg" alt="Noticia 7" class="news-image">
                         <div class="news-date-badge">
                             <span class="news-date-day">21</span>
                             <span class="news-date-month">SEP</span>
@@ -268,11 +381,49 @@ get_header(); ?>
                         </a>
                     </div>
                 </article>
+
+                <article class="news-card extended-news" style="display: none;">
+                    <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/08/Noticia2SERNA.jpg" alt="Noticia 8" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">28</span>
+                            <span class="news-date-month">MAY</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Evento</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">28 de Mayo, 2023</span>
+                        </div>
+                        <h3 class="news-title">
+                            Café Hondureño destaca en Shanghai
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
+                            </p>
+                            <!-- <p class="news-excerpt news-excerpt-hidden">
+                                <strong>Cooperación internacional</strong>
+                            </p> -->
+                            <p class="news-excerpt news-excerpt-hidden">
+                                
+                            </p>    
+                        </div>
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
             </div>
 
             <!-- Load More Button -->
-            <div class="text-center mt-12">
-                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <div class="text-center mt-12" id="loadMoreContainer">
+                <button id="loadMoreBtn" class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300" onclick="loadMoreNews()">
                     <span>Cargar Más Noticias</span>
                     <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -502,6 +653,22 @@ get_header(); ?>
         opacity: 0;
     }
 
+    /* Animation for new cards appearing */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .news-card.fade-in {
+        animation: fadeInUp 0.6s ease forwards;
+    }
+
     /* Responsive adjustments */
     @media (max-width: 640px) {
         .news-card {
@@ -556,6 +723,9 @@ get_header(); ?>
 </style>
 
 <script>
+let currentNewsIndex = 0;
+const newsPerLoad = 3; // Número de noticias a cargar cada vez
+
 function toggleNewsContent(event, element) {
     event.preventDefault();
     
@@ -571,6 +741,49 @@ function toggleNewsContent(event, element) {
         readMoreText.textContent = 'Leer menos';
     } else {
         readMoreText.textContent = 'Leer más';
+    }
+}
+
+function loadMoreNews() {
+    const extendedNews = document.querySelectorAll('.extended-news');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    
+    // Calcular cuántas noticias mostrar
+    const newsToShow = Array.from(extendedNews).slice(currentNewsIndex, currentNewsIndex + newsPerLoad);
+    
+    if (newsToShow.length === 0) {
+        // No hay más noticias, ocultar el botón
+        loadMoreContainer.style.display = 'none';
+        return;
+    }
+    
+    // Mostrar las noticias con animación
+    newsToShow.forEach((news, index) => {
+        setTimeout(() => {
+            news.style.display = 'block';
+            // Pequeño delay para que la animación funcione
+            setTimeout(() => {
+                news.classList.add('fade-in');
+            }, 10);
+        }, index * 150); // Delay escalonado para efecto cascada
+    });
+    
+    // Actualizar el índice
+    currentNewsIndex += newsPerLoad;
+    
+    // Si no hay más noticias después de estas, ocultar el botón
+    if (currentNewsIndex >= extendedNews.length) {
+        setTimeout(() => {
+            loadMoreContainer.style.display = 'none';
+        }, newsToShow.length * 150 + 500);
+    }
+    
+    // Scroll suave hacia las nuevas noticias
+    if (newsToShow.length > 0) {
+        setTimeout(() => {
+            newsToShow[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, newsToShow.length * 150 + 200);
     }
 }
 </script>
