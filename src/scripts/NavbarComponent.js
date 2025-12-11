@@ -150,6 +150,7 @@ function NavbarComponent() {
             { name: "Proyecto Motagua", link: "/ocp/proyecto-motagua" },
             { name: "Recover", link: "/ocp/recover" },
             { name: "PlanetGold", link: "/ocp/planet-gold" },
+            { name: "Proyecto Goascoran", link: "/ocp/goascoran" },
           ],
         },
       ],

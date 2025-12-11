@@ -768,6 +768,9 @@ function NavbarComponent() {
       }, {
         name: "PlanetGold",
         link: "/ocp/planet-gold"
+      }, {
+        name: "Proyecto Goascoran",
+        link: "/ocp/goascoran"
       }]
     }]
   }, {

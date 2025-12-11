@@ -428,7 +428,21 @@ get_header(); ?>
                 </button>
             </div> -->
         </div>
-    </section>                                            
+    </section>
+    
+    <!-- Cartita para enlaces externos de la dirección -->
+    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Biblioteca Virtual DGA</h2>
+        <p class="text-xl mb-8">La Biblioteca Virtual de la Dirección de Gestión Ambiental (DGA) ofrece acceso público y gratuito a una colección  de documentos, estudios y herramientas técnicas que apoyan la gestión sostenible del ambiente y la gestión integral de residuos sólidos en Honduras</p>
+        <a 
+            href="http://158.69.116.128:8040" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+        >
+            ¡Haz click aquí!
+        </a>
+    </div>
 
 </div>
 
