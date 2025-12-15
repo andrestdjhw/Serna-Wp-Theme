@@ -56,10 +56,10 @@ get_header(); ?>
                         <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        <strong>Descripción: </strong>Cumplimiento de convenios internacionales como la convención de humedales RAMSAR, protocolo la distribución justa y equitativa de los recursos genéticos,
+                        La Dirección General de Biodiversidad (DiBio), es una dependencia de la Secretaría de Recursos Naturales y Ambiente (SERNA); como instancia nacional que norma la Biodiversidad en el país, en coordinación con instancias Gubernamentales, No gubernamentales y Sociedad civil, etc.
                     </p>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                        Protocolo de Nagoya, Convención sobre la Biodiversidad Biológica.
+                        La DiBio se crea en 1997, mediante Decreto Ejecutivo 00897, para dar cumplimiento y seguimiento a diferentes obligaciones propias de principios, responsabilidades y funciones específicas sobre biodiversidad, Convenios Nacionales, Regionales Ei internacionales, igualmente de otros Protocolos y tratados Internacionales, ratificados por el Gobierno de Honduras en materia de biodiversidad.
                     </p>
                 </div>
                 <div class="lg:w-1/2">
