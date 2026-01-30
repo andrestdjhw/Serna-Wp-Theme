@@ -416,9 +416,18 @@ function NavbarComponent() {
                       <div className="pl-4 py-2 space-y-1">
                         {item.columns.map((column, colIndex) => (
                           <div key={colIndex} className="mb-2">
-                            <div className="px-3 py-1 font-medium text-sm">
-                              {column.title}
-                            </div>
+                            {column.link ? (
+                              <a
+                                href={column.link}
+                                className="block px-3 py-1 font-medium text-sm text-[#00903b] hover:text-[#e3a220] transition-colors duration-200"
+                              >
+                                {column.title}
+                              </a>
+                            ) : (
+                              <div className="px-3 py-1 font-medium text-sm">
+                                {column.title}
+                              </div>
+                            )}
                             {column.items.map((subItem, subIndex) => (
                               <a
                                 key={subIndex}

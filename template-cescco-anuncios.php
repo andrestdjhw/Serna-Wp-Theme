@@ -59,20 +59,20 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2025/08/CESCCOanuncio.jpeg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-11.36.21.jpeg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <span class="text-[#87cede] font-semibold">10 de Mayo, 2024</span>
+                            <span class="text-[#87cede] font-semibold">28 de Enero, 2026</span>
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            ¡Aviso! A partir del 01 de Mayo, 2024
+                            ¡Aviso! A partir del 01 de Enero, 2026
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Se pone a disposición en modalidad virtual el formulario <strong>"RD-1 FORMULARIO DE REGISTRO DE DESCARGA DE AGUAS RESIDUALES".</strong> 
+                            Se pone a disposición en modalidad virtual el Registro de Emisiones y Transferencia de Contaminantes <strong>(RETC)</strong> 
                         </p>
                         <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
                             Leer más
@@ -89,29 +89,19 @@ get_header(); ?>
     <!-- Latest News Section -->
     
 
-    <!-- Newsletter Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
-                <div class="px-8 py-12 text-center text-white">
-                    <h2 class="text-3xl font-bold mb-4">
-                        Mantente Informado
-                    </h2>
-                    <p class="text-xl mb-8 opacity-90">
-                        Suscríbase a nuestro boletín para recibir las últimas noticias y actualizaciones de CESCCO
-                    </p>
-                    <div class="max-w-md mx-auto">
-                        <div class="flex flex-col sm:flex-row gap-4">
-                            <input type="email" placeholder="Tu correo electrónico" class="flex-1 px-4 py-3 rounded-full bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#87cede]">
-                            <button class="px-6 py-3 bg-[#ee3725] text-white font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
-                                Suscribirse
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Cartita para enlaces externos de la direccion -->
+    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Sigue el enlace de RETC Honduras</h2>
+        <p class="text-xl mb-8">La plataforma oficial de Registro de Emisiones y Transferencia de Contaminantes</p>
+        <a 
+            href="https://hn-serna-retc.web.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+        >
+            ¡Haz click aquí!
+        </a>
+    </div>
 </div>
 
 <style>
