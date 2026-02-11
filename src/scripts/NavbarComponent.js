@@ -207,13 +207,13 @@ function NavbarComponent() {
   return (
     <>
       {/* Encabezado con logo y titulo - NO es sticky, bajará con el scroll */}
-      <header className="bg-[#333333] w-full border-b border-gray-200">
+      <header className="bg-[#FFFFFF] w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           {/*Emblema de Gobierno|Serna y titulos Centrados*/}
           <div className="flex flex-col items-center justify-center">
             <div className="flex items-center space-x-8">
               <img 
-                src="/wp-content/uploads/2025/05/SERNA-Extendido-Blanco-768x274.png" 
+                src="/wp-content/uploads/2026/02/v2-Horizontal-Color-SERNA-scaled.png" 
                 alt="Emblema de Honduras" 
                 className="h-18"
               />   
@@ -222,8 +222,8 @@ function NavbarComponent() {
         </div>
       </header>
 
-      {/*Barra de Navegacion Con Gradiente Verde - STICKY */}
-      <nav className="site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]">
+      {/*Barra de Navegacion Con Gradiente Azul - STICKY */}
+      <nav className="site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#264da0] to-[#263b80]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo/Marca seccion para Movil */}
@@ -322,7 +322,7 @@ function NavbarComponent() {
                                 {column.link ? (
                                   <a 
                                     href={column.link}
-                                    className="text-sm font-medium font-custom text-gray-900 hover:text-[#00903b]"
+                                    className="text-sm font-medium font-custom text-gray-900 hover:text-[#264da0]"
                                   >
                                     {column.title}
                                   </a>
@@ -338,7 +338,7 @@ function NavbarComponent() {
                                         href={subItem.link}
                                         target={subItem.external ? "_blank" : undefined}
                                         rel={subItem.external ? "noopener noreferrer" : undefined}
-                                        className="text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200" 
+                                        className="text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#264da0] hover:bg-[#264da0] hover:text-white transition-colors duration-200" 
                                       >
                                         {subItem.name}
                                         {subItem.external && (

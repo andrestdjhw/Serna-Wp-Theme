@@ -68,7 +68,7 @@ function FooterComponent() {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-[#87cede] to-[#88cfe0] text-white pt-10 pb-6">
+    <footer className="bg-gradient-to-b from-[#666666] to-[#666666] text-white pt-10 pb-6">
       <div className="max-w-7xl mx-auto px-4">
         {/* Contenido Principal del Footer */}
         <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
@@ -77,7 +77,7 @@ function FooterComponent() {
             {/* Logo SERNA */}
             <div className="w-40 mb-8">
               <img 
-                src="/wp-content/uploads/2025/04/SERNA-Blanco.png" 
+                src="/wp-content/uploads/2026/02/Blanco-SERNA.png" 
                 alt="SERNA" 
                 className="w-full"
               />
@@ -89,7 +89,7 @@ function FooterComponent() {
                 <a 
                   key={index} 
                   href={social.url} 
-                  className="text-white hover:text-[#ee3725] transition-colors"
+                  className="text-white hover:text-[#E0AE19] transition-colors"
                   aria-label={social.name}
                 >
                   <div className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition-colors">
@@ -145,7 +145,7 @@ function FooterComponent() {
                     <li key={i}>
                       <a 
                         href={link.url}
-                        className="text-sm hover:text-[#ee3725] transition-colors"
+                        className="text-sm hover:text-[#E0AE19] transition-colors"
                       >
                         {link.name}
                       </a>

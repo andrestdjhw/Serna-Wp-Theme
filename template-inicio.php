@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,10 +32,10 @@ get_header(); ?>
                     <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#AD8411] hover:text-white transition-colors duration-300">
                         Conócenos
                     </a>
-                    <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
+                    <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:text-white hover:border-[#231f20] transition-colors duration-300">
                         Nuestros Servicios
                     </a>
                 </div>
@@ -55,7 +55,7 @@ get_header(); ?>
         <!-- Featured Services Section -->
         <section id="servicios" class="mb-24">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestros Servicios</span></h2>
+                <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#263b80]">Nuestros Servicios</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Ofrecemos una variedad de servicios para proteger y gestionar los recursos naturales de Honduras
                 </p>
@@ -67,18 +67,18 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Service Card 1 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg class="h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
 
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Licencias Ambientales</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Licencias Ambientales</h3>
                         <p class="text-gray-600 mb-4">
                             Proceso de evaluación y aprobación de proyectos para garantizar el cumplimiento de normas ambientales.
                         </p>
-                        <a href="/slas" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="/slas" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
                             Más información
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -89,18 +89,18 @@ get_header(); ?>
                 
                 <!-- Service Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
                     </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Gestión Forestal</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Gestión Forestal</h3>
                         <p class="text-gray-600 mb-4">
                             Planificación y control del uso sostenible de los recursos forestales del país.
                         </p>
-                        <a href="/direcciones/deca/" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="/direcciones/deca/" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
                             Más información
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -111,17 +111,17 @@ get_header(); ?>
                 
                 <!-- Service Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                     </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Protección del Agua</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Protección del Agua</h3>
                         <p class="text-gray-600 mb-4">
                             Programas para la conservación y uso racional de los recursos hídricos nacionales.
                         </p>
-                        <a href="/direcciones/dgrh/" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="/direcciones/dgrh/" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
                             Más información
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -136,14 +136,14 @@ get_header(); ?>
         <section class="mb-24">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
+                    <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
                     La misión de SERNA es impulsar el desarrollo sostenible de Honduras mediante la formulación, coordinación, ejecución y evaluación de políticas públicas orientadas a la preservación de los recursos naturales y la conservación del ambiente, para mejorar la calidad de vida de sus habitantes, actuando con honestidad, responsabilidad, compromiso, eficiencia y transparencia.
                     </p>
-                    <a href="/nosotros/perfil" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300 inline-flex items-center">
+                    <a href="/nosotros/perfil" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300 inline-flex items-center">
                         Conoce más sobre nosotros
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -167,7 +167,7 @@ get_header(); ?>
         <!-- News & Updates Section -->
         <section class="mb-24">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Noticias y Actualizaciones</span></h2>
+                <h2 class="text-3xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Noticias y Actualizaciones</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales
                 </p>
@@ -184,14 +184,14 @@ get_header(); ?>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Hito</span>
+                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Hito</span>
                             <span>7 Noviembre 2025</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Gobierno de Honduras firma acuerdo histórico de bonos de carbono en la COP30</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Gobierno de Honduras firma acuerdo histórico de bonos de carbono en la COP30</h3>
                         <p class="text-gray-600 mb-4">
                             El Gobierno de Honduras, mediante su participación en la COP30, firmó un acuerdo histórico de bonos de carbono que permitirá al país acceder a más de 12 millones de dólares para la protección de los bosques y el fortalecimiento de la soberanía ambiental.
                         </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -229,14 +229,14 @@ get_header(); ?>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
+                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
                             <span>11 Octubre 2025</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Honduras consolida su liderazgo global en finanzas sostenibles y acción climática</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Honduras consolida su liderazgo global en finanzas sostenibles y acción climática</h3>
                         <p class="text-gray-600 mb-4">
                             El Ministro de Ambiente, Lucky Medina; el Secretario Privado de la Presidenta, Héctor Zelaya; y el Ministro Malcolm Stufkens recibieron en Casa Presidencial a representantes del Deutsche Bank y de la Coalición de Países con Bosques Tropicales, para abordar temas de sostenibilidad y finanzas verdes.
                         </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -273,15 +273,15 @@ get_header(); ?>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
+                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
                             <span>23 abril 2025</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">80$ millones de dolares, aprobados para la recuperación del lago de Yojoa</h3>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">80$ millones de dolares, aprobados para la recuperación del lago de Yojoa</h3>
                         <p class="text-gray-600 mb-4">
                             En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta Xiomara Castro, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
                             
                         </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
                             Leer más
                             <!-- Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país. -->
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -314,7 +314,7 @@ get_header(); ?>
             </div>
             
             <div class="text-center mt-12">
-                <a href="/nosotros/foro" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#00903b] hover:text-white transition-colors duration-300 inline-flex items-center">
+                <a href="/nosotros/foro" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#264da0] hover:text-white transition-colors duration-300 inline-flex items-center">
                     Ver todas las noticias
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -324,7 +324,7 @@ get_header(); ?>
         </section>
         
         <!-- Stats Section -->
-        <section class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 mb-24 text-white">
+        <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <!-- Stat 1 -->
                 <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
@@ -354,18 +354,18 @@ get_header(); ?>
         
         <!-- Call to Action -->
         <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">¿Cómo puedes contribuir?</span></h2>
+            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">¿Cómo puedes contribuir?</span></h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
                 Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
             </p>
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+                <a href="#" class="px-6 py-3 bg-[#ad8411] text-white font-bold rounded-full hover:bg-[#231f20] transition-colors duration-300">
                     Voluntariado
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+                <a href="#" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#ad8411] hover:border-[#ad8411] hover:text-white transition-colors duration-300">
                     Denuncias Ambientales
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                <a href="#" class="px-6 py-3 border-2 border-[#263b80] text-[#ad8411] font-bold rounded-full hover:bg-[#263b80] hover:text-white transition-colors duration-300">
                     Programas Educativos
                 </a>
             </div>
@@ -373,7 +373,7 @@ get_header(); ?>
 
         <!-- Sección para mapa de Google -->
         <section class="mt-24">
-            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Estamos aquí</span></h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Estamos aquí</span></h2>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
                     <!-- aquí va el frame del mapa de Google -->

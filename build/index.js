@@ -454,7 +454,7 @@ function FooterComponent() {
     }]
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
-    className: "bg-gradient-to-b from-[#87cede] to-[#88cfe0] text-white pt-10 pb-6",
+    className: "bg-gradient-to-b from-[#666666] to-[#666666] text-white pt-10 pb-6",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "max-w-7xl mx-auto px-4",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -464,7 +464,7 @@ function FooterComponent() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "w-40 mb-8",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-              src: "/wp-content/uploads/2025/04/SERNA-Blanco.png",
+              src: "/wp-content/uploads/2026/02/Blanco-SERNA.png",
               alt: "SERNA",
               className: "w-full"
             })
@@ -472,7 +472,7 @@ function FooterComponent() {
             className: "flex space-x-2 mb-6",
             children: socialLinks.map((social, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
               href: social.url,
-              className: "text-white hover:text-[#ee3725] transition-colors",
+              className: "text-white hover:text-[#E0AE19] transition-colors",
               "aria-label": social.name,
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                 className: "w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition-colors",
@@ -540,7 +540,7 @@ function FooterComponent() {
             children: column.links.map((link, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                 href: link.url,
-                className: "text-sm hover:text-[#ee3725] transition-colors",
+                className: "text-sm hover:text-[#E0AE19] transition-colors",
                 children: link.name
               })
             }, i))
@@ -811,7 +811,7 @@ function NavbarComponent() {
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
-      className: "bg-[#333333] w-full border-b border-gray-200",
+      className: "bg-[#FFFFFF] w-full border-b border-gray-200",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4 py-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -819,7 +819,7 @@ function NavbarComponent() {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "flex items-center space-x-8",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-              src: "/wp-content/uploads/2025/05/SERNA-Extendido-Blanco-768x274.png",
+              src: "/wp-content/uploads/2026/02/v2-Horizontal-Color-SERNA-scaled.png",
               alt: "Emblema de Honduras",
               className: "h-18"
             })
@@ -827,7 +827,7 @@ function NavbarComponent() {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-      className: "site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#7dbb5c] to-[#00903b]",
+      className: "site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#264da0] to-[#263b80]",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "max-w-7xl mx-auto px-4",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -907,7 +907,7 @@ function NavbarComponent() {
                         className: "space-y-4",
                         children: [column.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                           href: column.link,
-                          className: "text-sm font-medium font-custom text-gray-900 hover:text-[#00903b]",
+                          className: "text-sm font-medium font-custom text-gray-900 hover:text-[#264da0]",
                           children: column.title
                         }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
                           className: "text-sm font-medium font-custom text-gray-900",
@@ -919,7 +919,7 @@ function NavbarComponent() {
                               href: subItem.link,
                               target: subItem.external ? "_blank" : undefined,
                               rel: subItem.external ? "noopener noreferrer" : undefined,
-                              className: "text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200",
+                              className: "text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#264da0] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
                               children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                                 className: "w-3 h-3 ml-1",
                                 fill: "none",
