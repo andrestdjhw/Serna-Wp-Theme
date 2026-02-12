@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -50,12 +50,12 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Step 1: Requisitos -->
                 <div class="text-center group">
-                    <div class="w-24 h-24 bg-gradient-to-br from-[#00903b] to-[#5ca54c] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div class="w-24 h-24 bg-gradient-to-br from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <svg class="h-12 w-12 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#00903b] mb-3">Requisitos</h3>
+                    <h3 class="text-2xl font-bold text-[#264da0] mb-3">Requisitos</h3>
                     <p class="text-gray-600 leading-relaxed">
                         Revisa todos los documentos y requisitos necesarios antes de iniciar tu aplicación.
                     </p>
@@ -63,12 +63,12 @@ get_header(); ?>
                 
                 <!-- Step 2: Fechas -->
                 <div class="text-center group">
-                    <div class="w-24 h-24 bg-gradient-to-br from-[#5ca54c] to-[#7dbb5c] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div class="w-24 h-24 bg-gradient-to-br from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <svg class="h-12 w-12 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#00903b] mb-3">Fechas</h3>
+                    <h3 class="text-2xl font-bold text-[#264da0] mb-3">Fechas</h3>
                     <p class="text-gray-600 leading-relaxed">
                         Consulta las fechas importantes de convocatorias y plazos límite para aplicaciones.
                     </p>
@@ -76,12 +76,12 @@ get_header(); ?>
                 
                 <!-- Step 3: Formulario -->
                 <div class="text-center group">
-                    <div class="w-24 h-24 bg-gradient-to-br from-[#7dbb5c] to-[#87cede] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div class="w-24 h-24 bg-gradient-to-br from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <svg class="h-12 w-12 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-[#00903b] mb-3">Formulario</h3>
+                    <h3 class="text-2xl font-bold text-[#264da0] mb-3">Formulario</h3>
                     <p class="text-gray-600 leading-relaxed">
                         Completa el formulario de aplicación en línea con toda la información solicitada.
                     </p>
@@ -92,27 +92,27 @@ get_header(); ?>
         <!-- Sección de Oportunidades -->
         <section class="mb-24">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Oportunidades</span></h2>
+                <h2 class="text-3xl font-bold mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Oportunidades</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Descubre las diferentes oportunidades disponibles para contribuir a la conservación del medio ambiente
                 </p>
                 <div class="mt-6">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#E0AE19] rounded-full"></div>
                 </div>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Opportunity Card 1 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-[#00903b] flex items-center justify-center">
+                    <div class="h-48 bg-[#231f20] flex items-center justify-center">
                         <img src="/wp-content/uploads/2025/08/Oportunidades.jpg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">CS/OCP/CONECTA/001-2024</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-3">CS/OCP/CONECTA/001-2024</h3>
                         <p class="text-gray-600 mb-4">
                             Servicios de asistencia técnica en comunicaciones, actividades de sensibilización y visibilidad.
                         </p>
-                        <a href="https://empleos.hn/jobs/csocpconecta001-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="https://empleos.hn/jobs/csocpconecta001-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#ad8411] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Aplicar ahora
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -123,15 +123,15 @@ get_header(); ?>
                 
                 <!-- Opportunity Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-[#5ca54c] flex items-center justify-center">
+                    <div class="h-48 bg-[#231f20] flex items-center justify-center">
                         <img src="/wp-content/uploads/2025/08/Oportunidades.jpg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">CS/OCP/CONECTA/002-2024</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-3">CS/OCP/CONECTA/002-2024</h3>
                         <p class="text-gray-600 mb-4">
                             Servicios de asistencia Diseñador Gráfico Junior.
                         </p>
-                        <a href="https://empleos.hn/jobs/csocpconecta002-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="https://empleos.hn/jobs/csocpconecta002-2024servicios-de-asistencia" target="_blank" rel="noopener noreferrer" class="text-[#ad8411] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Ver convocatoria
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -142,15 +142,15 @@ get_header(); ?>
                 
                 <!-- Opportunity Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-[#7dbb5c] flex items-center justify-center">
+                    <div class="h-48 bg-[#231f20] flex items-center justify-center">
                         <img src="/wp-content/uploads/2025/08/Marketing.jpg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Consultoría: </h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-3">Consultoría: </h3>
                         <p class="text-gray-600 mb-4">
                             Estudio de Factibilidad Técnico y Económico.
                         </p>
-                        <a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=16856" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=16856" target="_blank" rel="noopener noreferrer" class="text-[#ad8411] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Ver vacantes
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -161,15 +161,15 @@ get_header(); ?>
                 
                 <!-- Opportunity Card 4 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-[#87cede] flex items-center justify-center">
+                    <div class="h-48 bg-[#231f20] flex items-center justify-center">
                         <img src="/wp-content/uploads/2025/08/Marketing.jpg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">SDC/COPs4/OCP-002-2024</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-3">SDC/COPs4/OCP-002-2024</h3>
                         <p class="text-gray-600 mb-4">
                             Desarrollo de la nueva plataforma del Registro de Emisiones y Transferencia de Contaminantes <strong>(RETC)</strong> para Honduras.
                         </p>
-                        <a href="https://empleos.hn/jobs/sdccops4ocp-002-2024-desarrollo-de-la-nueva" target="_blank" rel="noopener noreferrer" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="https://empleos.hn/jobs/sdccops4ocp-002-2024-desarrollo-de-la-nueva" target="_blank" rel="noopener noreferrer" class="text-[#ad8411] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Participar
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -181,17 +181,17 @@ get_header(); ?>
         </section>
         
         <!-- Additional Information Section -->
-        <section class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 mb-24 text-white">
+        <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="text-center">
                 <h2 class="text-3xl font-bold mb-6">¿Necesitas ayuda con tu aplicación?</h2>
                 <p class="text-lg mb-8 max-w-3xl mx-auto opacity-90">
                     Nuestro equipo está disponible para ayudarte durante todo el proceso de aplicación. No dudes en contactarnos.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="/contacto" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="/contacto" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
                         Contactar Soporte
                     </a>
-                    <a href="/nosotros/faq" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
+                    <a href="/nosotros/faq" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:text-white hover:border-[#231f20] transition-colors duration-300">
                         Preguntas Frecuentes
                     </a>
                 </div>
@@ -245,7 +245,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
     .group:hover .group-hover\:scale-110 {

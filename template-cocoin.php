@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -29,7 +29,7 @@ get_header(); ?>
                     Comité de Control Interno
                 </h1>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#E0AE19] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -47,13 +47,13 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">(COCOIN)</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">(COCOIN)</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-2 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#E0AE19] mx-auto mb-2 rounded-full"></div>
             </div>
             
             <!-- Featured News Card -->
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
                         <img src="/wp-content/uploads/2025/08/BOLETIN-TRIMESTRAL.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
@@ -71,7 +71,7 @@ get_header(); ?>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
                             Manténgase al tanto de las ultimas actualizaciones.
                         </p>
-                        <a href="/wp-content/uploads/2025/08/Newsletter-Boletin-Informativo-Naturaleza-Ecologia-y-Sostenibilidad-Minimalista-Blanco-y-Verde-1.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#00903b] font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                        <a href="/wp-content/uploads/2025/08/Newsletter-Boletin-Informativo-Naturaleza-Ecologia-y-Sostenibilidad-Minimalista-Blanco-y-Verde-1.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
                             Descargar Recurso
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />

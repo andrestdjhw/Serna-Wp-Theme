@@ -152,7 +152,7 @@ get_header(); ?>
                 </div>
                 <div class="relative">
                     <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-22 aspect-h-22">
-                        <img src="/wp-content/uploads/2025/06/DJI_0011.jpg" alt="SERNA Honduras" class="w-full h-full object-cover">
+                        <img src="/wp-content/uploads/2026/02/DJI_0149-2-scaled.jpg" alt="SERNA Honduras" class="w-full h-full object-cover">
                     </div>
                     <!-- <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
                         <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
@@ -191,7 +191,7 @@ get_header(); ?>
                         <p class="text-gray-600 mb-4">
                             El Gobierno de Honduras, mediante su participación en la COP30, firmó un acuerdo histórico de bonos de carbono que permitirá al país acceder a más de 12 millones de dólares para la protección de los bosques y el fortalecimiento de la soberanía ambiental.
                         </p>
-                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -236,7 +236,7 @@ get_header(); ?>
                         <p class="text-gray-600 mb-4">
                             El Ministro de Ambiente, Lucky Medina; el Secretario Privado de la Presidenta, Héctor Zelaya; y el Ministro Malcolm Stufkens recibieron en Casa Presidencial a representantes del Deutsche Bank y de la Coalición de Países con Bosques Tropicales, para abordar temas de sostenibilidad y finanzas verdes.
                         </p>
-                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -281,7 +281,7 @@ get_header(); ?>
                             En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta Xiomara Castro, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
                             
                         </p>
-                        <a href="#" class="text-[#666666] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
+                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
                             <!-- Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país. -->
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -359,13 +359,13 @@ get_header(); ?>
                 Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
             </p>
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="px-6 py-3 bg-[#ad8411] text-white font-bold rounded-full hover:bg-[#231f20] transition-colors duration-300">
+                <a href="#" class="px-6 py-3 bg-[#231f20] text-white font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
                     Voluntariado
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#ad8411] hover:border-[#ad8411] hover:text-white transition-colors duration-300">
+                <a href="#" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#264da0] hover:border-[#264da0] hover:text-white transition-colors duration-300">
                     Denuncias Ambientales
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#263b80] text-[#ad8411] font-bold rounded-full hover:bg-[#263b80] hover:text-white transition-colors duration-300">
+                <a href="#" class="px-6 py-3 border-2 border-[#263b80] text-[#231f20] font-bold rounded-full hover:bg-[#263b80] hover:text-white transition-colors duration-300">
                     Programas Educativos
                 </a>
             </div>
@@ -422,7 +422,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 </style>
 

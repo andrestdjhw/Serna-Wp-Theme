@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#263b80]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="#historia" class="px-6 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="#historia" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
                         Conoce mas
                     </a>
                 </div>
@@ -52,8 +52,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestra Historia</span></h2>
+                    <div class="h-1 w-140 bg-[#E0AE19] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
                     </p>
@@ -65,8 +65,8 @@ get_header(); ?>
                     </p>
                 </div>
                 <div class="lg:w-1/2">
-                    <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <img src="/wp-content/uploads/2025/04/SERNA-Blanco-768x1017.png" alt="Historia de SERNA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                    <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
+                        <img src="/wp-content/uploads/2026/02/BannerPerfilInstitucional-scaled.jpg" alt="Historia de SERNA" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
                     </div>
                 </div>
             </div>
@@ -77,15 +77,15 @@ get_header(); ?>
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 mt-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestros Pilares Fundamentales</span></h2>
-                <div class="h-1 w-20 bg-[#87cede] mx-auto"></div>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestros Pilares Fundamentales</span></h2>
+                <div class="h-1 w-50 bg-[#E0AE19] mx-auto"></div>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Vision Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#00903b]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#264da0]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#00903b] p-3 rounded-full mr-8">
+                        <div class="bg-[#264da0] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -99,9 +99,9 @@ get_header(); ?>
                 </div>
                 
                 <!-- Mission Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#5ca54c]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#264da0]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#5ca54c] p-3 rounded-full mr-8">
+                        <div class="bg-[#264da0] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
@@ -117,11 +117,11 @@ get_header(); ?>
     </section>
 
     <!-- Values Section -->
-    <section class="py-20 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] mt-8 mb-8">
+    <section class="py-20 bg-gradient-to-r from-[#263b80] to-[#264da0] mt-8 mb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Nuestros Valores</h2>
-                <div class="h-1 w-20 bg-[#87cede] mx-auto"></div>
+                <div class="h-1 w-50 bg-[#E0AE19] mx-auto"></div>
                 <p class="text-xl text-white mt-6 max-w-3xl mx-auto">
                     Los principios que guían nuestro trabajo diario y nuestra relación con la ciudadanía
                 </p>
@@ -130,7 +130,7 @@ get_header(); ?>
             <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
                 <!-- Honestidad -->
                 <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
-                    <div class="bg-[#00903b] bg-opacity-10 p-4 rounded-full inline-block mb-4">
+                    <div class="bg-[#ad8411] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
@@ -143,7 +143,7 @@ get_header(); ?>
                 
                 <!-- Responsabilidad -->
                 <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
-                    <div class="bg-[#ee3725] bg-opacity-10 p-4 rounded-full inline-block mb-4">
+                    <div class="bg-[#264da0] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
@@ -156,7 +156,7 @@ get_header(); ?>
                 
                 <!-- Compromiso -->
                 <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
-                    <div class="bg-[#e3a220] bg-opacity-10 p-4 rounded-full inline-block mb-4">
+                    <div class="bg-[#263b80] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -169,7 +169,7 @@ get_header(); ?>
                 
                 <!-- Eficiencia -->
                 <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
-                    <div class="bg-[#87cede] bg-opacity-10 p-4 rounded-full inline-block mb-4">
+                    <div class="bg-[#231f20] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
@@ -182,7 +182,7 @@ get_header(); ?>
                 
                 <!-- Transparencia -->
                 <div class="bg-white p-6 rounded-lg shadow-custom hover:shadow-lg transition-shadow duration-300 text-center">
-                    <div class="bg-[#868385] bg-opacity-10 p-4 rounded-full inline-block mb-4">
+                    <div class="bg-[#666666] bg-opacity-10 p-4 rounded-full inline-block mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
                     </svg>
@@ -221,7 +221,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(255, 68, 56, 0.79), 0 4px 6px -2px rgba(255, 68, 56, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(173, 132, 17, 0.79), 0 4px 6px -2px rgba(173, 132, 17, 0.05);
     }
 </style>
 <?php get_footer(); ?>

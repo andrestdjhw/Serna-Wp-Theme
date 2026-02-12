@@ -146,7 +146,7 @@ const SernaChatbot = () => {
     children: [isOpen && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "mb-4 w-80 h-96 bg-white rounded-lg shadow-2xl border border-gray-200 flex flex-col overflow-hidden",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white p-4 flex items-center justify-between",
+        className: "bg-gradient-to-r from-[#231f20] to-[#666666] text-white p-4 flex items-center justify-between",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           className: "flex items-center space-x-2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -170,7 +170,7 @@ const SernaChatbot = () => {
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
           onClick: () => setIsOpen(false),
-          className: "text-white hover:text-[#00903b] hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200",
+          className: "text-white hover:text-[#231f20] hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
             className: "w-4 h-4",
             fill: "none",
@@ -189,7 +189,7 @@ const SernaChatbot = () => {
         children: [messages.map(message => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: `flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`,
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: `max-w-xs px-3 py-2 rounded-lg text-sm ${message.sender === 'user' ? 'bg-[#7dbb5c] text-white' : 'bg-gray-100 text-gray-800 border border-gray-200'}`,
+            className: `max-w-xs px-3 py-2 rounded-lg text-sm ${message.sender === 'user' ? 'bg-[#264da0] text-white' : 'bg-gray-100 text-gray-800 border border-gray-200'}`,
             children: message.text
           })
         }, message.id)), isTyping && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -225,7 +225,7 @@ const SernaChatbot = () => {
           className: "flex flex-wrap gap-1",
           children: quickActions.map((action, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
             onClick: () => handleQuickAction(action.text),
-            className: "text-xs bg-[#87cede] bg-opacity-20 text-[#00903b] px-2 py-1 rounded-full hover:bg-opacity-30 transition-colors duration-200",
+            className: "text-xs bg-[#263b80] bg-opacity-20 text-white px-2 py-1 rounded-full hover:bg-opacity-30 transition-colors duration-200",
             children: [action.icon, " ", action.text]
           }, index))
         })]
@@ -239,10 +239,10 @@ const SernaChatbot = () => {
             onChange: e => setInputMessage(e.target.value),
             onKeyPress: e => e.key === 'Enter' && handleSendMessage(e),
             placeholder: "Escribe tu consulta...",
-            className: "flex-1 px-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#7dbb5c] focus:border-transparent"
+            className: "flex-1 px-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#E0AE19] focus:border-transparent"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
             onClick: handleSendMessage,
-            className: "bg-[#7dbb5c] text-white p-2 rounded-full hover:bg-[#00903b] transition-colors duration-200 disabled:opacity-50",
+            className: "bg-[#264da0] text-white p-2 rounded-full hover:bg-[#263b80] transition-colors duration-200 disabled:opacity-50",
             disabled: inputMessage.trim() === '',
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               className: "w-4 h-4",
@@ -261,7 +261,7 @@ const SernaChatbot = () => {
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
       onClick: () => setIsOpen(!isOpen),
-      className: `w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform hover:scale-105 ${isOpen ? 'bg-gray-600 text-white' : 'bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white'}`,
+      className: `w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform hover:scale-105 ${isOpen ? 'bg-gray-600 text-white' : 'bg-gradient-to-r from-[#263b80] to-[#87cede] text-white'}`,
       children: isOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
         className: "w-6 h-6",
         fill: "none",
@@ -283,7 +283,7 @@ const SernaChatbot = () => {
             d: "M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "absolute -top-1 -right-1 w-3 h-3 bg-[#ee3725] rounded-full animate-pulse"
+          className: "absolute -top-1 -right-1 w-3 h-3 bg-[#ad8411] rounded-full animate-pulse"
         })]
       })
     })]
@@ -958,7 +958,7 @@ function NavbarComponent() {
             children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
                 onClick: () => toggleDropdown(item.name),
-                className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200",
+                className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
                 children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                   className: `ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === item.name ? "transform rotate-180" : ""}`,
                   fill: "none",
@@ -977,7 +977,7 @@ function NavbarComponent() {
                   className: "mb-2",
                   children: [column.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                     href: column.link,
-                    className: "block px-3 py-1 font-medium text-sm text-[#00903b] hover:text-[#e3a220] transition-colors duration-200",
+                    className: "block px-3 py-1 font-medium text-sm text-[#263b80] hover:text-[#e3a220] transition-colors duration-200",
                     children: column.title
                   }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                     className: "px-3 py-1 font-medium text-sm",
@@ -986,7 +986,7 @@ function NavbarComponent() {
                     href: subItem.link,
                     target: subItem.external ? "_blank" : undefined,
                     rel: subItem.external ? "noopener noreferrer" : undefined,
-                    className: "flex items-center justify-between px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1",
+                    className: "flex items-center justify-between px-3 py-2 rounded-md text-white bg-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200 my-1",
                     children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                       className: "w-3 h-3 ml-1",
                       fill: "none",
@@ -1006,7 +1006,7 @@ function NavbarComponent() {
               href: item.link,
               target: item.external ? "_blank" : undefined,
               rel: item.external ? "noopener noreferrer" : undefined,
-              className: "block px-3 py-2 rounded-md text-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200",
+              className: "block px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
               children: item.name
             })
           }, index))

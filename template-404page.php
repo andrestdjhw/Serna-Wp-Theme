@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 min-h-screen flex items-center overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -51,13 +51,13 @@ get_header(); ?>
             
             <!-- Action Buttons -->
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
-                <a href="<?php echo home_url(); ?>" class="px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300 inline-flex items-center justify-center">
+                <a href="<?php echo home_url(); ?>" class="px-8 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#231f20] hover:text-white transition-colors duration-300 inline-flex items-center justify-center">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                     </svg>
                     Volver al Inicio
                 </a>
-                <a href="javascript:history.back()" class="px-8 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300 inline-flex items-center justify-center">
+                <a href="javascript:history.back()" class="px-8 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ad8411] hover:text-white hover:border-[#ad8411] transition-colors duration-300 inline-flex items-center justify-center">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                     </svg>
@@ -69,7 +69,7 @@ get_header(); ?>
             <div class="max-w-md mx-auto">
                 <p class="text-white text-sm mb-4 opacity-80">Progreso de construcción:</p>
                 <div class="bg-white bg-opacity-20 rounded-full h-3 overflow-hidden backdrop-blur-sm">
-                    <div class="bg-[#87cede] h-full rounded-full progress-bar" style="width: 0%"></div>
+                    <div class="bg-[#ad8411] h-full rounded-full progress-bar" style="width: 0%"></div>
                 </div>
                 <p class="text-white text-xs mt-2 opacity-70">Actualizando contenido...</p>
             </div>
@@ -87,7 +87,7 @@ get_header(); ?>
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <section class="text-center mb-16">
             <h2 class="text-3xl font-bold mb-6">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">
                     Mientras tanto, puedes explorar:
                 </span>
             </h2>
@@ -95,48 +95,48 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Service Card 1 -->
                 <div class="bg-white rounded-lg shadow-custom p-6 transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="bg-[#00903b] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div class="bg-[#263b80] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg class="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-[#00903b] mb-3">Licencias Ambientales</h3>
+                    <h3 class="text-xl font-bold text-[#263b80] mb-3">Licencias Ambientales</h3>
                     <p class="text-gray-600 mb-4">
                         Consulta sobre procesos de evaluación ambiental
                     </p>
-                    <a href="/slas" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300">
+                    <a href="/slas" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300">
                         Más información →
                     </a>
                 </div>
                 
                 <!-- Service Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom p-6 transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="bg-[#5ca54c] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div class="bg-[#263b80] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-[#00903b] mb-3">Información General</h3>
+                    <h3 class="text-xl font-bold text-[#263b80] mb-3">Información General</h3>
                     <p class="text-gray-600 mb-4">
                         Conoce más sobre nuestra institución
                     </p>
-                    <a href="/nosotros/perfil" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300">
+                    <a href="/nosotros/perfil" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300">
                         Conoce SERNA →
                     </a>
                 </div>
                 
                 <!-- Service Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom p-6 transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="bg-[#7dbb5c] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div class="bg-[#263b80] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-[#00903b] mb-3">Contáctanos</h3>
+                    <h3 class="text-xl font-bold text-[#263b80] mb-3">Contáctanos</h3>
                     <p class="text-gray-600 mb-4">
                         ¿Tienes preguntas? Estamos aquí para ayudarte
                     </p>
-                    <a href="/contacto" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300">
+                    <a href="/contacto" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300">
                         Contactar →
                     </a>
                 </div>
@@ -144,7 +144,7 @@ get_header(); ?>
         </section>
         
         <!-- Contact Info -->
-        <section class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 text-white text-center">
+        <section class="bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-2xl p-8 text-white text-center">
             <h3 class="text-2xl font-bold mb-4">¿Necesitas ayuda inmediata?</h3>
             <p class="mb-6 opacity-90">
                 Nuestro equipo está disponible para atender tus consultas
@@ -190,7 +190,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.3), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.3), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
     
     .progress-bar {

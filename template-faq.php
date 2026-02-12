@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Encuentra respuestas a las preguntas más comunes sobre nuestros servicios y trámites.
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#E0AE19] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -70,16 +70,16 @@ get_header(); ?>
         <div class="mb-16">
             <!-- <h2 class="text-3xl font-bold text-center text-[#00903b] mb-8 mt-8">Categorías</h2> -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="all">
+                <button class="faq-category-btn px-4 py-3 bg-[#264da0] text-white rounded-lg shadow-custom hover:bg-[#666666] hover:text-white transition-colors duration-300 font-medium" data-category="all">
                     Todas
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="licencias">
+                <button class="faq-category-btn px-4 py-3 bg-[#264da0] text-white rounded-lg shadow-custom hover:bg-[#666666] hover:text-white transition-colors duration-300 font-medium" data-category="licencias">
                     Licencias Ambientales
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="tramites">
+                <button class="faq-category-btn px-4 py-3 bg-[#264da0] text-white rounded-lg shadow-custom hover:bg-[#666666] hover:text-white transition-colors duration-300 font-medium" data-category="tramites">
                     Trámites
                 </button>
-                <button class="faq-category-btn px-4 py-3 bg-[#87cede] text-white rounded-lg shadow-custom hover:bg-[#ee3725] hover:text-white transition-colors duration-300 font-medium" data-category="servicios">
+                <button class="faq-category-btn px-4 py-3 bg-[#264da0] text-white rounded-lg shadow-custom hover:bg-[#666666] hover:text-white transition-colors duration-300 font-medium" data-category="servicios">
                     Servicios
                 </button>
             </div>
@@ -87,13 +87,13 @@ get_header(); ?>
         
         <!-- FAQ Accordion -->
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-[#00903b] mb-12 mt-12"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Preguntas y Respuestas</span></h2>
+            <h2 class="text-3xl font-bold text-center text-[#264da0] mb-12 mt-12"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Preguntas y Respuestas</span></h2>
             
             <div class="space-y-4" id="faq-accordion">
                 <!-- FAQ Item 1 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Qué es una licencia ambiental?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Qué es una licencia ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -107,7 +107,7 @@ get_header(); ?>
                 <!-- FAQ Item 2 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Quien necesita una licencia ambiental?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Quien necesita una licencia ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -130,7 +130,7 @@ get_header(); ?>
                 <!-- FAQ Item 3 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="licencias">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Cuál es el proceso para obtener una licencia ambiental?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Cuál es el proceso para obtener una licencia ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -153,7 +153,7 @@ get_header(); ?>
                 <!-- FAQ Item 3 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="tramites">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Qué documentos necesito para iniciar un trámite ambiental?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Qué documentos necesito para iniciar un trámite ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -188,7 +188,7 @@ get_header(); ?>
                 <!-- FAQ Item 4 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="servicios">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Cómo puedo verificar el estado de mi trámite?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Cómo puedo verificar el estado de mi trámite?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -202,7 +202,7 @@ get_header(); ?>
                                 <li><strong>Presencialmente:</strong> En nuestras oficinas centrales SERNA, Edificio Santa Fe, Colonia Castaño Sur, Tegucigalpa..</li>
                                 <li><strong>Por correo electrónico:</strong> Enviando un mensaje a info@serna.gob.hn con su número de expediente.</li>
                             </ol>
-                            <p class="mt-4">Para consultas en línea, visite: <a href="https://serna.gob.hn/slas" class="text-[#7dbb5c] hover:underline">https://serna.gob.hn/slas</a></p>
+                            <p class="mt-4">Para consultas en línea, visite: <a href="https://serna.gob.hn/slas" class="text-[#666666] hover:underline">https://serna.gob.hn/slas</a></p>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ get_header(); ?>
                 <!-- FAQ Item 5 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="tramites">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Cuáles son los horarios de atención al público?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Cuáles son los horarios de atención al público?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -230,7 +230,7 @@ get_header(); ?>
                 <!-- FAQ Item 6 -->
                 <div class="faq-item bg-white rounded-lg shadow-custom overflow-hidden" data-category="servicios">
                     <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200">
-                        <h3 class="text-lg md:text-xl font-bold text-[#00903b]">¿Cómo puedo presentar una denuncia ambiental?</h3>
+                        <h3 class="text-lg md:text-xl font-bold text-[#264da0]">¿Cómo puedo presentar una denuncia ambiental?</h3>
                         <svg class="w-6 h-6 text-[#7dbb5c] transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -258,12 +258,12 @@ get_header(); ?>
         </div>
         
         <!-- Still Have Questions Section -->
-        <div class="max-w-4xl mx-auto mt-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+        <div class="max-w-4xl mx-auto mt-16 bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white text-center">
             <h2 class="text-3xl font-bold mb-6">¿No encontraste lo que buscabas?</h2>
             <p class="text-xl mb-8">Nuestro equipo está listo para ayudarte con cualquier pregunta adicional que puedas tener.</p>
             <a 
                 href="/contacto" 
-                class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+                class="inline-block px-8 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300"
             >
                 Contáctenos
             </a>
@@ -290,7 +290,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
     
     .faq-item.active .faq-question svg {
@@ -341,8 +341,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const category = button.dataset.category;
             
             // Update active button
-            categoryButtons.forEach(btn => btn.classList.remove('bg-[#00903b]', 'text-white'));
-            button.classList.add('bg-[#00903b]', 'text-white');
+            categoryButtons.forEach(btn => btn.classList.remove('bg-[#ad8411]', 'text-white'));
+            button.classList.add('bg-[#ad8411]', 'text-white');
             
             // Filter items
             faqItems.forEach(item => {

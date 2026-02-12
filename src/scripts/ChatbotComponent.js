@@ -87,7 +87,7 @@ const SernaChatbot = () => {
       {isOpen && (
         <div className="mb-4 w-80 h-96 bg-white rounded-lg shadow-2xl border border-gray-200 flex flex-col overflow-hidden">
           {/* Header */}
-          <div className="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white p-4 flex items-center justify-between">
+          <div className="bg-gradient-to-r from-[#231f20] to-[#666666] text-white p-4 flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -101,7 +101,7 @@ const SernaChatbot = () => {
             </div>
             <button 
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#00903b] hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200"
+              className="text-white hover:text-[#231f20] hover:bg-white hover:bg-opacity-20 rounded p-1 transition-colors duration-200"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -119,7 +119,7 @@ const SernaChatbot = () => {
                 <div
                   className={`max-w-xs px-3 py-2 rounded-lg text-sm ${
                     message.sender === 'user'
-                      ? 'bg-[#7dbb5c] text-white'
+                      ? 'bg-[#264da0] text-white'
                       : 'bg-gray-100 text-gray-800 border border-gray-200'
                   }`}
                 >
@@ -151,7 +151,7 @@ const SernaChatbot = () => {
                   <button
                     key={index}
                     onClick={() => handleQuickAction(action.text)}
-                    className="text-xs bg-[#87cede] bg-opacity-20 text-[#00903b] px-2 py-1 rounded-full hover:bg-opacity-30 transition-colors duration-200"
+                    className="text-xs bg-[#263b80] bg-opacity-20 text-white px-2 py-1 rounded-full hover:bg-opacity-30 transition-colors duration-200"
                   >
                     {action.icon} {action.text}
                   </button>
@@ -169,11 +169,11 @@ const SernaChatbot = () => {
                 onChange={(e) => setInputMessage(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSendMessage(e)}
                 placeholder="Escribe tu consulta..."
-                className="flex-1 px-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#7dbb5c] focus:border-transparent"
+                className="flex-1 px-3 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#E0AE19] focus:border-transparent"
               />
               <button
                 onClick={handleSendMessage}
-                className="bg-[#7dbb5c] text-white p-2 rounded-full hover:bg-[#00903b] transition-colors duration-200 disabled:opacity-50"
+                className="bg-[#264da0] text-white p-2 rounded-full hover:bg-[#263b80] transition-colors duration-200 disabled:opacity-50"
                 disabled={inputMessage.trim() === ''}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -191,7 +191,7 @@ const SernaChatbot = () => {
         className={`w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform hover:scale-105 ${
           isOpen 
             ? 'bg-gray-600 text-white' 
-            : 'bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white'
+            : 'bg-gradient-to-r from-[#263b80] to-[#87cede] text-white'
         }`}
       >
         {isOpen ? (
@@ -204,7 +204,7 @@ const SernaChatbot = () => {
               <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
             </svg>
             {/* Notification dot */}
-            <div className="absolute -top-1 -right-1 w-3 h-3 bg-[#ee3725] rounded-full animate-pulse"></div>
+            <div className="absolute -top-1 -right-1 w-3 h-3 bg-[#ad8411] rounded-full animate-pulse"></div>
           </div>
         )}
       </button>

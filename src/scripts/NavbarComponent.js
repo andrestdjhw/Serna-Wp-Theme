@@ -391,7 +391,7 @@ function NavbarComponent() {
                   <>
                     <button
                       onClick={() => toggleDropdown(item.name)}
-                      className="w-full flex justify-between items-center px-3 py-2 rounded-md text-[#00903b] hover:bg-green-700 hover:text-white transition-colors duration-200"
+                      className="w-full flex justify-between items-center px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200"
                     >
                       {item.name}
                       <svg
@@ -419,7 +419,7 @@ function NavbarComponent() {
                             {column.link ? (
                               <a
                                 href={column.link}
-                                className="block px-3 py-1 font-medium text-sm text-[#00903b] hover:text-[#e3a220] transition-colors duration-200"
+                                className="block px-3 py-1 font-medium text-sm text-[#263b80] hover:text-[#e3a220] transition-colors duration-200"
                               >
                                 {column.title}
                               </a>
@@ -434,7 +434,7 @@ function NavbarComponent() {
                                 href={subItem.link}
                                 target={subItem.external ? "_blank" : undefined}
                                 rel={subItem.external ? "noopener noreferrer" : undefined}
-                                className="flex items-center justify-between px-3 py-2 rounded-md text-black bg-[#7dbb5c] hover:bg-[#00903b] hover:text-white transition-colors duration-200 my-1"
+                                className="flex items-center justify-between px-3 py-2 rounded-md text-white bg-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200 my-1"
                               >
                                 {subItem.name}
                                 {subItem.external && (
@@ -464,7 +464,7 @@ function NavbarComponent() {
                     href={item.link}
                     target={item.external ? "_blank" : undefined}
                     rel={item.external ? "noopener noreferrer" : undefined}
-                    className="block px-3 py-2 rounded-md text-[#00903b] hover:bg-[#00903b] hover:text-white transition-colors duration-200"
+                    className="block px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200"
                   >
                     {item.name}
                   </a>
