@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Centro de Estudios y Control de Contaminantes.
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestra Historia</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         El Centro de Estudios y Control de Contaminantes (CESCCO) dependencia de la SERNA; es el organismo técnico-científico superior del Estado de Honduras en materia de contaminación ambiental, se encarga de la investigación, prestación de servicios de análisis de laboratorio en las matrices agua, aire, suelo, sedimentos y alimentos, la vigilancia ambiental y gestión de sustancias químicas. 
                     </p>
@@ -72,14 +72,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -87,7 +87,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -95,8 +95,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Reactivada la capacidad instalada de los laboratorios CESCCO en un 78% desde el año 2023, logramos abastecimiento de insumos, materiales y equipo requerido. </h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Reactivada la capacidad instalada de los laboratorios CESCCO en un 78% desde el año 2023, logramos abastecimiento de insumos, materiales y equipo requerido. </h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     CESCCO brinda sus servicios al público en general, atención a inspecciones, denuncias, toma de muestras, etc.
                                 </p>
@@ -108,7 +108,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -116,8 +116,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Brindamos apoyo a instituciones encargadas de aplicar la legislación ambiental como la Fiscalía Especial del Medio Ambiente (FEMA) y la Procuraduría General de la República (PGR):</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Brindamos apoyo a instituciones encargadas de aplicar la legislación ambiental como la Fiscalía Especial del Medio Ambiente (FEMA) y la Procuraduría General de la República (PGR):</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     Con inspecciones, recolección de muestras y análisis de laboratorio en atención a denuncias o procesos de oficio.
                                 </p>
@@ -129,7 +129,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -137,8 +137,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Atendimos en el año 2023, 36 inspecciones y/o denuncias ambientales </h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Atendimos en el año 2023, 36 inspecciones y/o denuncias ambientales </h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2023</p>
                                 <p class="text-gray-600">
                                     Ofreciendo información técnico científica, con el propósito de normalizar o mitigar los problemas de contaminación que amenazan la salud de la población y al ambiente.
                                 </p>
@@ -149,7 +149,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -157,8 +157,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Realizamos 579 análisis de laboratorio.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Realizamos 579 análisis de laboratorio.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     Al servicio de la población, en atención a denuncias, investigación y acompañamientos a los diferentes SINEIAS convocados.
                                 </p>
@@ -169,7 +169,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -177,8 +177,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Inicio de la red de micro plásticos en arena y aguas superficiales marinas en tres playas</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Inicio de la red de micro plásticos en arena y aguas superficiales marinas en tres playas</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     (El Edén, Punta Ratón y Cedeño) en la zona del Golfo de Fonseca.
                                 </p>
@@ -189,7 +189,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -197,8 +197,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">100% de cumplimiento en las mediciones en la red de monitoreo para partículas de aire PM10 y PM2.5 en la Ciudad de Tegucigalpa M.D.C.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">100% de cumplimiento en las mediciones en la red de monitoreo para partículas de aire PM10 y PM2.5 en la Ciudad de Tegucigalpa M.D.C.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Mayo 2025</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ get_header(); ?>
             <div class="relative pl-20 md:pl-24">
                 <!-- Contact Icon Circle -->
                 <div class="absolute left-0 top-6 z-10">
-                    <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                    <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
@@ -221,7 +221,7 @@ get_header(); ?>
                 </div>
                 
                 <!-- Contact Card Content -->
-                <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
+                <div class="bg-gradient-to-br from-[#264da0] to-[#263b80] rounded-lg overflow-hidden shadow-xl">
                     <div class="p-8 text-white">
                         <h3 class="text-2xl font-bold mb-6 text-center">Visítenos</h3>
                         
@@ -257,7 +257,7 @@ get_header(); ?>
                                 
                                 <!-- Address -->
                                 <div class="flex items-start space-x-4">
-                                    <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                    <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -272,7 +272,7 @@ get_header(); ?>
                                 
                                 <!-- Schedule -->
                                 <div class="flex items-start space-x-4">
-                                    <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                    <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
@@ -285,7 +285,7 @@ get_header(); ?>
                             </div>
                             
                             <!-- Map Container -->
-                            <div class="bg-gradient-to-r from-[#87cede] to-blue-300  rounded-lg p-4 backdrop-blur-sm">
+                            <div class="bg-gradient-to-r from-[#231f20] to-[#0000000]  rounded-lg p-4 backdrop-blur-sm">
                                 <h4 class="font-semibold text-white mb-4 text-center">Nuestra Ubicación</h4>
                                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
                                     <!-- Google Maps Embed Frame -->
@@ -295,7 +295,7 @@ get_header(); ?>
                                 
                                 <!-- Call to Action Button -->
                                 <div class="mt-4 text-center">
-                                    <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ee3725] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
+                                    <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ad8411] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                         </svg>
@@ -315,9 +315,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -455,7 +455,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
     /* Carousel Styles */
@@ -477,7 +477,7 @@ get_header(); ?>
     }
 
     .carousel-dot.active {
-        background-color: #00903b !important;
+        background-color: #263b80 !important;
         transform: scale(1.2);
     }
 
@@ -519,10 +519,10 @@ document.addEventListener('DOMContentLoaded', function() {
         dots.forEach((dot, index) => {
             if (index === currentSlide) {
                 dot.classList.add('active');
-                dot.style.backgroundColor = '#00903b';
+                dot.style.backgroundColor = '#263b80';
             } else {
                 dot.classList.remove('active');
-                dot.style.backgroundColor = '#d1d5db';
+                dot.style.backgroundColor = '#263b80';
             }
         });
     }

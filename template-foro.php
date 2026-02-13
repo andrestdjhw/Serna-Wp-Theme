@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Mantente informado sobre las últimas actividades, logros y noticias de la <strong class="mt-4 text-2xl">Secretaría de Recursos Naturales y Ambiente</strong>
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Últimas Noticias</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Últimas Noticias</span>
                 </h2>
             </div>
             
@@ -206,7 +206,37 @@ get_header(); ?>
                 </article>
                 
                 <!-- News Card 5 -->
-                <article class="news-card">
+                 <article class="news-card extended-news" style="display: none;">
+                    <div class="news-image-container">
+                        <img src="/wp-content/uploads/2025/09/CeroDeforestacion.jpg" alt="Noticia 4" class="news-image">
+                        <div class="news-date-badge">
+                            <span class="news-date-day">22</span>
+                            <span class="news-date-month">MAY</span>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-category">Logro</span>
+                            <span class="news-separator">•</span>
+                            <span class="news-date-full">22 de Mayo, 2024</span>
+                        </div>
+                        <h3 class="news-title">
+                            Gobierno declara <strong>Emergencia Ambiental</strong> y lanza estrategia "Cero Deforestación al 2029"
+                        </h3>
+                        <div class="news-excerpt-container">
+                            <p class="news-excerpt news-excerpt-visible">
+                                La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
+                            </p>
+                        </div>
+                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
+                            <span class="read-more-text">Leer más</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                <!-- <article class="news-card">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/09/MapaSubcuencas.jpeg" alt="Noticia 6" class="news-image">
                         <div class="news-date-badge">
@@ -236,7 +266,7 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
-                </article>
+                </article> -->
                 
                 <!-- News Card 6 -->
                  <article class="news-card">
@@ -277,36 +307,7 @@ get_header(); ?>
                 </article>
                 
                 <!-- Extended News (Initially Hidden) -->
-                 <article class="news-card extended-news" style="display: none;">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/09/CeroDeforestacion.jpg" alt="Noticia 4" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">22</span>
-                            <span class="news-date-month">MAY</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Logro</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">22 de Mayo, 2024</span>
-                        </div>
-                        <h3 class="news-title">
-                            Gobierno declara <strong>Emergencia Ambiental</strong> y lanza estrategia "Cero Deforestación al 2029"
-                        </h3>
-                        <div class="news-excerpt-container">
-                            <p class="news-excerpt news-excerpt-visible">
-                                La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
-                            </p>
-                        </div>
-                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
-                            <span class="read-more-text">Leer más</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
+                 
 
                  <article class="news-card extended-news" style="display: none;">
                     <div class="news-image-container">
@@ -423,7 +424,7 @@ get_header(); ?>
 
             <!-- Load More Button -->
             <div class="text-center mt-12" id="loadMoreContainer">
-                <button id="loadMoreBtn" class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300" onclick="loadMoreNews()">
+                <button id="loadMoreBtn" class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#87cede] to-[#264da0] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300" onclick="loadMoreNews()">
                     <span>Cargar Más Noticias</span>
                     <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -436,7 +437,7 @@ get_header(); ?>
     <!-- Newsletter Section -->
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl overflow-hidden shadow-xl">
+            <div class="bg-gradient-to-r from-[#264da0] to-[#263b80] rounded-2xl overflow-hidden shadow-xl">
                 <div class="px-8 py-12 text-center text-white">
                     <h2 class="text-3xl font-bold mb-4">
                         Mantente Informado
@@ -447,7 +448,7 @@ get_header(); ?>
                     <div class="max-w-md mx-auto">
                         <div class="flex flex-col sm:flex-row gap-4">
                             <input type="email" placeholder="Tu correo electrónico" class="flex-1 px-4 py-3 rounded-full bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#87cede]">
-                            <button class="px-6 py-3 bg-[#ee3725] text-white font-semibold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                            <button class="px-6 py-3 bg-[#231f20] text-white font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                                 Suscribirse
                             </button>
                         </div>
@@ -514,7 +515,7 @@ get_header(); ?>
         position: absolute;
         top: 1rem;
         right: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
+        background: linear-gradient(135deg, #264da0, #87cede);
         color: white;
         padding: 0.5rem;
         border-radius: 0.5rem;
@@ -550,7 +551,7 @@ get_header(); ?>
     }
 
     .news-category {
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
+        background: linear-gradient(135deg, #264da0, #87cede);
         color: white;
         padding: 0.25rem 0.75rem;
         border-radius: 9999px;
@@ -579,7 +580,7 @@ get_header(); ?>
     }
 
     .news-card:hover .news-title {
-        color: #00903b;
+        color: #231f20;
     }
 
     /* Excerpt container and visibility */
@@ -589,7 +590,7 @@ get_header(); ?>
     }
 
     .news-excerpt {
-        color: #6b7280;
+        color: #231f20;
         line-height: 1.6;
         margin-bottom: 1rem;
         font-size: 0.95rem;
@@ -617,7 +618,7 @@ get_header(); ?>
     .news-read-more {
         display: inline-flex;
         align-items: center;
-        color: #00903b;
+        color: #666666;
         font-weight: 600;
         text-decoration: none;
         transition: all 0.3s ease;
@@ -626,7 +627,7 @@ get_header(); ?>
     }
 
     .news-read-more:hover {
-        color: #7dbb5c;
+        color: #231f20;
         transform: translateX(4px);
     }
 

@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Residuos de Aparatos Electrónicos y Eléctricos 
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         Fortalecimiento de iniciativas nacionales y mejoramiento de la cooperación regional para la gestión ambientalmente racional de los COP en Residuos de Aparatos Eléctricos y Electrónicos (RAEE) en países Latinoamericanos. (PREAL)
                     </p>
@@ -68,14 +68,14 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">A nivel nacional, el proyecto busca fortalecer las políticas publicas y capacitar al personal técnico y los funcionarios gubernamentales en el correcto manejo de los residuos electrónicos. A traves de este proyecto, se promueven las políticas que permitirán el reciclaje optimo y aprovechamiento de materiales reciclados, la generación de empleos decentes y oportunidades de trabajo, asi como también la gestión ambientalmente racional de 180 toneladas de plástico RAEE en su componente 2. Este enfoque ayudara a proteger el ambiente de los residuos peligrosos y evitara la generación incontrolada de los mismos.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">A nivel nacional, el proyecto busca fortalecer las políticas publicas y capacitar al personal técnico y los funcionarios gubernamentales en el correcto manejo de los residuos electrónicos. A traves de este proyecto, se promueven las políticas que permitirán el reciclaje optimo y aprovechamiento de materiales reciclados, la generación de empleos decentes y oportunidades de trabajo, asi como también la gestión ambientalmente racional de 180 toneladas de plástico RAEE en su componente 2. Este enfoque ayudara a proteger el ambiente de los residuos peligrosos y evitara la generación incontrolada de los mismos.</div>
                     </div>
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">PREAL asiste a 13 países Latinoamericanos tanto técnica como financieramente con fondos del GEF administrado por ONUDI y en Honduras técnicamente ejecutado por CESCCO/SERNA con administración de la Oficina Coordinadora de Proyectos.</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">PREAL asiste a 13 países Latinoamericanos tanto técnica como financieramente con fondos del GEF administrado por ONUDI y en Honduras técnicamente ejecutado por CESCCO/SERNA con administración de la Oficina Coordinadora de Proyectos.</div>
                     </div>
                 </div>
             </div>
@@ -86,14 +86,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -101,7 +101,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Actualmente ocupamos el 3er lugar dentro de los 13 países con el 48% de la meta cumplida para la gestión ambientalmente racional de plástico bromado, reportando un total de 52 toneladas de este plástico en proceso de ser enviadas para recuperación de energía mediante el co-procesamiento en hornos cementeros.</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Actualmente ocupamos el 3er lugar dentro de los 13 países con el 48% de la meta cumplida para la gestión ambientalmente racional de plástico bromado, reportando un total de 52 toneladas de este plástico en proceso de ser enviadas para recuperación de energía mediante el co-procesamiento en hornos cementeros.</h3>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitamos o sensibilizamos a 1,678 hondureños entre funcionarios, estudiantes, periodistas; en la gestión ambientalmente racional de los RAEE y su importancia para el país</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Capacitamos o sensibilizamos a 1,678 hondureños entre funcionarios, estudiantes, periodistas; en la gestión ambientalmente racional de los RAEE y su importancia para el país</h3>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Revisión, impresión y publicación de la 1era versión de la Estrategia Nacional sobre la Gestión de RAEE en Honduras.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Revisión, impresión y publicación de la 1era versión de la Estrategia Nacional sobre la Gestión de RAEE en Honduras.</h3>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Firmamos convenio de cooperación entre la SERNA y la Dirección Nacional de Bienes del Estado (DNBE) en fecha 15 de noviembre de 2023, para la disposición ambientalmente racional de residuos de aparatos eléctricos y electrónicos (RAEE) pertenecientes a la administración pública, se ha logrado que 27 instituciones estatales del Distrito Central se sumen a la actividad de limpieza de sus residuos, recolectando aproximadamente 56 toneladas de RAEE.</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Firmamos convenio de cooperación entre la SERNA y la Dirección Nacional de Bienes del Estado (DNBE) en fecha 15 de noviembre de 2023, para la disposición ambientalmente racional de residuos de aparatos eléctricos y electrónicos (RAEE) pertenecientes a la administración pública, se ha logrado que 27 instituciones estatales del Distrito Central se sumen a la actividad de limpieza de sus residuos, recolectando aproximadamente 56 toneladas de RAEE.</h3>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Contact Icon Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
@@ -176,7 +176,7 @@ get_header(); ?>
                         </div>
                         
                         <!-- Contact Card Content -->
-                        <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
+                        <div class="bg-gradient-to-br from-[#263b80] to-[#264da0] rounded-lg overflow-hidden shadow-xl">
                             <div class="p-8 text-white">
                                 <h3 class="text-2xl font-bold mb-6 text-center">Contáctenos</h3>
                                 
@@ -186,7 +186,7 @@ get_header(); ?>
                                     <div class="space-y-6">                       
                                         <!-- Address -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -201,7 +201,7 @@ get_header(); ?>
                                         
                                         <!-- Schedule -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                 </svg>
@@ -214,7 +214,7 @@ get_header(); ?>
                                     </div>
                                     
                                     <!-- Map Container -->
-                                    <div class="bg-gradient-to-r from-[#87cede] to-blue-300  rounded-lg p-4 backdrop-blur-sm">
+                                    <div class="bg-gradient-to-r from-[#231f20] to-[#0000000]  rounded-lg p-4 backdrop-blur-sm">
                                         <h4 class="font-semibold text-white mb-4 text-center">Nuestra Ubicación</h4>
                                         <div class="bg-white rounded-lg overflow-hidden shadow-md">
                                             <!-- Google Maps Embed Frame -->
@@ -224,7 +224,7 @@ get_header(); ?>
                                         
                                         <!-- Call to Action Button -->
                                         <div class="mt-4 text-center">
-                                            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ee3725] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
+                                            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ad8411] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
@@ -246,9 +246,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -397,24 +397,24 @@ get_header(); ?>
     
     <!-- Call to Action -->
     <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-        <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Conoce Más</span></h2>
+        <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Conoce Más</span></h2>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
             Encuentra información adicional.
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+            <a href="#" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300">
                 Descargables
             </a>
-            <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+            <a href="#" class="px-6 py-3 border-2 border-[#231f20] text-[#231f20] font-bold rounded-full hover:bg-[#231f20] hover:border-[#231f20] hover:text-white transition-colors duration-300">
                 Gestores Autorizados
             </a>
-            <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+            <a href="#" class="px-6 py-3 border-2 border-[#ad8411] text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                 Concienciación 
             </a>
-            <a href="#" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
+            <a href="#" class="px-6 py-3 border-2 border-[#666666] text-[#ad8411] font-bold rounded-full hover:bg-[#666666] hover:text-white transition-colors duration-300">
                 Requisitos Legales
             </a>
-            <a href="/direcciones/cescco/rae/estadisticas" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+            <a href="/direcciones/cescco/rae/estadisticas" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300">
                 Estadísticas RAEE
             </a>
         </div>

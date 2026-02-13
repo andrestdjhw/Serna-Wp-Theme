@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero Section -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Datos y análisis sobre la gestión de Residuos de Aparatos Electrónicos y Eléctricos en Honduras
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,9 +50,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Glosario de Términos</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Glosario de Términos</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Definiciones importantes para comprender las estadísticas de RAEE
                 </p>
@@ -60,44 +60,44 @@ get_header(); ?>
 
             <!-- Tabla de Glosario -->
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-                <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] px-6 py-4">
-                    <h3 class="text-xl font-bold text-white text-center">Glosario RAEE</h3>
+                <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] px-6 py-4">
+                    <h3 class="text-xl font-bold text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient text-center">Glosario RAEE</h3>
                 </div>
                 <div class="overflow-x-auto">
                     <table class="w-full">
                         <thead>
-                            <tr class="bg-gray-50 border-b-2 border-[#87cede]">
-                                <th class="px-6 py-4 text-left text-lg font-bold text-[#00903b] uppercase tracking-wide">Término</th>
-                                <th class="px-6 py-4 text-left text-lg font-bold text-[#00903b] uppercase tracking-wide">Definición</th>
+                            <tr class="bg-gray-50 border-b-2 border-[#ad8411]">
+                                <th class="px-6 py-4 text-left text-lg font-bold text-[#264da0] uppercase tracking-wide">Término</th>
+                                <th class="px-6 py-4 text-left text-lg font-bold text-[#264da0] uppercase tracking-wide">Definición</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-200">
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">RAEE</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">RAEE</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">Residuos de Aparatos Eléctricos y Electrónicos que han llegado al final de su vida útil</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">AEE</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">AEE</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">Aparato eléctrico electrónico</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">POM</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">POM</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">Puesto en el mercado (siglas en ingles)</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">kg</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">kg</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">kilogramo</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">kg AEE/hab</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">kg AEE/hab</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">kilogramos de AEE por habitante (generación de RAEE)</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">kg RAEE/hab</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">kg RAEE/hab</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">kilogramos de RAEE gestionados a traves de canales formales de recolección por habitante</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">% de recolección</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">% de recolección</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">división de los kilogramos de RAEE recolectados entre los kilogramos de AEE multiplicado por 100</td>
                             </tr>
                         </tbody>
@@ -112,9 +112,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Estadísticas de Gestión RAEE</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Estadísticas de Gestión RAEE</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Análisis del progreso en la gestión de residuos electrónicos en Honduras
                 </p>
@@ -125,7 +125,7 @@ get_header(); ?>
                 <!-- Gráfico 1: Tasa de recolección RAEE Anual -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                     <div class="mb-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-2">Tasa de recolección de RAEE %</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-2">Tasa de recolección de RAEE %</h3>
                         <p class="text-gray-600 text-sm">Progreso anual en el procesamiento de residuos electrónicos</p>
                     </div>
                     <div class="h-80">
@@ -136,7 +136,7 @@ get_header(); ?>
                 <!-- Gráfico 2: AEE (kilogramos) por habitante -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                     <div class="mb-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-2">AEE (kilogramos) por habitante</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-2">AEE (kilogramos) por habitante</h3>
                         <p class="text-gray-600 text-sm">Avance hacia los objetivos del proyecto</p>
                     </div>
                     <div class="h-80">
@@ -147,7 +147,7 @@ get_header(); ?>
                 <!-- Gráfico 3: RAEE recolectados (kilogramos) -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                     <div class="mb-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-2">RAEE recolectados (kilogramos)</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-2">RAEE recolectados (kilogramos)</h3>
                     </div>
                     <div class="h-80">
                         <canvas id="raeeChart3" class="w-full h-full"></canvas>
@@ -157,7 +157,7 @@ get_header(); ?>
                 <!-- Gráfico 4: AEE importados en kilogramos (POM) -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                     <div class="mb-6">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-2">AEE importados en kilogramos (POM)</h3>
+                        <h3 class="text-xl font-bold text-[#231f20] mb-2">AEE importados en kilogramos (POM)</h3>
                     </div>
                     <div class="h-80">
                         <canvas id="raeeChart4" class="w-full h-full"></canvas>
@@ -195,35 +195,35 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Referencias o Fuentes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Referencias o Fuentes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
             </div>
 
             <!-- Tabla de Glosario -->
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-                <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] px-6 py-4">
+                <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] px-6 py-4">
                     <h3 class="text-xl font-bold text-white text-center"></h3>
                 </div>
                 <div class="overflow-x-auto">
                     <table class="w-full">
                         <thead>
-                            <tr class="bg-gray-50 border-b-2 border-[#87cede]">
-                                <th class="px-6 py-4 text-left text-lg font-bold text-[#00903b] uppercase tracking-wide">Término</th>
-                                <th class="px-6 py-4 text-left text-lg font-bold text-[#00903b] uppercase tracking-wide">Definición</th>
+                            <tr class="bg-gray-50 border-b-2 border-[#ad8411]">
+                                <th class="px-6 py-4 text-left text-lg font-bold text-[#263b80] uppercase tracking-wide">Término</th>
+                                <th class="px-6 py-4 text-left text-lg font-bold text-[#263b80] uppercase tracking-wide">Definición</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-200">
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">Habitantes</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">Habitantes</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">ine.gob.hn</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">RAEE</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">RAEE</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">Información proporcionada por las empresas gestoras RECICLAJE DIAMANTE, RECYCLE, RECACEL, INVEMA, SERAMB, HES, RECYPROCO</td>
                             </tr>
                             <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                <td class="px-6 py-4 text-base font-semibold text-[#5ca54c]">AEE</td>
+                                <td class="px-6 py-4 text-base font-semibold text-[#231f20]">AEE</td>
                                 <td class="px-6 py-4 text-gray-700 text-base">Información proporcionada por Administración Aduanera de Honduras mediante OFICIO-ADUANAS-DE-464-2024</td>
                             </tr>
                         </tbody>
@@ -238,19 +238,19 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
                 <h2 class="text-3xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Más Información</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Más Información</span>
                 </h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
                     Accede a recursos adicionales y herramientas para la gestión de RAEE.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="/direcciones/cescco/rae" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+                    <a href="/direcciones/cescco/rae" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300">
                         Volver a RAEE Principal
                     </a>
-                    <a href="#" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+                    <a href="#" class="px-6 py-3 border-2 border-[#231f20] text-[#231f20] font-bold rounded-full hover:bg-[#231f20] hover:border-[#231f20] hover:text-white transition-colors duration-300">
                         Descargar Reporte
                     </a>
-                    <a href="#" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+                    <a href="#" class="px-6 py-3 border-2 border-[#ad8411] text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                         Contactar Especialista
                     </a>
                 </div>
@@ -279,7 +279,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
     /* Tabla responsive */
@@ -300,6 +300,16 @@ get_header(); ?>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Paleta institucional
+    const colors = {
+        gold:       { solid: '#ad8411', rgba: (a) => `rgba(173, 132, 17, ${a})` },
+        blue:       { solid: '#264da0', rgba: (a) => `rgba(38, 77, 160, ${a})` },
+        darkBlue:   { solid: '#263b80', rgba: (a) => `rgba(38, 59, 128, ${a})` },
+        black:      { solid: '#231f20', rgba: (a) => `rgba(35, 31, 32, ${a})` },
+        gray:       { solid: '#666666', rgba: (a) => `rgba(102, 102, 102, ${a})` }
+    };
+
     // Configuración común para todos los gráficos
     const commonOptions = {
         responsive: true,
@@ -315,15 +325,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 max: 100,
                 ticks: {
                     stepSize: 10,
+                    color: colors.black.solid,
                     callback: function(value) {
                         return value + '%';
                     }
                 },
                 grid: {
-                    color: 'rgba(135, 206, 222, 0.2)'
+                    color: colors.blue.rgba(0.15)
                 }
             },
             x: {
+                ticks: {
+                    color: colors.black.solid
+                },
                 grid: {
                     display: false
                 }
@@ -331,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // Gráfico 1:  de RAEE Procesadas
+    // Gráfico 1: % de RAEE Procesadas
     const ctx1 = document.getElementById('raeeChart1').getContext('2d');
     new Chart(ctx1, {
         type: 'bar',
@@ -340,18 +354,16 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 data: [17, 69, 82, 99],
                 backgroundColor: [
-                    'rgba(0, 144, 59, 0.8)',
-                    'rgba(92, 165, 76, 0.8)',
-                    'rgba(125, 187, 92, 0.8)',
-                    'rgba(135, 206, 222, 0.8)',
-                    'rgba(238, 55, 37, 0.8)'
+                    colors.gold.rgba(0.85),
+                    colors.blue.rgba(0.85),
+                    colors.darkBlue.rgba(0.85),
+                    colors.gray.rgba(0.85)
                 ],
                 borderColor: [
-                    'rgba(0, 144, 59, 1)',
-                    'rgba(92, 165, 76, 1)',
-                    'rgba(125, 187, 92, 1)',
-                    'rgba(135, 206, 222, 1)',
-                    'rgba(238, 55, 37, 1)'
+                    colors.gold.solid,
+                    colors.blue.solid,
+                    colors.darkBlue.solid,
+                    colors.gray.solid
                 ],
                 borderWidth: 2,
                 borderRadius: 8
@@ -364,6 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 y: {
                     ...commonOptions.scales.y,
                     ticks: {
+                        color: colors.black.solid,
                         callback: function(value) {
                             return value + '%';
                         }
@@ -381,12 +394,12 @@ document.addEventListener('DOMContentLoaded', function() {
             labels: ['2020', '2021', '2022', '2023'],
             datasets: [{
                 data: [4.5, 6.8, 5.7, 6.39],
-                borderColor: 'rgba(0, 144, 59, 1)',
-                backgroundColor: 'rgba(0, 144, 59, 0.1)',
+                borderColor: colors.blue.solid,
+                backgroundColor: colors.blue.rgba(0.12),
                 borderWidth: 3,
                 fill: true,
                 tension: 0.4,
-                pointBackgroundColor: 'rgba(0, 144, 59, 1)',
+                pointBackgroundColor: colors.blue.solid,
                 pointBorderColor: 'white',
                 pointBorderWidth: 3,
                 pointRadius: 6
@@ -402,12 +415,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     max: 7,
                     ticks: {
                         stepSize: 0.5,
+                        color: colors.black.solid,
                         callback: function(value) {
                             return value;
                         }
                     },
                     grid: {
-                        color: 'rgba(135, 206, 222, 0.2)'
+                        color: colors.blue.rgba(0.15)
                     }
                 }
             }
@@ -422,9 +436,15 @@ document.addEventListener('DOMContentLoaded', function() {
             labels: ['2020', '2021', '2022', '2023'],
             datasets: [{
                 data: [70895.97, 432942.39, 449289.18, 617324.86],
-                backgroundColor: 'rgba(135, 206, 222, 0.8)',
-                borderColor: 'rgba(135, 206, 222, 1)',
+                backgroundColor: colors.darkBlue.rgba(0.15),
+                borderColor: colors.darkBlue.solid,
                 borderWidth: 2,
+                fill: true,
+                tension: 0.4,
+                pointBackgroundColor: colors.darkBlue.solid,
+                pointBorderColor: 'white',
+                pointBorderWidth: 3,
+                pointRadius: 6,
                 borderRadius: 8
             }]
         },
@@ -438,12 +458,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     max: 700000,
                     ticks: {
                         stepSize: 100000,
+                        color: colors.black.solid,
                         callback: function(value) {
                             return value;
                         }
                     },
                     grid: {
-                        color: 'rgba(135, 206, 222, 0.2)'
+                        color: colors.blue.rgba(0.15)
                     }
                 }
             }
@@ -459,11 +480,10 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 data: [42445060.57, 63136099.97, 54660909.91, 62239841.35],
                 backgroundColor: [
-                    'rgba(0, 144, 59, 0.8)',
-                    'rgba(92, 165, 76, 0.8)',
-                    'rgba(125, 187, 92, 0.8)',
-                    'rgba(135, 206, 222, 0.8)',
-                    'rgba(238, 55, 37, 0.8)'
+                    colors.gold.rgba(0.9),
+                    colors.blue.rgba(0.9),
+                    colors.darkBlue.rgba(0.9),
+                    colors.gray.rgba(0.9)
                 ],
                 borderColor: 'white',
                 borderWidth: 3
@@ -477,7 +497,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     position: 'bottom',
                     labels: {
                         padding: 20,
-                        usePointStyle: true
+                        usePointStyle: true,
+                        color: colors.black.solid
                     }
                 }
             }

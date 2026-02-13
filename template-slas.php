@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- sección Hero Panel con gradientes -->
     <section class="relative py-24 overflow-hidden">
         <!-- Fondo Gradiente -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Fondo: Elementos Animados tipo Fuegos Artificiales -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Licenciamiento Ambiental (SLAS) en Honduras
                 </p>
                 <div class="mt-4">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -52,10 +52,10 @@ get_header(); ?>
         <section class="mb-10">
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Acerca de SLAS</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Acerca de SLAS</span>
                 </h2>
                 <div class="text-center mb-6">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#264da0] rounded-full"></div>
                 </div>
                 <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto text-center">
                     El Sistema de Licenciamiento Ambiental Simplificado (SLAS) de Honduras es una plataforma digital avanzada, diseñada para agilizar y transparentar el proceso de obtención de Licencias Ambientales. Esta herramienta en línea es una iniciativa de la Secretaría de Recursos Naturales y Ambiente (MiAmbiente+), que facilita a los desarrolladores y apoderados legales la gestión ambiental de proyectos.
@@ -67,15 +67,15 @@ get_header(); ?>
         <section class="mb-20">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Objetivos y Características</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Objetivos y Características</span>
                 </h2>
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-[#264da0] rounded-full"></div>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Objetivos -->
                 <div class="bg-white rounded-lg shadow-custom">
-                    <div class="accordion-header bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white p-6 rounded-t-lg cursor-pointer" onclick="toggleAccordion('objetivos')">
+                    <div class="accordion-header bg-gradient-to-r from-[#263b80] to-[#264da0] text-white p-6 rounded-t-lg cursor-pointer" onclick="toggleAccordion('objetivos')">
                         <div class="flex items-center justify-between">
                             <h3 class="text-xl font-bold flex items-center">
                                 <i class="fas fa-bullseye mr-3"></i>
@@ -87,20 +87,20 @@ get_header(); ?>
                     <div class="accordion-content active p-6" id="objetivos-content">
                         <ul class="space-y-4">
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-check text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-check text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Proporcionar una vía rápida para conocer la viabilidad ambiental de proyectos en solo 28 segundos.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-check text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-check text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Emitir Licencias Ambientales de Operación en un plazo de 24 a 48 horas.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-check text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-check text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Garantizar el cumplimiento de los requisitos y procedimientos legales para la Licencia de Funcionamiento en un plazo máximo de 6 meses.</span>
                             </li>
@@ -110,7 +110,7 @@ get_header(); ?>
 
                 <!-- Características -->
                 <div class="bg-white rounded-lg shadow-custom">
-                    <div class="accordion-header bg-gradient-to-r from-[#5ca54c] to-[#7dbb5c] text-white p-6 rounded-t-lg cursor-pointer" onclick="toggleAccordion('caracteristicas')">
+                    <div class="accordion-header bg-gradient-to-r from-[#263b80] to-[#264da0] text-white p-6 rounded-t-lg cursor-pointer" onclick="toggleAccordion('caracteristicas')">
                         <div class="flex items-center justify-between">
                             <h3 class="text-xl font-bold flex items-center">
                                 <i class="fas fa-cogs mr-3"></i>
@@ -122,32 +122,32 @@ get_header(); ?>
                     <div class="accordion-content active p-6" id="caracteristicas-content">
                         <ul class="space-y-4">
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-star text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-star text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Control y seguimiento de las medidas ambientales.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-star text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-star text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Sistema de denuncias ambientales.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-star text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-star text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Renovación de Licencias Ambientales.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-star text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-star text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Presentación de servicios ambientales.</span>
                             </li>
                             <li class="flex items-start">
-                                <div class="flex-shrink-0 w-6 h-6 bg-[#87cede] rounded-full flex items-center justify-center mt-1 mr-3">
-                                    <i class="fas fa-star text-[#00903b] text-xs"></i>
+                                <div class="flex-shrink-0 w-6 h-6 bg-[#263b80] rounded-full flex items-center justify-center mt-1 mr-3">
+                                    <i class="fas fa-star text-[#E0B32F] text-xs"></i>
                                 </div>
                                 <span class="text-gray-700">Seguimiento en tiempo real de los expedientes.</span>
                             </li>
@@ -161,9 +161,9 @@ get_header(); ?>
         <section class="mb-20">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Proceso de Licenciamiento</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Proceso de Licenciamiento</span>
                 </h2>
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-[#263b80] rounded-full"></div>
             </div>
             
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12">
@@ -171,44 +171,44 @@ get_header(); ?>
                     <div class="space-y-8">
                         <!-- Paso 1 -->
                         <div class="flex flex-col md:flex-row items-center md:items-start step-line">
-                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
                                 1
                             </div>
                             <div class="text-center md:text-left">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Registro en la Plataforma</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Registro en la Plataforma</h3>
                                 <p class="text-gray-700">Los usuarios ingresan datos del proyecto, incluyendo las coordenadas y detalles de la empresa y el representante legal.</p>
                             </div>
                         </div>
 
                         <!-- Paso 2 -->
                         <div class="flex flex-col md:flex-row items-center md:items-start step-line">
-                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#5ca54c] to-[#7dbb5c] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#263b80] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
                                 2
                             </div>
                             <div class="text-center md:text-left">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Carga de Documentación</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Carga de Documentación</h3>
                                 <p class="text-gray-700">Se suben los documentos requeridos que conformarán el expediente ambiental.</p>
                             </div>
                         </div>
 
                         <!-- Paso 3 -->
                         <div class="flex flex-col md:flex-row items-center md:items-start step-line">
-                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#7dbb5c] to-[#87cede] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
                                 3
                             </div>
                             <div class="text-center md:text-left">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Verificación y Viabilidad</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Verificación y Viabilidad</h3>
                                 <p class="text-gray-700">El sistema evalúa la información y proporciona una primera impresión sobre la complejidad de la solicitud.</p>
                             </div>
                         </div>
 
                         <!-- Paso 4 -->
                         <div class="flex flex-col md:flex-row items-center md:items-start step-line">
-                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center text-white font-bold text-xl mb-4 md:mb-0 md:mr-6">
                                 4
                             </div>
                             <div class="text-center md:text-left">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Presentación Física</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Presentación Física</h3>
                                 <p class="text-gray-700">Se presenta la solicitud de licencia ambiental con la documentación técnica y legal correspondiente.</p>
                             </div>
                         </div>
@@ -221,10 +221,10 @@ get_header(); ?>
         <section class="mb-20">
             <div class="bg-white rounded-lg shadow-custom p-8 md:p-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Impactos y Beneficios</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Impactos y Beneficios</span>
                 </h2>
                 <div class="text-center mb-6">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#263b80] rounded-full"></div>
                 </div>
                 <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto text-center">
                     El SLAS representa un paso adelante en la modernización de los servicios públicos, con un impacto significativo en la promoción del desarrollo socioeconómico, la generación de empleo y el bienestar humano, siempre en armonía con la protección ambiental. La claridad y rapidez del sistema brindan confianza a los inversores y facilitan la planificación y ejecución responsable de proyectos en Honduras.
@@ -236,7 +236,7 @@ get_header(); ?>
         <section class="mb-20">
             <div class="relative overflow-hidden rounded-lg">
                 <!-- Fondo Gradiente -->
-                <div class="absolute inset-0 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Elementos decorativos -->
                 <div class="absolute inset-0 opacity-20">
@@ -260,13 +260,13 @@ get_header(); ?>
                         <!-- Botones CTA -->
                         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                             <a href="https://slas.miambiente.gob.hn/#login" target="_blank" 
-                               class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-full hover:bg-gray-100 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl">
+                               class="inline-flex items-center px-8 py-4 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#231f20] hover:text-[#FFFFFF] transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl">
                                 <i class="fas fa-external-link-alt mr-3"></i>
                                 Acceder a SLAS
                             </a>
                             
                             <a href="#" 
-                               class="inline-flex items-center px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#00903b] transform hover:-translate-y-1 transition-all duration-300">
+                               class="inline-flex items-center px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-[#ad8411] hover:border-[#ad8411] hover:text-[#FFFFFF] transform hover:-translate-y-1 transition-all duration-300">
                                 <i class="fas fa-file-download mr-3"></i>
                                 Descargar Guía
                             </a>
@@ -275,24 +275,24 @@ get_header(); ?>
                         <!-- Información adicional -->
                         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
                             <div class="flex flex-col items-center">
-                                <div class="w-12 h-12 bg-[#87cede] rounded-full flex items-center justify-center mb-3">
-                                    <i class="fas fa-clock text-[#00903b]"></i>
+                                <div class="w-12 h-12 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center mb-3">
+                                    <i class="fas fa-clock text-[#E0B32F]"></i>
                                 </div>
                                 <h3 class="font-semibold mb-1">Disponible 24/7</h3>
                                 <p class="text-sm opacity-80">Acceso las 24 horas</p>
                             </div>
                             
                             <div class="flex flex-col items-center">
-                                <div class="w-12 h-12 bg-[#87cede] rounded-full flex items-center justify-center mb-3">
-                                    <i class="fas fa-shield-alt text-[#00903b]"></i>
+                                <div class="w-12 h-12 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center mb-3">
+                                    <i class="fas fa-shield-alt text-[#E0B32F]"></i>
                                 </div>
                                 <h3 class="font-semibold mb-1">Seguro</h3>
                                 <p class="text-sm opacity-80">Información protegida</p>
                             </div>
                             
                             <div class="flex flex-col items-center">
-                                <div class="w-12 h-12 bg-[#87cede] rounded-full flex items-center justify-center mb-3">
-                                    <i class="fas fa-tachometer-alt text-[#00903b]"></i>
+                                <div class="w-12 h-12 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full flex items-center justify-center mb-3">
+                                    <i class="fas fa-tachometer-alt text-[#E0B32F]"></i>
                                 </div>
                                 <h3 class="font-semibold mb-1">Rápido</h3>
                                 <p class="text-sm opacity-80">Procesos optimizados</p>
@@ -325,7 +325,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(0, 144, 59, 0.1), 0 4px 6px -2px rgba(0, 144, 59, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.4), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
     
     .accordion-content {
@@ -350,7 +350,7 @@ get_header(); ?>
         top: 100%;
         width: 2px;
         height: 60px;
-        background: linear-gradient(to bottom, #7dbb5c, transparent);
+        background: linear-gradient(to bottom, #666666, transparent);
     }
     
     .step-line:last-child::after {
