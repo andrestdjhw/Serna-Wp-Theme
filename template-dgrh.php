@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Gestión sostenible de los recursos hídricos para un futuro mejor
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Nuestra Historia</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestra Historia</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Dirección General de Recursos Hídricos (DGRH), fue creada por Decreto No. 716 del 28 de diciembre de 1978, es responsable de la gestión de los recursos hídricos, incluyendo su medición, evaluación y conservación. 
                     </p>
@@ -75,14 +75,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -98,8 +98,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Cuatro (4) planes de acción Hídrica</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Cuatro (4) planes de acción Hídrica</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     De las cuencas priorizadas del corredor seco: Choluteca, Goascorán, Sampile, Nacaome.
                                 </p>
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -119,13 +119,13 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Veinticinco Planes de acción Hídrica</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Veinticinco Planes de acción Hídrica</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     A las micro-cuencas que conforman la Cuenca Goascorán.
                                 </p>
                                 <div class="mt-4">
-                                    <a href="https://corredorseco.ihcantabria.com/" class="text-[#5ca54c] inline-flex items-center hover:underline">
+                                    <a href="https://corredorseco.ihcantabria.com/" class="text-[#666666] inline-flex items-center hover:underline">
                                         ¡Ver aquí! 
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -140,7 +140,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -148,8 +148,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Reconocidos 30 Consejos de Micro-cuencas y 5 Consejos de Sub-cuencas </h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Reconocidos 30 Consejos de Micro-cuencas y 5 Consejos de Sub-cuencas </h3>
+                                <p class="text-sm text-[#264da0] mb-3">Mayo 2025</p>
                                 <p class="text-gray-600">
                                     Para la gestión de la gobernanza hídrica en su ámbito territorial con resoluciones administrativas otorgadas por SERNA.
                                 </p>
@@ -160,7 +160,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -168,8 +168,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Fortalecimiento de la Gobernanza Hídrica</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Fortalecimiento de la Gobernanza Hídrica</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     A través de la conformación de 119 Organismos de cuenca a nivel de cuenca, micro-cuenca y sub-cuenca.
                                 </p>
@@ -180,7 +180,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -188,8 +188,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">110 estaciones Hidro-meteorológicas</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">110 estaciones Hidro-meteorológicas</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     Distribuidas en 16 cuencas en el país generando información para la toma de decisiones en alerta temprana.
                                 </p>
@@ -200,7 +200,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -208,8 +208,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Plataforma Agua de Honduras:</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Plataforma Agua de Honduras:</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Mayo 2025</p>
                                 <p class="text-gray-600">
                                     Plataforma de información sobre el recurso hídrico de fácil acceso y públicamente disponible en la web:
                                 </p>
@@ -217,7 +217,7 @@ get_header(); ?>
                                 Ofrece gratuitamente información obtenida de análisis hidrológicos y los combina con información de escenarios sobre el clima presente y futuro, coberturas vegetales y demanda hídrica.
                                 </p>
                                 <div class="mt-4">
-                                    <a href="https://aguadehonduras.gob.hn/" class="text-[#5ca54c] inline-flex items-center hover:underline">
+                                    <a href="https://aguadehonduras.gob.hn/" class="text-[#666666] inline-flex items-center hover:underline">
                                         ¡Ver aquí! 
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -237,9 +237,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Proyectos</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Galería de Proyectos</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -342,14 +342,14 @@ get_header(); ?>
     </section>
 
     <!-- Cartita para enlaces externos de la dirección -->
-    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-2xl p-8 md:p-12 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Sigue el enlace de Agua de Honduras</h2>
         <p class="text-xl mb-8">La plataforma Agua de Honduras es una iniciativa de innovación que ofrece información confiable sobre el recurso hídrico de forma ágil y gratuita.</p>
         <a 
             href="https://aguadehonduras.gob.hn/"
             target="_blank" 
             rel="noopener noreferrer" 
-            class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+            class="inline-block px-8 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300"
         >
             ¡Haz click aquí!
         </a>

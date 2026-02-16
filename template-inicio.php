@@ -60,7 +60,7 @@ get_header(); ?>
                     Ofrecemos una variedad de servicios para proteger y gestionar los recursos naturales de Honduras
                 </p>
                 <div class="mt-6">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
             
@@ -172,7 +172,7 @@ get_header(); ?>
                     Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales
                 </p>
                 <div class="mt-6">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
             

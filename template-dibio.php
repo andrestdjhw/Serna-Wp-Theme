@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     Dirección general de Biodiversidad
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         <strong>Ubicación: </strong>Francisco Morazan/Tegucigalpa M.D.C. 
                     </p>
@@ -75,14 +75,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Brigadistas de equipos de respuesta a emergencias capacitados.</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Brigadistas de equipos de respuesta a emergencias capacitados.</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     Por medio de entrenamiento continúo en respuesta a emergencia de arrecife coralino y otras técnicas de restauración, para el Caribe de Honduras. Al momento de ocurrir un desastre en bahía de tela, islas de la bahía y callos cochinos hondureñas existe un equipo de respuestas que pueda ayudar en la recolección de fragmentos de oportunidades para evitar una mayor pérdida de los arrecifes después de la tormenta.
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Siembra de plántulas de mangle</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Siembra de plántulas de mangle</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     12,000 plántulas en 9 hectáreas en área protegida <strong>Los Delgaditos</strong> (Comunidad 3 de febrero, Marcovia), para ayudar en el proceso de restauración de la cobertura vegetal, así mismo generar un medio de ingresos para la comunidad con el apoyo financiero de JICA.
@@ -132,7 +132,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Establecimientos de viveros de moluscos de aprovechamiento sostenible</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Establecimientos de viveros de moluscos de aprovechamiento sostenible</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
                                 <p class="text-gray-600">
                                     Casco de burro 500 y curil 800 dentro de un año se empiece (comunidad 3 febrero, Marcovia). Iniciativa para diversificación de la economía por medio de un proyecto piloto donde presenta una alternativa en el cultivo de bivalvos a desarrollarse durante el presente año y generar una alternativa para la diversificación de la economía en el área con el apoyo financiero de JICA.
@@ -152,7 +152,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Reactivación formal de la mesa de monitoreo biológico y aprobación de plan de trabajo 2024</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Reactivación formal de la mesa de monitoreo biológico y aprobación de plan de trabajo 2024</h3>
                                 <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     Con el fin de homologar los procesos de monitoreo biológico para la determinación de toma de datos científicos relacionados al monitoreo biológico en el país.
@@ -178,9 +178,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -283,14 +283,14 @@ get_header(); ?>
     </section>
 
     <!-- Cartita para enlaces externos de la direccion -->
-    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-2xl p-8 md:p-12 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Sigue el enlace de CHM Honduras</h2>
         <p class="text-xl mb-8">La plataforma oficial de Dirección general de Biodiversidad </p>
         <a 
             href="https://chmhonduras.org/" 
             target="_blank" 
             rel="noopener noreferrer"
-            class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+            class="inline-block px-8 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300"
         >
             ¡Haz click aquí!
         </a>
@@ -317,7 +317,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
     /* Carousel Styles */

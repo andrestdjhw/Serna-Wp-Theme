@@ -10,13 +10,13 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
             <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         Es la dirección que tiene como mandato orientar el accionar coherente del Gobierno y la Sociedad, a fin de alcanzar una elevada calidad ambiental y asegurar el uso sostenible de los recursos naturales. 
                     </p>
@@ -79,9 +79,9 @@ get_header(); ?>
             
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Vision Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#00903b]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#264da0]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#00903b] p-3 rounded-full mr-8">
+                        <div class="bg-[#264da0] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -95,9 +95,9 @@ get_header(); ?>
                 </div>
                 
                 <!-- Mission Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#5ca54c]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#263b80]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#5ca54c] p-3 rounded-full mr-8">
+                        <div class="bg-[#263b80] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
@@ -116,14 +116,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -131,7 +131,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -139,8 +139,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Logramos recuperar 2,055 toneladas de residuos valorizables gracias a las exitosas campañas de RECICLA+.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Logramos recuperar 2,055 toneladas de residuos valorizables gracias a las exitosas campañas de RECICLA+.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -157,8 +157,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitamos a 69 instituciones, incluyendo:</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Capacitamos a 69 instituciones, incluyendo:</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2025</p>
                                 <p class="text-gray-600">
                                     Policía Nacional, Fuerzas Armadas y Unidades Municipales Ambientales en temáticas cruciales como Derecho Minero, Aprovechamiento Forestal y Licenciamiento Ambiental.
                                 </p>
@@ -170,7 +170,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -178,8 +178,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se acreditaron cinco alcaldías</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Mayo 2025</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se acreditaron cinco alcaldías</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Mayo 2025</p>
                                 <p class="text-gray-600">
                                     En los temas de Gestión Forestal, Gestión Hídrica y Gestión en Residuos Sólidos, a través del Sistema Nacional de Acreditación en Gestión Ambiental Municipal (SINAGAM).
                                 </p>
@@ -190,7 +190,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -198,8 +198,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se realizó la presentación de la primera fase del Plan Maestro</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se realizó la presentación de la primera fase del Plan Maestro</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     Para la Gestión Integral de Residuos Sólidos para el Valle de Sula, en cooperación con KEITI y el Ministerio de Ambiente de la República de Corea del Sur.
                                 </p>
@@ -210,7 +210,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -218,8 +218,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Participación en la postura de región</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2025</p>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Participación en la postura de región</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2025</p>
                                 <p class="text-gray-600">
                                     En el acuerdo altamente vinculante de plástico para la elaboración del Instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, incluidos en el medio marino; París, Francia.
                                 </p>
@@ -231,7 +231,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Contact Icon Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
@@ -239,7 +239,7 @@ get_header(); ?>
                         </div>
                         
                         <!-- Contact Card Content -->
-                        <div class="bg-gradient-to-br from-[#00903b] to-[#7dbb5c] rounded-lg overflow-hidden shadow-xl">
+                        <div class="bg-gradient-to-br from-[#264da0] to-[#264da0] rounded-lg overflow-hidden shadow-xl">
                             <div class="p-8 text-white">
                                 <h3 class="text-2xl font-bold mb-6 text-center">Contáctenos</h3>
                                 
@@ -249,7 +249,7 @@ get_header(); ?>
                                     <div class="space-y-6">
                                         <!-- Phone -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                                 </svg>
@@ -262,7 +262,7 @@ get_header(); ?>
                                         
                                         <!-- Email -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                                 </svg>
@@ -275,7 +275,7 @@ get_header(); ?>
                                         
                                         <!-- Address -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -290,7 +290,7 @@ get_header(); ?>
                                         
                                         <!-- Schedule -->
                                         <div class="flex items-start space-x-4">
-                                            <div class="bg-[#ee3725] bg-opacity-20 p-2 rounded-full">
+                                            <div class="bg-[#ad8411] bg-opacity-20 p-2 rounded-full">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                 </svg>
@@ -303,7 +303,7 @@ get_header(); ?>
                                     </div>
                                     
                                     <!-- Map Container -->
-                                    <div class="bg-gradient-to-r from-[#87cede] to-blue-300  rounded-lg p-4 backdrop-blur-sm">
+                                    <div class="bg-gradient-to-r from-[#231f20] to-[#0000000]  rounded-lg p-4 backdrop-blur-sm">
                                         <h4 class="font-semibold text-white mb-4 text-center">Nuestra Ubicación</h4>
                                         <div class="bg-white rounded-lg overflow-hidden shadow-md">
                                             <!-- Google Maps Embed Frame -->
@@ -313,7 +313,7 @@ get_header(); ?>
                                         
                                         <!-- Call to Action Button -->
                                         <div class="mt-4 text-center">
-                                            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ee3725] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
+                                            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center px-4 py-2 bg-[#ad8411] bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 rounded-full text-white text-sm font-medium">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
@@ -335,9 +335,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -420,7 +420,7 @@ get_header(); ?>
 
             <!-- View More Button -->
             <!-- <div class="text-center mt-12">
-                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                <button class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#00903b] to-[#87cede] text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
                     <span>Ver Más Imágenes</span>
                     <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
@@ -431,14 +431,14 @@ get_header(); ?>
     </section>
     
     <!-- Cartita para enlaces externos de la dirección -->
-    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white text-center">
+    <div class="max-w-4xl mx-auto mt-16 mb-16 bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-2xl p-8 md:p-12 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Biblioteca Virtual DGA</h2>
         <p class="text-xl mb-8">La Biblioteca Virtual de la Dirección de Gestión Ambiental (DGA) ofrece acceso público y gratuito a una colección  de documentos, estudios y herramientas técnicas que apoyan la gestión sostenible del ambiente y la gestión integral de residuos sólidos en Honduras</p>
         <a 
             href="http://158.69.116.128:8040" 
             target="_blank" 
             rel="noopener noreferrer"
-            class="inline-block px-8 py-3 bg-white text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300"
+            class="inline-block px-8 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300"
         >
             ¡Haz click aquí!
         </a>
@@ -505,7 +505,7 @@ get_header(); ?>
         background: white;
         border-radius: 1rem;
         overflow: hidden;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 4px 6px -1px rgba(35, 31, 32, 0.1), 0 2px 4px -1px rgba(35, 31, 32, 0.06);
         transition: all 0.3s ease;
         transform: translateY(0);
     }
@@ -578,7 +578,7 @@ get_header(); ?>
         bottom: 0;
         border: 2px solid transparent;
         border-radius: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c) border-box;
+        background: linear-gradient(135deg, #00903b, #87cede) border-box;
         -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
         -webkit-mask-composite: subtract;
         mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
