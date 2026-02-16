@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Dirección General de Evaluación y Control Ambiental (DECA), es la dependencia de la Secretaria de Recursos Naturales, Ambiente, que vela por la obligatoria aplicación de la Evaluación de Impacto Ambiental para todos los proyectos o empresas con el potencial de contaminar el medio ambiente y degradar los recursos naturales. 
                     </p>
@@ -81,9 +81,9 @@ get_header(); ?>
             
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Vision Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#00903b]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#263b80]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#00903b] p-3 rounded-full mr-8">
+                        <div class="bg-[#263b80] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -97,9 +97,9 @@ get_header(); ?>
                 </div>
                 
                 <!-- Mission Card -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#5ca54c]">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-[#264da0]">
                     <div class="flex items-center mb-6">
-                        <div class="bg-[#5ca54c] p-3 rounded-full mr-8">
+                        <div class="bg-[#264da0] p-3 rounded-full mr-8">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
@@ -118,14 +118,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -133,7 +133,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -141,8 +141,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección General de Evaluación y Control Ambiental (DECA) ha trabajado para cumplir con las acciones orientadas a la Evaluación de Impacto Ambiental: </h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Dirección General de Evaluación y Control Ambiental (DECA) ha trabajado para cumplir con las acciones orientadas a la Evaluación de Impacto Ambiental: </h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2023</p>
                                 <p class="text-gray-600">
                                     A todos los proyectos, obras y/o actividades con el potencial de contaminar el medio ambiente y degradar los recursos naturales, asimismo, incluye los procedimientos para realizar las inspecciones de control y seguimiento, la presentación de ICMA´s y las renovaciónes de Licencias, así como la atención de Denuncias Ambientales y todas las actividades que se realizan en todo lo que involucra el Licenciamiento Ambiental, de esta manera se impulsa el desarrollo sostenible de nuestra Honduras, donde las actuaciones operativas de la Dirección se circunscriben al marco jurídico del ambiente del país, sus convenios y tratados internacionales, como Dirección hemos trabajado tomando como base las metas de cumplimiento del Plan Operativo Anual (POA) de la DECA.
                                 </p>
@@ -154,7 +154,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -162,8 +162,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictámenes técnicos de Auditorias de las medidas de mitigación:</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">El equipo técnico de analistas ambientales de la DECA realizaron un total de 1,556 Dictámenes técnicos de Auditorias de las medidas de mitigación:</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2023</p>
                                 <p class="text-gray-600">
                                     Brindaron atención a 150 Denuncias Ambientales las cuales se les dio seguimiento mediante análisis de información y visitas técnicas de campo para constatar cualquier daño ambiental causado por el denunciado, esto se llevó a cabo sin importar la zona geográfica cubriendo así a nivel País las inspecciones pertinentes que ameritan visita a campo.
                                 </p>
@@ -175,7 +175,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La Dirección General de Evaluación y Control Ambiental (DECA) trabaja en <strong class="text-[#00903b]">Desarrollar las capacidades en profesionales que realizan su práctica en temas de Licenciamiento y Auditoria Ambiental</strong> abriendo las puertas a estudiantes de diversas universidades a nivel nacional, en el año 2023 se capacitaron 5 profesionales por egresar de diferentes carreras del área ambiental.</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">La Dirección General de Evaluación y Control Ambiental (DECA) trabaja en <strong class="text-[#264da0]">Desarrollar las capacidades en profesionales que realizan su práctica en temas de Licenciamiento y Auditoria Ambiental</strong> abriendo las puertas a estudiantes de diversas universidades a nivel nacional, en el año 2023 se capacitaron 5 profesionales por egresar de diferentes carreras del área ambiental.</h3>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -199,8 +199,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Dirección llevo a cabo las convocatorias del taller Desafíos y Oportunidades de la Sostenibilidad del Planeta</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Dirección llevo a cabo las convocatorias del taller Desafíos y Oportunidades de la Sostenibilidad del Planeta</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Junio 2023</p>
                                 <p class="text-gray-600">
                                     Dirigido a los profesionales Prestadores de Servicios Ambientales (PSA), con el fin de de potenciar las capacidades y habilidades técnicas de los mismos y así coadyuvar esfuerzos para hacerle frente a los problemas ambientales actuales; los talleres fueron impartidos en las Ciudades de Siguatepeque, Tegucigalpa y San Pedro Sula.
                                 </p>
@@ -218,9 +218,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -309,21 +309,21 @@ get_header(); ?>
     
     <!-- Call to Action -->
     <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-        <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Material Relevante</span></h2>
+        <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Material Relevante</span></h2>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
             Encuentra información adicional con respecto al Licenciamiento Ambiental aquí.
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="#" class="px-6 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transition-colors duration-300">
+            <a href="#" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300">
                 Información Relevante para PSAs
             </a>
-            <a href="/direcciones/deca/nuevos-requisitos-slas" class="px-6 py-3 border-2 border-[#00903b] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:border-[#ee3725] hover:text-white transition-colors duration-300">
+            <a href="/direcciones/deca/nuevos-requisitos-slas" class="px-6 py-3 border-2 border-[#231f20] text-[#231f20] font-bold rounded-full hover:bg-[#231f20] hover:border-[#231f20] hover:text-white transition-colors duration-300">
                 Nuevos Requisitos SLAS
             </a>
-            <a href="/direcciones/deca/requisitos-de-renovacion-licencia-ambiental" class="px-6 py-3 border-2 border-[#87cede] text-[#00903b] font-bold rounded-full hover:bg-[#87cede] hover:text-white transition-colors duration-300">
+            <a href="/direcciones/deca/requisitos-de-renovacion-licencia-ambiental" class="px-6 py-3 border-2 border-[#ad8411] text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                 Requisitos de Renovación de Licencia Ambiental
             </a>
-            <a href="/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental" class="px-6 py-3 border-2 border-[#ee3725] text-[#00903b] font-bold rounded-full hover:bg-[#ee3725] hover:text-white transition-colors duration-300">
+            <a href="/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental" class="px-6 py-3 border-2 border-[#231f20] text-[#ad8411] font-bold rounded-full hover:bg-[#666666] hover:border-[#666666] hover:text-white transition-colors duration-300">
                 Requisitos de Constancia de No Requerir Licencia Ambiental
             </a>
         </div>
