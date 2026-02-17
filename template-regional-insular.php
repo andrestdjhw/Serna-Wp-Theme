@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Regional Insular está encargada de la jurisdicción de los cuatro municipios de Islas de la Bahía, siendo estos: Roatán, Santos Guardiola, Utila y Guanaja. La regional se encuentra ubicada en el segundo piso del Palacio Municipal de Roatán, siendo conformada únicamente por la Coordinadora Regional. 
                     </p>
@@ -68,24 +68,24 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">664</div>
-                        <div class="text-lg text-[#333333]">Niños y jóvenes capacitados sobre el Parque Nacional Marino Islas de la Bahia (PNMIB).</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">664</div>
+                        <div class="text-lg text-[#FFFFFF]">Niños y jóvenes capacitados sobre el Parque Nacional Marino Islas de la Bahia (PNMIB).</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">40+</div>
-                        <div class="text-lg text-[#333333]">SINEIAS apoyadas con informes técnicos y recomendaciones de esta regional</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">40+</div>
+                        <div class="text-lg text-[#FFFFFF]">SINEIAS apoyadas con informes técnicos y recomendaciones de esta regional</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">6</div>
-                        <div class="text-lg text-[#333333]">Monitoreo realizados en dos Zonas de Recuperación Pesquera (ZRP) en Roatán.</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">6</div>
+                        <div class="text-lg text-[#FFFFFF]">Monitoreo realizados en dos Zonas de Recuperación Pesquera (ZRP) en Roatán.</div>
                     </div>
                 </div>
             </div>
@@ -96,14 +96,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -119,8 +119,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se han realizado limpiezas en arrecifes de coral, pastos marinos, zona de manglar y playas.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Enero 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se han realizado limpiezas en arrecifes de coral, pastos marinos, zona de manglar y playas.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Enero 2023</p>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -137,8 +137,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha apoyado a la verificación de la instalación de boyas en Roatán y Guanaja.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Marzo 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se ha apoyado a la verificación de la instalación de boyas en Roatán y Guanaja.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Marzo 2023</p>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han realizado 4 monitoreo para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se han realizado 4 monitoreo para evaluar el estado actual del blanqueamiento del arrecife de coral de la zona protegida y de importancia para la vida silvestre “Banco Cordelia” en Roatán.</h3>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -171,8 +171,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se realizó el primer RECICLA+ en la isla de Guanaja con apoyo de comanejadores del Parque Marino y empresa privada.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se realizó el primer RECICLA+ en la isla de Guanaja con apoyo de comanejadores del Parque Marino y empresa privada.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Junio 2023</p>
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -188,8 +188,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han realizado dos RECICLA+ en el municipio de Roatán, ambos superando la meta establecida.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">Se han realizado dos RECICLA+ en el municipio de Roatán, ambos superando la meta establecida.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Junio 2023</p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -205,8 +205,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">La regional Roatán se ha capacitado en: “Vulnerabilidad al cambio climático con enfoque en recursos hídricos”, “Monitoreo de blanqueamiento de corales” y el “Curso de brigadas post tormenta para la atención a arrecifes en el caribe de Honduras”</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#263b80] mb-2">La regional Roatán se ha capacitado en: “Vulnerabilidad al cambio climático con enfoque en recursos hídricos”, “Monitoreo de blanqueamiento de corales” y el “Curso de brigadas post tormenta para la atención a arrecifes en el caribe de Honduras”</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Junio 2023</p>
                             </div>
                         </div>
                     </div>
@@ -220,9 +220,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -338,7 +338,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
     /* Masonry Gallery Styles */

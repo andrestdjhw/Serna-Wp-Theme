@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Oficina regional con sede en Santa Rosa de Copán atiende a los departamentos de Copán y Lempira. Como dependencia de la Dirección de Modernización y Descentralización, desempeña la labor de representar a la SERNA en su tarea de velar por la protección y buen manejo de los recursos naturales, lo que incluye acompañar procesos de gestión de territorio en armonía con el ambiente. La Región descrita incluye áreas naturales protegidas en diferentes categorías, destacando la Reserva del Hombre y la Biosfera Cacique Lempira Señor de las Montañas, por lo que es una zona donde se encuentran ciudades de creciente desarrollo población e industrial, en cercanía de áreas naturales muy biodiversas, donde el acompañamiento de la regional es clave dentro del conjunto de actores que se encarga del equilibro y sostenibilidad de los espacios naturales. 
                     </p>
@@ -68,21 +68,21 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Participación en organismos de gestión ambiental</div>                       
+                        <div class="text-2xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Participación en organismos de gestión ambiental</div>                       
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Asesoría en Licenciamiento Ambientales</div>
+                        <div class="text-2xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Asesoría en Licenciamiento Ambientales</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Seguimiento a Denuncias Ambientales</div>
+                        <div class="text-2xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Seguimiento a Denuncias Ambientales</div>
                     </div>
                 </div>
             </div>
@@ -93,14 +93,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -108,7 +108,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e inter-municipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e inter-municipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Brinda asesoría a proponentes de proyectos de inversión en cuanto licenciamiento ambiental.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Brinda asesoría a proponentes de proyectos de inversión en cuanto licenciamiento ambiental.</h3>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Realiza actividades de seguimiento a denuncias ambientales, atendiendo a la población denunciante del área urbana y rural, respetando los derechos de las comunidades.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Realiza actividades de seguimiento a denuncias ambientales, atendiendo a la población denunciante del área urbana y rural, respetando los derechos de las comunidades.</h3>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">El equipo técnico de la regional capacita y asesora a técnicos de las unidades de ambiente de los municipios del área de influencia en temas como delitos ambientales, cumplimiento de medidas ambientales, manejo de residuos sólidos, aforos de caudal hídrico, cambio climático y otros temas relacionados a las buenas prácticas ambientales.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El equipo técnico de la regional capacita y asesora a técnicos de las unidades de ambiente de los municipios del área de influencia en temas como delitos ambientales, cumplimiento de medidas ambientales, manejo de residuos sólidos, aforos de caudal hídrico, cambio climático y otros temas relacionados a las buenas prácticas ambientales.</h3>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -182,8 +182,8 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Durante 2023 por medio de charlas de sensibilización se llegó a 2,113 personas en diferentes temas como ser buenas prácticas ambientales, importancia del agua, cambio climático, delitos ambientales y licenciamiento ambiental.</h3>
-                                <p class="text-sm text-[#5ca54c] mb-3">Junio 2023</p>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Durante 2023 por medio de charlas de sensibilización se llegó a 2,113 personas en diferentes temas como ser buenas prácticas ambientales, importancia del agua, cambio climático, delitos ambientales y licenciamiento ambiental.</h3>
+                                <p class="text-sm text-[#264da0] mb-3">Junio 2023</p>
                             </div>
                         </div>
                     </div>

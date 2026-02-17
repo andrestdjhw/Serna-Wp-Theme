@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         En Regional Ocotepeque hemos realizado diferentes acciones que ayuden a sensibilizar a la población a hacer un uso racional de todos los recursos naturales, a apegarse a la ley y hacer los procedimientos correspondientes para el aprovechamiento de los mismos, fomentamos en la población el buen habito del reciclaje y sus beneficios para nuestro planeta así como la necesidad de limpiar todas esas áreas que por mucho tiempo se han ido contaminando y acumulando residuos que generan grandes problemáticas para nuestro departamento y sus pobladores. Hemos generado diversas campañas de limpieza durante el año 2023 en diferentes sectores del departamento, Ríos, Áreas protegidas, casco urbano y zonas rurales. 
                     </p>
@@ -68,24 +68,24 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">15</div>
-                        <div class="text-lg text-[#333333]">Técnicos UMA capacitados en licenciamiento ambiental</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">15</div>
+                        <div class="text-lg text-[#FFFFFF]">Técnicos UMA capacitados en licenciamiento ambiental</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">12</div>
-                        <div class="text-lg text-[#333333]">Campañas de limpieza ejecutadas</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">12</div>
+                        <div class="text-lg text-[#FFFFFF]">Campañas de limpieza ejecutadas</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">5</div>
-                        <div class="text-lg text-[#333333]">Botaderos Clandestinos Clausurados</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">5</div>
+                        <div class="text-lg text-[#FFFFFF]">Botaderos Clandestinos Clausurados</div>
                     </div>
                 </div>
             </div>
@@ -96,14 +96,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e inter-municipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">La regional participa activamente en organismos de gestión ambiental municipales e inter-municipales, comisiones de ambiente, consejos de cuenca, comités de apoyo técnico de proyectos relacionados a la protección y gestión de recursos naturales en la región.</h3>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Fortalecimiento de 15 Técnicos UMA en temática de Licenciamiento Ambiental y Uso de plataforma.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Fortalecimiento de 15 Técnicos UMA en temática de Licenciamiento Ambiental y Uso de plataforma.</h3>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Capacitación a 5 Técnicos UMA en Cambio Climático.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Capacitación a 5 Técnicos UMA en Cambio Climático.</h3>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Ejecución de la Primer Campaña de RAEE en el Valle de Sesecapa.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Ejecución de la Primer Campaña de RAEE en el Valle de Sesecapa.</h3>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Coordinaciones frecuentes con ICF para campañas de sensibilización en Temática de Aprovechamiento de los Recursos Naturales.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Coordinaciones frecuentes con ICF para campañas de sensibilización en Temática de Aprovechamiento de los Recursos Naturales.</h3>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Apoyo a COIIF Ocotepeque en combate de incendios y obras preventivas en la campaña de protección forestal 2023.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Apoyo a COIIF Ocotepeque en combate de incendios y obras preventivas en la campaña de protección forestal 2023.</h3>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">7</span>
                             </div>
                         </div>
@@ -217,7 +217,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se Capacitó a 8 técnicos UMA en temática de ODS 11 y 12.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se Capacitó a 8 técnicos UMA en temática de ODS 11 y 12.</h3>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">8</span>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Cierre de más de 5 botaderos clandestinos del departamento con fondos PPAT.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Cierre de más de 5 botaderos clandestinos del departamento con fondos PPAT.</h3>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">9</span>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Ejecución de 12 campañas de limpieza de zonas altamente contaminadas entre ellas Áreas Protegidas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Ejecución de 12 campañas de limpieza de zonas altamente contaminadas entre ellas Áreas Protegidas.</h3>
                             </div>
                         </div>
                     </div>
@@ -257,7 +257,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">10</span>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Coordinaciones con Centros Educativos y Universidad para dar charlas a los estudiantes y generación de actividades como campañas de limpieza, campaña de RAEE y Reforestaciones.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Coordinaciones con Centros Educativos y Universidad para dar charlas a los estudiantes y generación de actividades como campañas de limpieza, campaña de RAEE y Reforestaciones.</h3>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">11</span>
                             </div>
                         </div>
@@ -281,7 +281,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Asesoría a diferentes sectores productivos del departamento para generar regulación en temática de licenciamiento ambiental.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Asesoría a diferentes sectores productivos del departamento para generar regulación en temática de licenciamiento ambiental.</h3>
                             </div>
                         </div>
                     </div>
@@ -302,9 +302,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-gradient-to-r from-[#264da0] to-[#87cede] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -429,9 +429,9 @@ get_header(); ?>
 
             <!-- Call to Action -->
             <div class="text-center mt-16">
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
-                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
+                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#264da0] to-[#87cede] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#87cede] hover:to-[#264da0]">
                     <span>Contáctenos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -513,7 +513,7 @@ get_header(); ?>
     height: 100%;
     border-radius: 1.5rem;
     overflow: hidden;
-    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    background: linear-gradient(135deg, #263b80, #264da0);
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
     transform: translateY(0) scale(1);
@@ -521,7 +521,7 @@ get_header(); ?>
 
 .gallery-wrapper:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(238, 55, 37, 0.25), 0 25px 25px -5px rgba(238, 55, 37, 0.25);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -5px rgba(38, 77, 160, 0.15);
 }
 
 /* Image Container */
@@ -554,9 +554,9 @@ get_header(); ?>
     bottom: 0;
     background: linear-gradient(
         135deg,
-        rgba(238, 55, 37, 0.85) 0%,
-        rgba(255, 107, 71, 0.85) 50%,
-        rgba(255, 140, 66, 0.85) 100%
+        rgba(38, 59, 128, 0.85) 0%,
+        rgba(38, 77, 160, 0.85) 50%,
+        rgba(55, 105, 200, 0.85) 100%
     );
     opacity: 0;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);

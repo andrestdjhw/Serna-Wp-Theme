@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Regional Olancho coordina con otras instituciones como el Instituto de Conservación Forestal ICF, Unidades Municipales Ambientales UMA’s, PGR, FEMA; Secretaría de Educación (centros educativos escolares y media) para la concienciación, conservación y aprovechamiento racional de los recursos naturales. 
                     </p>
@@ -71,21 +71,21 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Mantenimiento de areas verdes</div>
+                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Mantenimiento de areas verdes</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concienciación en centros educativos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Concienciación en centros educativos</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-2xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">Concienciación sobre el manejo de los recursos</div>
+                        <div class="text-2xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Concienciación sobre el manejo de los recursos</div>
                     </div>
                 </div>
             </div>
@@ -96,14 +96,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Instalación de un vivero: se realizo con diversidad de plantas; Serna nunca había tenido su propio vivero.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Instalación de un vivero: se realizo con diversidad de plantas; Serna nunca había tenido su propio vivero.</h3>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Mantenimiento y recuperación de áreas verdes.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Mantenimiento y recuperación de áreas verdes.</h3>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Concienciación en centros educativos.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Concienciación en centros educativos.</h3>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Concienciación sobre el manejo de los recursos a niños y jóvenes.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Concienciación sobre el manejo de los recursos a niños y jóvenes.</h3>
                             </div>
                         </div>
                     </div>
@@ -193,11 +193,11 @@ get_header(); ?>
             <div class="text-center mb-16">
                 <div class="inline-block">
                     <h2 class="text-3xl md:text-5xl font-bold text-[#00903b] mb-6 relative">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] animate-gradient">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] via-[#264da0] to-[#87cede] animate-gradient">
                             Galería de Imágenes
                         </span>
                         <!-- Decorative underline -->
-                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full"></div>
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full"></div>
                     </h2>
                 </div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-8 opacity-90">
@@ -351,9 +351,9 @@ get_header(); ?>
             <!-- Enhanced CTA Button -->
             <div class="text-center mt-16">
                 <div class="inline-block relative">
-                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
+                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#263b80] via-[#264da0] to-[#264da0] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
                         <!-- Button background animation -->
-                        <div class="absolute inset-0 bg-gradient-to-r from-[#7dbb5c] via-[#5ca54c] to-[#00903b] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#263b80] via-[#264da0] to-[#264da0] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         
                         <!-- Button content -->
                         <span class="relative z-10 flex items-center">
@@ -448,7 +448,7 @@ get_header(); ?>
 
 .enhanced-gallery-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -12px rgba(0, 144, 59, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -12px rgba(38, 77, 160, 0.15);
 }
 
 .enhanced-gallery-card::before {
@@ -458,7 +458,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #00903b20, #87cede20, #7dbb5c20);
+    background: linear-gradient(135deg, #264da020, #263b8020, #3769c820);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -494,7 +494,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 144, 59, 0.85), rgba(135, 206, 222, 0.85), rgba(125, 187, 92, 0.85));
+    background: linear-gradient(135deg, rgba(38, 59, 128, 0.85), rgba(38, 77, 160, 0.85), rgba(55, 105, 200, 0.85));
     display: flex;
     align-items: center;
     justify-content: center;

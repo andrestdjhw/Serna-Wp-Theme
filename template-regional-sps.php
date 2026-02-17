@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La regional SERNA San Pedro Sula tiene el enfoque de desarrollar y coordinar actividades dentro del ámbito, ambiental para mejorar y restaurar áreas que estén en estado crítico y sobre todo optimizar el ataque al medio ambiente para una vida ambiental saludable por lo tanto la importancia de capacitar personas y estudiantes sobre diversos temas como ser: manejo de residuos sólidos educación ambiental y otro así también la participación en actividades como la inspección de campo con la dirección de DECA sumando la actividades ambientales. 
                     </p>
@@ -77,9 +77,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -186,9 +186,9 @@ get_header(); ?>
 
             <!-- Call to Action -->
             <div class="text-center mt-16">
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#263b80] to-[#87cede] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
-                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
+                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#263b80] to-[#87cede] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#87cede] hover:to-[#263b80]">
                     <span>Contáctenos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -219,10 +219,10 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
-    /* Enhanced Gallery Styles */
+/* Enhanced Gallery Styles */
 .enhanced-gallery-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -270,7 +270,7 @@ get_header(); ?>
     height: 100%;
     border-radius: 1.5rem;
     overflow: hidden;
-    background: linear-gradient(135deg, #ee3725, #e5e7eb);
+    background: linear-gradient(135deg, #263b80, #264da0);
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
     transform: translateY(0) scale(1);
@@ -278,7 +278,7 @@ get_header(); ?>
 
 .gallery-wrapper:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(238, 55, 37, 0.25), 0 25px 25px -5px rgba(238, 55, 37, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -5px rgba(38, 77, 160, 0.15);
 }
 
 /* Image Container */
@@ -311,9 +311,9 @@ get_header(); ?>
     bottom: 0;
     background: linear-gradient(
         135deg,
-        rgba(238, 55, 37, 0.85) 0%,
-        rgba(255, 107, 71, 0.85) 50%,
-        rgba(255, 140, 66, 0.85) 100%
+        rgba(38, 59, 128, 0.85) 0%,
+        rgba(38, 77, 160, 0.85) 50%,
+        rgba(55, 105, 200, 0.85) 100%
     );
     opacity: 0;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
@@ -371,6 +371,9 @@ get_header(); ?>
     opacity: 0.9;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {

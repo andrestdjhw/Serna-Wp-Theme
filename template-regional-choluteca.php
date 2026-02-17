@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         La Regional de Choluteca vela por la protección y conservación de la zona sur asimismo, fortalecer los vínculos de coordinación con los diferentes actores en la zona para poder dar respuesta a la demanda de la población. 
                     </p>
@@ -68,24 +68,24 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">49,579</div>
-                        <div class="text-lg text-[#333333]">Huevos de tortuga golfina recolectados</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">49,579</div>
+                        <div class="text-lg text-[#FFFFFF]">Huevos de tortuga golfina recolectados</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">5,000+</div>
-                        <div class="text-lg text-[#333333]">Plantas de Arboles Producidas</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">5,000+</div>
+                        <div class="text-lg text-[#FFFFFF]">Plantas de Arboles Producidas</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#e3a220] to-[#FFFFFF] animate-gradient">6,000</div>
-                        <div class="text-lg text-[#333333]">Toneladas de residuos recolectados</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">6,000</div>
+                        <div class="text-lg text-[#FFFFFF]">Toneladas de residuos recolectados</div>
                     </div>
                 </div>
             </div>
@@ -96,14 +96,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -111,7 +111,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se han desarrollado acciones para la conservación y uso sostenible de los recursos naturales y ambiente, a través de la efectiva coordinación interinstitucional, con comunidades, ONG’s, Sociedad Civil, instituciones gubernamentales y empresa privada.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se han desarrollado acciones para la conservación y uso sostenible de los recursos naturales y ambiente, a través de la efectiva coordinación interinstitucional, con comunidades, ONG’s, Sociedad Civil, instituciones gubernamentales y empresa privada.</h3>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitación a 6,137 personas en total se han sensibilizado en temática de gestión hídrica a 1739 personas especialmente niños y niñas del municipio del departamento de Choluteca, también se ha brindado asesoría técnica en cuanto a contrata de aguas y muestreos ambientales, y el levantamiento de datos hídricos para mapeo de pozos de aguas superficiales y subterráneas. Se cuenta con 5 estaciones pluviométricas las cuales generan registros de lluvias para la Dirección General de Recursos, en la temática de adaptación y mitigación de cambio climático a través de charlas a 1,370 personas del municipio de Choluteca, también el apoyo a diferentes unidades municipales ambientales para el empoderamiento de estos temas. y se ha participado en los diferentes comités de emergencias tanto municipales como departamentales para la atención ante cualquier emergencia en la zona sur, en asimismo se ha sensibilizado a 1,362 niños y jóvenes del departamento de Choluteca, con el objetivo de concienciar sobre la diversidad de flora y fauna que cuenta el sur del país y como protegerlas ya que muchas de ellas se encuentran en peligro de extinción como es el caso de la tortuga golfina y en Gestión Ambiental se han capacitado en temas de Manejo de Residuos Sólidos, establecimiento de viveros, y elaboración de abonos orgánicos a 1,666 a niños y niñas, jóvenes y a líderes comunitarios de los departamentos de Choluteca y Valle.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Capacitación a 6,137 personas en total se han sensibilizado en temática de gestión hídrica a 1739 personas especialmente niños y niñas del municipio del departamento de Choluteca, también se ha brindado asesoría técnica en cuanto a contrata de aguas y muestreos ambientales, y el levantamiento de datos hídricos para mapeo de pozos de aguas superficiales y subterráneas. Se cuenta con 5 estaciones pluviométricas las cuales generan registros de lluvias para la Dirección General de Recursos, en la temática de adaptación y mitigación de cambio climático a través de charlas a 1,370 personas del municipio de Choluteca, también el apoyo a diferentes unidades municipales ambientales para el empoderamiento de estos temas. y se ha participado en los diferentes comités de emergencias tanto municipales como departamentales para la atención ante cualquier emergencia en la zona sur, en asimismo se ha sensibilizado a 1,362 niños y jóvenes del departamento de Choluteca, con el objetivo de concienciar sobre la diversidad de flora y fauna que cuenta el sur del país y como protegerlas ya que muchas de ellas se encuentran en peligro de extinción como es el caso de la tortuga golfina y en Gestión Ambiental se han capacitado en temas de Manejo de Residuos Sólidos, establecimiento de viveros, y elaboración de abonos orgánicos a 1,666 a niños y niñas, jóvenes y a líderes comunitarios de los departamentos de Choluteca y Valle.</h3>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se ha trabajado en conjunto con la CVC-GOLF en el proyecto de conservación de Tortugas Golfinas en 5 campamentos tortugueros en el municipio de Marcovia, llegando a recolectar 49,579 huevos de tortuga golfina, también se ha participado colaborado y brindado asesoría técnica a organizaciones y proyectos manejadores de áreas protegidas con el fin de conservar los recursos naturales y ambiente. Durante el 2023 también se estableció la producción de más de 5,000 plantas de árboles maderables los cuales fueron entregados a diferentes organizaciones para apoyar en reforestación de sitios degradados de la región sur del país.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se ha trabajado en conjunto con la CVC-GOLF en el proyecto de conservación de Tortugas Golfinas en 5 campamentos tortugueros en el municipio de Marcovia, llegando a recolectar 49,579 huevos de tortuga golfina, también se ha participado colaborado y brindado asesoría técnica a organizaciones y proyectos manejadores de áreas protegidas con el fin de conservar los recursos naturales y ambiente. Durante el 2023 también se estableció la producción de más de 5,000 plantas de árboles maderables los cuales fueron entregados a diferentes organizaciones para apoyar en reforestación de sitios degradados de la región sur del país.</h3>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">4 centros educativos fortalecidos y reconocidos por sus buenas prácticas de gestión ambiental, también se ha trabajado de la mano de las Unidades Municipales Ambientales y en cumplimiento de los Objetivos de Desarrollo Sostenible 11, 12 y 14 así mismo logrando la limpieza de 10 playas u otras zonas contaminadas de la región, dos campañas de Recuperación y Valorización de Residuos RECICLA+ con la recolección de más de 6 mil toneladas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">4 centros educativos fortalecidos y reconocidos por sus buenas prácticas de gestión ambiental, también se ha trabajado de la mano de las Unidades Municipales Ambientales y en cumplimiento de los Objetivos de Desarrollo Sostenible 11, 12 y 14 así mismo logrando la limpieza de 10 playas u otras zonas contaminadas de la región, dos campañas de Recuperación y Valorización de Residuos RECICLA+ con la recolección de más de 6 mil toneladas.</h3>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha participado en el proceso de licenciamiento ambiental mediante el acompañamiento a 21 SINEIAS (Sistema Nacional de Evaluación de Impacto Ambiental) en la zona sur del país y la atención de 13 denuncias ambientales en conjunto con DECA, ICF, FISCALÍA ESPECIAL DEL MEDIO AMBIENTE PGR y otras instituciones de la región.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se ha participado en el proceso de licenciamiento ambiental mediante el acompañamiento a 21 SINEIAS (Sistema Nacional de Evaluación de Impacto Ambiental) en la zona sur del país y la atención de 13 denuncias ambientales en conjunto con DECA, ICF, FISCALÍA ESPECIAL DEL MEDIO AMBIENTE PGR y otras instituciones de la región.</h3>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#264da0] to-[#87cede] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Mediante el Centro de Estudios y Control de Contaminantes de la región sur del país se ha llevado a cabo muestreos ambientales, a solicitud de análisis de laboratorios por parte de Instituciones, para comunidades en aguas de consumo humano ubicadas en departamento de valle y Choluteca, también la atención a denuncia por contaminación.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Mediante el Centro de Estudios y Control de Contaminantes de la región sur del país se ha llevado a cabo muestreos ambientales, a solicitud de análisis de laboratorios por parte de Instituciones, para comunidades en aguas de consumo humano ubicadas en departamento de valle y Choluteca, también la atención a denuncia por contaminación.</h3>
                             </div>
                         </div>
                     </div>
@@ -222,9 +222,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imágenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#87cede]">Galería de Imágenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] mx-auto mb-6 rounded-full"></div>
+                <div class="h-1 w-24 bg-gradient-to-r from-[#263b80] to-[#263b80] mx-auto mb-6 rounded-full"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Conoce nuestras actividades y logros a través de esta colección de imágenes
                 </p>
@@ -332,9 +332,9 @@ get_header(); ?>
 
             <!-- Call to Action -->
             <div class="text-center mt-16">
-                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] rounded-full mb-6"></div>
+                <div class="inline-flex items-center justify-center w-16 h-1 bg-gradient-to-r from-[#263b80] to-[#263b80] rounded-full mb-6"></div>
                 <p class="text-gray-600 text-lg mb-8">¿Te interesa conocer más sobre nuestros proyectos?</p>
-                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#ee3725] to-[#ff6b47] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#ff6b47] hover:to-[#ee3725]">
+                <button class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#264da0] to-[#87cede] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:from-[#87cede] hover:to-[#264da0]">
                     <span>Contáctenos</span>
                     <svg class="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -368,7 +368,7 @@ get_header(); ?>
         box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
     }
 
-    /* Enhanced Gallery Styles */
+/* Enhanced Gallery Styles */
 .enhanced-gallery-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -416,7 +416,7 @@ get_header(); ?>
     height: 100%;
     border-radius: 1.5rem;
     overflow: hidden;
-    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    background: linear-gradient(135deg, #263b80, #264da0);
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
     transform: translateY(0) scale(1);
@@ -424,7 +424,7 @@ get_header(); ?>
 
 .gallery-wrapper:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(238, 55, 37, 0.25), 0 25px 25px -5px rgba(238, 55, 37, 0.25);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -5px rgba(38, 77, 160, 0.15);
 }
 
 /* Image Container */
@@ -457,9 +457,9 @@ get_header(); ?>
     bottom: 0;
     background: linear-gradient(
         135deg,
-        rgba(238, 55, 37, 0.85) 0%,
-        rgba(255, 107, 71, 0.85) 50%,
-        rgba(255, 140, 66, 0.85) 100%
+        rgba(38, 59, 128, 0.85) 0%,
+        rgba(38, 77, 160, 0.85) 50%,
+        rgba(55, 105, 200, 0.85) 100%
     );
     opacity: 0;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
