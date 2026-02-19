@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         Adaptación Basado en Ecosistemas del Corredor Boscoso Central (AdaptarC), es un proyecto del Gobierno de Honduras ejecutado por la SERNA con financiamiento del Fondo de Adaptación, quien está trabajando con tres socios implementadores: SANAA, ICF y FUNDAUNAH, de manera directa con 14 Municipalidades del Corredor Boscoso central llegando a más de 12,000 familias de manera directa e indirecta, los municipios abordados son los siguientes: Distrito Central, Santa Ana, Ojojona, Lepaterique, Villa de San Francisco, Cantarranas, Valle de Ángeles, Santa Lucia, Tatumbla, San Antonio de Oriente, San Buenaventura, Cedros, Talanga y Villa de San Antonio en Comayagua. 
                     </p>
@@ -68,11 +68,11 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Adaptación Basado en Ecosistemas del Corredor Boscoso Central </div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Adaptación Basado en Ecosistemas del Corredor Boscoso Central </div>
                     </div>
                 </div>
             </div>
@@ -83,14 +83,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -98,7 +98,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -106,7 +106,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Entrega de Kits contra Incendios (L. 2,057,005.00, beneficiando a 164,000 personas en el CBC)</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Entrega de Kits contra Incendios (L. 2,057,005.00, beneficiando a 164,000 personas en el CBC)</h3>
                                 <p class="text-gray-600">
                                     Desde el Proyecto AdaptarC+, en lineamiento con los objetivos de implementar medidas y tecnologías de adaptación basadas en ecosistemas para construir la resiliencia del CBC, y en la actualización e implementación de Planes de Protección Forestal Municipal, donde se está trabajando con comunidades locales, Pueblos Originarios, Unidades Municipales Ambientales y Oficinas Municipales de la Mujer, en el fortalecimiento de capacidades e implementación de medidas de ACC se realizó la entrega de kits contra incendios es una medida práctica y concreta para mejorar la capacidad de adaptación del Corredor Boscoso Central frente a los desafíos específicos relacionados con los incendios forestales y, en última instancia, proteger la integridad de los ecosistemas y la sostenibilidad de la región. En este sentido, se proporcionaron herramientas para actividades preventivas, como la creación de cortafuegos y la limpieza de áreas propensas a incendios, se equipó a catorce municipalidades con los recursos necesarios para responder rápidamente en caso de un incendio forestal, lo que puede ser crucial para contener y extinguir el fuego antes de que cause daños significativos y se capacitó a las comunidades locales y autoridades municipales para manejar de manera efectiva las amenazas de incendios forestales y fortalecer su capacidad de respuesta en situaciones de emergencia.
                                 </p>
@@ -118,7 +118,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Entrega Expo feria intercambio de mujeres</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Entrega Expo feria intercambio de mujeres</h3>
                                 <p class="text-gray-600">
                                     El proyecto AdaptarC en su etapa de cierre, ha apostado a los indicadores de la participación de las mujeres específicamente en las diferentes medidas de adaptación como la diversificación de medios de vida agrícola teniendo experiencias con grupos de mujeres mediante talleres de elaboración de abono orgánico y la producción de parcelas demostrativas, así como la instalación y manejo de Kits de Bio-fábricas y de Eco hornos en el Corredor Boscoso Central. La participación de las mujeres y jóvenes en el proyecto AdaptarC+ ha significado para las mujeres mejorar su entorno, sin embargo, aún se visibilizan barreras de desigualdad entre hombres y mujeres y que mediante los procesos de sensibilización podría generar un impacto positivo para seguir reduciendo las brechas existentes. A partir de eso, el Proyecto ha trabajado con las Oficinas Municipales de la Mujer de cada municipio del CBC, así como la alianza estratégica con Ciudad Mujer para generar una serie de capacitaciones en sensibilización de género en temas como, conceptualización de género, participación de la mujer en la toma de decisión, empoderamiento. además, el proyecto ha sido puente para que Ciudad mujer muestre los servicios que ofrecen como institución a los diferentes grupos de mujeres que están siendo beneficiado por el proyecto de manera directa e indirecta.
                                 </p>
@@ -138,7 +138,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">El Papel de la Mujer en el CBC</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El Papel de la Mujer en el CBC</h3>
                                 <p class="text-gray-600">
                                     El Proyecto AdaptarC+ se ha destacado por el compromiso de colaborar con grupos mixtos y de mujeres, principalmente conformados por la comunidad Lencas y asociados a organizaciones de bases. A partir del año 2022 y en el transcurso del año 2023, las mujeres continuaron siendo las principales beneficiarias del Proyecto AdaptarC+, superando la cuota establecida en el PRODOC y manteniendo la tendencia del año anterior. Según estadísticas, el 69% de las acciones realizadas por el proyecto se destinan a mujeres, mientras que el 31% se asigna a hombres. El proyecto ha incorporado medidas para promover un enfoque inclusivo, facilitando la participación de las mujeres en la toma de decisiones y la implementación de proyectos comunitarios.
                                 </p>
@@ -160,7 +160,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Implementación de medidas y tecnologías como medida de Adaptación al cambio climático, a través de sistemas de riego.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Implementación de medidas y tecnologías como medida de Adaptación al cambio climático, a través de sistemas de riego.</h3>
                                 <p class="text-gray-600">
                                     La incorporación de XXXX sistemas de riego en parcelas demostrativas y huertos escolares destinadas al cultivo de hortalizas, frutas, verduras y granos básicos es considerada una medida de adaptación climática, este enfoque responde directamente a las variaciones en los patrones de lluvia y temperaturas inducidas por el cambio climático, lo que ha afectado de manera negativa la disponibilidad de agua para la agricultura. Más allá de fortalecer la resiliencia agrícola, la implementación de estos sistemas de riego contribuye significativamente a que las comunidades productoras se vuelvan más resistentes ante las fluctuaciones climáticas, al asegurar un suministro constante de agua para los cultivos, se reduce significativamente el riesgo de pérdidas ocasionadas por condiciones climáticas adversas. En este sentido, las parcelas demostrativas no solo cumplen una función práctica, sino que también sirven como modelos ejemplares para otras comunidades agrícolas que buscan adaptarse a las cambiantes condiciones climáticas. Además, es importante destacar que la implementación de estos sistemas de riego ha sido respaldada por una serie continua de talleres y capacitaciones a través de escuelas de campo, estos programas formativos, que incluyen la implementación de 12 módulos, han desempeñado un papel clave en el logro de un desarrollo exitoso y claro.
                                 </p>
@@ -179,7 +179,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Conservación forestal (6), Villa de San Antonio, Cantarranas, San Antonio de Oriente, Villa de San Francisco, Santa Ana y COEAS (L.1,300,000.00)</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Conservación forestal (6), Villa de San Antonio, Cantarranas, San Antonio de Oriente, Villa de San Francisco, Santa Ana y COEAS (L.1,300,000.00)</h3>
                                 <p class="text-gray-600">
                                     El proyecto AdaptarC en su etapa de cierre, ha apostado a los indicadores de la participación de las mujeres específicamente en las diferentes medidas de adaptación como la diversificación de medios de vida agrícola teniendo experiencias con grupos de mujeres mediante talleres de elaboración de abono orgánico y la producción de parcelas demostrativas, así como la instalación y manejo de Kits de Bio-fábricas y de Eco hornos en el Corredor Boscoso Central. La participación de las mujeres y jóvenes en el proyecto AdaptarC+ ha significado para las mujeres mejorar su entorno, sin embargo, aún se visibilizan barreras de desigualdad entre hombres y mujeres y que mediante los procesos de sensibilización podría generar un impacto positivo para seguir reduciendo las brechas existentes. A partir de eso, el Proyecto ha trabajado con las Oficinas Municipales de la Mujer de cada municipio del CBC, así como la alianza estratégica con Ciudad Mujer para generar una serie de capacitaciones en sensibilización de género en temas como, conceptualización de género, participación de la mujer en la toma de decisión, empoderamiento. además, el proyecto ha sido puente para que Ciudad mujer muestre los servicios que ofrecen como institución a los diferentes grupos de mujeres que están siendo beneficiado por el proyecto de manera directa e indirecta.
                                 </p>
@@ -198,7 +198,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -206,7 +206,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Implementación de proyectos ejecutados por la comunidad bajo la modalidad PEC en el uso de medidas y tecnologías para mejorar el acceso al agua para consumo humano.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Implementación de proyectos ejecutados por la comunidad bajo la modalidad PEC en el uso de medidas y tecnologías para mejorar el acceso al agua para consumo humano.</h3>
                                 <p class="text-gray-600">
                                     En el marco del proyecto se implementaron medidas de adaptación climática, específicamente a través de proyectos ejecutados por la comunidad bajo la metodología (PEC), la cual consiste en la ejecución directa a través del manejo presupuestario de la administración de junta de agua de las comunidades para la compra de herramientas e insumos, esto con el objetivo de mejorar el acceso al agua en diferentes comunidades del Corredor Boscoso Central. Un ejemplo de lo anterior es la construcción de tres tanques para almacenamiento de agua con su respectivo hipo-clorador:
                                 </p>
@@ -232,11 +232,11 @@ get_header(); ?>
             <div class="text-center mb-16">
                 <div class="inline-block">
                     <h2 class="text-3xl md:text-5xl font-bold text-[#00903b] mb-6 relative">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] animate-gradient">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] via-[#263b80] to-[#87cede] animate-gradient">
                             Galería de Imágenes
                         </span>
                         <!-- Decorative underline -->
-                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full"></div>
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full"></div>
                     </h2>
                 </div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-8 opacity-90">
@@ -410,9 +410,9 @@ get_header(); ?>
             <!-- Enhanced CTA Button -->
             <div class="text-center mt-16">
                 <div class="inline-block relative">
-                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
+                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#263b80] via-[#264da0] to-[#264da0] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
                         <!-- Button background animation -->
-                        <div class="absolute inset-0 bg-gradient-to-r from-[#7dbb5c] via-[#5ca54c] to-[#00903b] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#87cede] via-[#264da0] to-[#263b80] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         
                         <!-- Button content -->
                         <span class="relative z-10 flex items-center">
@@ -431,7 +431,7 @@ get_header(); ?>
                     
                     <!-- Floating particles around button -->
                     <div class="absolute -top-2 -left-2 w-4 h-4 bg-[#87cede] rounded-full opacity-60 animate-ping"></div>
-                    <div class="absolute -bottom-2 -right-2 w-3 h-3 bg-[#7dbb5c] rounded-full opacity-60 animate-ping" style="animation-delay: 1s;"></div>
+                    <div class="absolute -bottom-2 -right-2 w-3 h-3 bg-[#263b80] rounded-full opacity-60 animate-ping" style="animation-delay: 1s;"></div>
                 </div>
             </div>
         </div>
@@ -458,7 +458,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
 /* Enhanced Gallery Styles */
@@ -507,7 +507,7 @@ get_header(); ?>
 
 .enhanced-gallery-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -12px rgba(0, 144, 59, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -12px rgba(38, 77, 160, 0.15);
 }
 
 .enhanced-gallery-card::before {
@@ -517,7 +517,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #00903b20, #87cede20, #7dbb5c20);
+    background: linear-gradient(135deg, #264da020, #263b8020, #3769c820);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -553,7 +553,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 144, 59, 0.85), rgba(135, 206, 222, 0.85), rgba(125, 187, 92, 0.85));
+    background: linear-gradient(135deg, rgba(38, 59, 128, 0.85), rgba(38, 77, 160, 0.85), rgba(55, 105, 200, 0.85));
     display: flex;
     align-items: center;
     justify-content: center;

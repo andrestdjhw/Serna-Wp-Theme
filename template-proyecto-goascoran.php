@@ -10,13 +10,13 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#666666] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -29,12 +29,12 @@ get_header(); ?>
                     Proyecto Binacional Cuenca Goascorán
                 </h1>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="https://ee.kobotoolbox.org/x/2DZJoJvP" target="_blank" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#ee3725] hover:text-white hover:border-[#ee3725] transition-colors duration-300">
+                    <a href="https://ee.kobotoolbox.org/x/2DZJoJvP" target="_blank" class="px-6 py-3 border-2 border-[#FFFFFF] text-[#FFFFFF] font-bold rounded-full hover:bg-[#ad8411] hover:text-white hover:border-[#ad8411] transition-colors duration-300">
                         ¡Ponte en contacto con nosotros!
                     </a>
                 </div>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -55,11 +55,11 @@ get_header(); ?>
                     <!-- Contenido de texto -->
                     <div class="lg:w-3/5 mb-8 lg:mb-0">
                         <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">
                                 Sobre Nosotros
                             </span>
                         </h2>
-                        <div class="h-1 w-20 bg-[#87cede] mb-6"></div>
+                        <div class="h-1 w-110 bg-[#ad8411] mb-6"></div>
                         
                         <!-- Texto inicial siempre visible -->
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -78,7 +78,7 @@ get_header(); ?>
                         <!-- Botón Leer más/menos -->
                         <button 
                             id="toggle-btn" 
-                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
                             onclick="toggleContent()"
                         >
                             <span id="btn-text">Leer más</span>
@@ -92,7 +92,7 @@ get_header(); ?>
                     <div class="lg:w-2/5">
                         <div class="relative group">
                             <!-- Contenedor con efecto de hover mejorado -->
-                            <div class="bg-gradient-to-br from-[#87cede] via-cyan-400 to-cyan-600 rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                            <div class="bg-gradient-to-br from-[#231f20] via-[#666666] to-[#ad8411] rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
                                 <div class="bg-white rounded-xl overflow-hidden">
                                     <img 
                                         src="/wp-content/uploads/2025/12/PortadaProyectoGoascoran-scaled.jpg" 
@@ -113,11 +113,11 @@ get_header(); ?>
                         
                         <!-- Estadísticas destacadas -->
                         <div class="mt-6 grid grid-cols-2 gap-4">
-                            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">36</div>
                                 <div class="text-sm opacity-90">Subcuencas</div>
                             </div>
-                            <div class="bg-gradient-to-r from-[#87cede] to-cyan-500 rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#231f20] to-[#666666] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">29</div>
                                 <div class="text-sm opacity-90">Municipios</div>
                             </div>
@@ -131,29 +131,29 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">245,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">245,000</div>
                         <div class="text-lg">Beneficiarios Indirectos.</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">6,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">6,000</div>
                         <div class="text-lg">Beneficiarios Directos.</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">51%</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">51%</div>
                         <div class="text-lg">De los Beneficiarios Directos son mujeres.</div>
                     </div>
 
                     <!-- Stat 4 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">70%</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">70%</div>
                         <div class="text-lg">De los Beneficiarios Directos en Honduras, se identifican como pueblos originarios.</div>
                     </div>
                 </div>
@@ -165,14 +165,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes del Proyecto en Honduras</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes del Proyecto en Honduras</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -180,7 +180,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se han seleccionado 3.300 hogares para beneficiarse del proyecto</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se han seleccionado 3.300 hogares para beneficiarse del proyecto</h3>
                                 <p class="text-gray-600">Con tasas de participación de  51% para las mujeres, 70% para grupos indígenas y la participación de los jóvenes es de 14%, superado las metas para el proyecto.</p>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -206,7 +206,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se tiene una evaluación diagnóstica de las estaciones en la cuenca del río Goascorán</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se tiene una evaluación diagnóstica de las estaciones en la cuenca del río Goascorán</h3>
                                 <p class="text-gray-600">Se identificó 11 estaciones hidrológicas, meteorológicas y pluviométricas operativas, junto con siete sitios potenciales para nuevas estaciones meteorológicas.</p>
                             </div>
                         </div>
@@ -216,7 +216,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -224,7 +224,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Se han establecido alianzas estratégicas con actores gubernamentales, comunitarios y organizaciones clave para fortalecer la adaptación climática en la cuenca.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se han establecido alianzas estratégicas con actores gubernamentales, comunitarios y organizaciones clave para fortalecer la adaptación climática en la cuenca.</h3>
                                 <p class="text-gray-600">Entre ellas, la DGRH, que lidera la implementación de planes de adaptación en las 12 microcuencas; el ICF, que trabaja en procesos de formación orientados a la prevención de incendios forestales; y CENAOS/COPECO, socio estratégico para mejorar el acceso a información climática y meteorológica.</p>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">A nivel comunitario, el Consejo de Cuenca integrará las necesidades de adaptación.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">A nivel comunitario, el Consejo de Cuenca integrará las necesidades de adaptación.</h3>
                                 <p class="text-gray-600">En los planes de desarrollo local, impulsará procesos de formación y elaborará un manual de adaptación. Asimismo, ADEPES desarrolla una planificación detallada para fortalecer el acceso a mecanismos de transferencia de riesgos, como seguros, dirigidos a pequeños agricultores y comunidades. Finalmente, el Programa Mundial de Alimentos (WFP) ha diseñado una estrategia basada en un diagnóstico sobre seguros paramétricos, definiendo la ruta para beneficiar aproximadamente a 3,300 personas del proyecto, brindando además acompañamiento, formación y seguimiento (comenzará en 2026).</p>
                             </div>
                         </div>
@@ -257,12 +257,12 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Section Header -->
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#264da0] mb-6">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">
                         Galería de Actividades
                     </span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     Conoce las principales actividades y logros del Proyecto Goascorán en Honduras
                 </p>
@@ -404,7 +404,7 @@ get_header(); ?>
         <section class="mb-20">
             <div class="relative overflow-hidden rounded-lg">
                 <!-- Fondo Gradiente -->
-                <div class="absolute inset-0 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Elementos decorativos -->
                 <div class="absolute inset-0 opacity-20">
@@ -428,13 +428,13 @@ get_header(); ?>
                         <!-- Botones CTA -->
                         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                             <a href="https://www.adaptation-fund.org/project/strengthening-the-adaptive-capacities-of-climate-vulnerable-communities-in-the-goascoran-watershed-of-el-salvador-and-honduras-through-integrated-community-based-adaptation-practices-and-services/" target="_blank" 
-                               class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-full hover:bg-gray-100 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl">
+                               class="inline-flex items-center px-8 py-4 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#231f20 ] transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl">
                                 <i class="fas fa-external-link-alt mr-3"></i>
                                 Mas información
                             </a>
                             
                             <a href="#" 
-                               class="inline-flex items-center px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#00903b] transform hover:-translate-y-1 transition-all duration-300">
+                               class="inline-flex items-center px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:border-[#231f20] hover:text-[#FFFFFF] transform hover:-translate-y-1 transition-all duration-300">
                                 <i class="fas fa-file-download mr-3"></i>
                                 Descargar Guía
                             </a>
@@ -749,14 +749,14 @@ button:focus {
                 btnText.textContent = 'Leer menos';
                 arrowIcon.style.transform = 'rotate(180deg)';
                 button.classList.add('bg-gradient-to-r', 'from-[#87cede]', 'to-cyan-500');
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
             } else {
                 // Contraer
                 content.style.maxHeight = '0px';
                 btnText.textContent = 'Leer más';
                 arrowIcon.style.transform = 'rotate(0deg)';
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
-                button.classList.add('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
+                button.classList.add('from-[#264da0]', 'to-[#7dbb5c]');
             }
     }
 </script>

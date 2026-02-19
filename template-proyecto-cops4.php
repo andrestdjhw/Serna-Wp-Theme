@@ -10,13 +10,13 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#666666] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Sobre Nosotros</span></h2>
-                    <div class="h-1 w-20 bg-[#87cede] mb-8"></div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         Reducir los impactos globales a la salud y del ambiente en Honduras eliminando existencias de Contaminantes orgánicos persistentes COPs (plaguicidas obsoletos, PCBs y COPs no intencionales, en cumplimiento del Convenio de Estocolmo. 
                     </p>
@@ -71,11 +71,11 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reducción de los Riesgos Asociados con su Disposición Final</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Gestión Ambientalmente Relacional de los Productos y Desechos que contienen COPs y reducción de los Riesgos Asociados con su Disposición Final</div>
                     </div>
                 </div>
             </div>
@@ -86,14 +86,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#263b80]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -101,7 +101,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Desarrollar las capacidades institucionales y fortalecer el marco regulador y político para abordar situaciones de COPs emergentes.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Desarrollar las capacidades institucionales y fortalecer el marco regulador y político para abordar situaciones de COPs emergentes.</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>Fortalecimiento de las capacidades al Departamento de Gestión de productos Químicos del CESCCO con personal técnico (2)</li>
@@ -126,7 +126,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Gestión de COPs intencionales (Plaguicidas y químicos industriales</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Gestión de COPs intencionales (Plaguicidas y químicos industriales)</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>Prueba Industrial Científica (PIC) para el co-procesamiento de aceites dieléctricos con PCBs, realizada con éxito en marzo de 2023.</li>
@@ -155,7 +155,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Gestión de COPs no intencionales</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Gestión de COPs no intencionales</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>Elaboración de TdR para el Estudio de Factibilidad Técnico y Económico para una Estación de Separación de Residuos Sólidos Urbanos en Comayagua y Tegucigalpa M.D.C.</li>
@@ -185,7 +185,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Aumentar la conciencia, capturar lecciones aprendidas, diseminar experiencias, monitorear el progreso del proyecto, y proveer retroalimentación adaptativa y evaluación.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Aumentar la conciencia, capturar lecciones aprendidas, diseminar experiencias, monitorear el progreso del proyecto, y proveer retroalimentación adaptativa y evaluación.</h3>
                                 <p class="text-gray-600">
                                     <ul class="list-disc">
                                         <li>En alianza con la Secretaría de Educación se capacitaron en el uso de la guía metodológica sobre gestión de químicos (ed. 2020) un total 824 docentes de Educación Básica y Media (71% mujeres y 29% hombres) de los 18 departamentos del país (2021-2023).</li>
@@ -216,9 +216,9 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Galería de Imagenes</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Galería de Imagenes</span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <!-- <p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Descubre nuestras iniciativas y proyectos en la gestión sostenible de los recursos hídricos de Honduras
                 </p> -->
@@ -311,10 +311,10 @@ get_header(); ?>
 
                 <!-- Dots Navigation -->
                 <div class="flex justify-center mt-8 space-x-3">
-                    <button class="carousel-dot w-3 h-3 rounded-full bg-[#00903b] transition-all duration-300" onclick="goToSlide(0)"></button>
-                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(1)"></button>
-                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(2)"></button>
-                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#5ca54c] transition-all duration-300" onclick="goToSlide(3)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-[#263b80] transition-all duration-300" onclick="goToSlide(0)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#263b80] transition-all duration-300" onclick="goToSlide(1)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#263b80] transition-all duration-300" onclick="goToSlide(2)"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-[#263b80] transition-all duration-300" onclick="goToSlide(3)"></button>
                 </div>
             </div>
         </div>
@@ -364,7 +364,7 @@ get_header(); ?>
     }
 
     .carousel-dot.active {
-        background-color: #00903b !important;
+        background-color: #263b80 !important;
         transform: scale(1.2);
     }
 

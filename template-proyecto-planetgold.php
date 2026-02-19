@@ -10,13 +10,13 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#666666] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -53,11 +53,11 @@ get_header(); ?>
                     <!-- Contenido de texto -->
                     <div class="lg:w-3/5 mb-8 lg:mb-0">
                         <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">
                                 Sobre Nosotros
                             </span>
                         </h2>
-                        <div class="h-1 w-20 bg-[#87cede] mb-6"></div>
+                        <div class="h-1 w-110 bg-[#ad8411] mb-6"></div>
                         
                         <!-- Texto inicial siempre visible -->
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -76,7 +76,7 @@ get_header(); ?>
                         <!-- Botón Leer más/menos -->
                         <button 
                             id="toggle-btn" 
-                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
                             onclick="toggleContent()"
                         >
                             <span id="btn-text">Leer más</span>
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="lg:w-2/5">
                         <div class="relative group">
                             <!-- Contenedor con efecto de hover mejorado -->
-                            <div class="bg-gradient-to-br from-[#87cede] via-cyan-400 to-cyan-600 rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                            <div class="bg-gradient-to-br from-[#231f20] via-[#666666] to-[#ad8411] rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
                                 <div class="bg-white rounded-xl overflow-hidden">
                                     <img 
                                         src="/wp-content/uploads/2025/07/PlanetGoldBanner.jpeg" 
@@ -111,11 +111,11 @@ get_header(); ?>
                         
                         <!-- Estadísticas destacadas -->
                         <div class="mt-6 grid grid-cols-2 gap-4">
-                            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">3,000</div>
                                 <div class="text-sm opacity-90">Población minera</div>
                             </div>
-                            <div class="bg-gradient-to-r from-[#87cede] to-cyan-500 rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#231f20] to-[#666666] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">620+</div>
                                 <div class="text-sm opacity-90">Comunidades</div>
                             </div>
@@ -129,29 +129,29 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">9</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">9</div>
                         <div class="text-lg">Toneladas de mercurio utilizadas al año en la MAPE.</div>
                     </div>
                     
                     <!-- Stat 2 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">3,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">3,000</div>
                         <div class="text-lg">Mineros de la MAPE.</div>
                     </div>
                     
                     <!-- Stat 3 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">17,000</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">17,000</div>
                         <div class="text-lg">Personas indirectamente involucradas en la MAPE.</div>
                     </div>
 
                     <!-- Stat 4 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">622</div>
+                        <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">622</div>
                         <div class="text-lg">Comunidades donde se lleva a cabo la MAPE.</div>
                     </div>
                 </div>
@@ -163,14 +163,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -178,7 +178,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Levantamiento de tres censos de túneles de explotación minera</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Levantamiento de tres censos de túneles de explotación minera</h3>
                                 <p class="text-gray-600">Desarrollados en los municipios de Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso).</p>
                             </div>
                         </div>
@@ -196,7 +196,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Desarrollo de tres censos de población minera</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Desarrollo de tres censos de población minera</h3>
                                 <p class="text-gray-600">Llevados a cabo en Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso), con el apoyo de las Alcaldías Municipales.</p>
                             </div>
                         </div>
@@ -214,7 +214,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Delimitación de tres áreas de minería artesanal metálica</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Delimitación de tres áreas de minería artesanal metálica</h3>
                                 <p class="text-gray-600">Por parte del INHGEOMIN, a favor de las alcaldías municipales de Quimistán y Macuelizo (Santa Bárbara), y Danlí (El Paraíso).</p>
                             </div>
                         </div>
@@ -231,7 +231,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -239,7 +239,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Desarrollo de un taller sobre Mejores Prácticas Ambientales (MPA) y Mejores Técnicas Disponibles (MTD)</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Desarrollo de un taller sobre Mejores Prácticas Ambientales (MPA) y Mejores Técnicas Disponibles (MTD)</h3>
                                 <p class="text-gray-600">Enfocado en el beneficiado de broza y relaves mineros, dirigido a la Alcaldía Municipal y población minera de Quimistán, Santa Bárbara, llevado a cabo de manera conjunta con el INHGEOMIN.</p>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -256,7 +256,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Conformación de la primera cooperativa minera en Honduras</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Conformación de la primera cooperativa minera en Honduras</h3>
                                 <p class="text-gray-600">Ubicada en la comunidad de Agua Fría Mineral, en Danlí (El Paraíso), bajo el nombre de Cooperativa Mixta “Minera Comunitaria Casa Blanca” Limitada, facilitada por la Confederación Hondureña de Cooperativas.</p>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -273,7 +273,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Conformación de la segunda pre-cooperativa minera</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Conformación de la segunda pre-cooperativa minera</h3>
                                 <p class="text-gray-600">En Quimistán (Santa Bárbara), denominada Cooperativa Mixta “Los Túneles de las Minas” Limitada, también impulsada por la Confederación Hondureña de Cooperativas.</p>
                             </div>
                         </div>
@@ -282,7 +282,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">7</span>
                             </div>
                         </div>
@@ -290,7 +290,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Organización de un grupo de mujeres mineras aluviales</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Organización de un grupo de mujeres mineras aluviales</h3>
                                 <p class="text-gray-600">En el municipio de Iriona, departamento de Colón.</p>
                             </div>
                         </div>
@@ -299,7 +299,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">8</span>
                             </div>
                         </div>
@@ -307,7 +307,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Capacitación sobre el Convenio de Minamata sobre el Mercurio</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Capacitación sobre el Convenio de Minamata sobre el Mercurio</h3>
                                 <p class="text-gray-600">A ser impartida a la Unidad de Minería Artesanal y en Pequeña Escala del INHGEOMIN.</p>
                             </div>
                         </div>
@@ -323,11 +323,11 @@ get_header(); ?>
             <!-- Section Header -->
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">
                         Galería de Actividades
                     </span>
                 </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-8 rounded-full"></div>
+                <div class="h-1 w-24 bg-[#263b80] mx-auto mb-8 rounded-full"></div>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     Conoce las principales actividades y logros del Proyecto PlanetGold en Honduras
                 </p>
@@ -506,7 +506,7 @@ get_header(); ?>
 
             <!-- CTA Section -->
             <div class="text-center mt-8">
-                <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 shadow-2xl">
+                <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 shadow-2xl">
                     <div class="max-w-3xl mx-auto">
                         <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
                             ¿Necesitas reportar alguna situación?
@@ -514,7 +514,7 @@ get_header(); ?>
                         <p class="text-xl text-white opacity-90 mb-8">
                             Tu voz es importante para el desarrollo responsable de la minería en Honduras
                         </p>
-                        <a href="/denuncias-planetgold" class="inline-flex items-center px-8 py-4 bg-white text-[#00903b] font-bold rounded-xl hover:bg-[#87cede] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                        <a href="/denuncias-planetgold" class="inline-flex items-center px-8 py-4 bg-white text-[#231f20] font-bold rounded-xl hover:bg-[#ad8411] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
                             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
                             </svg>
@@ -831,14 +831,14 @@ button:focus {
                 btnText.textContent = 'Leer menos';
                 arrowIcon.style.transform = 'rotate(180deg)';
                 button.classList.add('bg-gradient-to-r', 'from-[#87cede]', 'to-cyan-500');
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
             } else {
                 // Contraer
                 content.style.maxHeight = '0px';
                 btnText.textContent = 'Leer más';
                 arrowIcon.style.transform = 'rotate(0deg)';
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
-                button.classList.add('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
+                button.classList.add('from-[#264da0]', 'to-[#7dbb5c]');
             }
     }
 </script>

@@ -10,13 +10,13 @@ get_header(); ?>
     <!-- hero section  -->
     <section class="relative py-24 overflow-hidden">
         <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#666666] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -32,7 +32,7 @@ get_header(); ?>
                     
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -53,11 +53,11 @@ get_header(); ?>
                     <!-- Contenido de texto -->
                     <div class="lg:w-3/5 mb-8 lg:mb-0">
                         <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">
                                 Sobre Nosotros
                             </span>
                         </h2>
-                        <div class="h-1 w-20 bg-[#87cede] mb-6"></div>
+                        <div class="h-1 w-110 bg-[#ad8411] mb-6"></div>
                         
                         <!-- Texto inicial siempre visible -->
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -76,7 +76,7 @@ get_header(); ?>
                         <!-- Botón Leer más/menos -->
                         <button 
                             id="toggle-btn" 
-                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#00903b] to-[#7dbb5c] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
+                            class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 group"
                             onclick="toggleContent()"
                         >
                             <span id="btn-text">Leer más</span>
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="lg:w-2/5">
                         <div class="relative group">
                             <!-- Contenedor con efecto de hover mejorado -->
-                            <div class="bg-gradient-to-br from-[#87cede] via-cyan-400 to-cyan-600 rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                            <div class="bg-gradient-to-br from-[#231f20] via-[#666666] to-[#ad8411] rounded-2xl p-1 shadow-2xl transform hover:scale-105 transition-all duration-300">
                                 <div class="bg-white rounded-xl overflow-hidden">
                                     <img 
                                         src="/wp-content/uploads/2025/08/ConectaBanner2.jpg" 
@@ -111,11 +111,11 @@ get_header(); ?>
                         
                         <!-- Estadísticas destacadas -->
                         <div class="mt-6 grid grid-cols-2 gap-4">
-                            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">3,000</div>
                                 <div class="text-sm opacity-90">Productores de Cafe</div>
                             </div>
-                            <div class="bg-gradient-to-r from-[#87cede] to-cyan-500 rounded-lg p-4 text-white text-center">
+                            <div class="bg-gradient-to-r from-[#231f20] to-[#666666] rounded-lg p-4 text-white text-center">
                                 <div class="text-2xl font-bold">5</div>
                                 <div class="text-sm opacity-90">Planes de Acción</div>
                             </div>
@@ -129,11 +129,11 @@ get_header(); ?>
     <!-- Stats Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-[#00903b] to-[#7dbb5c] rounded-2xl p-8 md:p-12 text-white">
+            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 text-white">
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-6 text-center">
                     <!-- Stat 1 -->
                     <div class="p-4">
-                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-[#FFFFFF] animate-gradient">Paisajes agro-forestales y manejo forestal sostenible que generen beneficios ambientales y económicos a nivel global y local (Conecta+).</div>
+                        <div class="text-4xl font-bold mb-2 text-[#e3a220] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient">Paisajes agro-forestales y manejo forestal sostenible que generen beneficios ambientales y económicos a nivel global y local (Conecta+).</div>
                     </div>
                 </div>
             </div>
@@ -144,14 +144,14 @@ get_header(); ?>
     <section class="py-16 bg-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-2">
-                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Logros Recientes</span></h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mt-2 mb-12 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Logros Recientes</span></h2>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto mt-2 mb-12 rounded-full"></div>
             </div>
             
             <!-- Timeline Container -->
             <div class="relative">
                 <!-- Vertical Line -->
-                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+                <div class="absolute left-8 md:left-11 top-0 bottom-0 w-1 bg-gradient-to-b from-[#263b80] via-[#264da0] to-[#264da0]"></div>
                 
                 <!-- Timeline Items Container -->
                 <div class="space-y-12">
@@ -159,7 +159,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">1</span>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">El proyecto ha beneficiado directamente y fortalecido capacidades, mejorando los medios de vida de 16,103 personas, de las cuales 11,184 (69.4 %) son hombres y 4,919 (30.6%) son mujeres.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El proyecto ha beneficiado directamente y fortalecido capacidades, mejorando los medios de vida de 16,103 personas, de las cuales 11,184 (69.4 %) son hombres y 4,919 (30.6%) son mujeres.</h3>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">2</span>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El proyecto ha beneficiado directamente y fortalecido capacidades, mejorando los medios de vida de 16,103 personas, de las cuales 11,184 (69.4 %) son hombres y 4,919 (30.6%) son mujeres.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El proyecto ha beneficiado directamente y fortalecido capacidades, mejorando los medios de vida de 16,103 personas, de las cuales 11,184 (69.4 %) son hombres y 4,919 (30.6%) son mujeres.</h3>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">3</span>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">El proyecto Conecta+ atiende a 3 000 productores en la cadena de valor de café, de los cuales 2434 (81.1%) son hombres y 566 (18.9%) son mujeres. Las asistencias técnicas brindadas propician la inter-conectividad biológica a partir de la reconversion de fincas convencionales a paisajes productivos ambientalmente sostenibles mediante el establecimiento de sistemas agro-forestales (Herramientas de Manejo de Paisajes).</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El proyecto Conecta+ atiende a 3 000 productores en la cadena de valor de café, de los cuales 2434 (81.1%) son hombres y 566 (18.9%) son mujeres. Las asistencias técnicas brindadas propician la inter-conectividad biológica a partir de la reconversion de fincas convencionales a paisajes productivos ambientalmente sostenibles mediante el establecimiento de sistemas agro-forestales (Herramientas de Manejo de Paisajes).</h3>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">4</span>
                             </div>
                         </div>
@@ -217,7 +217,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">El proyecto ha logrado la reconversion de 10,263.92 ha de fincas de convencionales de café a SAF que implementan HMP y 629.14 ha en sistemas agro-forestales de cacao.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El proyecto ha logrado la reconversion de 10,263.92 ha de fincas de convencionales de café a SAF que implementan HMP y 629.14 ha en sistemas agro-forestales de cacao.</h3>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">5</span>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">El proyecto ha realizado entrega de 1,366,756 plantas (frutales y maderables) producidas en 101 viveros permanentes y temporales, ubicados en zonas públicas/comunitarias y privadas. Esta cantidad de plantas ha beneficiado a más de 3.000 productores de café y se han restaurado alrededor de 10,263.92 hectáreas de fincas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">El proyecto ha realizado entrega de 1,366,756 plantas (frutales y maderables) producidas en 101 viveros permanentes y temporales, ubicados en zonas públicas/comunitarias y privadas. Esta cantidad de plantas ha beneficiado a más de 3.000 productores de café y se han restaurado alrededor de 10,263.92 hectáreas de fincas.</h3>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">6</span>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">En el sur-occidente de Honduras se ha generado beneficios directos a 350 productores de cacao a través de asistencias técnicas y financieras, de los cuales 273 (78%) son hombres y 77 (22%) son mujeres. Esto a permitiendo la dinamización de paisajes productivos convencionales a sistemas agro-forestales, de tal manera que estas áreas productivas, tengan las condiciones idóneas que favorezcan la inter-conectividad de especies.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">En el sur-occidente de Honduras se ha generado beneficios directos a 350 productores de cacao a través de asistencias técnicas y financieras, de los cuales 273 (78%) son hombres y 77 (22%) son mujeres. Esto a permitiendo la dinamización de paisajes productivos convencionales a sistemas agro-forestales, de tal manera que estas áreas productivas, tengan las condiciones idóneas que favorezcan la inter-conectividad de especies.</h3>
                             </div>
                         </div>
                     </div>
@@ -257,7 +257,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">7</span>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se conformaron tres COIIF para las oficinas locales del ICF en Marcala, Ocotepeque y la Oficina Regional en Comayagua, con el objetivo de abordar la prevención y el control de los incendios forestales.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se conformaron tres COIIF para las oficinas locales del ICF en Marcala, Ocotepeque y la Oficina Regional en Comayagua, con el objetivo de abordar la prevención y el control de los incendios forestales.</h3>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">8</span>
                             </div>
                         </div>
@@ -281,7 +281,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se han logrado 27 declaraciones de zonas de protección forestal para micro-cuencas abastecedoras de agua.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se han logrado 27 declaraciones de zonas de protección forestal para micro-cuencas abastecedoras de agua.</h3>
                             </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">9</span>
                             </div>
                         </div>
@@ -297,7 +297,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Elaboración de 5 planes de acción para reforzar la gestión sostenible de 108 ha de bosque privado en terrenos propuestos para Reservas Naturales privadas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Elaboración de 5 planes de acción para reforzar la gestión sostenible de 108 ha de bosque privado en terrenos propuestos para Reservas Naturales privadas.</h3>
                             </div>
                         </div>
                     </div>
@@ -305,7 +305,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">10</span>
                             </div>
                         </div>
@@ -313,7 +313,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Se formaron 79 jóvenes y líderes cafetaleros (55 H y 24 M) en Herramientas de Manejo de Paisaje, como técnicos universitarios en Caficultura Sostenible y en Gerencia de Negocios y Empresas Cafetaleras.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se formaron 79 jóvenes y líderes cafetaleros (55 H y 24 M) en Herramientas de Manejo de Paisaje, como técnicos universitarios en Caficultura Sostenible y en Gerencia de Negocios y Empresas Cafetaleras.</h3>
                             </div>
                         </div>
                     </div>
@@ -321,7 +321,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">11</span>
                             </div>
                         </div>
@@ -329,7 +329,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Se ha beneficiado a 500 familias con la entrega de estufas mejoradas en el sur-occidente de Honduras, con el objetivo de reducir los altos consumos de leña y el impacto que se tienen en los bosques de donde se obtiene. De este total, el 50% fueron destinadas para beneficiar a familias de pueblos originarios asentados en el área de influencia (lencas y maya chortí).</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Se ha beneficiado a 500 familias con la entrega de estufas mejoradas en el sur-occidente de Honduras, con el objetivo de reducir los altos consumos de leña y el impacto que se tienen en los bosques de donde se obtiene. De este total, el 50% fueron destinadas para beneficiar a familias de pueblos originarios asentados en el área de influencia (lencas y maya chortí).</h3>
                             </div>
                         </div>
                     </div>
@@ -337,7 +337,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">12</span>
                             </div>
                         </div>
@@ -345,7 +345,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Publicación de dos artículos relacionados con las especies indicadoras de conectividad y fauna asociada:
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Publicación de dos artículos relacionados con las especies indicadoras de conectividad y fauna asociada:
                                     <ul class="list-disc">
                                         <li>Geographic distribution of pocket gophers (Rodentia, Geomyidae) of Honduras.</li>
                                         <li>Puma concolor <strong>(First photographic record in the El Jilguero Reserve Water Production Zone, Honduras).</strong></li>
@@ -358,7 +358,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">13</span>
                             </div>
                         </div>
@@ -366,7 +366,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Monitoreo participativo enfocado en aves y mamíferos, con juntas de aguas, productores, clubes de observación de aves, ICF, mancomunidades, comanejadores en el Corredor Guajiquiro-El Jilguero, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Monitoreo participativo enfocado en aves y mamíferos, con juntas de aguas, productores, clubes de observación de aves, ICF, mancomunidades, comanejadores en el Corredor Guajiquiro-El Jilguero, Joya de los Lagos y Reserva de Biosfera Cacique Lempira Señor de las Montañas.</h3>
                             </div>
                         </div>
                     </div>
@@ -375,7 +375,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">14</span>
                             </div>
                         </div>
@@ -383,7 +383,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Elaboración de estudios e informes técnicos:
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Elaboración de estudios e informes técnicos:
                                     <ul class="list-disc">
                                         <li>Creación de la Estrategia de Monitoreo y Conservación de las Especies indicadoras del Corredor Árido-húmedo en el Sur-Occidente de Honduras.</li>
                                         <li>Presencia-ausencia de las seis especies indicadoras de conectividad biológica, en el sur-occidente de Honduras: félidos (puma, ocelote, yaguarundi, y tigrillo) y aves (chipe mejillas doradas y quetzal).</li>
@@ -398,7 +398,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">15</span>
                             </div>
                         </div>
@@ -406,7 +406,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Estimación y Análisis de la pérdida forestal y ganancia de vegetación secundaria en cinco corredores biológicos y el potencial impacto ecológico en las especies emblemáticas de los ecosistemas naturales alterados.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Estimación y Análisis de la pérdida forestal y ganancia de vegetación secundaria en cinco corredores biológicos y el potencial impacto ecológico en las especies emblemáticas de los ecosistemas naturales alterados.</h3>
                             </div>
                         </div>
                     </div>
@@ -414,7 +414,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">16</span>
                             </div>
                         </div>
@@ -422,7 +422,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Estudio sobre la oportunidad de restauración en las áreas protegidas y corredores biológicos, una estrategia combinada con el Programa Nacional de Conservación de Ecosistemas Terrestres (PNCET).</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Estudio sobre la oportunidad de restauración en las áreas protegidas y corredores biológicos, una estrategia combinada con el Programa Nacional de Conservación de Ecosistemas Terrestres (PNCET).</h3>
                             </div>
                         </div>
                     </div>
@@ -431,7 +431,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">17</span>
                             </div>
                         </div>
@@ -439,7 +439,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Evaluación y aportes de la cobertura boscosa y las Áreas Protegidas en la mitigación y adaptación al Cambio Climático y la reducción de riesgos de desastres en el Occidente, Honduras (caso ETA y IOTA).</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Evaluación y aportes de la cobertura boscosa y las Áreas Protegidas en la mitigación y adaptación al Cambio Climático y la reducción de riesgos de desastres en el Occidente, Honduras (caso ETA y IOTA).</h3>
                             </div>
                         </div>
                     </div>
@@ -448,7 +448,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">18</span>
                             </div>
                         </div>
@@ -456,7 +456,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Actualización de la flora y fauna del Parque Arqueológico Copán.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Actualización de la flora y fauna del Parque Arqueológico Copán.</h3>
                             </div>
                         </div>
                     </div>
@@ -464,7 +464,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">19</span>
                             </div>
                         </div>
@@ -472,7 +472,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">300 personas capacitadas en temas de biodiversidad, conservación, manejo y monitoreo de fauna enfocada en actores del Corredor Anillo Verde, Guajiquiro-El Jilguero y Joya de los Lagos.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">300 personas capacitadas en temas de biodiversidad, conservación, manejo y monitoreo de fauna enfocada en actores del Corredor Anillo Verde, Guajiquiro-El Jilguero y Joya de los Lagos.</h3>
                             </div>
                         </div>
                     </div>
@@ -481,7 +481,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">20</span>
                             </div>
                         </div>
@@ -489,7 +489,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Fortalecidas las capacidades de 624 personas, en temas de gobernanza hídrica, áreas protegidas y corredores biológicos.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Fortalecidas las capacidades de 624 personas, en temas de gobernanza hídrica, áreas protegidas y corredores biológicos.</h3>
                             </div>
                         </div>
                     </div>
@@ -498,7 +498,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">21</span>
                             </div>
                         </div>
@@ -506,7 +506,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Formación intermedia de 202 personas que son gestores locales bajo modalidad virtual, y 292 presenciales en tema de servicio al cliente para emprendimiento agro-turístico.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Formación intermedia de 202 personas que son gestores locales bajo modalidad virtual, y 292 presenciales en tema de servicio al cliente para emprendimiento agro-turístico.</h3>
                             </div>
                         </div>
                     </div>
@@ -514,7 +514,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">22</span>
                             </div>
                         </div>
@@ -522,7 +522,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Fortalecimiento de la gobernanza y conservación con el desarrollo y apoyo de eventos::
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Fortalecimiento de la gobernanza y conservación con el desarrollo y apoyo de eventos::
                                     <ul class="list-disc">
                                         <li>Conservando la Biodiversidad en los Corredores Biológicos; Día Internacional de la Biodiversidad</li>
                                         <li>Cambio Climático del Corredor Biológico y Reserva de Biosfera Cacique Lempira Señor de las Montañas</li>
@@ -537,7 +537,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">23</span>
                             </div>
                         </div>
@@ -545,7 +545,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Intercambio de experiencias de redes de jóvenes indígenas y de corredores biológicos del occidente de Honduras.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Intercambio de experiencias de redes de jóvenes indígenas y de corredores biológicos del occidente de Honduras.</h3>
                             </div>
                         </div>
                     </div>
@@ -554,7 +554,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">24</span>
                             </div>
                         </div>
@@ -562,7 +562,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Cinco expedientes completados de propuesta de corredores biológicos: Guajiquiro El Jilguero; Reserva de Biosfera Cacique Lempira Señor de las Montañas, Joya de los Lagos, Reserva de Biosfera Trifinio Fraternidad Joya de las Américas, Anillo Verde, de acuerdo con las directrices del ICF y de la SERNA.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Cinco expedientes completados de propuesta de corredores biológicos: Guajiquiro El Jilguero; Reserva de Biosfera Cacique Lempira Señor de las Montañas, Joya de los Lagos, Reserva de Biosfera Trifinio Fraternidad Joya de las Américas, Anillo Verde, de acuerdo con las directrices del ICF y de la SERNA.</h3>
                             </div>
                         </div>
                     </div>
@@ -570,7 +570,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">25</span>
                             </div>
                         </div>
@@ -578,7 +578,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Contribución a la implementación de los planes de manejo en las 15 áreas protegidas priorizadas y seis áreas colindantes, especialmente en apoyo a los programas de manejo: Protección forestal; Manejo de recursos naturales y fortalecimiento de capacidades técnicas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Contribución a la implementación de los planes de manejo en las 15 áreas protegidas priorizadas y seis áreas colindantes, especialmente en apoyo a los programas de manejo: Protección forestal; Manejo de recursos naturales y fortalecimiento de capacidades técnicas.</h3>
                             </div>
                         </div>
                     </div>
@@ -587,7 +587,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">26</span>
                             </div>
                         </div>
@@ -595,7 +595,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Construida guía y quince Estrategias de Sostenibilidad Financiera de igual número de áreas protegidas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Construida guía y quince Estrategias de Sostenibilidad Financiera de igual número de áreas protegidas.</h3>
                             </div>
                         </div>
                     </div>
@@ -604,7 +604,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">27</span>
                             </div>
                         </div>
@@ -612,7 +612,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Aprobados ocho acuerdos de resolución municipal, apoyando la iniciativa de implementación de incentivos fiscales para el reconocimiento de prácticas de producción sostenible.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Aprobados ocho acuerdos de resolución municipal, apoyando la iniciativa de implementación de incentivos fiscales para el reconocimiento de prácticas de producción sostenible.</h3>
                             </div>
                         </div>
                     </div>
@@ -620,7 +620,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">28</span>
                             </div>
                         </div>
@@ -628,7 +628,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Ingresada información para postulación del Estándar del Programa de Lista Verde de Áreas Protegidas y Conservadas de la UICN, de tres áreas protegidas (PANACAM, PN Montaña de Celaque y ZPAR El Jilguero).</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Ingresada información para postulación del Estándar del Programa de Lista Verde de Áreas Protegidas y Conservadas de la UICN, de tres áreas protegidas (PANACAM, PN Montaña de Celaque y ZPAR El Jilguero).</h3>
                             </div>
                         </div>
                     </div>
@@ -637,7 +637,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">29</span>
                             </div>
                         </div>
@@ -645,7 +645,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Formulados participativamente 14 planes de acción hídrica y apoyo en el mejoramiento de la gobernanza de 304 organismos de cuenca con jurisdicción en 252 micro-cuencas.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Formulados participativamente 14 planes de acción hídrica y apoyo en el mejoramiento de la gobernanza de 304 organismos de cuenca con jurisdicción en 252 micro-cuencas.</h3>
                             </div>
                         </div>
                     </div>
@@ -654,7 +654,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">30</span>
                             </div>
                         </div>
@@ -662,7 +662,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#7dbb5c] mb-2">Aproximadamente 360 estructuras organizativas han participado en la toma de decisiones en las plataformas de gobernanza de corredores biológicos, áreas protegidas y cuencas; destacando entre ellos organizaciones de pueblos indígenas, red de mujeres, red de jóvenes, comanejadores, ONG, organismos de cuenca, gobiernos locales, academia, proyectos de cooperación, sector privado y productivo, entre otros.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Aproximadamente 360 estructuras organizativas han participado en la toma de decisiones en las plataformas de gobernanza de corredores biológicos, áreas protegidas y cuencas; destacando entre ellos organizaciones de pueblos indígenas, red de mujeres, red de jóvenes, comanejadores, ONG, organismos de cuenca, gobiernos locales, academia, proyectos de cooperación, sector privado y productivo, entre otros.</h3>
                             </div>
                         </div>
                     </div>
@@ -670,7 +670,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">31</span>
                             </div>
                         </div>
@@ -678,7 +678,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#00903b] mb-2">Formación y puesta en funcionamiento de dos clústeres turísticos en las áreas protegidas Parque Nacional Cerro Azul Meámbar y Parque Nacional Montaña de Celaque.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Formación y puesta en funcionamiento de dos clústeres turísticos en las áreas protegidas Parque Nacional Cerro Azul Meámbar y Parque Nacional Montaña de Celaque.</h3>
                             </div>
                         </div>
                     </div>
@@ -687,7 +687,7 @@ get_header(); ?>
                     <div class="relative pl-20 md:pl-24">
                         <!-- Number Circle -->
                         <div class="absolute left-0 top-6 z-10">
-                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#5ca54c] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                            <div class="w-16 h-16 bg-gradient-to-r from-[#87cede] to-[#264da0] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                                 <span class="text-white text-2xl font-bold">32</span>
                             </div>
                         </div>
@@ -695,7 +695,7 @@ get_header(); ?>
                         <!-- Card Content -->
                         <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:translate-y-[-5px]">
                             <div class="p-6">
-                                <h3 class="text-xl font-bold text-[#5ca54c] mb-2">Con el proyecto CONECTA+ se fortalecen las capacidades técnicas de líderes indígenas maya chortí originarios del departamento de Copán, sobre el manejo de viveros frutales e injertación. Con esta iniciativa se promueve la diversificación de paisajes productivos y se fomenta la seguridad alimentaria con lo cual se mejoran las condiciones de vida de familias en el sur-occidente de Honduras.</h3>
+                                <h3 class="text-xl font-bold text-[#264da0] mb-2">Con el proyecto CONECTA+ se fortalecen las capacidades técnicas de líderes indígenas maya chortí originarios del departamento de Copán, sobre el manejo de viveros frutales e injertación. Con esta iniciativa se promueve la diversificación de paisajes productivos y se fomenta la seguridad alimentaria con lo cual se mejoran las condiciones de vida de familias en el sur-occidente de Honduras.</h3>
                             </div>
                         </div>
                     </div>
@@ -718,11 +718,11 @@ get_header(); ?>
             <div class="text-center mb-16">
                 <div class="inline-block">
                     <h2 class="text-3xl md:text-5xl font-bold text-[#00903b] mb-6 relative">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] animate-gradient">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] via-[#263b80] to-[#87cede] animate-gradient">
                             Galería de Imágenes
                         </span>
                         <!-- Decorative underline -->
-                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#00903b] rounded-full"></div>
+                        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#87cede] to-[#263b80] rounded-full"></div>
                     </h2>
                 </div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-8 opacity-90">
@@ -856,9 +856,9 @@ get_header(); ?>
             <!-- Enhanced CTA Button -->
             <div class="text-center mt-16">
                 <div class="inline-block relative">
-                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#00903b] via-[#5ca54c] to-[#7dbb5c] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
+                    <button class="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#264da0] via-[#263b80] to-[#87cede] text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 overflow-hidden">
                         <!-- Button background animation -->
-                        <div class="absolute inset-0 bg-gradient-to-r from-[#7dbb5c] via-[#5ca54c] to-[#00903b] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-[#87cede] via-[#264da0] to-[#263b80] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         
                         <!-- Button content -->
                         <span class="relative z-10 flex items-center">
@@ -904,7 +904,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(135, 206, 222, 0.79), 0 4px 6px -2px rgba(135, 206, 222, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 
 /* Enhanced Gallery Styles */
@@ -953,7 +953,7 @@ get_header(); ?>
 
 .enhanced-gallery-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px -12px rgba(0, 144, 59, 0.25), 0 25px 25px -12px rgba(0, 144, 59, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(38, 77, 160, 0.35), 0 25px 25px -12px rgba(38, 77, 160, 0.15);
 }
 
 .enhanced-gallery-card::before {
@@ -963,7 +963,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #00903b20, #87cede20, #7dbb5c20);
+    background: linear-gradient(135deg, #264da020, #263b8020, #3769c820);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -999,7 +999,7 @@ get_header(); ?>
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 144, 59, 0.85), rgba(135, 206, 222, 0.85), rgba(125, 187, 92, 0.85));
+    background: linear-gradient(135deg, rgba(38, 59, 128, 0.85), rgba(38, 77, 160, 0.85), rgba(55, 105, 200, 0.85));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1160,14 +1160,14 @@ button:focus {
                 btnText.textContent = 'Leer menos';
                 arrowIcon.style.transform = 'rotate(180deg)';
                 button.classList.add('bg-gradient-to-r', 'from-[#87cede]', 'to-cyan-500');
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
             } else {
                 // Contraer
                 content.style.maxHeight = '0px';
                 btnText.textContent = 'Leer más';
                 arrowIcon.style.transform = 'rotate(0deg)';
-                button.classList.remove('from-[#00903b]', 'to-[#7dbb5c]');
-                button.classList.add('from-[#00903b]', 'to-[#7dbb5c]');
+                button.classList.remove('from-[#264da0]', 'to-[#7dbb5c]');
+                button.classList.add('from-[#264da0]', 'to-[#7dbb5c]');
             }
     }
 </script>

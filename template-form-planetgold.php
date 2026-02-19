@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Seccion Hero Panel con gradiantes -->
     <section class="relative py-24 overflow-hidden">
         <!-- Fondo Gradiante -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#00903b] via-[#5ca54c] to-[#7dbb5c]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
         <!-- Fondo: Elementos Animados tipo Fuegos Artificiales -->
         <div class="absolute inset-0 opacity-20">
@@ -32,7 +32,7 @@ get_header(); ?>
                     ¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte.
                 </p>
                 <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-16 h-1 bg-[#87cede] rounded-full"></div>
+                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
                 </div>
             </div>
         </div>
@@ -51,57 +51,57 @@ get_header(); ?>
             <!-- Informacion de Contacto -->
             <div class="md:col-span-1">
                 <div class="bg-white rounded-lg shadow-custom p-8">
-                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Información de Contacto</span></h2>
+                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Información de Contacto</span></h2>
                     
                     <!-- Correo Electronico -->
                     <div class="flex items-start mb-6">
-                        <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
-                            <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <div class="flex-shrink-0 bg-[#263b80] rounded-full p-3">
+                            <svg class="w-6 h-6 text-[#ad8411]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Email</h3>
+                            <h3 class="text-lg font-semibold mb-1 text-[#264da0]">Email</h3>
                             <p class="text-gray-600">rpalacios.planetgold@gmail.com</p>
                         </div>
                     </div>
                     
                     <!-- Telefono -->
                     <div class="flex items-start mb-6">
-                        <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
-                            <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <div class="flex-shrink-0 bg-[#263b80] rounded-full p-3">
+                            <svg class="w-6 h-6 text-[#ad8411]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Teléfono</h3>
+                            <h3 class="text-lg font-semibold mb-1 text-[#264da0]">Teléfono</h3>
                             <p class="text-gray-600">+504 8969-0337</p>
                         </div>
                     </div>
                     
                     <!-- Ubicacion -->
                     <div class="flex items-start mb-6">
-                        <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
-                            <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <div class="flex-shrink-0 bg-[#263b80] rounded-full p-3">
+                            <svg class="w-6 h-6 text-[#ad8411]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Ubicación</h3>
+                            <h3 class="text-lg font-semibold mb-1 text-[#264da0]">Ubicación</h3>
                             <p class="text-gray-600">Tegucigalpa, Honduras</p>
                         </div>
                     </div>
                     
                     <!-- Horario de Atencion -->
                     <div class="flex items-start">
-                        <div class="flex-shrink-0 bg-[#87cede] rounded-full p-3">
-                            <svg class="w-6 h-6 text-[#00903b]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <div class="flex-shrink-0 bg-[#263b80] rounded-full p-3">
+                            <svg class="w-6 h-6 text-[#ad8411]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold mb-1 text-[#00903b]">Horario</h3>
+                            <h3 class="text-lg font-semibold mb-1 text-[#264da0]">Horario</h3>
                             <p class="text-gray-600">Lun - Vie: 7:30 AM - 3:30 PM</p>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ get_header(); ?>
             <!-- Formulario de Contacto -->
             <div class="md:col-span-2">
                 <div class="bg-white rounded-lg shadow-custom p-8">
-                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">Envíanos un mensaje</span></h2>
+                    <h2 class="text-2xl font-bold mb-6 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#87cede]">Envíanos un mensaje</span></h2>
                     <form id="contact-form" class="space-y-6">
                         <?php wp_nonce_field('contact_form_nonce', 'contact_nonce'); ?>
                                                     
@@ -194,7 +194,7 @@ get_header(); ?>
                         <!-- Boton de enviar -->
                         <div>
                             <button type="submit" 
-                                class="w-full md:w-auto px-8 py-3 bg-[#7dbb5c] text-white font-bold rounded-full hover:bg-[#00903b] transform hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7dbb5c]">
+                                class="w-full md:w-auto px-8 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transform hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7dbb5c]">
                                 Enviar mensaje
                             </button>
                         </div>
@@ -237,7 +237,7 @@ get_header(); ?>
     }
     
     .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(0, 144, 59, 0.1), 0 4px 6px -2px rgba(0, 144, 59, 0.05);
+        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.1), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
     }
 </style>
 <!-- Este script es para la funcionalidad del formulario de Contacto -->
