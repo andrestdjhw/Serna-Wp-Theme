@@ -8,47 +8,81 @@ get_header(); ?>
 
 <div class="inicio-page">
     <!-- Hero Section -->
-    <section class="relative py-24 overflow-hidden">
-        <!-- Gradient Background -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#264da0]"></div>
-        
-        <!-- Animated Background Elements -->
-        <div class="absolute inset-0 opacity-20">
-            <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
-        </div>
-        
-        <!-- Background Pattern -->
-        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
-        
-        <!-- Content -->
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-b from-[#ad8411] via-[#FFFFFF] to-[#ad8411] animate-gradient">
-                    Secretaría de Recursos Naturales y Ambiente
-                </h1>
-                <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    <!-- <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite> -->
-                </p>
-                <div class="mt-10 flex justify-center space-x-4">
-                    <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#AD8411] hover:text-white transition-colors duration-300">
-                        Conócenos
-                    </a>
-                    <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:text-white hover:border-[#231f20] transition-colors duration-300">
-                        Nuestros Servicios
-                    </a>
-                </div>
+<!-- Hero Section -->
+<section class="hero-watermark relative py-24 overflow-hidden">
+
+    <!-- Gradient Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#264da0]"></div>
+
+    <!-- =============================================
+         MARCA DE AGUA DEL LOGO
+         Cambia la URL por la ruta real de tu logo PNG
+         ============================================= -->
+    <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-start; padding-left: 4%;">
+        <img 
+            src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
+            alt=""
+            aria-hidden="true"
+            style="
+                width: min(280px, 35%);
+                opacity: 0.08;
+                filter: brightness(10) grayscale(1);
+                object-fit: contain;
+                user-select: none;
+                pointer-events: none;
+            "
+        >
+    </div>
+    <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-end; padding-right: 4%;">
+        <img 
+            src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
+            alt=""
+            aria-hidden="true"
+            style="
+                width: min(280px, 35%);
+                opacity: 0.08;
+                filter: brightness(10) grayscale(1);
+                object-fit: contain;
+                user-select: none;
+                pointer-events: none;
+            "
+        >
+    </div>
+
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 opacity-20" style="z-index: 2;">
+        <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+        <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="z-index: 10;">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-b from-[#ad8411] via-[#FFFFFF] to-[#ad8411] animate-gradient">
+                Secretaría de Recursos Naturales y Ambiente
+            </h1>
+            <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
+                <!-- <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite> -->
+            </p>
+            <div class="mt-10 flex justify-center space-x-4">
+                <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#AD8411] hover:text-white transition-colors duration-300">
+                    Conócenos
+                </a>
+                <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:text-white hover:border-[#231f20] transition-colors duration-300">
+                    Nuestros Servicios
+                </a>
             </div>
         </div>
-        
-        <!-- Wave Background -->
-        <div class="absolute bottom-0 left-0 right-0">
-            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
-                <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
-            </svg>
-        </div>
-    </section>
+    </div>
+
+    <!-- Wave Background -->
+    <div class="absolute bottom-0 left-0 right-0" style="z-index: 10;">
+        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
+            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+        </svg>
+    </div>
+</section>
 
     <!-- Main Content -->
     <div class="main-content-wrapper max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
