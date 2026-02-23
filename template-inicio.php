@@ -25,13 +25,13 @@ get_header(); ?>
         <!-- Content -->
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-b from-[#ad8411] via-[#FFFFFF] to-[#ad8411] animate-gradient">
                     Secretaría de Recursos Naturales y Ambiente
                 </h1>
                 <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                    <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
+                    <!-- <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite> -->
                 </p>
-                <div class="mt-8 flex justify-center space-x-4">
+                <div class="mt-10 flex justify-center space-x-4">
                     <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#AD8411] hover:text-white transition-colors duration-300">
                         Conócenos
                     </a>
@@ -74,7 +74,7 @@ get_header(); ?>
 
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Licencias Ambientales</h3>
+                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Licencias Ambientales</h3>
                         <p class="text-gray-600 mb-4">
                             Proceso de evaluación y aprobación de proyectos para garantizar el cumplimiento de normas ambientales.
                         </p>
@@ -96,7 +96,7 @@ get_header(); ?>
                     </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Gestión Forestal</h3>
+                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Gestión Forestal</h3>
                         <p class="text-gray-600 mb-4">
                             Planificación y control del uso sostenible de los recursos forestales del país.
                         </p>
@@ -117,7 +117,7 @@ get_header(); ?>
                     </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Protección del Agua</h3>
+                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Protección del Agua</h3>
                         <p class="text-gray-600 mb-4">
                             Programas para la conservación y uso racional de los recursos hídricos nacionales.
                         </p>
@@ -138,10 +138,10 @@ get_header(); ?>
                 <div>
                     <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
                     <p class="text-gray-600 mb-6 leading-relaxed">
-                        SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
+                        La Secretaría de Recursos Naturales y Ambiente (SERNA) protege y administra los recursos naturales de Honduras, promoviendo el desarrollo sostenible y el cuidado del ambiente para el bienestar de la población.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
-                    La misión de SERNA es impulsar el desarrollo sostenible de Honduras mediante la formulación, coordinación, ejecución y evaluación de políticas públicas orientadas a la preservación de los recursos naturales y la conservación del ambiente, para mejorar la calidad de vida de sus habitantes, actuando con honestidad, responsabilidad, compromiso, eficiencia y transparencia.
+                        La institución lidera la gestión ambiental del país mediante políticas y acciones orientadas al uso responsable del agua, el impulso de energías renovables, la protección de los ecosistemas, la conservación de la biodiversidad y el control de la contaminación,también coordina el manejo del Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), regula actividades vinculadas al aprovechamiento de los recursos naturales y promueve iniciativas que fortalecen el desarrollo sostenible, su trabajo busca garantizar el equilibrio entre crecimiento económico, protección ambiental y calidad de vida para las presentes y futuras generaciones.
                     </p>
                     <a href="/nosotros/perfil" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300 inline-flex items-center">
                         Conoce más sobre nosotros
@@ -180,17 +180,16 @@ get_header(); ?>
                 <!-- News Card 1 -->
                  <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-13-at-13.24.36.jpeg" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2026/02/Primera_Noticia.jpeg" alt="Nuevas Autoridades" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Hito</span>
-                            <span>7 Noviembre 2025</span>
+                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Nuevo Capítulo</span>
+                            <span>6 Febrero 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Gobierno de Honduras firma acuerdo histórico de bonos de carbono en la COP30</h3>
-                        <p class="text-gray-600 mb-4">
-                            El Gobierno de Honduras, mediante su participación en la COP30, firmó un acuerdo histórico de bonos de carbono que permitirá al país acceder a más de 12 millones de dólares para la protección de los bosques y el fortalecimiento de la soberanía ambiental.
-                        </p>
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">¡Nuevo Liderazgo en la SERNA!</h3>
+                        <p class="text-gray-600 mb-4 text-sm">El trabajo comenzó donde verdaderamente importa: con la gente, El ministro de Recursos Naturales y Ambiente, <strong>Juan Carlos Ramos</strong>, realizó un recorrido por las distintas áreas de la Secretaría, visitando personalmente a las y los colaboradores en cada uno de sus espacios de trabajo.</p>
+                        <p class="text-gray-600 mb-4 text-sm">Un inicio que refleja liderazgo cercano, respeto al talento humano y compromiso con una gestión responsable, en sintonía con la visión del presidente <strong>Nasry Asfura</strong>, quien ha reiterado que el servicio público debe construirse desde el trabajo honesto, el contacto directo con la ciudadanía y el fortalecimiento de las instituciones.</p>
                         <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -225,17 +224,18 @@ get_header(); ?>
                 <!-- News Card 2 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/10/NoticiaBonoVerde-scaled.jpeg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2026/02/Segunda_Noticia.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
-                            <span>11 Octubre 2025</span>
+                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
+                            <span>12 Febrero 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Honduras consolida su liderazgo global en finanzas sostenibles y acción climática</h3>
-                        <p class="text-gray-600 mb-4">
-                            El Ministro de Ambiente, Lucky Medina; el Secretario Privado de la Presidenta, Héctor Zelaya; y el Ministro Malcolm Stufkens recibieron en Casa Presidencial a representantes del Deutsche Bank y de la Coalición de Países con Bosques Tropicales, para abordar temas de sostenibilidad y finanzas verdes.
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Fortaleciendo Relaciones Internacionales.</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            El titular de la Secretaría de Recursos Naturales y Ambiente (SERNA), <strong>Juan Carlos Ramos</strong>, sostuvo una importante reunión de trabajo con el Coordinador Residente de la Organización de las Naciones Unidas en Honduras, <strong>Alejandro Álvarez</strong>, y el representante de UNICEF, <strong>Bastiaan Van 't Hoff</strong>, para fortalecer la cooperación estratégica entre el país y el sistema de la ONU.
                         </p>
+                        <p class="text-gray-600 mb-4 text-sm">El encuentro abordó iniciativas para atraer inversiones responsables, proteger el ambiente, mejorar la gestión del agua, conservar los recursos naturales y promover acciones para la adaptación y mitigación del cambio climático, con el propósito de fortalecer las capacidades del Estado y generar mayor bienestar para las familias hondureñas.</p>
                         <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -269,17 +269,17 @@ get_header(); ?>
                 <!-- News Card 3 -->
                 <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/08/NoticiaLago2.jpeg" alt="Inversion" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="/wp-content/uploads/2026/02/Tercer_Noticia.jpeg" alt="Convenio" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#264da0] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversion</span>
-                            <span>23 abril 2025</span>
+                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversión</span>
+                            <span>17 Febrero 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">80$ millones de dolares, aprobados para la recuperación del lago de Yojoa</h3>
-                        <p class="text-gray-600 mb-4">
-                            En SERNA asumimos el compromiso de preservar el Lago de Yojoa para siempre. Siguiendo el mandato de la Presidenta Xiomara Castro, trabajamos por un Lago de Yojoa limpio, saludable y libre de concesiones contaminantes.
-                            
+                        <h3 class="text-xl font-bold text-[#264da0] mb-3">SERNA y PNUD fortalecen alianza para impulsar proyectos ambientales en Honduras.</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            El Ministro de la Secretaría de Recursos Naturales y Ambiente (SERNA), <strong>Juan Carlos Ramos</strong>, se reunió con el Programa de las Naciones Unidas para el Desarrollo y su representante, <strong>Alessandro Fracassetti</strong>, para fortalecer proyectos ambientales conjuntos,
+                            el encuentro impulsa una cooperación más efectiva, enfocada en las prioridades del país y en generar resultados concretos para la población y el territorio de Honduras
                         </p>
                         <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
@@ -460,7 +460,7 @@ get_header(); ?>
 
     // Configuración mejorada usando Intersection Observer
     document.addEventListener('DOMContentLoaded', function() {
-        const statsSection = document.querySelector('.bg-gradient-to-r.from-\\[\\#00903b\\].to-\\[\\#7dbb5c\\]');
+        const statsSection = document.querySelector('.bg-gradient-to-r.from-\\[\\#263b80\\].to-\\[\\#264da0\\]');
         const statItems = document.querySelectorAll('.stat-item');
         let hasAnimated = false;
 
