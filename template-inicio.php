@@ -51,9 +51,10 @@ get_header(); ?>
     </section>
 
     <!-- Main Content -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="main-content-wrapper max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
         <!-- Featured Services Section -->
-        <section id="servicios" class="mb-24">
+        <section id="servicios" class="section-watermark mb-24">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#263b80]">Nuestros Servicios</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -66,12 +67,11 @@ get_header(); ?>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Service Card 1 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
                     <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg class="h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-[#ad8411] mb-3">Licencias Ambientales</h3>
@@ -88,7 +88,7 @@ get_header(); ?>
                 </div>
                 
                 <!-- Service Card 2 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
                     <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
@@ -110,7 +110,7 @@ get_header(); ?>
                 </div>
                 
                 <!-- Service Card 3 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
+                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
                     <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
@@ -133,7 +133,7 @@ get_header(); ?>
         </section>
         
         <!-- About Us Section -->
-        <section class="mb-24">
+        <section class="section-watermark mb-24">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
@@ -154,18 +154,12 @@ get_header(); ?>
                     <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-22 aspect-h-22">
                         <img src="/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-19-at-12.09.24.jpeg" alt="SERNA Honduras" class="w-full h-full object-cover">
                     </div>
-                    <!-- <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-custom w-2/3">
-                        <h3 class="text-xl font-bold text-[#00903b] mb-2">Nuestra Visión</h3>
-                        <p class="text-gray-600 text-sm">
-                            La visión de SERNA es ser una institución que promueva a nivel nacional una gestión eficiente de los recursos naturales y el ambiente, participando activamente en labores de protección ambiental, promoviendo acciones públicas y privadas para preservar los recursos naturales, y ofreciendo información ambiental oportuna para apoyar la toma de decisiones en el sector.
-                        </p>
-                    </div> -->
                 </div>
             </div>
         </section>
         
         <!-- News & Updates Section -->
-        <section class="mb-24">
+        <section class="section-watermark mb-24">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Noticias y Actualizaciones</span></h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -178,7 +172,7 @@ get_header(); ?>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- News Card 1 -->
-                 <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
+                <div class="card-watermark bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="/wp-content/uploads/2026/02/Primera_Noticia.jpeg" alt="Nuevas Autoridades" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -198,31 +192,9 @@ get_header(); ?>
                         </a>
                     </div>
                 </div>
-                <!-- <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/08/Noticia2SERNA.jpg" alt="Taller Ambiental" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Evento</span>
-                            <span>28 Mayo 2023</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Café Hondureño destaca en Shanghai</h3>
-                        <p class="text-gray-600 mb-4">
-                            Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
-                        </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
-                            Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>  --> 
-                
                 
                 <!-- News Card 2 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="/wp-content/uploads/2026/02/Segunda_Noticia.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -243,31 +215,10 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
-                </div> 
-                <!-- <div class="bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Proyecto Reforestación" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Noticia</span>
-                            <span>22 Enero 2024</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Proyecto AdaptarC</h3>
-                        <p class="text-gray-600 mb-4">
-                            Impulsa el desarrollo de productores y emprendedores.
-                        </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
-                            Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div> -->
+                </div>
                 
                 <!-- News Card 3 -->
-                <div class="bg-white rounded-lg shadow-custom overflow-hidden">
+                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden">
                     <div class="h-55 overflow-hidden">
                         <img src="/wp-content/uploads/2026/02/Tercer_Noticia.jpeg" alt="Convenio" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
@@ -283,34 +234,12 @@ get_header(); ?>
                         </p>
                         <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
                             Leer más
-                            <!-- Gracias al financiamiento de $80 millones aprobado por el Congreso Nacional de Honduras, construiremos infraestructura resiliente, restauraremos las montañas que lo rodean y protegeremos el corredor biológico más visitado del país. -->
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                             </svg>
                         </a>
                     </div>
                 </div>
-                <!-- <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2025/08/Noticia3SERNA.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#87cede] text-[#00903b] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
-                            <span>06 Noviembre 2023</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-[#00903b] mb-3">Campaña de prevención de incendios 2024</h3>
-                        <p class="text-gray-600 mb-4">
-                            Acuerdo para fortalecer las capacidades técnicas en monitoreo de calidad del aire en ciudades principales.
-                        </p>
-                        <a href="#" class="text-[#7dbb5c] font-semibold hover:text-[#00903b] transition-colors duration-300 flex items-center">
-                            Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div> -->
             </div>
             
             <div class="text-center mt-12">
@@ -326,25 +255,18 @@ get_header(); ?>
         <!-- Stats Section -->
         <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-                <!-- Stat 1 -->
                 <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
                     <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Libras de lirio recogido</div>
                 </div>
-                
-                <!-- Stat 2 -->
                 <div class="p-4 stat-item" data-target="55000" data-suffix="+">
                     <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Hectáreas recuperadas con PPAT y Plan 0 Deforestación</div>
                 </div>
-                
-                <!-- Stat 3 -->
                 <div class="p-4 stat-item" data-target="150" data-suffix="">
                     <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Micro-cuencas intervenidas a nivel nacional.</div>
                 </div>
-                
-                <!-- Stat 4 -->
                 <div class="p-4 stat-item" data-target="18" data-suffix="">
                     <div class="text-4xl font-bold mb-2 counter">0</div>
                     <div class="text-lg">Áreas protegidas</div>
@@ -353,7 +275,7 @@ get_header(); ?>
         </section>
         
         <!-- Call to Action -->
-        <section class="bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
+        <section class="section-watermark bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
             <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">¿Cómo puedes contribuir?</span></h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
                 Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
@@ -376,7 +298,6 @@ get_header(); ?>
             <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Estamos aquí</span></h2>
             <div class="bg-white rounded-lg shadow-custom overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
-                    <!-- aquí va el frame del mapa de Google -->
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1707.8792146428075!2d-87.18747288964083!3d14.097344497602379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2shn!4v1747232723012!5m2!1ses-419!2shn" 
                         width="100%" 
@@ -386,9 +307,6 @@ get_header(); ?>
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-                    <!-- <div class="bg-gray-200 flex items-center justify-center" style="height: 400px;">
-                        <p class="text-gray-600">Mapa de ubicación</p>
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -400,20 +318,108 @@ get_header(); ?>
 
 <style>
 
+    /* =============================================
+       VARIABLE DE RUTA DEL LOGO
+       Cambia esta variable con la ruta real de tu logo PNG
+       ============================================= */
+    :root {
+        --logo-watermark-url: url('/wp-content/uploads/2026/02/Blanco-SERNA-e1770905443177.png');
+        /* 
+            INSTRUCCIÓN: Reemplaza '/wp-content/uploads/logo-serna-blanco.png'
+            con la ruta real de tu logo PNG de fondo transparente.
+            Ejemplo: url('/wp-content/themes/tu-tema/images/logo-serna.png')
+        */
+    }
+
     html {
         scroll-behavior: smooth;
     }
 
+    /* =============================================
+       FONDO GENERAL DE LA PÁGINA - TONO HUESO
+       ============================================= */
+
+    /* El wrapper del contenido principal tendrá el tono hueso de fondo */
+    .inicio-page {
+        background-color: #FAFAF8; /* Blanco hueso moderado */
+    }
+
+    /* =============================================
+       MARCA DE AGUA EN SECCIONES GRANDES
+       ============================================= */
+
+    /* Para secciones completas (servicios, nosotros, noticias, CTA) */
+    .section-watermark {
+        position: relative;
+        /* padding extra para que la marca de agua no choque con el contenido */
+    }
+
+    .section-watermark::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: min(500px, 80%);
+        height: min(500px, 80%);
+        background-image: var(--logo-watermark-url);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 0.045; /* Muy sutil — ajusta entre 0.03 y 0.08 según tu logo */
+        pointer-events: none;
+        z-index: 0;
+        filter: grayscale(100%) brightness(0); /* Fuerza el logo a negro puro para contraste sobre hueso */
+    }
+
+    /* Asegura que el contenido esté por encima de la marca de agua */
+    .section-watermark > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* =============================================
+       MARCA DE AGUA EN CARDS INDIVIDUALES
+       ============================================= */
+
+    .card-watermark {
+        position: relative;
+        background-color: #FAFAF8 !important; /* Fondo hueso en lugar de blanco puro */
+    }
+
+    .card-watermark::after {
+        content: '';
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        width: 80px;
+        height: 80px;
+        background-image: var(--logo-watermark-url);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 0.06; /* Sutil — ajusta según necesidad */
+        pointer-events: none;
+        z-index: 0;
+        filter: grayscale(100%) brightness(0);
+    }
+
+    /* =============================================
+       AJUSTE DE FONDO PARA SECCIÓN CTA (Call to Action)
+       ============================================= */
+
+    .section-watermark.bg-white {
+        background-color: #FAFAF8 !important;
+    }
+
+    /* =============================================
+       ANIMACIONES
+       ============================================= */
+
     @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
     }
     
     .animate-gradient {
@@ -423,6 +429,15 @@ get_header(); ?>
     
     .shadow-custom {
         box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
+    }
+
+    /* =============================================
+       FONDO HUESO EXPLÍCITO PARA CARDS bg-white
+       Asegura que Tailwind no sobreescriba el hueso
+       ============================================= */
+    .card-watermark.bg-white,
+    .card-watermark {
+        background-color: #FAFAF8 !important;
     }
 </style>
 
@@ -437,7 +452,6 @@ get_header(); ?>
         let start = 0;
         const startTime = performance.now();
         
-        // Función de easing para suavizar la animación
         const easeOutQuad = t => t * (2 - t);
         
         function updateCounter(currentTime) {
@@ -474,7 +488,6 @@ get_header(); ?>
                         const target = parseInt(item.dataset.target);
                         const suffix = item.dataset.suffix || '';
                         
-                        // Pequeño retraso escalonado para mejor efecto
                         setTimeout(() => {
                             animateCounter(counter, target, 2000, suffix);
                         }, index * 250);
@@ -482,8 +495,8 @@ get_header(); ?>
                 }
             });
         }, {
-            threshold: 0.2, // Se activa cuando el 20% del elemento es visible
-            rootMargin: '0px 0px -100px 0px' // Margen negativo para activar antes
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
         });
 
         if (statsSection) {
