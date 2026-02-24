@@ -290,19 +290,19 @@ get_header(); ?>
         <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
-                    <div class="text-4xl font-bold mb-2 counter">0</div>
+                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
                     <div class="text-lg">Libras de lirio recogido</div>
                 </div>
                 <div class="p-4 stat-item" data-target="55000" data-suffix="+">
-                    <div class="text-4xl font-bold mb-2 counter">0</div>
+                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
                     <div class="text-lg">Hectáreas recuperadas con PPAT y Plan 0 Deforestación</div>
                 </div>
                 <div class="p-4 stat-item" data-target="150" data-suffix="">
-                    <div class="text-4xl font-bold mb-2 counter">0</div>
+                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
                     <div class="text-lg">Micro-cuencas intervenidas a nivel nacional.</div>
                 </div>
                 <div class="p-4 stat-item" data-target="18" data-suffix="">
-                    <div class="text-4xl font-bold mb-2 counter">0</div>
+                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
                     <div class="text-lg">Áreas protegidas</div>
                 </div>
             </div>
@@ -315,7 +315,7 @@ get_header(); ?>
                 Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
             </p>
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="px-6 py-3 bg-[#231f20] text-white font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
+                <a href="#" class="px-6 py-3 bg-[#231f20] text-white font-bold rounded-full hover:bg-[#ad8411] hover:text-[#231f20] transition-colors duration-300">
                     Voluntariado
                 </a>
                 <a href="#" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#264da0] hover:border-[#264da0] hover:text-white transition-colors duration-300">
