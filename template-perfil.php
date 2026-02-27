@@ -12,11 +12,47 @@ get_header(); ?>
         <!-- Gradient Background -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#263b80]"></div>
         
+        <!-- =============================================
+         MARCA DE AGUA DEL LOGO
+         Cambia la URL por la ruta real de tu logo PNG
+         ============================================= -->
+        <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-start; padding-left: 4%;">
+            <img 
+                src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
+                alt=""
+                aria-hidden="true"
+                style="
+                    width: min(280px, 35%);
+                    opacity: 0.08;
+                    filter: brightness(10) grayscale(1);
+                    object-fit: contain;
+                    user-select: none;
+                    pointer-events: none;
+                "
+            >
+        </div>
+        <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-end; padding-right: 4%;">
+            <img 
+                src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
+                alt=""
+                aria-hidden="true"
+                style="
+                    width: min(280px, 35%);
+                    opacity: 0.08;
+                    filter: brightness(10) grayscale(1);
+                    object-fit: contain;
+                    user-select: none;
+                    pointer-events: none;
+                "
+            >
+        </div>
+
+
         <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
-            <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
+            <div class="absolute top-0 -left-4 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#ad8411] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
+            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#FFFFFF] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
         <!-- Background Pattern -->
@@ -32,7 +68,7 @@ get_header(); ?>
                     <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite>
                 </p>
                 <div class="mt-8 flex justify-center space-x-4">
-                    <a href="#historia" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#E0AE19] hover:text-[#231f20] transition-colors duration-300">
+                    <a href="#historia" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#ad8411] hover:text-[#FFFFFF] transition-colors duration-300">
                         Conoce mas
                     </a>
                 </div>
@@ -53,7 +89,7 @@ get_header(); ?>
             <div class="lg:flex lg:items-center lg:justify-between">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestra Historia</span></h2>
-                    <div class="h-1 w-140 bg-[#E0AE19] mb-8"></div>
+                    <div class="h-1 w-110 bg-[#ad8411] mb-8"></div>
                     <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                         SERNA, conocida actualmente como la Secretaría de Recursos Naturales y Ambiente (SERNA), es el organismo público de Honduras encargado de la formulación, coordinación y evaluación de políticas relacionadas con la protección y aprovechamiento de los recursos hídricos, las energías renovables, la generación y transmisión de energía hidroeléctrica y geotérmica, la actividad minera, y la exploración y explotación de hidrocarburos. También se encarga de la coordinación y evaluación de políticas relacionadas con el ambiente, ecosistemas, el Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), la protección de la flora y fauna, y el control de la contaminación en todas sus formas. Anteriormente, se denominó como Secretaría de Ambiente (SEDA) y fue creada el 30 de noviembre de 1999 mediante Decreto No. 218-96.
                     </p>
@@ -78,7 +114,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 mt-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Nuestros Pilares Fundamentales</span></h2>
-                <div class="h-1 w-50 bg-[#E0AE19] mx-auto"></div>
+                <div class="h-1 w-24 bg-[#ad8411] mx-auto"></div>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
@@ -121,7 +157,7 @@ get_header(); ?>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Nuestros Valores</h2>
-                <div class="h-1 w-50 bg-[#E0AE19] mx-auto"></div>
+                <div class="h-1 w-50 bg-[#ad8411] mx-auto"></div>
                 <p class="text-xl text-white mt-6 max-w-3xl mx-auto">
                     Los principios que guían nuestro trabajo diario y nuestra relación con la ciudadanía
                 </p>
