@@ -57,33 +57,32 @@ get_header(); ?>
             <!-- News Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="newsGrid">
                  <!-- News Card 1 -->
-                  <article class="news-card">
+                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-08.54.46.jpeg" alt="Noticia 3" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia27FEB.jpeg" alt="Noticia 27 de Febrero" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">18</span>
-                            <span class="news-date-month">NOV</span>
+                            <span class="news-date-day">27</span>
+                            <span class="news-date-month">FEB</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
                             <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">18 de noviembre, 2025</span>
+                            <span class="news-date-full">27 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            Nueva ventanilla de SERNA en la CCIC fortalecerá la atención al sector productivo 
+                            Fortaleza Interinstitucional SERNA-Aduanas 
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                Con el propósito de acercar los servicios ambientales al sector productivo y fortalecer la eficiencia en la gestión de trámites, la Secretaría de Recursos Naturales y Ambiente (SERNA) dio un importante paso al instalar una nueva ventanilla de atención en el Portal Empresarial de la CCIC. Esta iniciativa busca facilitar el acompañamiento a las empresas, agilizar expedientes y promover un clima de negocios más dinámico y competitivo en el país.
+                                El ministro <strong>Juan Carlos Ramos</strong>, de la SERNA, sostuvo una reunión en el marco de la cooperación interinstitucional, en cumplimiento al mandato del presidente <strong>Nasry Asfura</strong>, orientado al apoyo a la inversión, la facilitación de procesos y el fortalecimiento del cumplimiento de los compromisos nacionales e internacionales del país.
                             </p>
+                            <!-- <p class="news-excerpt news-excerpt-hidden">
+                                <strong>Un logro tras 37 años de lucha comunitaria</strong>
+                            </p> -->
                             <p class="news-excerpt news-excerpt-hidden">
-                                <strong>¿Que implica este logro?</strong>
-                            </p>
-                            <p class="news-excerpt news-excerpt-hidden">
-                                El ministro Lucky Medina y parte de su equipo en la Secretaría de Recursos Naturales y Ambiente (SERNA) inauguraron una ventanilla de atención en el Portal Empresarial de la CCIC, con el objetivo de agilizar trámites y brindar soluciones oportunas a la comunidad empresarial.
-                                En el acto participaron el presidente de la CCIC, Karim Qubain (@kqubain1), junto a directivos y asesores; así como el secretario general de SERNA, Ariel Madrid. Todos destacaron la importancia de este paso para acelerar la gestión de expedientes y fortalecer la competitividad del país.
+                                Durante el encuentro, el abogado <strong>Marco Abadie</strong> y el titular de SERNA reafirmaron su compromiso de fortalecer el intercambio eficiente de información y avanzar en la digitalización de procesos, con el objetivo de respaldar al sector productivo y de inversión, así como dar cumplimiento a convenios internacionales como el Protocolo de Montreal.
                             </p>    
                         </div>
                         <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
@@ -93,33 +92,32 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
-                </article>
+                </article> 
                 
                 <!-- News Card 2 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/10/NoticiaMetaCumplida.jpeg" alt="Noticia 1" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia27FEB_2.jpeg" alt="Noticia 27 Febrero, Avances con el sector industrial" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">07</span>
-                            <span class="news-date-month">JUL</span>
+                            <span class="news-date-day">27</span>
+                            <span class="news-date-month">FEB</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
                             <span class="news-category">Inversion</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">07 de Julio, 2025</span>
+                            <span class="news-date-full">27 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            ¡Meta Climática Superada!
+                            Avances con el sector industrial
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                Los países se dividen entre los contaminantes con dióxido de carbono y quienes defendemos la vida.
-                                La Honduras de la refundación es avanzar hasta lograr un país carbono neutral. ¡<strong>Xiomara Castro</strong> cumple!
+                                El ministro de la SERNA, <strong>Juan Carlos Ramos</strong>, recibió a los funcionarios de la Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI), <strong>Marcela Gonzales</strong> y <strong>Alan Bastida</strong>, quienes presentaron la cartera de proyectos destinada al sector industrial. 
                             </p>
                             <p class="news-excerpt news-excerpt-hidden">
-                                
+                                Durante el encuentro, se reiteró el apoyo de ONUDI al gobierno y el compromiso de Honduras con sus obligaciones internacionales, incluyendo el cumplimiento del Protocolo de Montreal.
                             </p>
                         </div>
                         <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
@@ -134,28 +132,27 @@ get_header(); ?>
                 <!-- News Card 3 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/08/Logro.jpeg" alt="Noticia 2" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia24FEB.jpeg" alt="Noticia 2" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">07</span>
-                            <span class="news-date-month">JUL</span>
+                            <span class="news-date-day">24</span>
+                            <span class="news-date-month">FEB</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
                             <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">07 de Julio, 2025</span>
+                            <span class="news-date-full">24 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            Presidenta <strong>Xiomara Castro</strong> posiciona a Honduras en la cima del financiamiento verde.
+                            ¡Se activó la Racha en SERNA!
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                Con el liderazgo de la Presidenta de Honduras <strong>Xiomara Castro</strong> y Coalición de Países con Bosques Tropicales, el financiamiento para defender nuestras reservas naturales será una realidad.
+                                Bajo la administración del presidente <strong>Nasry Asfura</strong>, con la gestión del Ministro <strong>Juan Carlos Ramos</strong>, la SERNA avanza de manera contundente en la firma de licencias ambientales, fortaleciendo una gestión ágil, ordenada, con sustento técnico y respaldo jurídico, con el objetivo de reducir la mora histórica y garantizar la protección del medio ambiente y los recursos naturales. 🌱
                             </p>
                             <p class="news-excerpt news-excerpt-hidden">
-                                En la IV Cumbre de Desarrollo Sostenible (Sevilla, 2025), fuimos reconocidos por nuestras acciones concretas en bonos verdes y justicia climática.
-                                La agenda ambiental es compromiso en marcha.
+                                ¡Honduras, vamos a estar bien!
                             </p>
                         </div>
                         <a href="https://share.google/Mqnneqva39gvDLXU4" target="_blank" rel="noopener noreferrer" class="news-read-more" onclick="toggleNewsContent(event, this)">
@@ -170,30 +167,27 @@ get_header(); ?>
                 <!-- News Card 4 -->
                 <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/09/488578531_18005573570741599_246107675585245702_n.jpg" alt="Noticia 5" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia19FEB.jpeg" alt="Noticia 19 Febrero" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">8</span>
-                            <span class="news-date-month">ABR</span>
+                            <span class="news-date-day">19</span>
+                            <span class="news-date-month">FEB</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
                             <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">8 de Abril, 2025</span>
+                            <span class="news-date-full">19 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            <strong>CELAC 2025 en Honduras</strong>, un hito histórico de la política exterior.
+                            Honduras firme con la agenda ambiental internacional.
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                Por primera vez en la historia, Honduras albergara la Cumbre de Jefes y Jefas de Estado de la Comunidad de Estados Latinoamericanos y Caribeños (Celac).
-                                Este evento histórico reunió a los lideres de la region en las instalaciones del Banco Central de Honduras (BCH). 
-                                La ocasión también dio el cierre oficial de la Presidencia Pro Tempore (PPT) liderada por la Presidenta <strong>Xiomara Castro</strong>, quien entrego el mandato a su sucesor, el Presidente <strong>Gustavo Petro</strong> de Colombia.
+                                El ministro <strong>Juan Carlos Ramos y Marcos Pinzón</strong>, coordinador regional del Programa de las Naciones Unidas para el Medio Ambiente sostuvieron un encuentro para reafirmar el compromiso de Honduras con el Protocolo Protocolo de Montreal.
                             </p>
                             <p class="news-excerpt news-excerpt-hidden">
-                                Felicitamos a la Presidenta por su visión y liderazgo en la defensa del medio ambiente y en el fortalecimiento de la integración regional a través de la CELAC.
-                                Su compromiso con la protección de los bosques, la biodiversidad y la acción climática está posicionando a Honduras como un faro de esperanza y desarrollo sostenible para América Latina y el Caribe.
+                                Este acuerdo, vigente desde 1987, ha permitido eliminar el 99 % de las sustancias que dañan la capa de ozono, contribuyendo a su recuperación y a la protección del ambiente.
                             </p>
                         </div>
                         <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
@@ -205,73 +199,45 @@ get_header(); ?>
                     </div>
                 </article>
                 
-                <!-- News Card 5 -->
-                 <article class="news-card extended-news" style="display: none;">
+                <!-- News Card 5 -->                 
+                <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/09/CeroDeforestacion.jpg" alt="Noticia 4" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia19FEB_2.jpeg" alt="Noticia 19 Febrero, Encuentro Ministro SERNA Representantes FAO" class="news-image">
                         <div class="news-date-badge">
-                            <span class="news-date-day">22</span>
-                            <span class="news-date-month">MAY</span>
+                            <span class="news-date-day">19</span>
+                            <span class="news-date-month">FEB</span>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="news-meta">
-                            <span class="news-category">Logro</span>
+                            <span class="news-category">Nuevo Capítulo</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">22 de Mayo, 2024</span>
+                            <span class="news-date-full">19 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            Gobierno declara <strong>Emergencia Ambiental</strong> y lanza estrategia "Cero Deforestación al 2029"
+                            Encuentro Ministro SERNA Representantes FAO 
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                La presidenta <strong>Xiomara Castro</strong> declaró Emergencia Ambiental en Honduras y presentó una estrategia integral para frenar la destrucción de bosques, con especial atención en Olancho, Gracias a Dios, La Mosquitia y la Reserva del Río Plátano.
+                                Ministro <strong>Juan Carlos Ramos</strong> sostiene un encuentro con la FAO y su representante, <strong>Fátima Espinal Mercedes</strong>, para fortalecer alianzas y avanzar en proyectos junto al sistema de Naciones Unidas.
+                            </p>
+                            <p class="news-excerpt news-excerpt-hidden">
+                                Estas acciones impulsan el desarrollo sostenible, la protección de los recursos naturales y mejores oportunidades para las comunidades hondureñas.
                             </p>
                         </div>
-                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
+                        <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
                             <span class="read-more-text">Leer más</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
                     </div>
                 </article>
-                <!-- <article class="news-card">
-                    <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/09/MapaSubcuencas.jpeg" alt="Noticia 6" class="news-image">
-                        <div class="news-date-badge">
-                            <span class="news-date-day">05</span>
-                            <span class="news-date-month">DIC</span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-category">Refundación</span>
-                            <span class="news-separator">•</span>
-                            <span class="news-date-full">05 de Diciembre, 2024</span>
-                        </div>
-                        <h3 class="news-title">
-                            Gobierno recupera 14 sub-cuencas de la narco-dictadura a través de fideicomiso
-                        </h3>
-                        <div class="news-excerpt-container">
-                            <p class="news-excerpt news-excerpt-visible">
-                                Durante los 12 años 7 meses, 14 sub-cuencas del territorio nacional estuvieron en manos de la empresa privada sin generar ningún beneficio para el pueblo hondureño, abarcando un total de 15,261.2 km² de territorio.
-                                Una de las primeras órdenes de la presidenta <strong>Xiomara Castro</strong> fue recuperar estos recursos estratégicos del pueblo hondureño.
-                            </p>
-                        </div>
-                        <a href="#" class="news-read-more news-read-more-single" onclick="toggleNewsContent(event, this)">
-                            <span class="read-more-text">Leer más</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 read-more-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </article> -->
                 
                 <!-- News Card 6 -->
                  <article class="news-card">
                     <div class="news-image-container">
-                        <img src="/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-10.51.26.jpeg" alt="Noticia 3" class="news-image">
+                        <img src="/wp-content/uploads/2026/03/Noticia18FEB-scaled.jpg" alt="Noticia 18 FEB" class="news-image">
                         <div class="news-date-badge">
                             <span class="news-date-day">18</span>
                             <span class="news-date-month">FEB</span>
@@ -281,20 +247,20 @@ get_header(); ?>
                         <div class="news-meta">
                             <span class="news-category">Logro</span>
                             <span class="news-separator">•</span>
-                            <span class="news-date-full">18 de febrero, 2025</span>
+                            <span class="news-date-full">18 de febrero, 2026</span>
                         </div>
                         <h3 class="news-title">
-                            El Congreso Nacional oficializó la declaratoria del Refugio de Vida Silvestre Suyapa “Luis Hernán Baca Valladares Mero” 
+                            Reunión Ministro SERNA Representantes del PMA 
                         </h3>
                         <div class="news-excerpt-container">
                             <p class="news-excerpt news-excerpt-visible">
-                                Un territorio de 5,107 hectáreas destinado a la conservación de la biodiversidad, la protección de fuentes de agua y la defensa del equilibrio ecológico en el Distrito Central y municipios aledaños. La decisión representa un hito ambiental para el país, al constituirse en una de las áreas protegidas más importantes para la capital y sus alrededores, debido a su riqueza natural y su función estratégica en la recarga hídrica.
+                                Un encuentro orientado a fortalecer la cooperación y el desarrollo nacional sostuvo el ministro <strong>Juan Carlos Ramos</strong> con el Programa Mundial de Alimentos (PMA) y su representante, <strong>Stephanie Hochstetter</strong>.
                             </p>
+                            <!-- <p class="news-excerpt news-excerpt-hidden">
+                                <strong>¿Que implica este logro?</strong>
+                            </p> -->
                             <p class="news-excerpt news-excerpt-hidden">
-                                <strong>Un logro tras 37 años de lucha comunitaria</strong>
-                            </p>
-                            <p class="news-excerpt news-excerpt-hidden">
-                                La declaratoria culmina 37 años de gestión y resistencia del Comité Ecológico de la Aldea de Suyapa (COEAS), organización que ha defendido la montaña frente a incendios, tala ilegal, expansión urbana y amenazas extractivas. Gracias al respaldo del gobierno de la presidenta Xiomara Castro, la propuesta avanzó hasta convertirse en decreto legislativo, reconociendo también el legado de Luis Hernán Baca Valladares “Mero”, líder comunitario emblemático en la defensa de estas tierras. El área natural comprende bosques nublados, pinares y ecosistemas de transición que albergan fauna silvestre y más de 480 especies de plantas, entre ellas variedades endémicas y de importancia medicinal y cultural para las comunidades. Además, el refugio forma parte de varias microcuencas que abastecen de agua a sectores urbanos y rurales del Distrito Central, convirtiéndose en una zona clave para garantizar la seguridad hídrica de miles de habitantes.
+                                La reunión reafirma el compromiso de la SERNA de trabajar junto a aliados estratégicos para apoyar a la población y fortalecer la respuesta ante situaciones de crisis en el país. 
                             </p>    
                         </div>
                         <a href="#" class="news-read-more" onclick="toggleNewsContent(event, this)">
@@ -305,11 +271,12 @@ get_header(); ?>
                         </a>
                     </div>
                 </article>
+                 
                 
                 <!-- Extended News (Initially Hidden) -->
                  
 
-                 <article class="news-card extended-news" style="display: none;">
+                 <!-- <article class="news-card extended-news" style="display: none;">
                     <div class="news-image-container">
                         <img src="/wp-content/uploads/2025/08/Noticia1SERNA.webp" alt="Noticia 9" class="news-image">
                         <div class="news-date-badge">
@@ -404,9 +371,9 @@ get_header(); ?>
                             <p class="news-excerpt news-excerpt-visible">
                                 Capacitación dirigida a educadores para incorporar temas ambientales en el currículo escolar.
                             </p>
-                            <!-- <p class="news-excerpt news-excerpt-hidden">
+                             <p class="news-excerpt news-excerpt-hidden">
                                 <strong>Cooperación internacional</strong>
-                            </p> -->
+                            </p> 
                             <p class="news-excerpt news-excerpt-hidden">
                                 
                             </p>    
@@ -418,7 +385,7 @@ get_header(); ?>
                             </svg>
                         </a>
                     </div>
-                </article>
+                </article> -->
                 
             </div>
 

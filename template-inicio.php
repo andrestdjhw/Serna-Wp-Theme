@@ -16,7 +16,6 @@ get_header(); ?>
 
     <!-- =============================================
          MARCA DE AGUA DEL LOGO
-         Cambia la URL por la ruta real de tu logo PNG
          ============================================= -->
     <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-start; padding-left: 4%;">
         <img 
@@ -286,8 +285,8 @@ get_header(); ?>
             </div>
         </section>
         
-        <!-- Stats Section -->
-        <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
+        <!-- Stats Section, Queda Oculta Mientras se actualice la informacion de que se quiera destacar -->
+        <!-- <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
                     <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
@@ -306,7 +305,7 @@ get_header(); ?>
                     <div class="text-lg">Áreas protegidas</div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         <!-- Call to Action -->
         <section class="section-watermark bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
