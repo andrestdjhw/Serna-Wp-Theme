@@ -59,22 +59,22 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-28-at-11.36.21.jpeg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2026/03/ComunicadoCESCCO.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <span class="text-[#ad8411] font-semibold">28 de Enero, 2026</span>
+                            <span class="text-[#ad8411] font-semibold">10 de Marzo, 2026</span>
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            ¡Aviso! A partir del 01 de Enero, 2026
+                            ¡Aviso importante!
                         </h3>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Se pone a disposición en modalidad virtual el Registro de Emisiones y Transferencia de Contaminantes <strong>(RETC)</strong> 
+                            SERNA habilita el registro digital de descargas de aguas residuales <strong>(RD-1)</strong>. Realice su trámite en línea conforme al reglamento vigente 
                         </p>
-                        <a href="#" class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScPI0IMqzDtG39G44H17j00WGNcNJuoq1NZ8f8nIJSJdErqTg/viewform" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                             Leer más
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />

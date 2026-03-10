@@ -68,6 +68,8 @@ function NavbarComponent() {
           items: [
             { name: "Anuncios", link: "/direcciones/cescco/anuncios" },
             { name: "RAEE", link: "/direcciones/cescco/rae" },
+            { name: "RETC", link: "https://hn-serna-retc.web.app/", external:true },
+            { name: "Registro Aguas Residuales", link: "https://docs.google.com/forms/d/e/1FAIpQLScPI0IMqzDtG39G44H17j00WGNcNJuoq1NZ8f8nIJSJdErqTg/viewform", external:true },
           ],
         },
         {
