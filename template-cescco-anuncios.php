@@ -59,7 +59,7 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2026/03/ComunicadoCESCCO.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2026/03/ComunicadoCescco.jpeg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
