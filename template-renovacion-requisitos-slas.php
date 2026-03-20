@@ -56,7 +56,7 @@ get_header(); ?>
             <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl">
                 <div class="lg:flex">
                     <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2025/08/RequisitosRenovacion.png" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
+                        <img src="/wp-content/uploads/2026/03/RequisitosdeRenovaciondeLicenciaAmbiental_Actualizada.jpg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
                     </div>
                     <div class="lg:w-1/2 p-8 lg:p-12 text-white">
                         <div class="flex items-center mb-4">
@@ -71,7 +71,9 @@ get_header(); ?>
                         <p class="text-lg leading-relaxed mb-6 opacity-90">
                             Manténgase al tanto de las ultimas actualizaciones.
                         </p>
-                        <a href="/wp-content/uploads/2025/08/Requisitos-de-Renovacion-de-Licencia-Ambiental.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
+                        <a href="/wp-content/uploads/2026/03/RequisitosdeRenovaciondeLicenciaAmbiental_Actualizada.jpg" 
+                           download = "RequisitodeRenovacionLicenciaAmbiental_Actualizada.jpg"
+                           class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
                             Descargar Recurso
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
