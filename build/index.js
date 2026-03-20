@@ -349,35 +349,76 @@ __webpack_require__.r(__webpack_exports__);
 function FooterComponent() {
   const socialLinks = [{
     name: "Facebook",
-    icon: "facebook",
-    url: "https://www.facebook.com/sernaHN/?locale=es_LA"
+    url: "https://www.facebook.com/sernaHN/?locale=es_LA",
+    icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      width: "16",
+      height: "16",
+      fill: "currentColor",
+      viewBox: "0 0 16 16",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+        d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+      })
+    })
   }, {
-    name: "Twitter",
-    icon: "twitter",
-    url: "https://x.com/sernaHN"
+    name: "Twitter / X",
+    url: "https://x.com/sernaHN",
+    icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      width: "15",
+      height: "15",
+      fill: "currentColor",
+      viewBox: "0 0 16 16",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+        d: "M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+      })
+    })
   }, {
     name: "Instagram",
-    icon: "instagram",
-    url: "https://www.instagram.com/sernahn?igsh=MWtqbzlqeXo1amxsMQ=="
+    url: "https://www.instagram.com/sernahn",
+    icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      width: "16",
+      height: "16",
+      fill: "currentColor",
+      viewBox: "0 0 16 16",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+        d: "M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+      })
+    })
   }, {
     name: "TikTok",
-    icon: "tiktok",
-    url: "https://www.tiktok.com/@sernahn?_t=ZM-8wLr9KveuyE&_r=1"
+    url: "https://www.tiktok.com/@sernahn",
+    icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      width: "14",
+      height: "14",
+      fill: "currentColor",
+      viewBox: "0 0 16 16",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+        d: "M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+      })
+    })
   }, {
     name: "YouTube",
-    icon: "youtube",
-    url: "https://www.youtube.com/@sernahn-gob"
+    url: "https://www.youtube.com/@sernahn-gob",
+    icon: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+      width: "17",
+      height: "17",
+      fill: "currentColor",
+      viewBox: "0 0 16 16",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+        d: "M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+      })
+    })
   }];
-
-  // Columnas del Footer y Estructura de datos
-  // Columnas del Footer y Estructura de datos
-  const footerColumns = [{
-    title: "Dirección",
-    content: ["Despacho de Recursos Naturales y", "Ambiente, SERNA, ", " Edificio Santa Fe, Colonia Castaño Sur, Tegucigalpa", "M.D.C., Honduras, C.A."]
+  const infoBlocks = [{
+    label: "Dirección",
+    lines: ["Edificio Santa Fe, Colonia Castaño Sur,", "Tegucigalpa M.D.C., Honduras, C.A."]
   }, {
-    title: "Contáctenos",
-    content: ["Tel: (+504) 2232-9200", "Horario: 9:00 A.M. - 4:00 P.M."]
+    label: "Teléfono",
+    lines: ["(+504) 2232-9200"]
   }, {
+    label: "Horario",
+    lines: ["Lunes a Viernes", "7:30 A.M. – 3:30 P.M."]
+  }];
+  const linkColumns = [{
     title: "Nosotros",
     links: [{
       name: "Perfil",
@@ -389,10 +430,10 @@ function FooterComponent() {
       name: "Oportunidades",
       url: "/nosotros/oportunidades"
     }, {
-      name: "Comité de Control Interno",
+      name: "Control Interno (COCOIN)",
       url: "/nosotros/cocoin"
     }, {
-      name: "Comité de Probidad y Ética Pública",
+      name: "Probidad y Ética (CEPEP)",
       url: "/nosotros/cepep"
     }, {
       name: "Preguntas Frecuentes",
@@ -421,9 +462,6 @@ function FooterComponent() {
     }, {
       name: "DNCC",
       url: "/direcciones/dncc"
-    }, {
-      name: "UTOH",
-      url: "/direcciones/utoh"
     }]
   }, {
     title: "Regionales",
@@ -453,120 +491,312 @@ function FooterComponent() {
       url: "/regionales/regional-olancho"
     }]
   }];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("footer", {
-    className: "relative text-white",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "w-full overflow-hidden leading-[0] bg-gradient-to-r from-[#231f20] via-[#666666] to-[#666666]",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-        viewBox: "0 0 1440 120",
-        xmlns: "http://www.w3.org/2000/svg",
-        preserveAspectRatio: "none",
-        className: "block w-full h-12 md:h-20",
-        fill: "white",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-          d: "M0 0H1440V60L1380 56.7C1320 53 1200 47 1080 43.3C960 40 840 40 720 43.3C600 47 480 53 360 46.7C240 40 120 20 60 10L0 0Z"
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("style", {
+      children: `
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+        .footer-root { font-family: 'Outfit', sans-serif; }
+
+        /* ── Wave ── */
+        .footer-wave-wrap {
+          width: 100%; overflow: hidden; line-height: 0;
+          background: linear-gradient(90deg, #231f20 0%, #2d2828 16%, #4a4343 35%, #5d5757 55%, #666666 100%);
+        }
+
+        /* ── Body ── */
+        .footer-body {
+          background: linear-gradient(90deg, #231f20 0%, #2d2828 16%, #4a4343 35%, #5d5757 55%, #666666 100%);
+          position: relative;
+          overflow: hidden;
+        }
+
+        /* Subtle cross-hatch texture */
+        .footer-body::before {
+          content: '';
+          position: absolute; inset: 0;
+          background-image:
+            repeating-linear-gradient(0deg, rgba(0,0,0,0.045) 0px, rgba(0,0,0,0.045) 1px, transparent 1px, transparent 32px),
+            repeating-linear-gradient(90deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 32px);
+          pointer-events: none;
+        }
+
+        /* Dark panel removed — gradient handles depth */
+
+        /* Gold accent bar */
+        .footer-gold-bar {
+          height: 3px; width: 100%;
+          background: linear-gradient(90deg, #231f20 0%, #ad8411 15%, #e3a220 50%, #ad8411 85%, #231f20 100%);
+          position: relative; z-index: 2;
+        }
+
+        .footer-inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 48px 32px 0;
+          position: relative;
+          z-index: 1;
+        }
+
+        /* ── Grid: [brand 230px] [1px divider] [info 210px] [nosotros 1fr] [dirs 1fr] [regionales 1fr] ── */
+        .footer-grid {
+          display: grid;
+          grid-template-columns: 230px 1px 210px repeat(3, 1fr);
+          align-items: start;
+        }
+
+        /* ── Brand ── */
+        .footer-brand-cell {
+          padding: 0 28px 44px 0;
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+        }
+        .footer-logo { width: 138px; display: block; }
+
+        .footer-tagline {
+          font-size: 10.5px; font-weight: 300;
+          letter-spacing: 0.13em; text-transform: uppercase;
+          color: rgba(255,255,255,0.35); line-height: 1.8;
+        }
+
+        .social-row { display: flex; gap: 7px; flex-wrap: wrap; }
+
+        .social-btn {
+          width: 34px; height: 34px; border-radius: 50%;
+          border: 1px solid rgba(255,255,255,0.16);
+          background: rgba(255,255,255,0.05);
+          color: rgba(255,255,255,0.55);
+          display: flex; align-items: center; justify-content: center;
+          text-decoration: none;
+          transition: border-color .2s, background .2s, color .2s, transform .2s;
+        }
+        .social-btn:hover {
+          border-color: #e3a220;
+          background: rgba(173,132,17,0.16);
+          color: #e3a220;
+          transform: translateY(-2px);
+        }
+
+        /* Gold vertical divider */
+        .footer-vdivider {
+          background: linear-gradient(180deg, transparent, rgba(173,132,17,0.4) 15%, rgba(173,132,17,0.4) 85%, transparent);
+          width: 1px;
+          align-self: stretch;
+        }
+
+        /* ── Info col ── */
+        .footer-info-cell {
+          padding: 0 24px 44px 24px;
+          border-right: 1px solid rgba(0,0,0,0.10);
+        }
+
+        /* ── Link cols ── */
+        .footer-col {
+          padding: 0 20px 44px 20px;
+          border-right: 1px solid rgba(0,0,0,0.10);
+        }
+        .footer-col:last-child { border-right: none; }
+
+        /* Column title */
+        .f-title {
+          font-size: 10px; font-weight: 700;
+          letter-spacing: 0.18em; text-transform: uppercase;
+          color: #e3a220;
+          margin-bottom: 16px;
+          display: flex; align-items: center; gap: 10px;
+        }
+        .f-title::after {
+          content: ''; flex: 1; height: 1px;
+          background: rgba(173,132,17,0.22); min-width: 8px;
+        }
+
+        /* Info blocks */
+        .info-block { margin-bottom: 16px; }
+        .info-block:last-child { margin-bottom: 0; }
+        .info-label {
+          font-size: 9px; font-weight: 700;
+          letter-spacing: 0.18em; text-transform: uppercase;
+          color: rgba(255,255,255,0.45); margin-bottom: 4px;
+        }
+        .info-line {
+          font-size: 12.5px; font-weight: 300;
+          color: rgba(255,255,255,0.78); line-height: 1.65;
+        }
+
+        /* Links */
+        .f-links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+        .f-link {
+          display: flex; align-items: center; gap: 6px;
+          padding: 4.5px 0;
+          font-size: 12.5px; font-weight: 400;
+          color: rgba(255,255,255,0.68);
+          text-decoration: none;
+          transition: color .18s, gap .18s;
+        }
+        .f-dot {
+          width: 3px; height: 3px; border-radius: 50%;
+          background: #ad8411; flex-shrink: 0;
+          opacity: 0; transition: opacity .18s;
+        }
+        .f-link:hover { color: #f0c050; gap: 9px; }
+        .f-link:hover .f-dot { opacity: 1; }
+
+        /* ── Bottom bar ── */
+        .footer-bottom-wrap { position: relative; z-index: 1; }
+        .footer-hdivider {
+          max-width: 1280px; margin: 0 auto; padding: 0 32px;
+        }
+        .footer-hdivider hr {
+          border: none; height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(173,132,17,0.4) 30%, rgba(173,132,17,0.4) 70%, transparent);
+        }
+        .footer-bottom {
+          max-width: 1280px; margin: 0 auto;
+          padding: 15px 32px 22px;
+          display: flex; align-items: center;
+          justify-content: space-between; gap: 12px; flex-wrap: wrap;
+        }
+        .footer-copy {
+          font-size: 11px; font-weight: 300;
+          color: rgba(255,255,255,0.32); letter-spacing: 0.02em;
+        }
+        .footer-copy strong { color: rgba(255,255,255,0.5); font-weight: 500; }
+        .footer-blinks { display: flex; gap: 20px; }
+        .footer-blink {
+          font-size: 11px; font-weight: 300;
+          color: rgba(255,255,255,0.30); text-decoration: none;
+          transition: color .18s;
+        }
+        .footer-blink:hover { color: #e3a220; }
+
+        /* ── Responsive ── */
+        @media (max-width: 1050px) {
+          .footer-grid { grid-template-columns: 210px 1px 190px repeat(3, 1fr); }
+        }
+        @media (max-width: 860px) {
+          .footer-grid {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0;
+          }
+          .footer-brand-cell {
+            grid-column: 1 / -1;
+            flex-direction: row; flex-wrap: wrap;
+            align-items: flex-start; gap: 28px;
+            padding: 0 0 28px;
+            border-bottom: 1px solid rgba(173,132,17,0.22);
+            margin-bottom: 8px;
+          }
+          .footer-vdivider { display: none; }
+          .footer-info-cell { padding: 0 16px 32px 0; border-right: 1px solid rgba(0,0,0,0.10); }
+          .footer-col { padding: 0 16px 32px; }
+        }
+        @media (max-width: 560px) {
+          .footer-grid { grid-template-columns: 1fr 1fr; }
+          .footer-brand-cell { flex-direction: column; }
+          .footer-inner { padding: 36px 18px 0; }
+          .footer-bottom { flex-direction: column; align-items: center; text-align: center; }
+          .footer-blinks { justify-content: center; }
+          .footer-hdivider, .footer-bottom { padding-left: 18px; padding-right: 18px; }
+        }
+      `
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "footer-root",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "footer-wave-wrap",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+          viewBox: "0 0 1440 90",
+          xmlns: "http://www.w3.org/2000/svg",
+          preserveAspectRatio: "none",
+          style: {
+            display: "block",
+            width: "100%",
+            height: "clamp(36px,5vw,80px)"
+          },
+          fill: "white",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+            d: "M0 0H1440V45L1380 42.5C1320 40 1200 35 1080 32.5C960 30 840 30 720 32.5C600 35 480 40 360 35C240 30 120 15 60 7.5L0 0Z"
+          })
         })
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "bg-gradient-to-r from-[#231f20] via-[#666666] to-[#666666] pt-4 pb-6",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "max-w-7xl mx-auto px-4",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-          className: "grid grid-cols-1 md:grid-cols-6 gap-8",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "md:col-span-1 flex flex-col items-center md:items-start",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-40 mb-8",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("footer", {
+        className: "footer-body",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "footer-gold-bar"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "footer-inner",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "footer-grid",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "footer-brand-cell",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                 src: "/wp-content/uploads/2026/02/Blanco-SERNA.png",
                 alt: "SERNA",
-                className: "w-full"
-              })
+                className: "footer-logo"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+                className: "footer-tagline",
+                children: ["Secretar\xEDa de Recursos", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "Naturales y Ambiente", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "Honduras, C.A."]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                className: "social-row",
+                children: socialLinks.map((s, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                  href: s.url,
+                  className: "social-btn",
+                  "aria-label": s.name,
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  children: s.icon
+                }, i))
+              })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "flex space-x-2 mb-6",
-              children: socialLinks.map((social, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                href: social.url,
-                className: "text-white hover:text-[#E0AE19] transition-colors",
-                "aria-label": social.name,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition-colors",
-                  children: [social.icon === "facebook" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "16",
-                    height: "16",
-                    fill: "currentColor",
-                    viewBox: "0 0 16 16",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                    })
-                  }), social.icon === "twitter" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "16",
-                    height: "16",
-                    fill: "currentColor",
-                    viewBox: "0 0 16 16",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      d: "M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                    })
-                  }), social.icon === "instagram" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "16",
-                    height: "16",
-                    fill: "currentColor",
-                    viewBox: "0 0 16 16",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      d: "M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                    })
-                  }), social.icon === "tiktok" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "16",
-                    height: "16",
-                    fill: "currentColor",
-                    viewBox: "0 0 16 16",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      d: "M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
-                    })
-                  }), social.icon === "youtube" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "16",
-                    height: "16",
-                    fill: "currentColor",
-                    viewBox: "0 0 16 16",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                      d: "M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
-                    })
-                  })]
-                })
-              }, index))
-            })]
-          }), footerColumns.map((column, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-            className: "md:col-span-1 text-center md:text-left",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-              className: "text-xl font-bold mb-4 font-custom",
-              children: column.title
-            }), column.content && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "text-sm space-y-2",
-              children: column.content.map((line, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-                children: line
-              }, i))
-            }), column.links && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
-              className: "space-y-2",
-              children: column.links.map((link, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                  href: link.url,
-                  className: "text-sm hover:text-[#E0AE19] transition-colors",
-                  children: link.name
-                })
-              }, i))
-            })]
-          }, index))]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "mt-6 pt-6 border-t border-white/20 text-center text-base",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-            children: ["\xA9 ", new Date().getFullYear(), " SERNA - Secretar\xEDa de Recursos Naturales y Ambiente. Todos los derechos reservados."]
+              className: "footer-vdivider"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "footer-info-cell",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+                className: "f-title",
+                children: "Informaci\xF3n"
+              }), infoBlocks.map((b, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "info-block",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                  className: "info-label",
+                  children: b.label
+                }), b.lines.map((l, j) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                  className: "info-line",
+                  children: l
+                }, j))]
+              }, i))]
+            }), linkColumns.map((col, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "footer-col",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+                className: "f-title",
+                children: col.title
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+                className: "f-links",
+                children: col.links.map((link, j) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
+                    href: link.url,
+                    className: "f-link",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                      className: "f-dot"
+                    }), link.name]
+                  })
+                }, j))
+              })]
+            }, i))]
           })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "footer-bottom-wrap",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "footer-hdivider",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("hr", {})
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "footer-bottom",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+              className: "footer-copy",
+              children: ["\xA9 ", new Date().getFullYear(), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("strong", {
+                children: "SERNA"
+              }), " \u2014 Todos los derechos reservados."]
+            })
+          })]
         })]
-      })
+      })]
     })]
   });
 }
@@ -593,34 +823,23 @@ __webpack_require__.r(__webpack_exports__);
 function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   const [activeDropdown, setActiveDropdown] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const [scrolled, setScrolled] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const [activeItem, setActiveItem] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
+  const closeTimer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  const handleMouseEnter = name => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setActiveDropdown(name);
   };
-  const toggleDropdown = dropdown => {
-    if (activeDropdown === dropdown) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(dropdown);
-    }
+  const handleMouseLeave = () => {
+    closeTimer.current = setTimeout(() => setActiveDropdown(null), 120);
   };
-
-  // Calcula cuadricula de columnas basado en numero de columnas
-  const getGridColumnsClass = columns => {
-    switch (columns.length) {
-      case 1:
-        return 'grid-cols-1';
-      case 2:
-        return 'grid-cols-1 md:grid-cols-2';
-      case 3:
-        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
-      case 4:
-        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
-      default:
-        return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
-    }
-  };
-
-  // Estructura de datos de la barra de navegacion
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const toggleDropdown = dropdown => setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
   const navItems = [{
     name: "Inicio",
     link: "/",
@@ -662,7 +881,7 @@ function NavbarComponent() {
     }]
   }, {
     name: "Webmail",
-    link: "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&scope=https%3A%2F%2Foutlook.office.com%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2F&client-request-id=cbf620c2-64c5-a43e-227e-d0b69d75a947&response_mode=fragment&client_info=1&prompt=select_account&nonce=019852b6-5247-7c5a-8586-495d1d0d1196&state=eyJpZCI6IjAxOTg1MmI2LTUyNDctN2UyZS05NTI2LTY5NjdkMjRkMGRjNCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&claims=%7B%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=4.14.0&response_type=code&code_challenge=V_FtD9t6XFT0Qv-_dqA3NxghrtQ_pMuhPgSiLeKkGt0&code_challenge_method=S256&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&fl=dob,flname,wld&sso_reload=true",
+    link: "https://login.microsoftonline.com/",
     hasDropdown: false,
     external: true
   }, {
@@ -688,7 +907,7 @@ function NavbarComponent() {
         external: true
       }, {
         name: "Registro Aguas Residuales",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScPI0IMqzDtG39G44H17j00WGNcNJuoq1NZ8f8nIJSJdErqTg/viewform",
+        link: "https://docs.google.com/forms/",
         external: true
       }]
     }, {
@@ -719,10 +938,10 @@ function NavbarComponent() {
         name: "Nuevos Requisitos SLAS",
         link: "/direcciones/deca/nuevos-requisitos-slas"
       }, {
-        name: "Requisitos de Renovacion de Licencia Ambiental",
+        name: "Requisitos de Renovacion",
         link: "/direcciones/deca/requisitos-de-renovacion-licencia-ambiental"
       }, {
-        name: "Requisito de constancia de no requerir licencia ambiental",
+        name: "Constancia No Requerir Licencia",
         link: "/direcciones/deca/requisitos-de-constancia-de-no-requerir-licencia-ambiental"
       }]
     }]
@@ -832,208 +1051,600 @@ function NavbarComponent() {
       }]
     }]
   }];
+  const getGridCols = columns => {
+    switch (columns.length) {
+      case 1:
+        return "grid-cols-1";
+      case 2:
+        return "grid-cols-2";
+      case 3:
+        return "grid-cols-3";
+      case 4:
+        return "grid-cols-4";
+      default:
+        return "grid-cols-3";
+    }
+  };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
-      className: "bg-[#FFFFFF] w-full border-b border-gray-200",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "max-w-7xl mx-auto px-4 py-4",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("style", {
+      children: `
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+        .nav-root * { box-sizing: border-box; }
+
+        .nav-root {
+          font-family: 'Outfit', sans-serif;
+        }
+
+        /* ── Header ── */
+        .serna-header {
+          background: #ffffff;
+          border-bottom: 1px solid rgba(38, 61, 128, 0.08);
+          padding: 14px 0;
+        }
+        .serna-header-inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 0 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .serna-logo { height: 56px; display: block; }
+
+        /* ── Sticky Nav ── */
+        .serna-nav {
+          position: sticky;
+          top: 0;
+          z-index: 100;
+          width: 100%;
+          background: linear-gradient(135deg, #263b80 0%, #264da0 100%);
+          transition: box-shadow 0.3s ease, backdrop-filter 0.3s ease;
+        }
+        .serna-nav.scrolled {
+          box-shadow: 0 4px 32px rgba(38, 61, 128, 0.35);
+          backdrop-filter: blur(12px);
+        }
+
+        /* thin gold accent line under nav */
+        .serna-nav::after {
+          content: '';
+          display: block;
+          height: 2px;
+          background: linear-gradient(90deg, transparent, #e3a220 30%, #ad8411 70%, transparent);
+          opacity: 0.7;
+        }
+
+        .serna-nav-inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 0 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 58px;
+        }
+
+        /* ── Desktop Nav Items ── */
+        .desktop-nav {
+          display: flex;
+          align-items: center;
+          gap: 2px;
+        }
+
+        .nav-item-wrap {
+          position: relative;
+        }
+
+        .nav-btn, .nav-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+          padding: 8px 13px;
+          font-family: 'Outfit', sans-serif;
+          font-size: 13.5px;
+          font-weight: 500;
+          letter-spacing: 0.015em;
+          color: rgba(255,255,255,0.92);
+          background: transparent;
+          border: none;
+          border-radius: 6px;
+          cursor: pointer;
+          text-decoration: none;
+          transition: color 0.2s, background 0.2s;
+          white-space: nowrap;
+          position: relative;
+        }
+
+        .nav-btn::before, .nav-link::before {
+          content: '';
+          position: absolute;
+          bottom: 4px;
+          left: 13px;
+          right: 13px;
+          height: 1.5px;
+          background: #e3a220;
+          transform: scaleX(0);
+          transform-origin: left;
+          transition: transform 0.25s ease;
+          border-radius: 2px;
+        }
+
+        .nav-btn:hover, .nav-link:hover,
+        .nav-btn.active, .nav-link.active {
+          color: #fff;
+          background: rgba(255,255,255,0.10);
+        }
+
+        .nav-btn:hover::before, .nav-link:hover::before,
+        .nav-btn.active::before, .nav-link.active::before {
+          transform: scaleX(1);
+        }
+
+        .nav-chevron {
+          width: 14px;
+          height: 14px;
+          transition: transform 0.25s ease;
+          opacity: 0.8;
+          flex-shrink: 0;
+        }
+        .nav-btn.active .nav-chevron {
+          transform: rotate(180deg);
+        }
+
+        /* ── Mega Menu ── */
+        .mega-menu {
+          position: absolute;
+          top: calc(100% + 10px);
+          left: 50%;
+          transform: translateX(-50%);
+          background: #ffffff;
+          border-radius: 12px;
+          box-shadow: 0 8px 48px rgba(38, 61, 128, 0.18), 0 2px 8px rgba(0,0,0,0.08);
+          padding: 24px;
+          z-index: 200;
+          border: 1px solid rgba(38, 77, 160, 0.10);
+          opacity: 0;
+          visibility: hidden;
+          transform: translateX(-50%) translateY(-6px);
+          transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+          pointer-events: none;
+        }
+
+        .mega-menu::before {
+          content: '';
+          position: absolute;
+          top: -6px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 12px;
+          height: 12px;
+          background: white;
+          border-left: 1px solid rgba(38, 77, 160, 0.10);
+          border-top: 1px solid rgba(38, 77, 160, 0.10);
+          transform: translateX(-50%) rotate(45deg);
+        }
+
+        .mega-menu.open {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(-50%) translateY(0);
+          pointer-events: all;
+        }
+
+        .mega-grid {
+          display: grid;
+          gap: 0;
+        }
+
+        .mega-col {
+          padding: 0 20px;
+          border-right: 1px solid rgba(38, 61, 128, 0.07);
+        }
+        .mega-col:first-child { padding-left: 4px; }
+        .mega-col:last-child {
+          border-right: none;
+          padding-right: 4px;
+        }
+
+        .mega-col-title {
+          font-family: 'Outfit', sans-serif;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #263b80;
+          margin-bottom: 10px;
+          padding-bottom: 8px;
+          border-bottom: 2px solid #e3a220;
+          display: inline-block;
+          text-decoration: none;
+        }
+        a.mega-col-title:hover { color: #264da0; }
+
+        .mega-col-items { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1px; }
+
+        .mega-item-link {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 8px;
+          padding: 7px 10px;
+          border-radius: 6px;
+          font-size: 13px;
+          font-weight: 400;
+          color: #374151;
+          text-decoration: none;
+          transition: background 0.15s, color 0.15s, padding-left 0.15s;
+        }
+        .mega-item-link:hover {
+          background: linear-gradient(90deg, rgba(38,61,128,0.06), rgba(38,77,160,0.03));
+          color: #263b80;
+          padding-left: 14px;
+        }
+
+        .ext-icon {
+          width: 11px;
+          height: 11px;
+          opacity: 0.45;
+          flex-shrink: 0;
+        }
+
+        /* ── Mobile Toggle ── */
+        .mobile-brand {
+          font-family: 'Outfit', sans-serif;
+          font-weight: 700;
+          font-size: 18px;
+          color: white;
+          text-decoration: none;
+          letter-spacing: 0.05em;
+        }
+
+        .hamburger-btn {
+          background: rgba(255,255,255,0.10);
+          border: 1px solid rgba(255,255,255,0.20);
+          border-radius: 8px;
+          padding: 8px;
+          cursor: pointer;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: background 0.2s;
+        }
+        .hamburger-btn:hover { background: rgba(255,255,255,0.18); }
+
+        /* ── Mobile Menu drawer ── */
+        .mobile-menu {
+          background: #ffffff;
+          border-top: 2px solid #e3a220;
+          overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .mobile-menu.open { max-height: 1200px; }
+
+        .mobile-menu-inner {
+          padding: 8px 12px 24px;
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+        }
+
+        /* plain link rows */
+        .mobile-nav-link {
+          display: flex;
+          align-items: center;
+          padding: 13px 12px;
+          border-bottom: 1px solid rgba(38,61,128,0.07);
+          font-size: 14.5px;
+          font-weight: 500;
+          color: #1e2d6b;
+          text-decoration: none;
+          transition: color 0.15s;
+        }
+        .mobile-nav-link:hover { color: #e3a220; }
+
+        /* accordion trigger */
+        .mobile-toggle-btn {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 13px 12px;
+          border-bottom: 1px solid rgba(38,61,128,0.07);
+          font-family: 'Outfit', sans-serif;
+          font-size: 14.5px;
+          font-weight: 500;
+          color: #1e2d6b;
+          background: transparent;
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          cursor: pointer;
+          transition: color 0.15s;
+        }
+        .mobile-toggle-btn:hover { color: #e3a220; }
+        .mobile-toggle-btn.mob-open { color: #263b80; border-bottom-color: transparent; }
+
+        .mob-chevron {
+          width: 16px;
+          height: 16px;
+          flex-shrink: 0;
+          color: #263b80;
+          transition: transform 0.28s ease;
+        }
+        .mob-open .mob-chevron { transform: rotate(180deg); }
+
+        /* accordion panel */
+        .mobile-sub-panel {
+          overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+          background: #f4f6fb;
+          border-radius: 0 0 10px 10px;
+          margin: 0 4px 6px;
+        }
+        .mobile-sub-panel.mob-panel-open { max-height: 1000px; }
+
+        .mobile-sub-inner {
+          padding: 10px 10px 14px;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        /* column group inside panel */
+        .mob-col-group {}
+
+        .mob-col-label {
+          font-size: 10px;
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          color: #263b80;
+          padding: 6px 8px 5px;
+          display: block;
+          text-decoration: none;
+          opacity: 0.7;
+        }
+
+        .mob-items-list {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+        }
+
+        .mob-item-link {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 9px 12px;
+          border-radius: 7px;
+          font-size: 13.5px;
+          font-weight: 400;
+          color: #263b80;
+          background: white;
+          text-decoration: none;
+          border: 1px solid rgba(38,61,128,0.08);
+          transition: background 0.15s, border-color 0.15s, color 0.15s;
+        }
+        .mob-item-link:hover {
+          background: #263b80;
+          color: white;
+          border-color: #263b80;
+        }
+        .mob-item-link:hover .ext-icon { opacity: 0.7; }
+
+        @media (min-width: 768px) {
+          .mobile-only { display: none !important; }
+        }
+        @media (max-width: 767px) {
+          .desktop-only { display: none !important; }
+          .serna-nav-inner { justify-content: space-between; }
+        }
+      `
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "nav-root",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
+        className: "serna-header",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "flex flex-col items-center justify-center",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex items-center space-x-8",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-              src: "/wp-content/uploads/2026/02/v2-Horizontal-Color-SERNA-scaled.png",
-              alt: "Emblema de Honduras",
-              className: "h-18"
-            })
+          className: "serna-header-inner",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+            src: "/wp-content/uploads/2026/02/v2-Horizontal-Color-SERNA-scaled.png",
+            alt: "SERNA",
+            className: "serna-logo"
           })
         })
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-      className: "site-header sticky top-0 z-50 w-full shadow-md bg-gradient-to-t from-[#264da0] to-[#263b80]",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "max-w-7xl mx-auto px-4",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-          className: "flex items-center justify-between h-16",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex-shrink-0 md:hidden",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-              href: "/",
-              className: "text-white font-bold text-xl font-custom",
-              children: "SERNA"
-            })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "flex md:hidden",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-              onClick: toggleMenu,
-              className: "inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-black/20 focus:outline-none",
-              "aria-expanded": isMenuOpen,
-              "aria-label": "Toggle main menu",
-              children: isMenuOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                className: "h-6 w-6",
-                fill: "none",
-                viewBox: "0 0 24 24",
-                stroke: "currentColor",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                  strokeLinecap: "round",
-                  strokeLinejoin: "round",
-                  strokeWidth: 2,
-                  d: "M6 18L18 6M6 6l12 12"
-                })
-              }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                className: "h-6 w-6",
-                fill: "none",
-                viewBox: "0 0 24 24",
-                stroke: "currentColor",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                  strokeLinecap: "round",
-                  strokeLinejoin: "round",
-                  strokeWidth: 2,
-                  d: "M4 6h16M4 12h16M4 18h16"
-                })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
+        className: `serna-nav ${scrolled ? "scrolled" : ""}`,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "serna-nav-inner",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            href: "/",
+            className: "mobile-brand mobile-only",
+            children: "SERNA"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+            className: "hamburger-btn mobile-only",
+            onClick: toggleMenu,
+            "aria-label": "Abrir men\xFA",
+            children: isMenuOpen ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+              width: "20",
+              height: "20",
+              fill: "none",
+              stroke: "currentColor",
+              strokeWidth: "2",
+              viewBox: "0 0 24 24",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M6 18L18 6M6 6l12 12"
+              })
+            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+              width: "20",
+              height: "20",
+              fill: "none",
+              stroke: "currentColor",
+              strokeWidth: "2",
+              viewBox: "0 0 24 24",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M4 6h16M4 12h16M4 18h16"
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "hidden md:flex md:items-center md:justify-center md:flex-1",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "flex space-x-8",
-              children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "relative group",
+            className: "desktop-nav desktop-only",
+            children: navItems.map((item, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "nav-item-wrap",
+              onMouseEnter: () => item.hasDropdown && handleMouseEnter(item.name),
+              onMouseLeave: () => item.hasDropdown && handleMouseLeave(),
+              children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                  className: `nav-btn ${activeDropdown === item.name ? "active" : ""}`,
+                  onClick: () => toggleDropdown(item.name),
+                  children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                    className: "nav-chevron",
+                    fill: "none",
+                    stroke: "currentColor",
+                    strokeWidth: "2.5",
+                    viewBox: "0 0 24 24",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                      strokeLinecap: "round",
+                      strokeLinejoin: "round",
+                      d: "M19 9l-7 7-7-7"
+                    })
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: `mega-menu ${activeDropdown === item.name ? "open" : ""}`,
+                  onMouseEnter: () => handleMouseEnter(item.name),
+                  onMouseLeave: handleMouseLeave,
+                  style: {
+                    width: `${Math.min(item.columns.length * 220, 760)}px`,
+                    maxWidth: "92vw"
+                  },
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                    className: `mega-grid`,
+                    style: {
+                      gridTemplateColumns: `repeat(${item.columns.length}, 1fr)`
+                    },
+                    children: item.columns.map((col, ci) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                      className: "mega-col",
+                      children: [col.title && (col.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                        href: col.link,
+                        className: "mega-col-title",
+                        children: col.title
+                      }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                        className: "mega-col-title",
+                        children: col.title
+                      })), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+                        className: "mega-col-items",
+                        children: col.items.map((sub, si) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
+                            href: sub.link,
+                            target: sub.external ? "_blank" : undefined,
+                            rel: sub.external ? "noopener noreferrer" : undefined,
+                            className: "mega-item-link",
+                            children: [sub.name, sub.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                              className: "ext-icon",
+                              fill: "none",
+                              stroke: "currentColor",
+                              strokeWidth: "2",
+                              viewBox: "0 0 24 24",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                              })
+                            })]
+                          })
+                        }, si))
+                      })]
+                    }, ci))
+                  })
+                })]
+              }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                href: item.link,
+                target: item.external ? "_blank" : undefined,
+                rel: item.external ? "noopener noreferrer" : undefined,
+                className: "nav-link",
+                children: item.name
+              })
+            }, i))
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: `mobile-menu mobile-only ${isMenuOpen ? "open" : ""}`,
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "mobile-menu-inner",
+            children: navItems.map((item, i) => {
+              const isOpen = activeDropdown === item.name;
+              return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                 children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                    className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200 flex items-center",
-                    onMouseEnter: () => setActiveDropdown(item.name),
+                    className: `mobile-toggle-btn ${isOpen ? "mob-open" : ""}`,
                     onClick: () => toggleDropdown(item.name),
-                    children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                      className: "ml-1 h-4 w-4",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                      children: item.name
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                      className: "mob-chevron",
                       fill: "none",
-                      viewBox: "0 0 24 24",
                       stroke: "currentColor",
+                      strokeWidth: "2.5",
+                      viewBox: "0 0 24 24",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                         strokeLinecap: "round",
                         strokeLinejoin: "round",
-                        strokeWidth: 2,
                         d: "M19 9l-7 7-7-7"
                       })
                     })]
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: `absolute top-full left-1/6 transform -translate-x-1/2 mt-1 rounded-md shadow-lg bg-white py-6 z-50 transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`,
-                    onMouseEnter: () => setActiveDropdown(item.name),
-                    onMouseLeave: () => setActiveDropdown(null),
-                    style: {
-                      width: `${Math.min(item.columns.length * 250, 800)}px`,
-                      maxWidth: "90vw"
-                    },
+                    className: `mobile-sub-panel ${isOpen ? "mob-panel-open" : ""}`,
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                      className: `grid ${getGridColumnsClass(item.columns)} gap-4 px-6`,
-                      children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                        className: "space-y-4",
-                        children: [column.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                          href: column.link,
-                          className: "text-sm font-medium font-custom text-gray-900 hover:text-[#264da0]",
-                          children: column.title
-                        }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-                          className: "text-sm font-medium font-custom text-gray-900",
-                          children: column.title
-                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
-                          className: "space-y-2",
-                          children: column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
-                              href: subItem.link,
-                              target: subItem.external ? "_blank" : undefined,
-                              rel: subItem.external ? "noopener noreferrer" : undefined,
-                              className: "text-sm w-full flex justify-between items-center px-3 py-2 rounded-md text-[#264da0] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
-                              children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                                className: "w-3 h-3 ml-1",
-                                fill: "none",
-                                stroke: "currentColor",
-                                viewBox: "0 0 24 24",
-                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                                  strokeLinecap: "round",
-                                  strokeLinejoin: "round",
-                                  strokeWidth: 2,
-                                  d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                })
-                              })]
-                            })
-                          }, subIndex))
+                      className: "mobile-sub-inner",
+                      children: item.columns.map((col, ci) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                        className: "mob-col-group",
+                        children: [col.title && (col.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                          href: col.link,
+                          className: "mob-col-label",
+                          children: col.title
+                        }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                          className: "mob-col-label",
+                          children: col.title
+                        })), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                          className: "mob-items-list",
+                          children: col.items.map((sub, si) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
+                            href: sub.link,
+                            target: sub.external ? "_blank" : undefined,
+                            rel: sub.external ? "noopener noreferrer" : undefined,
+                            className: "mob-item-link",
+                            children: [sub.name, sub.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                              className: "ext-icon",
+                              fill: "none",
+                              stroke: "currentColor",
+                              strokeWidth: "2",
+                              viewBox: "0 0 24 24",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                              })
+                            })]
+                          }, si))
                         })]
-                      }, colIndex))
+                      }, ci))
                     })
                   })]
                 }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                   href: item.link,
                   target: item.external ? "_blank" : undefined,
                   rel: item.external ? "noopener noreferrer" : undefined,
-                  className: "text-white hover:text-[#e3a220] font-custom transition-colors duration-200",
+                  className: "mobile-nav-link",
                   children: item.name
                 })
-              }, index))
+              }, i);
             })
-          })]
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: `md:hidden ${isMenuOpen ? "block" : "hidden"}`,
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "px-2 pt-2 pb-3 space-y-1 bg-gray-50",
-          children: navItems.map((item, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "w-full",
-            children: item.hasDropdown ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                onClick: () => toggleDropdown(item.name),
-                className: "w-full flex justify-between items-center px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
-                children: [item.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                  className: `ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === item.name ? "transform rotate-180" : ""}`,
-                  fill: "none",
-                  viewBox: "0 0 24 24",
-                  stroke: "currentColor",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M19 9l-7 7-7-7"
-                  })
-                })]
-              }), activeDropdown === item.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                className: "pl-4 py-2 space-y-1",
-                children: item.columns.map((column, colIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-                  className: "mb-2",
-                  children: [column.link ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                    href: column.link,
-                    className: "block px-3 py-1 font-medium text-sm text-[#263b80] hover:text-[#e3a220] transition-colors duration-200",
-                    children: column.title
-                  }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                    className: "px-3 py-1 font-medium text-sm",
-                    children: column.title
-                  }), column.items.map((subItem, subIndex) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
-                    href: subItem.link,
-                    target: subItem.external ? "_blank" : undefined,
-                    rel: subItem.external ? "noopener noreferrer" : undefined,
-                    className: "flex items-center justify-between px-3 py-2 rounded-md text-white bg-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200 my-1",
-                    children: [subItem.name, subItem.external && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
-                      className: "w-3 h-3 ml-1",
-                      fill: "none",
-                      stroke: "currentColor",
-                      viewBox: "0 0 24 24",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        strokeWidth: 2,
-                        d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      })
-                    })]
-                  }, subIndex))]
-                }, colIndex))
-              })]
-            }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-              href: item.link,
-              target: item.external ? "_blank" : undefined,
-              rel: item.external ? "noopener noreferrer" : undefined,
-              className: "block px-3 py-2 rounded-md text-[#263b80] hover:bg-[#264da0] hover:text-white transition-colors duration-200",
-              children: item.name
-            })
-          }, index))
-        })
+          })
+        })]
       })]
     })]
   });
