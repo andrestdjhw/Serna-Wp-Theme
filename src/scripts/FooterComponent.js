@@ -149,7 +149,7 @@ function FooterComponent() {
           transition: border-color .2s, background .2s, color .2s, transform .2s;
         }
         .social-btn:hover {
-          border-color: #e3a220;
+          border-color: #AD8411;
           background: rgba(173,132,17,0.16);
           color: #e3a220;
           transform: translateY(-2px);
@@ -179,7 +179,7 @@ function FooterComponent() {
         .f-title {
           font-size: 10px; font-weight: 700;
           letter-spacing: 0.18em; text-transform: uppercase;
-          color: #e3a220;
+          color: #AD8411;
           margin-bottom: 16px;
           display: flex; align-items: center; gap: 10px;
         }
@@ -206,7 +206,7 @@ function FooterComponent() {
         .f-link {
           display: flex; align-items: center; gap: 6px;
           padding: 4.5px 0;
-          font-size: 12.5px; font-weight: 400;
+          font-size: 12.9px; font-weight: 400;
           color: rgba(255,255,255,0.68);
           text-decoration: none;
           transition: color .18s, gap .18s;
@@ -216,7 +216,7 @@ function FooterComponent() {
           background: #ad8411; flex-shrink: 0;
           opacity: 0; transition: opacity .18s;
         }
-        .f-link:hover { color: #f0c050; gap: 9px; }
+        .f-link:hover { color: #AD8411; gap: 9px; }
         .f-link:hover .f-dot { opacity: 1; }
 
         /* ── Bottom bar ── */
@@ -245,7 +245,7 @@ function FooterComponent() {
           color: rgba(255,255,255,0.30); text-decoration: none;
           transition: color .18s;
         }
-        .footer-blink:hover { color: #e3a220; }
+        .footer-blink:hover { color: #AD8411; }
 
         /* ── Responsive ── */
         @media (max-width: 1050px) {

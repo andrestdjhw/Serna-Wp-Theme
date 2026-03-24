@@ -232,7 +232,7 @@ function NavbarComponent() {
           content: '';
           display: block;
           height: 2px;
-          background: linear-gradient(90deg, transparent, #e3a220 30%, #ad8411 70%, transparent);
+          background: linear-gradient(90deg, transparent, #E0B351 30%, #AD8411 70%, transparent);
           opacity: 0.7;
         }
 
@@ -284,7 +284,7 @@ function NavbarComponent() {
           left: 13px;
           right: 13px;
           height: 1.5px;
-          background: #e3a220;
+          background: #AD8411;
           transform: scaleX(0);
           transform-origin: left;
           transition: transform 0.25s ease;
@@ -377,7 +377,7 @@ function NavbarComponent() {
           color: #263b80;
           margin-bottom: 10px;
           padding-bottom: 8px;
-          border-bottom: 2px solid #e3a220;
+          border-bottom: 2px solid #AD8411;
           display: inline-block;
           text-decoration: none;
         }

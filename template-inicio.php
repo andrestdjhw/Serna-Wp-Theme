@@ -6,536 +6,1037 @@
 
 get_header(); ?>
 
-<div class="inicio-page">
-    <!-- Hero Section -->
-<!-- Hero Section -->
-<section class="hero-watermark relative py-24 overflow-hidden">
+<style>
+/* Georgia es una fuente del sistema, no requiere importación */
 
-    <!-- Gradient Background -->
-    <div class="absolute inset-0 bg-gradient-to-br from-[#264da0] via-[#263b80] to-[#264da0]"></div>
+/* ============================================
+   TOKENS — MISMOS DEL NAVBAR
+   ============================================ */
+:root {
+    --navy:      #263b80;
+    --blue:      #264da0;
+    --gold:      #ad8411;
+    --gold-dark: #ad8411;
+    --black:     #231f20;
+    --bone:      #F8F7F3;
+    --text:      #374151;
+    --text-soft: #666666;
+    --border:    rgba(38, 61, 128, 0.08);
+    --shadow:    0 8px 48px rgba(38, 61, 128, 0.13), 0 2px 8px rgba(0,0,0,0.05);
+    --logo-mark: url('/wp-content/uploads/2026/02/Blanco-SERNA-e1770905443177.png');
+}
+
+html { scroll-behavior: smooth; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+.inicio-page {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--bone);
+    color: var(--text);
+}
+
+/* ============================================
+   UTILIDADES
+   ============================================ */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Línea dorada — igual que mega-col-title del navbar */
+.gold-rule {
+    display: inline-block;
+    width: 48px;
+    height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.section-title {
+    font-size: clamp(26px, 4vw, 38px);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.18;
+    margin: 0 0 16px;
+}
+
+.section-subtitle {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    color: var(--text-soft);
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ============================================
+   HERO — Continuación visual del nav
+   ============================================ */
+.hero {
+    position: relative;
+    background: linear-gradient(135deg, #1d2e68 0%, #263b80 40%, #264da0 100%);
+    overflow: hidden;
+    padding: 96px 0 0;
+}
+
+/* Patrón de estrellas — destellos de 4 puntas tipo sparkle, irregulares */
+.hero-stars {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='160' viewBox='0 0 240 160'%3E%3Cpath fill='%2387b4e8' fill-opacity='0.18' d='M28,11 L29.65,20.35 L39,22 L29.65,23.65 L28,33 L26.35,23.65 L17,22 L26.35,20.35Z M90,7 L90.75,11.25 L95,12 L90.75,12.75 L90,17 L89.25,12.75 L85,12 L89.25,11.25Z M160,16 L161.35,23.65 L169,25 L161.35,26.35 L160,34 L158.65,26.35 L151,25 L158.65,23.65Z M220,9 L220.9,14.1 L226,15 L220.9,15.9 L220,21 L219.1,15.9 L214,15 L219.1,14.1Z M55,48 L56.05,53.95 L62,55 L56.05,56.05 L55,62 L53.95,56.05 L48,55 L53.95,53.95Z M130,36 L131.8,46.2 L142,48 L131.8,49.8 L130,60 L128.2,49.8 L118,48 L128.2,46.2Z M195,56 L195.6,59.4 L199,60 L195.6,60.6 L195,64 L194.4,60.6 L191,60 L194.4,59.4Z M15,82 L16.2,88.8 L23,90 L16.2,91.2 L15,98 L13.8,91.2 L7,90 L13.8,88.8Z M85,82 L85.45,84.55 L88,85 L85.45,85.45 L85,88 L84.55,85.45 L82,85 L84.55,84.55Z M150,85 L151.5,93.5 L160,95 L151.5,96.5 L150,105 L148.5,96.5 L140,95 L148.5,93.5Z M230,81 L231.05,86.95 L237,88 L231.05,89.05 L230,95 L228.95,89.05 L223,88 L228.95,86.95Z M40,117 L41.95,128.05 L53,130 L41.95,131.95 L40,143 L38.05,131.95 L27,130 L38.05,128.05Z M110,120 L110.75,124.25 L115,125 L110.75,125.75 L110,130 L109.25,125.75 L105,125 L109.25,124.25Z M175,122 L176.2,128.8 L183,130 L176.2,131.2 L175,138 L173.8,131.2 L167,130 L173.8,128.8Z M70,149 L70.9,154.1 L76,155 L70.9,155.9 L70,161 L69.1,155.9 L64,155 L69.1,154.1Z M200,139 L201.65,148.35 L211,150 L201.65,151.65 L200,161 L198.35,151.65 L189,150 L198.35,148.35Z M135,155 L135.45,157.55 L138,158 L135.45,158.45 L135,161 L134.55,158.45 L132,158 L134.55,157.55Z'/%3E%3C/svg%3E");
+    background-size: 240px 160px;
+    background-repeat: repeat;
+}
+
+/* Línea dorada inferior igual que el ::after del nav */
+.hero::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold) 30%, var(--gold-dark) 70%, transparent);
+    opacity: 0.75;
+}
+
+/* Marca de agua logos laterales */
+.hero-watermark {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+    z-index: 1;
+}
+.hero-watermark img {
+    width: min(260px, 28%);
+    opacity: 0.06;
+    filter: brightness(20) grayscale(1);
+    object-fit: contain;
+    user-select: none;
+}
+
+/* Orbes de fondo */
+.hero-orbs {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    overflow: hidden;
+    pointer-events: none;
+}
+.hero-orbs span {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.18;
+    animation: pulse 6s ease-in-out infinite;
+}
+.hero-orbs span:nth-child(1) { width: 380px; height: 380px; background: #87cede; top: -80px; left: -60px; animation-delay: 0s; }
+.hero-orbs span:nth-child(2) { width: 320px; height: 320px; background: #87cede; bottom: -60px; right: -40px; animation-delay: 2.5s; }
+.hero-orbs span:nth-child(3) { width: 280px; height: 280px; background: #7dbb5c; bottom: -40px; left: 25%; animation-delay: 4.5s; }
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.18; transform: scale(1); }
+    50%       { opacity: 0.28; transform: scale(1.08); }
+}
+
+.hero-inner {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+/* Pastilla estilo nav */
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 99px;
+    padding: 6px 16px 6px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 28px;
+}
+.hero-badge-dot {
+    width: 6px; height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 6px var(--gold);
+}
+
+.hero-title {
+    font-size: clamp(32px, 5.5vw, 62px);
+    font-weight: 800;
+    line-height: 1.08;
+    margin: 0 0 20px;
+    background: linear-gradient(180deg, #ffffff 20%, var(--gold) 60%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 100% 200%;
+    animation: gradientShift 6s ease infinite;
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 0%; }
+    50%       { background-position: 0% 100%; }
+}
+
+.hero-sub {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 300;
+    color: rgba(255,255,255,0.80);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.55;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+/* Botones — coherentes con el estilo del navbar */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 28px;
+    background: #ffffff;
+    color: var(--navy);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.22s, color 0.22s, transform 0.18s, box-shadow 0.22s;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.btn-primary:hover {
+    background: var(--gold);
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(227,162,32,0.35);
+}
+
+.btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 28px;
+    background: transparent;
+    color: rgba(255,255,255,0.92);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255,255,255,0.35);
+    text-decoration: none;
+    transition: background 0.22s, border-color 0.22s, transform 0.18s;
+}
+.btn-outline:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(255,255,255,0.60);
+    transform: translateY(-2px);
+}
+
+/* Ola del hero */
+.hero-wave {
+    position: relative;
+    z-index: 10;
+    line-height: 0;
+    margin-top: -2px;
+}
+.hero-wave svg { display: block; width: 100%; }
+
+/* ============================================
+   SERVICIOS
+   ============================================ */
+.servicios {
+    padding: 96px 0;
+    background: var(--bone);
+    position: relative;
+}
+
+/* Marca de agua centrada en sección */
+.servicios::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--logo-mark);
+    background-repeat: no-repeat;
+    background-size: min(440px, 60%);
+    background-position: center;
+    opacity: 0.035;
+    filter: grayscale(1) brightness(0);
+    pointer-events: none;
+}
+
+.servicios-header { text-align: center; margin-bottom: 56px; }
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+/* Cards — mismo lenguaje que el mega-menu del navbar */
+.service-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    position: relative;
+}
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 56px rgba(38, 61, 128, 0.18), 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Barra dorada superior — igual que mega-col-title border */
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--navy), var(--blue));
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.service-card:hover::before { opacity: 1; }
+
+.service-icon-wrap {
+    background: linear-gradient(135deg, var(--navy), var(--blue));
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.service-icon-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+}
+.service-icon-wrap svg {
+    width: 52px; height: 52px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.service-body { padding: 24px 28px 28px; }
+
+/* Línea dorada de título — idéntica a mega-col-title */
+.service-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--gold);
+    display: inline-block;
+}
+
+.service-desc {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14.5px;
+    color: var(--text-soft);
+    line-height: 1.65;
+    margin: 0 0 20px;
+}
+
+.service-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.2s, gap 0.2s;
+}
+.service-link:hover { color: var(--gold-dark); gap: 10px; }
+.service-link svg { width: 16px; height: 16px; }
+
+/* ============================================
+   SOBRE NOSOTROS
+   ============================================ */
+.about {
+    padding: 96px 0;
+    background: #ffffff;
+    position: relative;
+}
+.about::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--logo-mark);
+    background-repeat: no-repeat;
+    background-size: min(380px, 50%);
+    background-position: center right 10%;
+    opacity: 0.035;
+    filter: grayscale(1) brightness(0);
+    pointer-events: none;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+.about-text { position: relative; z-index: 1; }
+.about-text .section-label { justify-content: flex-start; }
+.about-text .section-title { text-align: left; margin-bottom: 24px; }
+
+.about-body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 15.5px;
+    color: var(--text-soft);
+    line-height: 1.75;
+    margin-bottom: 36px;
+}
+.about-body p + p { margin-top: 14px; }
+
+/* Separador dorado — mismo estilo que la línea del nav */
+.about-divider {
+    width: 48px;
+    height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+    margin: 20px 0 24px;
+}
+
+.about-img-wrap {
+    position: relative;
+    z-index: 1;
+}
+.about-img-frame {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    aspect-ratio: 4/3;
+}
+.about-img-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+.about-img-frame:hover img { transform: scale(1.04); }
+
+/* Tarjeta flotante de acento */
+.about-badge-float {
+    position: absolute;
+    bottom: -20px;
+    left: -24px;
+    background: var(--navy);
+    color: white;
+    border-radius: 10px;
+    padding: 16px 22px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 8px 32px rgba(38, 61, 128, 0.35);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.about-badge-float .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--gold);
+    flex-shrink: 0;
+    box-shadow: 0 0 8px var(--gold);
+}
+
+@media (max-width: 768px) {
+    .about-badge-float { display: none; }
+}
+
+/* ============================================
+   NOTICIAS
+   ============================================ */
+.noticias {
+    padding: 96px 0;
+    background: var(--bone);
+    position: relative;
+}
+.noticias::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--logo-mark);
+    background-repeat: no-repeat;
+    background-size: min(440px, 60%);
+    background-position: center;
+    opacity: 0.035;
+    filter: grayscale(1) brightness(0);
+    pointer-events: none;
+}
+
+.noticias-header { text-align: center; margin-bottom: 56px; }
+
+.noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.news-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 48px rgba(38, 61, 128, 0.16);
+}
+
+.news-img {
+    height: 200px;
+    overflow: hidden;
+}
+.news-img img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.news-card:hover .news-img img { transform: scale(1.06); }
+
+.news-body {
+    padding: 24px 26px 26px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+/* Tag igual que los badges del navbar móvil */
+.news-tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: var(--navy);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.news-date {
+    font-size: 12px;
+    color: var(--text-soft);
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.news-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 12px;
+    line-height: 1.35;
+    /* Línea dorada a la izquierda — eco del borde del mega-menu */
+    border-left: 2px solid var(--gold);
+    padding-left: 12px;
+}
+
+.news-excerpt {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    color: var(--text-soft);
+    line-height: 1.65;
+    margin: 0 0 20px;
+    flex: 1;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    text-decoration: none;
+    transition: color 0.2s, gap 0.2s;
+    align-self: flex-start;
+}
+.news-link:hover { color: var(--gold-dark); gap: 10px; }
+.news-link svg { width: 15px; height: 15px; }
+
+.noticias-footer { text-align: center; margin-top: 48px; }
+
+/* ============================================
+   CTA
+   ============================================ */
+.cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+    position: relative;
+    overflow: hidden;
+}
+.cta::after {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-image: var(--logo-mark);
+    background-repeat: no-repeat;
+    background-size: min(500px, 60%);
+    background-position: center;
+    opacity: 0.05;
+    filter: brightness(20) grayscale(1);
+    pointer-events: none;
+}
+
+.cta-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: clamp(26px, 4vw, 40px);
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 16px;
+}
+.cta-title span {
+    color: var(--gold);
+}
+
+.cta-sub {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    max-width: 540px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.btn-cta-light {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 26px;
+    background: rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.92);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255,255,255,0.25);
+    text-decoration: none;
+    transition: background 0.22s, border-color 0.22s, transform 0.18s;
+}
+.btn-cta-light:hover {
+    background: rgba(255,255,255,0.22);
+    border-color: rgba(255,255,255,0.55);
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   MAPA
+   ============================================ */
+.mapa {
+    padding: 96px 0;
+    background: #ffffff;
+}
+.mapa-header { text-align: center; margin-bottom: 48px; }
+
+.mapa-frame {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    line-height: 0;
+}
+.mapa-frame iframe { display: block; }
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 640px) {
+    .hero { padding: 72px 0 0; }
+    .hero-actions { flex-direction: column; align-items: center; }
+    .servicios, .about, .noticias, .mapa { padding: 64px 0; }
+    .cta { padding: 60px 0; }
+}
+</style>
+
+<div class="inicio-page">
 
     <!-- =============================================
-         MARCA DE AGUA DEL LOGO
-         ============================================= -->
-    <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-start; padding-left: 4%;">
-        <img 
-            src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
-            alt=""
-            aria-hidden="true"
-            style="
-                width: min(280px, 35%);
-                opacity: 0.08;
-                filter: brightness(10) grayscale(1);
-                object-fit: contain;
-                user-select: none;
-                pointer-events: none;
-            "
-        >
-    </div>
-    <div class="absolute inset-0 flex items-center pointer-events-none" style="z-index: 1; justify-content: flex-end; padding-right: 4%;">
-        <img 
-            src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png"
-            alt=""
-            aria-hidden="true"
-            style="
-                width: min(280px, 35%);
-                opacity: 0.08;
-                filter: brightness(10) grayscale(1);
-                object-fit: contain;
-                user-select: none;
-                pointer-events: none;
-            "
-        >
-    </div>
+         HERO
+    ============================================= -->
+    <section class="hero">
 
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0 opacity-20" style="z-index: 2;">
-        <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-        <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
-    </div>
+        <!-- Patrón de estrellas -->
+        <div class="hero-stars" aria-hidden="true"></div>
 
-    <!-- Content -->
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="z-index: 10;">
-        <div class="text-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-b from-[#ad8411] via-[#FFFFFF] to-[#ad8411] animate-gradient">
-                Secretaría de Recursos Naturales y Ambiente
+        <!-- Marcas de agua laterales -->
+        <div class="hero-watermark" aria-hidden="true">
+            <img src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png" alt="">
+            <img src="/wp-content/uploads/2026/02/cropped-Logo-Gobierno.png" alt="">
+        </div>
+
+        <!-- Orbes animados -->
+        <div class="hero-orbs" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </div>
+
+        <!-- Contenido -->
+        <div class="container hero-inner">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Secretaría de Estado
+            </div>
+
+            <h1 class="hero-title">
+                Secretaría de Recursos<br>Naturales y Ambiente
             </h1>
-            <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed opacity-90">
-                <!-- <cite>Al servicio del pueblo y por la recuperación de la soberanía de los recursos naturales.</cite> -->
+
+            <p class="hero-sub">
+                Protegemos los recursos naturales de Honduras, promoviendo el desarrollo sostenible para el bienestar de todos los hondureños.
             </p>
-            <div class="mt-10 flex justify-center space-x-4">
-                <a href="/nosotros/perfil" class="px-6 py-3 bg-white text-[#231f20] font-bold rounded-full hover:bg-[#AD8411] hover:text-white transition-colors duration-300">
+
+            <div class="hero-actions">
+                <a href="/nosotros/perfil" class="btn-primary">
                     Conócenos
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+                    </svg>
                 </a>
-                <a href="#servicios" class="px-6 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-[#231f20] hover:text-white hover:border-[#231f20] transition-colors duration-300">
+                <a href="#servicios" class="btn-outline">
                     Nuestros Servicios
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+                    </svg>
                 </a>
             </div>
         </div>
-    </div>
 
-    <!-- Wave Background -->
-    <div class="absolute bottom-0 left-0 right-0" style="z-index: 10;">
-        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
-            <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
-        </svg>
-    </div>
-</section>
+        <!-- Ola de transición -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 0 C360 80 1080 80 1440 0 L1440 80 L0 80 Z" fill="#F8F7F3"/>
+            </svg>
+        </div>
+    </section>
 
-    <!-- Main Content -->
-    <div class="main-content-wrapper max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- =============================================
+         SERVICIOS
+    ============================================= -->
+    <section id="servicios" class="servicios">
+        <div class="container">
 
-        <!-- Featured Services Section -->
-        <section id="servicios" class="section-watermark mb-24">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold  mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#264da0] to-[#263b80]">Nuestros Servicios</span></h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Ofrecemos una variedad de servicios para proteger y gestionar los recursos naturales de Honduras
+            <div class="servicios-header">
+                <p class="section-label">
+                    <span class="gold-rule"></span>
+                    Lo que hacemos
+                    <span class="gold-rule"></span>
                 </p>
-                <div class="mt-6">
-                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
-                </div>
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Ofrecemos servicios especializados para proteger y gestionar los recursos naturales de Honduras.</p>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service Card 1 -->
-                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
-                    <svg class="h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
+
+            <div class="servicios-grid">
+
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Licencias Ambientales</h3>
-                        <p class="text-gray-600 mb-4">
-                            Proceso de evaluación y aprobación de proyectos para garantizar el cumplimiento de normas ambientales.
-                        </p>
-                        <a href="/slas" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
+                    <div class="service-body">
+                        <h3 class="service-title">Licencias Ambientales</h3>
+                        <p class="service-desc">Proceso de evaluación y aprobación de proyectos para garantizar el cumplimiento de las normas ambientales vigentes.</p>
+                        <a href="/slas" class="service-link">
                             Más información
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
-                
-                <!-- Service Card 2 -->
-                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
-                    </svg>
+
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
+                        </svg>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Gestión Forestal</h3>
-                        <p class="text-gray-600 mb-4">
-                            Planificación y control del uso sostenible de los recursos forestales del país.
-                        </p>
-                        <a href="/direcciones/deca/" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
+                    <div class="service-body">
+                        <h3 class="service-title">Gestión Forestal</h3>
+                        <p class="service-desc">Planificación y control del uso sostenible de los recursos forestales, preservando los ecosistemas del país.</p>
+                        <a href="/direcciones/deca/" class="service-link">
                             Más información
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
-                
-                <!-- Service Card 3 -->
-                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden transition-transform duration-300 hover:transform hover:-translate-y-2">
-                    <div class="h-48 bg-gradient-to-r from-[#263b80] to-[#264da0] text-white flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                    </svg>
+
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#ad8411] mb-3">Protección del Agua</h3>
-                        <p class="text-gray-600 mb-4">
-                            Programas para la conservación y uso racional de los recursos hídricos nacionales.
-                        </p>
-                        <a href="/direcciones/dgrh/" class="text-[#264da0] font-semibold hover:text-[#ad8411] transition-colors duration-300 flex items-center">
+                    <div class="service-body">
+                        <h3 class="service-title">Protección del Agua</h3>
+                        <p class="service-desc">Programas para la conservación y uso racional de los recursos hídricos nacionales para las futuras generaciones.</p>
+                        <a href="/direcciones/dgrh/" class="service-link">
                             Más información
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
+
             </div>
-        </section>
-        
-        <!-- About Us Section -->
-        <section class="section-watermark mb-24">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Sobre Nosotros</span></h2>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        La Secretaría de Recursos Naturales y Ambiente (SERNA) protege y administra los recursos naturales de Honduras, promoviendo el desarrollo sostenible y el cuidado del ambiente para el bienestar de la población.
+        </div>
+    </section>
+
+    <!-- =============================================
+         SOBRE NOSOTROS
+    ============================================= -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <p class="section-label">
+                        <span class="gold-rule" style="width:32px"></span>
+                        Quiénes somos
                     </p>
-                    <p class="text-gray-600 mb-8 leading-relaxed">
-                        La institución lidera la gestión ambiental del país mediante políticas y acciones orientadas al uso responsable del agua, el impulso de energías renovables, la protección de los ecosistemas, la conservación de la biodiversidad y el control de la contaminación,también coordina el manejo del Sistema Nacional de Áreas Protegidas de Honduras (SINAPH), regula actividades vinculadas al aprovechamiento de los recursos naturales y promueve iniciativas que fortalecen el desarrollo sostenible, su trabajo busca garantizar el equilibrio entre crecimiento económico, protección ambiental y calidad de vida para las presentes y futuras generaciones.
-                    </p>
-                    <a href="/nosotros/perfil" class="px-6 py-3 bg-[#264da0] text-white font-bold rounded-full hover:bg-[#263b80] transition-colors duration-300 inline-flex items-center">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <div class="about-divider"></div>
+                    <div class="about-body">
+                        <p>La Secretaría de Recursos Naturales y Ambiente (SERNA) protege y administra los recursos naturales de Honduras, promoviendo el desarrollo sostenible y el cuidado del ambiente para el bienestar de la población.</p>
+                        <p>La institución lidera la gestión ambiental del país mediante políticas orientadas al uso responsable del agua, el impulso de energías renovables, la protección de los ecosistemas, la conservación de la biodiversidad y el control de la contaminación.</p>
+                        <p>Nuestro trabajo busca garantizar el equilibrio entre crecimiento económico, protección ambiental y calidad de vida para las presentes y futuras generaciones.</p>
+                    </div>
+                    <a href="/nosotros/perfil" class="btn-primary" style="background: var(--navy); color: white; display: inline-flex;">
                         Conoce más sobre nosotros
-                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
                         </svg>
                     </a>
                 </div>
-                <div class="relative">
-                    <div class="bg-[#87cede] rounded-lg overflow-hidden aspect-w-22 aspect-h-22">
-                        <img src="/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-19-at-12.09.24.jpeg" alt="SERNA Honduras" class="w-full h-full object-cover">
+
+                <div class="about-img-wrap">
+                    <div class="about-img-frame">
+                        <img src="/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-19-at-12.09.24.jpeg" alt="SERNA Honduras">
+                    </div>
+                    <div class="about-badge-float">
+                        <span class="dot"></span>
+                        Gestión responsable de recursos naturales
                     </div>
                 </div>
+
             </div>
-        </section>
-        
-        <!-- News & Updates Section -->
-        <section class="section-watermark mb-24">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-[#00903b] mb-4"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Noticias y Actualizaciones</span></h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales
+        </div>
+    </section>
+
+    <!-- =============================================
+         NOTICIAS
+    ============================================= -->
+    <section class="noticias">
+        <div class="container">
+
+            <div class="noticias-header">
+                <p class="section-label">
+                    <span class="gold-rule"></span>
+                    Al día
+                    <span class="gold-rule"></span>
                 </p>
-                <div class="mt-6">
-                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
-                </div>
+                <h2 class="section-title">Noticias y Actualizaciones</h2>
+                <p class="section-subtitle">Mantente informado sobre nuestras últimas actividades, proyectos y noticias ambientales.</p>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- News Card 1 -->
-                <div class="card-watermark bg-white rounded-lg shadow-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2026/02/Primera_Noticia.jpeg" alt="Nuevas Autoridades" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+
+            <div class="noticias-grid">
+
+                <!-- Noticia 1 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="/wp-content/uploads/2026/02/Primera_Noticia.jpeg" alt="Nuevas Autoridades">
                     </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Nuevo Capítulo</span>
-                            <span>6 Febrero 2026</span>
+                    <div class="news-body">
+                        <div class="news-meta">
+                            <span class="news-tag">Nuevo Capítulo</span>
+                            <span class="news-date">6 Feb 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">¡Nuevo Liderazgo en la SERNA!</h3>
-                        <p class="text-gray-600 mb-4 text-sm">El trabajo comenzó donde verdaderamente importa: con la gente, El ministro de Recursos Naturales y Ambiente, <strong>Juan Carlos Ramos</strong>, realizó un recorrido por las distintas áreas de la Secretaría, visitando personalmente a las y los colaboradores en cada uno de sus espacios de trabajo.</p>
-                        <p class="text-gray-600 mb-4 text-sm">Un inicio que refleja liderazgo cercano, respeto al talento humano y compromiso con una gestión responsable, en sintonía con la visión del presidente <strong>Nasry Asfura</strong>, quien ha reiterado que el servicio público debe construirse desde el trabajo honesto, el contacto directo con la ciudadanía y el fortalecimiento de las instituciones.</p>
-                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
+                        <h3 class="news-title">¡Nuevo Liderazgo en la SERNA!</h3>
+                        <p class="news-excerpt">El ministro <strong>Juan Carlos Ramos</strong> inició su gestión visitando personalmente a colaboradores en cada área de la Secretaría, reflejando un liderazgo cercano y compromiso con el servicio público.</p>
+                        <a href="#" class="news-link">
                             Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
-                
-                <!-- News Card 2 -->
-                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2026/02/Segunda_Noticia.jpg" alt="Convenio Internacional" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+
+                <!-- Noticia 2 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="/wp-content/uploads/2026/02/Segunda_Noticia.jpg" alt="Convenio Internacional">
                     </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Convenio</span>
-                            <span>12 Febrero 2026</span>
+                    <div class="news-body">
+                        <div class="news-meta">
+                            <span class="news-tag">Convenio</span>
+                            <span class="news-date">12 Feb 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">Fortaleciendo Relaciones Internacionales.</h3>
-                        <p class="text-gray-600 mb-4 text-sm">
-                            El titular de la Secretaría de Recursos Naturales y Ambiente (SERNA), <strong>Juan Carlos Ramos</strong>, sostuvo una importante reunión de trabajo con el Coordinador Residente de la Organización de las Naciones Unidas en Honduras, <strong>Alejandro Álvarez</strong>, y el representante de UNICEF, <strong>Bastiaan Van 't Hoff</strong>, para fortalecer la cooperación estratégica entre el país y el sistema de la ONU.
-                        </p>
-                        <p class="text-gray-600 mb-4 text-sm">El encuentro abordó iniciativas para atraer inversiones responsables, proteger el ambiente, mejorar la gestión del agua, conservar los recursos naturales y promover acciones para la adaptación y mitigación del cambio climático, con el propósito de fortalecer las capacidades del Estado y generar mayor bienestar para las familias hondureñas.</p>
-                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
+                        <h3 class="news-title">Fortaleciendo Relaciones Internacionales</h3>
+                        <p class="news-excerpt">El titular de SERNA se reunió con el Coordinador Residente de la ONU en Honduras y el representante de UNICEF para fortalecer la cooperación estratégica en materia ambiental.</p>
+                        <a href="#" class="news-link">
                             Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
-                
-                <!-- News Card 3 -->
-                <div class="card-watermark bg-white rounded-lg shadow-custom overflow-hidden">
-                    <div class="h-55 overflow-hidden">
-                        <img src="/wp-content/uploads/2026/02/Tercer_Noticia.jpeg" alt="Convenio" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+
+                <!-- Noticia 3 -->
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="/wp-content/uploads/2026/02/Tercer_Noticia.jpeg" alt="SERNA y PNUD">
                     </div>
-                    <div class="p-6">
-                        <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-[#ad8411] text-[#FFFFFF] px-2 py-1 rounded-full text-xs font-semibold mr-3">Inversión</span>
-                            <span>17 Febrero 2026</span>
+                    <div class="news-body">
+                        <div class="news-meta">
+                            <span class="news-tag">Inversión</span>
+                            <span class="news-date">17 Feb 2026</span>
                         </div>
-                        <h3 class="text-xl font-bold text-[#264da0] mb-3">SERNA y PNUD fortalecen alianza para impulsar proyectos ambientales en Honduras.</h3>
-                        <p class="text-gray-600 mb-4 text-sm">
-                            El Ministro de la Secretaría de Recursos Naturales y Ambiente (SERNA), <strong>Juan Carlos Ramos</strong>, se reunió con el Programa de las Naciones Unidas para el Desarrollo y su representante, <strong>Alessandro Fracassetti</strong>, para fortalecer proyectos ambientales conjuntos,
-                            el encuentro impulsa una cooperación más efectiva, enfocada en las prioridades del país y en generar resultados concretos para la población y el territorio de Honduras
-                        </p>
-                        <a href="#" class="text-[#231f20] font-semibold hover:text-[#666666] transition-colors duration-300 flex items-center">
+                        <h3 class="news-title">SERNA y PNUD fortalecen alianza ambiental en Honduras</h3>
+                        <p class="news-excerpt">El Ministro Ramos se reunió con el representante del PNUD, <strong>Alessandro Fracassetti</strong>, para impulsar proyectos ambientales conjuntos enfocados en las prioridades del país.</p>
+                        <a href="#" class="news-link">
                             Leer más
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
                         </a>
                     </div>
                 </div>
+
             </div>
-            
-            <div class="text-center mt-12">
-                <a href="/nosotros/foro" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#264da0] hover:text-white transition-colors duration-300 inline-flex items-center">
+
+            <div class="noticias-footer">
+                <a href="/nosotros/foro" class="btn-outline" style="border-color: var(--navy); color: var(--navy); background: transparent;">
                     Ver todas las noticias
-                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
                     </svg>
                 </a>
             </div>
-        </section>
-        
-        <!-- Stats Section, Queda Oculta Mientras se actualice la informacion de que se quiera destacar -->
-        <!-- <section class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl p-8 md:p-12 mb-24 text-white">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-                <div class="p-4 stat-item" data-target="1650000" data-suffix="+">
-                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
-                    <div class="text-lg">Libras de lirio recogido</div>
-                </div>
-                <div class="p-4 stat-item" data-target="55000" data-suffix="+">
-                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
-                    <div class="text-lg">Hectáreas recuperadas con PPAT y Plan 0 Deforestación</div>
-                </div>
-                <div class="p-4 stat-item" data-target="150" data-suffix="">
-                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
-                    <div class="text-lg">Micro-cuencas intervenidas a nivel nacional.</div>
-                </div>
-                <div class="p-4 stat-item" data-target="18" data-suffix="">
-                    <div class="text-4xl font-bold mb-2 text-[#ad8411] mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#ad8411] to-[#FFFFFF] animate-gradient counter">0</div>
-                    <div class="text-lg">Áreas protegidas</div>
-                </div>
-            </div>
-        </section> -->
-        
-        <!-- Call to Action -->
-        <section class="section-watermark bg-white rounded-lg shadow-custom p-8 md:p-12 text-center">
-            <h2 class="text-3xl font-bold text-[#00903b] mb-6"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">¿Cómo puedes contribuir?</span></h2>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                Todos podemos ser parte de la solución. Descubre cómo puedes colaborar con la protección del medio ambiente en Honduras.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="px-6 py-3 bg-[#231f20] text-white font-bold rounded-full hover:bg-[#ad8411] hover:text-[#231f20] transition-colors duration-300">
+
+        </div>
+    </section>
+
+    <!-- =============================================
+         CTA
+    ============================================= -->
+    <section class="cta">
+        <div class="container cta-inner">
+            <h2 class="cta-title">¿Cómo puedes <span>contribuir</span>?</h2>
+            <p class="cta-sub">Todos podemos ser parte de la solución. Descubre cómo colaborar con la protección del medio ambiente en Honduras.</p>
+            <div class="cta-actions">
+                <a href="#" class="btn-primary">
                     Voluntariado
                 </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#264da0] text-[#264da0] font-bold rounded-full hover:bg-[#264da0] hover:border-[#264da0] hover:text-white transition-colors duration-300">
-                    Denuncias Ambientales
-                </a>
-                <a href="#" class="px-6 py-3 border-2 border-[#263b80] text-[#231f20] font-bold rounded-full hover:bg-[#263b80] hover:text-white transition-colors duration-300">
-                    Programas Educativos
-                </a>
+                <a href="#" class="btn-cta-light">Denuncias Ambientales</a>
+                <a href="#" class="btn-cta-light">Programas Educativos</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Sección para mapa de Google -->
-        <section class="mt-24">
-            <h2 class="text-3xl font-bold text-center mb-12 text-[#00903b]"><span class="bg-clip-text text-transparent bg-gradient-to-r from-[#263b80] to-[#264da0]">Estamos aquí</span></h2>
-            <div class="bg-white rounded-lg shadow-custom overflow-hidden">
-                <div class="aspect-w-16 aspect-h-9">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1707.8792146428075!2d-87.18747288964083!3d14.097344497602379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2shn!4v1747232723012!5m2!1ses-419!2shn" 
-                        width="100%" 
-                        height="600" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
+    <!-- =============================================
+         MAPA
+    ============================================= -->
+    <section class="mapa">
+        <div class="container">
+            <div class="mapa-header">
+                <p class="section-label">
+                    <span class="gold-rule"></span>
+                    Ubicación
+                    <span class="gold-rule"></span>
+                </p>
+                <h2 class="section-title">Estamos aquí</h2>
             </div>
-        </section>
-    </div>
+            <div class="mapa-frame">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1707.8792146428075!2d-87.18747288964083!3d14.097344497602379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2shn!4v1747232723012!5m2!1ses-419!2shn"
+                    width="100%"
+                    height="520"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
 </div>
 
-<!-- Contenedor para el Chatbot -->
+<!-- Chatbot -->
 <div id="serna-chatbot"></div>
-
-<style>
-
-    /* =============================================
-       VARIABLE DE RUTA DEL LOGO
-       Cambia esta variable con la ruta real de tu logo PNG
-       ============================================= */
-    :root {
-        --logo-watermark-url: url('/wp-content/uploads/2026/02/Blanco-SERNA-e1770905443177.png');
-        /* 
-            INSTRUCCIÓN: Reemplaza '/wp-content/uploads/logo-serna-blanco.png'
-            con la ruta real de tu logo PNG de fondo transparente.
-            Ejemplo: url('/wp-content/themes/tu-tema/images/logo-serna.png')
-        */
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    /* =============================================
-       FONDO GENERAL DE LA PÁGINA - TONO HUESO
-       ============================================= */
-
-    /* El wrapper del contenido principal tendrá el tono hueso de fondo */
-    .inicio-page {
-        background-color: #FAFAF8; /* Blanco hueso moderado */
-    }
-
-    /* =============================================
-       MARCA DE AGUA EN SECCIONES GRANDES
-       ============================================= */
-
-    /* Para secciones completas (servicios, nosotros, noticias, CTA) */
-    .section-watermark {
-        position: relative;
-        /* padding extra para que la marca de agua no choque con el contenido */
-    }
-
-    .section-watermark::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: min(500px, 80%);
-        height: min(500px, 80%);
-        background-image: var(--logo-watermark-url);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        opacity: 0.045; /* Muy sutil — ajusta entre 0.03 y 0.08 según tu logo */
-        pointer-events: none;
-        z-index: 0;
-        filter: grayscale(100%) brightness(0); /* Fuerza el logo a negro puro para contraste sobre hueso */
-    }
-
-    /* Asegura que el contenido esté por encima de la marca de agua */
-    .section-watermark > * {
-        position: relative;
-        z-index: 1;
-    }
-
-    /* =============================================
-       MARCA DE AGUA EN CARDS INDIVIDUALES
-       ============================================= */
-
-    .card-watermark {
-        position: relative;
-        background-color: #FAFAF8 !important; /* Fondo hueso en lugar de blanco puro */
-    }
-
-    .card-watermark::after {
-        content: '';
-        position: absolute;
-        bottom: 12px;
-        right: 12px;
-        width: 80px;
-        height: 80px;
-        background-image: var(--logo-watermark-url);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        opacity: 0.06; /* Sutil — ajusta según necesidad */
-        pointer-events: none;
-        z-index: 0;
-        filter: grayscale(100%) brightness(0);
-    }
-
-    /* =============================================
-       AJUSTE DE FONDO PARA SECCIÓN CTA (Call to Action)
-       ============================================= */
-
-    .section-watermark.bg-white {
-        background-color: #FAFAF8 !important;
-    }
-
-    /* =============================================
-       ANIMACIONES
-       ============================================= */
-
-    @keyframes gradient {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-    
-    .animate-gradient {
-        background-size: 200% 200%;
-        animation: gradient 5s ease infinite;
-    }
-    
-    .shadow-custom {
-        box-shadow: 0 10px 15px -3px rgba(35, 31, 32, 0.79), 0 4px 6px -2px rgba(35, 31, 32, 0.05);
-    }
-
-    /* =============================================
-       FONDO HUESO EXPLÍCITO PARA CARDS bg-white
-       Asegura que Tailwind no sobreescriba el hueso
-       ============================================= */
-    .card-watermark.bg-white,
-    .card-watermark {
-        background-color: #FAFAF8 !important;
-    }
-</style>
-
-<script>
-    // Función para formatear números con comas
-    function formatNumber(num) {
-        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
-
-    // Función mejorada para animar el conteo con easing
-    function animateCounter(element, target, duration = 1800, suffix = '') {
-        let start = 0;
-        const startTime = performance.now();
-        
-        const easeOutQuad = t => t * (2 - t);
-        
-        function updateCounter(currentTime) {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const easedProgress = easeOutQuad(progress);
-            const currentValue = Math.floor(easedProgress * target);
-            
-            element.textContent = formatNumber(currentValue) + suffix;
-            
-            if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-            } else {
-                element.textContent = formatNumber(target) + suffix;
-            }
-        }
-        
-        requestAnimationFrame(updateCounter);
-    }
-
-    // Configuración mejorada usando Intersection Observer
-    document.addEventListener('DOMContentLoaded', function() {
-        const statsSection = document.querySelector('.bg-gradient-to-r.from-\\[\\#263b80\\].to-\\[\\#264da0\\]');
-        const statItems = document.querySelectorAll('.stat-item');
-        let hasAnimated = false;
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting && !hasAnimated) {
-                    hasAnimated = true;
-                    
-                    statItems.forEach((item, index) => {
-                        const counter = item.querySelector('.counter');
-                        const target = parseInt(item.dataset.target);
-                        const suffix = item.dataset.suffix || '';
-                        
-                        setTimeout(() => {
-                            animateCounter(counter, target, 2000, suffix);
-                        }, index * 250);
-                    });
-                }
-            });
-        }, {
-            threshold: 0.2,
-            rootMargin: '0px 0px -100px 0px'
-        });
-
-        if (statsSection) {
-            observer.observe(statsSection);
-        }
-    });
-</script>
 
 <?php get_footer(); ?>
