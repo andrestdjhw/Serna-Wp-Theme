@@ -6,78 +6,168 @@
 
 get_header(); ?>
 
-<div class="nuevos-requisitos-slas-page">
-    <!-- Hero Section -->
+<div class="nuevos-requisitos-slas-page bg-[#F3F4F6]">
     <section class="relative py-24 overflow-hidden">
-        <!-- Gradient Background -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
-        <!-- Animated Background Elements -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
             <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
-            <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
-        <!-- Background Pattern -->
-        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
-        
-        <!-- Content -->
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
-                    Nuevos Requisitos SLAS
-                </h1>
-                <div class="mt-8">
-                    <div class="inline-flex items-center justify-center w-50 h-1 bg-[#ad8411] rounded-full"></div>
-                </div>
-            </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 text-center">
+            <p class="text-[#87cede] font-black uppercase tracking-widest mb-4">Secretaría de Recursos Naturales y Ambiente</p>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                Requisitos de Licenciamiento Ambiental
+            </h1>
+            <div class="inline-flex items-center justify-center w-24 h-1 bg-[#ad8411] rounded-full"></div>
+            <p class="mt-6 text-white/80 text-lg max-w-2xl mx-auto">
+                Listado oficial de la documentación necesaria para el Sistema de Licenciamiento Ambiental (SLAS).
+            </p>
         </div>
         
-        <!-- Wave Background -->
         <div class="absolute bottom-0 left-0 right-0">
-            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12 md:h-20">
-                <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 43.3C1200 47 1320 53 1380 56.7L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-12">
+                <path d="M0 120h1440V0c-240 40-480 40-720 40S240 40 0 0v120z" fill="#F3F4F6"/>
             </svg>
         </div>
     </section>
 
-    <!-- Featured News Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-[#00903b] mb-6">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00903b] to-[#7dbb5c]">(COCOIN)</span>
-                </h2>
-                <div class="h-1 w-24 bg-[#87cede] mx-auto mb-2 rounded-full"></div>
-            </div> -->
+    <section class="py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             
-            <!-- Featured News Card -->
-            <div class="bg-gradient-to-r from-[#263b80] to-[#264da0] rounded-2xl overflow-hidden shadow-xl">
-                <div class="lg:flex">
-                    <div class="lg:w-1/2">
-                        <img src="/wp-content/uploads/2026/03/NuevosRequisitosSLAS_Actualizado.jpg" alt="Noticia Destacada" class="w-full h-64 lg:h-full object-cover">
-                    </div>
-                    <div class="lg:w-1/2 p-8 lg:p-12 text-white">
-                        <div class="flex items-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                <div class="p-8 md:p-12">
+                    <div class="flex items-center gap-4 mb-10 border-b border-gray-100 pb-6">
+                        <div class="bg-[#263b80] p-3 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                             </svg>
-                            <!-- <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span> -->
                         </div>
-                        <h3 class="text-2xl lg:text-3xl font-bold mb-4">
-                            Nuevos Requisitos Sistema de Licenciamiento Ambiental SERNA
-                        </h3>
-                        <p class="text-lg leading-relaxed mb-6 opacity-90">
-                            Manténgase al tanto de las ultimas actualizaciones.
-                        </p>
-                        <a href="/wp-content/uploads/2026/03/NuevosRequisitosSLAS_Actualizado.jpg" 
-                            download="NuevosRequisitosSLAS_Actualizado.jpg"
-                            class="inline-flex items-center px-6 py-3 bg-white text-[#231f20] font-semibold rounded-full hover:bg-[#ad8411] hover:text-white transition-colors duration-300">
-                            Descargar Recurso
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        <div>
+                            <h2 class="text-2xl font-bold text-[#263b80]">Documentación Requerida</h2>
+                            <p class="text-gray-500 text-sm">Asegúrese de cumplir con todos los puntos enumerados.</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <?php
+                        $requisitos = [
+                            "Reporte Oficial del Sistema de Licenciamiento Ambiental",
+                            "Escrito de Solicitud de Licencia Ambiental",
+                            "Carta Poder o Poder General para pleitos, autenticado",
+                            "Medidas de Control Ambiental emitidas por el Sistema de Licenciamiento Ambiental (SLAS)",
+                            "Fotocopia de RTN de la Empresa, autenticada",
+                            "Fotocopia del Documento de Identificación Nacional (DNI) del Representante Legal de la sociedad mercantil",
+                            "Declaración Jurada del Representante Legal de la sociedad mercantil",
+                            "Declaración Jurada del Prestador de Servicios Ambientales (PSA) debidamente autenticada",
+                            "Título de propiedad debidamente timbrado y registrado / Contrato de arrendamiento o cualquier otro título traslaticio de dominio del área a desarrollar el proyecto",
+                            "Escritura de constitución de sociedad, Comerciante individual o personería jurídica en caso de Sociedad mercantil extranjera (debidamente apostillados)",
+                            "Informe de Validación de las Medidas de Control Ambiental del SLAS por el PSA",
+                            "Recibo de pago por inspección TGR-1 en la casilla: Institución 150-SERNA; rubro 12117-Monitoreo Ambiental",
+                            "Garantía Bancaria original, vigente por un año",
+                            "Publicación del aviso de presentación de la solicitud (en diario de mayor circulación, acreditar página completa, vigencia de 05 días hábiles)"
+                        ];
+
+                        foreach ($requisitos as $index => $req) : ?>
+                            <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-200">
+                                <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-[#87cede]/20 text-[#263b80] font-bold text-sm">
+                                    <?php echo $index + 1; ?>
+                                </span>
+                                <p class="text-gray-700 leading-relaxed pt-1"><?php echo $req; ?></p>
+                            </div>
+                        <?php endforeach; ?>
+
+                        <div class="mt-8 p-6 bg-[#263b80]/5 rounded-2xl border-l-4 border-[#ad8411]">
+                            <h3 class="text-lg font-bold text-[#263b80] mb-4 flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ad8411]" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                </svg>
+                                15. Herramienta Técnica de evaluación de acuerdo a la categoría:
+                            </h3>
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <span class="block text-[#ad8411] font-black text-xs uppercase mb-1">Categoría 1</span>
+                                    <p class="text-gray-700 font-medium">Memoria Técnica</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <span class="block text-[#ad8411] font-black text-xs uppercase mb-1">Categoría 2</span>
+                                    <p class="text-gray-700 font-medium">Cuadro Resumen de Plan de Gestión Ambiental (nuevo) / Plan de Mejoramiento Ambiental (operación)</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <span class="block text-[#ad8411] font-black text-xs uppercase mb-1">Categoría 3</span>
+                                    <p class="text-gray-700 font-medium">Plan de Gestión Ambiental (nuevo) / Plan de Mejoramiento Ambiental (operación)</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <span class="block text-[#ad8411] font-black text-xs uppercase mb-1">Categoría 4</span>
+                                    <p class="text-gray-700 font-medium">Estudio de Evaluación de Impacto Ambiental (EsIA) (nuevo) / Estudio de Evaluación de Auditoría Ambiental (EAA) (operando)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-5 p-4 bg-[#ad8411]/10 rounded-lg text-sm text-[#263b80]">
+                                <strong class="font-bold">Proyectos Categoría 4:</strong> Deberá presentar la socialización y aprobación por Certificación del Punto de Acta de Cabildo abierto con medios de verificación fotográfico y listado de asistencia, publicaciones de avisos de inicio y finalización del Estudio de Impacto Ambiental, spot publicitario 03 veces por día durante 05 días en radio locales y nacionales, Fondo de Garantía o Seguro Ambiental vigente durante la vida útil del proyecto.
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-200">
+                            <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-[#87cede]/20 text-[#263b80] font-bold text-sm">
+                                16
+                            </span>
+                            <p class="text-gray-700 leading-relaxed pt-1">Recibo TGR-1, por el monto de Inversión de Licenciamiento Ambiental, casilla: Institución 150-Secretaría de Recursos Naturales y Ambiente (SERNA); rubro 12209-Otras Licencias, el cual deberá ser cancelado en un periodo no menos a 10 días a partir de estar completa la documentación técnica y legal.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-12 p-8 bg-gray-50 rounded-2xl border border-gray-100">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-lg bg-[#ad8411] flex items-center justify-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#263b80]">Observaciones</h3>
+                        </div>
+                        
+                        <ul class="space-y-4 text-gray-700 leading-relaxed text-sm">
+                            <li class="flex items-start gap-3">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                Las revisiones se realizarán con el expediente en forma física y en la plataforma del SLAS, la misma deberá está completa para su revisión en Secretaría General.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                Para los proyectos que se encuentran dentro de Área Protegida, deberá de presentar <strong class="underline font-semibold text-[#263b80]">CONSTANCIA DE FACTIBILIDAD</strong> emitida por el ICF.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                A los proyectos turísticos que le aplique, Certificado de Viabilidad Turística emitida por el IHT, de acuerdo a lo establecido en la Ley de Incentivo de Turismo y su Reglamento.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                Los proyectos de Lotificación y urbanización (nuevos o en operación) deberán de presentar Constancia emitida por Catastro Municipal.
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                Los proyectos de Lotificación y urbanización (nuevos) deberán de presentar Estudio de Evaluación de Emplazamiento emitido por COPECO / En el Distrito Central se puede presentar Informe de Evaluación de Riesgo emitido por el Departamento de Riesgo de la AMDC.
+                            </li>
+                            <li class="flex items-start gap-3 font-medium text-[#263b80]">
+                                <span class="block w-1.5 h-1.5 rounded-full bg-[#ad8411] mt-2 flex-shrink-0"></span>
+                                Todos los planos deben ser tamaño tabloide, firmados, sellados y timbrados por Ing. Civil o arquitecto.
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-6 border-t border-gray-100 pt-5 text-center text-xs text-gray-500">
+                             Casos Específicos: Toda fotocopia debe ser presentada debidamente autenticada o cotejada conforme a su original.
+                        </div>
+                    </div>
+
+                    <div class="mt-12 text-center">
+                        <a href="/wp-content/uploads/2026/04/Requisitos-de-Licencia-Ambiental-SERNA-1.docx" 
+                           download 
+                           class="inline-flex items-center px-8 py-4 bg-[#ad8411] text-white font-bold rounded-full hover:bg-[#263b80] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
+                            Descargar Listado en PDF/Imagen
                         </a>
                     </div>
                 </div>
@@ -87,209 +177,14 @@ get_header(); ?>
 </div>
 
 <style>
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-    
     .animate-gradient {
         background-size: 200% 200%;
         animation: gradient 5s ease infinite;
     }
-
-    /* News Card Styles */
-    .news-card {
-        background: white;
-        border-radius: 1rem;
-        overflow: hidden;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-        transform: translateY(0);
-        border: 2px solid transparent;
-    }
-
-    .news-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        border-color: rgba(135, 206, 222, 0.3);
-    }
-
-    .news-image-container {
-        position: relative;
-        height: 200px;
-        overflow: hidden;
-    }
-
-    .news-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-    }
-
-    .news-card:hover .news-image {
-        transform: scale(1.05);
-    }
-
-    .news-date-badge {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
-        color: white;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        text-align: center;
-        font-weight: bold;
-        min-width: 3rem;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    }
-
-    .news-date-day {
-        display: block;
-        font-size: 1.25rem;
-        line-height: 1;
-    }
-
-    .news-date-month {
-        display: block;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        opacity: 0.9;
-    }
-
-    .news-content {
-        padding: 1.5rem;
-    }
-
-    .news-meta {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-        font-size: 0.875rem;
-        color: #6b7280;
-    }
-
-    .news-category {
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
-        color: white;
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
-        font-weight: 600;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-
-    .news-separator {
-        margin: 0 0.5rem;
-        color: #d1d5db;
-    }
-
-    .news-date-full {
-        color: #9ca3af;
-    }
-
-    .news-title {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: #1f2937;
-        margin-bottom: 0.75rem;
-        line-height: 1.4;
-        transition: color 0.3s ease;
-    }
-
-    .news-card:hover .news-title {
-        color: #00903b;
-    }
-
-    .news-excerpt {
-        color: #6b7280;
-        line-height: 1.6;
-        margin-bottom: 1rem;
-        font-size: 0.95rem;
-    }
-
-    .news-read-more {
-        display: inline-flex;
-        align-items: center;
-        color: #00903b;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        font-size: 0.9rem;
-    }
-
-    .news-read-more:hover {
-        color: #7dbb5c;
-        transform: translateX(4px);
-    }
-
-    .news-read-more svg {
-        transition: transform 0.3s ease;
-    }
-
-    .news-read-more:hover svg {
-        transform: translateX(2px);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 640px) {
-        .news-card {
-            margin-bottom: 1.5rem;
-        }
-        
-        .news-content {
-            padding: 1rem;
-        }
-        
-        .news-title {
-            font-size: 1.125rem;
-        }
-        
-        .news-date-badge {
-            top: 0.75rem;
-            right: 0.75rem;
-            padding: 0.375rem;
-            min-width: 2.5rem;
-        }
-        
-        .news-date-day {
-            font-size: 1rem;
-        }
-        
-        .news-date-month {
-            font-size: 0.625rem;
-        }
-    }
-
-    /* Loading animation for images */
-    .news-image {
-        background-color: #f3f4f6;
-        background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
-        background-size: 200% 100%;
-        animation: shimmer 1.5s infinite;
-    }
-
-    .news-image[src] {
-        animation: none;
-        background: none;
-    }
-
-    @keyframes shimmer {
-        0% {
-            background-position: -200% 0;
-        }
-        100% {
-            background-position: 200% 0;
-        }
+    @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
     }
 </style>
 

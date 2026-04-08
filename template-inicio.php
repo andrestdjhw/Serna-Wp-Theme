@@ -960,15 +960,15 @@ html { scroll-behavior: smooth; }
                 <!-- Noticia 3 -->
                 <div class="news-card">
                     <div class="news-img">
-                        <img src="/wp-content/uploads/2026/02/Tercer_Noticia.jpeg" alt="SERNA y PNUD">
+                        <img src="/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-07-at-12.05.02-e1775668792765.jpeg" alt="Nuevo Subsecretario">
                     </div>
                     <div class="news-body">
                         <div class="news-meta">
-                            <span class="news-tag">Inversión</span>
-                            <span class="news-date">17 Feb 2026</span>
+                            <span class="news-tag">Nuevo Capítulo</span>
+                            <span class="news-date">7 Abr 2026</span>
                         </div>
-                        <h3 class="news-title">SERNA y PNUD fortalecen alianza ambiental en Honduras</h3>
-                        <p class="news-excerpt">El Ministro Ramos se reunió con el representante del PNUD, <strong>Alessandro Fracassetti</strong>, para impulsar proyectos ambientales conjuntos enfocados en las prioridades del país.</p>
+                        <h3 class="news-title">Bienvenida al Subsecretario de Estado en el Despacho de Ambiente, Ramón Dagoberto Rodríguez</h3>
+                        <p class="news-excerpt">La Secretaría de Recursos Naturales y Ambiente (SERNA) da una cordial bienvenida al Subsecretario de Estado en el Despacho de Ambiente, <strong>Ramón Dagoberto Rodríguez</strong>, quien se une a esta importante labor con un compromiso firme, liderazgo y vocación de servicio.</p>
                         <a href="#" class="news-link">
                             Leer más
                             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
