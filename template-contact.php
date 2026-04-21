@@ -7,6 +7,8 @@
 get_header(); ?>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 /* ============================================
    TOKENS — MISMOS DEL NAVBAR Y HOMEPAGE
    ============================================ */
@@ -28,7 +30,7 @@ html { scroll-behavior: smooth; }
 *, *::before, *::after { box-sizing: border-box; }
 
 .contacto-page {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Outfit', sans-serif;
     background: var(--bone);
     color: var(--text);
 }
@@ -99,14 +101,39 @@ html { scroll-behavior: smooth; }
     opacity: 0.75;
 }
 
+/* ── Patrón de puntos — igual que homepage ── */
 .contacto-hero-stars {
+    --dot-color: rgba(135, 206, 222, 0.30);
+    --dot-size: 3rem;
+
     position: absolute;
     inset: 0;
     z-index: 1;
     pointer-events: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='160' viewBox='0 0 240 160'%3E%3Cpath fill='%2387b4e8' fill-opacity='0.18' d='M28,11 L29.65,20.35 L39,22 L29.65,23.65 L28,33 L26.35,23.65 L17,22 L26.35,20.35Z M90,7 L90.75,11.25 L95,12 L90.75,12.75 L90,17 L89.25,12.75 L85,12 L89.25,11.25Z M160,16 L161.35,23.65 L169,25 L161.35,26.35 L160,34 L158.65,26.35 L151,25 L158.65,23.65Z M220,9 L220.9,14.1 L226,15 L220.9,15.9 L220,21 L219.1,15.9 L214,15 L219.1,14.1Z M55,48 L56.05,53.95 L62,55 L56.05,56.05 L55,62 L53.95,56.05 L48,55 L53.95,53.95Z M130,36 L131.8,46.2 L142,48 L131.8,49.8 L130,60 L128.2,49.8 L118,48 L128.2,46.2Z M195,56 L195.6,59.4 L199,60 L195.6,60.6 L195,64 L194.4,60.6 L191,60 L194.4,59.4Z M15,82 L16.2,88.8 L23,90 L16.2,91.2 L15,98 L13.8,91.2 L7,90 L13.8,88.8Z M85,82 L85.45,84.55 L88,85 L85.45,85.45 L85,88 L84.55,85.45 L82,85 L84.55,84.55Z M150,85 L151.5,93.5 L160,95 L151.5,96.5 L150,105 L148.5,96.5 L140,95 L148.5,93.5Z M230,81 L231.05,86.95 L237,88 L231.05,89.05 L230,95 L228.95,89.05 L223,88 L228.95,86.95Z M40,117 L41.95,128.05 L53,130 L41.95,131.95 L40,143 L38.05,131.95 L27,130 L38.05,128.05Z M110,120 L110.75,124.25 L115,125 L110.75,125.75 L110,130 L109.25,125.75 L105,125 L109.25,124.25Z M175,122 L176.2,128.8 L183,130 L176.2,131.2 L175,138 L173.8,131.2 L167,130 L173.8,128.8Z M70,149 L70.9,154.1 L76,155 L70.9,155.9 L70,161 L69.1,155.9 L64,155 L69.1,154.1Z M200,139 L201.65,148.35 L211,150 L201.65,151.65 L200,161 L198.35,151.65 L189,150 L198.35,148.35Z M135,155 L135.45,157.55 L138,158 L135.45,158.45 L135,161 L134.55,158.45 L132,158 L134.55,157.55Z'/%3E%3C/svg%3E");
-    background-size: 240px 160px;
-    background-repeat: repeat;
+
+    background-image:
+        radial-gradient(var(--dot-color) 5%, transparent 6%),
+        radial-gradient(var(--dot-color) 5%, transparent 6%);
+    background-position:
+        0 0,
+        calc(var(--dot-size) / 2) calc(var(--dot-size) / 2);
+    background-size: var(--dot-size) var(--dot-size);
+    background-color: transparent;
+
+    box-shadow: inset 0 0 140px rgba(173, 132, 17, 0.10);
+
+    mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
+    -webkit-mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
 }
 
 .contacto-hero-watermark {
@@ -197,6 +224,7 @@ html { scroll-behavior: smooth; }
 }
 
 .contacto-hero-sub {
+    font-family: 'DM Sans', sans-serif;
     font-size: clamp(16px, 2vw, 20px);
     color: rgba(255,255,255,0.80);
     max-width: 520px;
@@ -302,6 +330,7 @@ html { scroll-behavior: smooth; }
     margin-bottom: 3px;
 }
 .info-value {
+    font-family: 'DM Sans', sans-serif;
     font-size: 14.5px;
     color: var(--text-soft);
     line-height: 1.5;
@@ -374,7 +403,7 @@ html { scroll-behavior: smooth; }
 .form-textarea {
     width: 100%;
     padding: 12px 16px;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 14.5px;
     color: var(--text);
     background: var(--bone);
@@ -417,7 +446,7 @@ html { scroll-behavior: smooth; }
     padding: 13px 32px;
     background: var(--navy);
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 15px;
     border: none;
@@ -428,7 +457,6 @@ html { scroll-behavior: smooth; }
     position: relative;
     overflow: hidden;
 }
-/* Línea dorada inferior — eco del nav-btn */
 .btn-submit::after {
     content: '';
     position: absolute;
@@ -453,6 +481,7 @@ html { scroll-behavior: smooth; }
     display: none;
     padding: 14px 18px;
     border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
     font-size: 14.5px;
     font-weight: 600;
     margin-top: 20px;
@@ -510,6 +539,7 @@ html { scroll-behavior: smooth; }
     ============================================= -->
     <section class="contacto-hero">
 
+        <!-- Patrón de puntos (reemplaza estrellas) -->
         <div class="contacto-hero-stars" aria-hidden="true"></div>
 
         <div class="contacto-hero-watermark" aria-hidden="true">

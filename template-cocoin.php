@@ -12,20 +12,20 @@ get_header(); ?>
         <!-- Gradient Background -->
         <div class="absolute inset-0 bg-gradient-to-br from-[#263b80] via-[#264da0] to-[#264da0]"></div>
         
-        <!-- Animated Background Elements -->
+        <!-- Animated Background Elements (orbes) -->
         <div class="absolute inset-0 opacity-20">
             <div class="absolute top-0 -left-4 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
             <div class="absolute bottom-0 right-0 w-72 h-72 bg-[#87cede] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 3s;"></div>
             <div class="absolute -bottom-8 left-20 w-72 h-72 bg-[#7dbb5c] rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 5s;"></div>
         </div>
         
-        <!-- Background Pattern -->
-        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"></div>
+        <!-- Patrón de puntos — coherente con el resto del sitio -->
+        <div class="cocoin-hero-dots" aria-hidden="true"></div>
         
         <!-- Content -->
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#87cede] to-white animate-gradient">
+                <h1 class="cocoin-hero-title">
                     Comité de Control Interno
                 </h1>
                 <div class="mt-8">
@@ -63,7 +63,6 @@ get_header(); ?>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <!-- <span class="text-[#87cede] font-semibold">09 de Mayo, 2024</span> -->
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-4">
                             Boletín Trimestral
@@ -85,210 +84,193 @@ get_header(); ?>
 </div>
 
 <style>
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-    
-    .animate-gradient {
-        background-size: 200% 200%;
-        animation: gradient 5s ease infinite;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
-    /* News Card Styles */
-    .news-card {
-        background: white;
-        border-radius: 1rem;
-        overflow: hidden;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-        transform: translateY(0);
-        border: 2px solid transparent;
-    }
+/* Fuente base coherente con el resto del sitio */
+.cocoin-page {
+    font-family: 'Outfit', sans-serif;
+}
 
-    .news-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        border-color: rgba(135, 206, 222, 0.3);
-    }
+/* Título hero — mismo gradiente animado que el resto de templates */
+.cocoin-hero-title {
+    font-size: clamp(32px, 5.5vw, 62px);
+    font-weight: 800;
+    line-height: 1.08;
+    margin: 0 0 24px;
+    background: linear-gradient(180deg, #ffffff 20%, #ad8411 60%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 100% 200%;
+    animation: gradientShift 6s ease infinite;
+}
 
-    .news-image-container {
-        position: relative;
-        height: 200px;
-        overflow: hidden;
-    }
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 0%; }
+    50%       { background-position: 0% 100%; }
+}
 
-    .news-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-    }
+/* ── Patrón de puntos — igual que el resto de templates ── */
+.cocoin-hero-dots {
+    --dot-color: rgba(135, 206, 222, 0.30);
+    --dot-size: 3rem;
 
-    .news-card:hover .news-image {
-        transform: scale(1.05);
-    }
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
 
-    .news-date-badge {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
-        color: white;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        text-align: center;
-        font-weight: bold;
-        min-width: 3rem;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    }
+    background-image:
+        radial-gradient(var(--dot-color) 5%, transparent 6%),
+        radial-gradient(var(--dot-color) 5%, transparent 6%);
+    background-position:
+        0 0,
+        calc(var(--dot-size) / 2) calc(var(--dot-size) / 2);
+    background-size: var(--dot-size) var(--dot-size);
+    background-color: transparent;
 
-    .news-date-day {
-        display: block;
-        font-size: 1.25rem;
-        line-height: 1;
-    }
+    box-shadow: inset 0 0 140px rgba(173, 132, 17, 0.10);
 
-    .news-date-month {
-        display: block;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        opacity: 0.9;
-    }
+    mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
+    -webkit-mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
+}
 
-    .news-content {
-        padding: 1.5rem;
-    }
+@keyframes gradient {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
-    .news-meta {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-        font-size: 0.875rem;
-        color: #6b7280;
-    }
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
 
-    .news-category {
-        background: linear-gradient(135deg, #00903b, #7dbb5c);
-        color: white;
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
-        font-weight: 600;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
+/* News Card Styles */
+.news-card {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    border: 2px solid transparent;
+}
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    border-color: rgba(135,206,222,0.3);
+}
 
-    .news-separator {
-        margin: 0 0.5rem;
-        color: #d1d5db;
-    }
+.news-image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.news-image {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    background-color: #f3f4f6;
+    background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+.news-card:hover .news-image { transform: scale(1.05); }
+.news-image[src] { animation: none; background: none; }
 
-    .news-date-full {
-        color: #9ca3af;
-    }
+.news-date-badge {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    background: linear-gradient(135deg, #00903b, #7dbb5c);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    min-width: 3rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+.news-date-day   { display: block; font-size: 1.25rem; line-height: 1; }
+.news-date-month { display: block; font-size: 0.75rem; text-transform: uppercase; opacity: 0.9; }
 
-    .news-title {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: #1f2937;
-        margin-bottom: 0.75rem;
-        line-height: 1.4;
-        transition: color 0.3s ease;
-    }
+.news-content { padding: 1.5rem; }
 
-    .news-card:hover .news-title {
-        color: #00903b;
-    }
+.news-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+.news-category {
+    background: linear-gradient(135deg, #00903b, #7dbb5c);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.news-separator  { margin: 0 0.5rem; color: #d1d5db; }
+.news-date-full  { color: #9ca3af; }
 
-    .news-excerpt {
-        color: #6b7280;
-        line-height: 1.6;
-        margin-bottom: 1rem;
-        font-size: 0.95rem;
-    }
+.news-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+.news-card:hover .news-title { color: #00903b; }
 
-    .news-read-more {
-        display: inline-flex;
-        align-items: center;
-        color: #00903b;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        font-size: 0.9rem;
-    }
+.news-excerpt {
+    font-family: 'DM Sans', sans-serif;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
 
-    .news-read-more:hover {
-        color: #7dbb5c;
-        transform: translateX(4px);
-    }
+.news-read-more {
+    display: inline-flex;
+    align-items: center;
+    color: #00903b;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+.news-read-more:hover { color: #7dbb5c; transform: translateX(4px); }
+.news-read-more svg  { transition: transform 0.3s ease; }
+.news-read-more:hover svg { transform: translateX(2px); }
 
-    .news-read-more svg {
-        transition: transform 0.3s ease;
-    }
+@keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
 
-    .news-read-more:hover svg {
-        transform: translateX(2px);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 640px) {
-        .news-card {
-            margin-bottom: 1.5rem;
-        }
-        
-        .news-content {
-            padding: 1rem;
-        }
-        
-        .news-title {
-            font-size: 1.125rem;
-        }
-        
-        .news-date-badge {
-            top: 0.75rem;
-            right: 0.75rem;
-            padding: 0.375rem;
-            min-width: 2.5rem;
-        }
-        
-        .news-date-day {
-            font-size: 1rem;
-        }
-        
-        .news-date-month {
-            font-size: 0.625rem;
-        }
-    }
-
-    /* Loading animation for images */
-    .news-image {
-        background-color: #f3f4f6;
-        background-image: linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
-        background-size: 200% 100%;
-        animation: shimmer 1.5s infinite;
-    }
-
-    .news-image[src] {
-        animation: none;
-        background: none;
-    }
-
-    @keyframes shimmer {
-        0% {
-            background-position: -200% 0;
-        }
-        100% {
-            background-position: 200% 0;
-        }
-    }
+@media (max-width: 640px) {
+    .news-card    { margin-bottom: 1.5rem; }
+    .news-content { padding: 1rem; }
+    .news-title   { font-size: 1.125rem; }
+    .news-date-badge { top: 0.75rem; right: 0.75rem; padding: 0.375rem; min-width: 2.5rem; }
+    .news-date-day   { font-size: 1rem; }
+    .news-date-month { font-size: 0.625rem; }
+}
 </style>
 
 <?php get_footer(); ?>

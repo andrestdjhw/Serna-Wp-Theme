@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <style>
-/* Georgia es una fuente del sistema, no requiere importación */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 /* ============================================
    TOKENS — MISMOS DEL NAVBAR
@@ -27,11 +27,10 @@ get_header(); ?>
 }
 
 html { scroll-behavior: smooth; }
-
 *, *::before, *::after { box-sizing: border-box; }
 
 .inicio-page {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Outfit', sans-serif;
     background: var(--bone);
     color: var(--text);
 }
@@ -45,7 +44,6 @@ html { scroll-behavior: smooth; }
     padding: 0 24px;
 }
 
-/* Línea dorada — igual que mega-col-title del navbar */
 .gold-rule {
     display: inline-block;
     width: 48px;
@@ -77,7 +75,7 @@ html { scroll-behavior: smooth; }
 }
 
 .section-subtitle {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     color: var(--text-soft);
     max-width: 560px;
@@ -86,7 +84,7 @@ html { scroll-behavior: smooth; }
 }
 
 /* ============================================
-   HERO — Continuación visual del nav
+   HERO
    ============================================ */
 .hero {
     position: relative;
@@ -95,15 +93,47 @@ html { scroll-behavior: smooth; }
     padding: 96px 0 0;
 }
 
-/* Patrón de estrellas — destellos de 4 puntas tipo sparkle, irregulares */
-.hero-stars {
+/* ── Patrón de puntos adaptado a SERNA ──────────────────
+   Puntos: celeste SERNA (rgba(135,206,222,0.35)) sobre
+   fondo transparente para que el gradiente del .hero
+   siga siendo visible debajo.
+   El offset de la segunda capa crea el patrón de cuadrícula
+   diagonal igual que el original.
+   ──────────────────────────────────────────────────── */
+.hero-hex-pattern {
+    --dot-color: rgba(135, 206, 222, 0.30);
+    --dot-size: 3rem;
+
     position: absolute;
     inset: 0;
     z-index: 1;
     pointer-events: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='160' viewBox='0 0 240 160'%3E%3Cpath fill='%2387b4e8' fill-opacity='0.18' d='M28,11 L29.65,20.35 L39,22 L29.65,23.65 L28,33 L26.35,23.65 L17,22 L26.35,20.35Z M90,7 L90.75,11.25 L95,12 L90.75,12.75 L90,17 L89.25,12.75 L85,12 L89.25,11.25Z M160,16 L161.35,23.65 L169,25 L161.35,26.35 L160,34 L158.65,26.35 L151,25 L158.65,23.65Z M220,9 L220.9,14.1 L226,15 L220.9,15.9 L220,21 L219.1,15.9 L214,15 L219.1,14.1Z M55,48 L56.05,53.95 L62,55 L56.05,56.05 L55,62 L53.95,56.05 L48,55 L53.95,53.95Z M130,36 L131.8,46.2 L142,48 L131.8,49.8 L130,60 L128.2,49.8 L118,48 L128.2,46.2Z M195,56 L195.6,59.4 L199,60 L195.6,60.6 L195,64 L194.4,60.6 L191,60 L194.4,59.4Z M15,82 L16.2,88.8 L23,90 L16.2,91.2 L15,98 L13.8,91.2 L7,90 L13.8,88.8Z M85,82 L85.45,84.55 L88,85 L85.45,85.45 L85,88 L84.55,85.45 L82,85 L84.55,84.55Z M150,85 L151.5,93.5 L160,95 L151.5,96.5 L150,105 L148.5,96.5 L140,95 L148.5,93.5Z M230,81 L231.05,86.95 L237,88 L231.05,89.05 L230,95 L228.95,89.05 L223,88 L228.95,86.95Z M40,117 L41.95,128.05 L53,130 L41.95,131.95 L40,143 L38.05,131.95 L27,130 L38.05,128.05Z M110,120 L110.75,124.25 L115,125 L110.75,125.75 L110,130 L109.25,125.75 L105,125 L109.25,124.25Z M175,122 L176.2,128.8 L183,130 L176.2,131.2 L175,138 L173.8,131.2 L167,130 L173.8,128.8Z M70,149 L70.9,154.1 L76,155 L70.9,155.9 L70,161 L69.1,155.9 L64,155 L69.1,154.1Z M200,139 L201.65,148.35 L211,150 L201.65,151.65 L200,161 L198.35,151.65 L189,150 L198.35,148.35Z M135,155 L135.45,157.55 L138,158 L135.45,158.45 L135,161 L134.55,158.45 L132,158 L134.55,157.55Z'/%3E%3C/svg%3E");
-    background-size: 240px 160px;
-    background-repeat: repeat;
+
+    background-image:
+        radial-gradient(var(--dot-color) 5%, transparent 6%),
+        radial-gradient(var(--dot-color) 5%, transparent 6%);
+    background-position:
+        0 0,
+        calc(var(--dot-size) / 2) calc(var(--dot-size) / 2);
+    background-size: var(--dot-size) var(--dot-size);
+    background-color: transparent;
+
+    /* Destello dorado sutil — coherente con el gold del navbar */
+    box-shadow: inset 0 0 140px rgba(173, 132, 17, 0.10);
+
+    /* Fundido radial: más visible al centro, desvanece en bordes */
+    mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
+    -webkit-mask-image: radial-gradient(
+        ellipse 100% 100% at 50% 50%,
+        rgba(0,0,0,0.60) 20%,
+        rgba(0,0,0,0.30) 65%,
+        transparent 100%
+    );
 }
 
 /* Línea dorada inferior igual que el ::after del nav */
@@ -207,7 +237,7 @@ html { scroll-behavior: smooth; }
 }
 
 .hero-sub {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: clamp(16px, 2vw, 20px);
     font-weight: 300;
     color: rgba(255,255,255,0.80);
@@ -224,7 +254,7 @@ html { scroll-behavior: smooth; }
     margin-bottom: 64px;
 }
 
-/* Botones — coherentes con el estilo del navbar */
+/* Botones */
 .btn-primary {
     display: inline-flex;
     align-items: center;
@@ -232,7 +262,7 @@ html { scroll-behavior: smooth; }
     padding: 13px 28px;
     background: #ffffff;
     color: var(--navy);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
     border-radius: 8px;
@@ -254,7 +284,7 @@ html { scroll-behavior: smooth; }
     padding: 12px 28px;
     background: transparent;
     color: rgba(255,255,255,0.92);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
     border-radius: 8px;
@@ -285,8 +315,6 @@ html { scroll-behavior: smooth; }
     background: var(--bone);
     position: relative;
 }
-
-/* Marca de agua centrada en sección */
 .servicios::before {
     content: '';
     position: absolute;
@@ -308,7 +336,6 @@ html { scroll-behavior: smooth; }
     gap: 24px;
 }
 
-/* Cards — mismo lenguaje que el mega-menu del navbar */
 .service-card {
     background: #ffffff;
     border: 1px solid var(--border);
@@ -322,8 +349,6 @@ html { scroll-behavior: smooth; }
     transform: translateY(-6px);
     box-shadow: 0 16px 56px rgba(38, 61, 128, 0.18), 0 4px 12px rgba(0,0,0,0.06);
 }
-
-/* Barra dorada superior — igual que mega-col-title border */
 .service-card::before {
     content: '';
     position: absolute;
@@ -336,33 +361,36 @@ html { scroll-behavior: smooth; }
 .service-card:hover::before { opacity: 1; }
 
 .service-icon-wrap {
-    background: linear-gradient(135deg, var(--navy), var(--blue));
-    padding: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     overflow: hidden;
+    height: 200px;
 }
+.service-icon-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.service-card:hover .service-icon-wrap img {
+    transform: scale(1.06);
+}
+/* Overlay degradado sobre la imagen — mantiene legibilidad */
 .service-icon-wrap::after {
     content: '';
     position: absolute;
-    bottom: -20px;
-    right: -20px;
-    width: 80px; height: 80px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.06);
-}
-.service-icon-wrap svg {
-    width: 52px; height: 52px;
-    color: #ffffff;
-    position: relative;
-    z-index: 1;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(38, 59, 128, 0.15) 0%,
+        rgba(38, 59, 128, 0.45) 100%
+    );
+    pointer-events: none;
 }
 
 .service-body { padding: 24px 28px 28px; }
 
-/* Línea dorada de título — idéntica a mega-col-title */
 .service-title {
     font-size: 18px;
     font-weight: 700;
@@ -374,7 +402,7 @@ html { scroll-behavior: smooth; }
 }
 
 .service-desc {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 14.5px;
     color: var(--text-soft);
     line-height: 1.65;
@@ -421,7 +449,6 @@ html { scroll-behavior: smooth; }
     gap: 80px;
     align-items: center;
 }
-
 @media (max-width: 768px) {
     .about-grid { grid-template-columns: 1fr; gap: 40px; }
 }
@@ -431,7 +458,7 @@ html { scroll-behavior: smooth; }
 .about-text .section-title { text-align: left; margin-bottom: 24px; }
 
 .about-body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 15.5px;
     color: var(--text-soft);
     line-height: 1.75;
@@ -439,7 +466,6 @@ html { scroll-behavior: smooth; }
 }
 .about-body p + p { margin-top: 14px; }
 
-/* Separador dorado — mismo estilo que la línea del nav */
 .about-divider {
     width: 48px;
     height: 2px;
@@ -448,10 +474,7 @@ html { scroll-behavior: smooth; }
     margin: 20px 0 24px;
 }
 
-.about-img-wrap {
-    position: relative;
-    z-index: 1;
-}
+.about-img-wrap { position: relative; z-index: 1; }
 .about-img-frame {
     border-radius: 12px;
     overflow: hidden;
@@ -460,19 +483,16 @@ html { scroll-behavior: smooth; }
     aspect-ratio: 4/3;
 }
 .about-img-frame img {
-    width: 100%;
-    height: 100%;
+    width: 100%; height: 100%;
     object-fit: cover;
     display: block;
     transition: transform 0.6s ease;
 }
 .about-img-frame:hover img { transform: scale(1.04); }
 
-/* Tarjeta flotante de acento */
 .about-badge-float {
     position: absolute;
-    bottom: -20px;
-    left: -24px;
+    bottom: -20px; left: -24px;
     background: var(--navy);
     color: white;
     border-radius: 10px;
@@ -491,10 +511,7 @@ html { scroll-behavior: smooth; }
     flex-shrink: 0;
     box-shadow: 0 0 8px var(--gold);
 }
-
-@media (max-width: 768px) {
-    .about-badge-float { display: none; }
-}
+@media (max-width: 768px) { .about-badge-float { display: none; } }
 
 /* ============================================
    NOTICIAS
@@ -540,10 +557,7 @@ html { scroll-behavior: smooth; }
     box-shadow: 0 16px 48px rgba(38, 61, 128, 0.16);
 }
 
-.news-img {
-    height: 200px;
-    overflow: hidden;
-}
+.news-img { height: 200px; overflow: hidden; }
 .news-img img {
     width: 100%; height: 100%;
     object-fit: cover;
@@ -567,7 +581,6 @@ html { scroll-behavior: smooth; }
     flex-wrap: wrap;
 }
 
-/* Tag igual que los badges del navbar móvil */
 .news-tag {
     font-size: 10px;
     font-weight: 700;
@@ -582,7 +595,7 @@ html { scroll-behavior: smooth; }
 .news-date {
     font-size: 12px;
     color: var(--text-soft);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .news-title {
@@ -591,13 +604,12 @@ html { scroll-behavior: smooth; }
     color: var(--navy);
     margin: 0 0 12px;
     line-height: 1.35;
-    /* Línea dorada a la izquierda — eco del borde del mega-menu */
     border-left: 2px solid var(--gold);
     padding-left: 12px;
 }
 
 .news-excerpt {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     color: var(--text-soft);
     line-height: 1.65;
@@ -656,12 +668,10 @@ html { scroll-behavior: smooth; }
     color: #ffffff;
     margin: 0 0 16px;
 }
-.cta-title span {
-    color: var(--gold);
-}
+.cta-title span { color: var(--gold); }
 
 .cta-sub {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     color: rgba(255,255,255,0.75);
     max-width: 540px;
@@ -683,7 +693,7 @@ html { scroll-behavior: smooth; }
     padding: 13px 26px;
     background: rgba(255,255,255,0.12);
     color: rgba(255,255,255,0.92);
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
     border-radius: 8px;
@@ -733,8 +743,8 @@ html { scroll-behavior: smooth; }
     ============================================= -->
     <section class="hero">
 
-        <!-- Patrón de estrellas -->
-        <div class="hero-stars" aria-hidden="true"></div>
+        <!-- Patrón hexagonal SERNA (reemplaza las estrellas) -->
+        <div class="hero-hex-pattern" aria-hidden="true"></div>
 
         <!-- Marcas de agua laterales -->
         <div class="hero-watermark" aria-hidden="true">
@@ -807,9 +817,8 @@ html { scroll-behavior: smooth; }
                 <!-- Servicio 1 -->
                 <div class="service-card">
                     <div class="service-icon-wrap">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                        </svg>
+                        <!-- Reemplaza src con la ruta real: /wp-content/uploads/... -->
+                        <img src="/wp-content/uploads/2026/04/Inicio_Licencia_Ambiental-scaled.jpg" alt="Licencias Ambientales">
                     </div>
                     <div class="service-body">
                         <h3 class="service-title">Licencias Ambientales</h3>
@@ -824,10 +833,8 @@ html { scroll-behavior: smooth; }
                 <!-- Servicio 2 -->
                 <div class="service-card">
                     <div class="service-icon-wrap">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
-                        </svg>
+                        <!-- Reemplaza src con la ruta real: /wp-content/uploads/... -->
+                        <img src="/wp-content/uploads/2026/04/Inicio_Gestion_Forestal-scaled.jpg" alt="Gestión Forestal">
                     </div>
                     <div class="service-body">
                         <h3 class="service-title">Gestión Forestal</h3>
@@ -842,9 +849,8 @@ html { scroll-behavior: smooth; }
                 <!-- Servicio 3 -->
                 <div class="service-card">
                     <div class="service-icon-wrap">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-                        </svg>
+                        <!-- Reemplaza src con la ruta real: /wp-content/uploads/... -->
+                        <img src="/wp-content/uploads/2026/04/Inicio_Manejo_Agua-scaled.jpg" alt="Protección del Agua">
                     </div>
                     <div class="service-body">
                         <h3 class="service-title">Protección del Agua</h3>
@@ -998,9 +1004,7 @@ html { scroll-behavior: smooth; }
             <h2 class="cta-title">¿Cómo puedes <span>contribuir</span>?</h2>
             <p class="cta-sub">Todos podemos ser parte de la solución. Descubre cómo colaborar con la protección del medio ambiente en Honduras.</p>
             <div class="cta-actions">
-                <a href="#" class="btn-primary">
-                    Voluntariado
-                </a>
+                <a href="#" class="btn-primary">Voluntariado</a>
                 <a href="#" class="btn-cta-light">Denuncias Ambientales</a>
                 <a href="#" class="btn-cta-light">Programas Educativos</a>
             </div>
